@@ -1,4 +1,5 @@
 .yarn
+!.yarn/releases
 .vscode
 yarn-error.log
 node_modules
