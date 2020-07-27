@@ -7,6 +7,10 @@ module.exports = {
         link: '/',
       },
       {
+        text: '代数',
+        link: '/algebra/',
+      },
+      {
         text: '数据结构',
         link: '/data-structures/',
       },
