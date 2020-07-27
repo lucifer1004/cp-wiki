@@ -1,4 +1,5 @@
 module.exports = {
+  title: 'CP Wiki',
   themeConfig: {
     nav: [
       {
@@ -8,6 +9,10 @@ module.exports = {
       {
         text: '数据结构',
         link: '/data-structures/',
+      },
+      {
+        text: '几何',
+        link: '/geometry/',
       },
       {
         text: '黑话',

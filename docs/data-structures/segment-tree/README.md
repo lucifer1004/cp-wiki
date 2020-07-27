@@ -12,11 +12,21 @@
 
 ## 练习题
 
+### 模板题：[Codeforces Edu Segment Tree P1 S1B](https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/problem/B)
+
+单点修改+区间查询。
+
+::: spoiler 参考实现（Kotlin）
+
+<<< @/docs/data-structures/segment-tree/src/CF-EDU-ST-P1-S1B.kt
+
+:::
+
 ### 模板题：[洛谷P3372](https://www.luogu.com.cn/problem/P3372)
 
-区间修改+区间查询的板子题。
+区间修改+区间查询。因为修改和查询都是区间操作，所以需要使用懒标记。
 
-::: spoiler 普通版本
+::: spoiler 参考实现：普通版本（C++）
 
 <<< @/docs/data-structures/segment-tree/src/LG-P3372-Normal.cpp
 
@@ -24,7 +34,7 @@
 
 我们也可以引入标记永久化，虽然对这一题来说，性能上无法有明显提升，但代码量可以略微减少一些。
 
-::: spoiler 标记永久化版本
+::: spoiler 参考实现：标记永久化版本（C++）
 
 <<< @/docs/data-structures/segment-tree/src/LG-P3372-Persistent-Tag.cpp
 
