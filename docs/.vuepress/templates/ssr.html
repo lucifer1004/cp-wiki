@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"/>
+    <title>{{ title }}</title>
+    <meta name="generator" content="VuePress {{ version }}">
+    {{{ userHeadTags }}}
+    {{{ pageMeta }}}
+    {{{ renderResourceHints() }}}
+    {{{ renderStyles() }}}
+  </head>
+  <body>
+    <!--vue-ssr-outlet-->
+    {{{ renderScripts() }}}
+  </body>
+</html>

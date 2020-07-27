@@ -1,0 +1,5 @@
+.yarn
+.vscode
+yarn-error.log
+node_modules
+docs/.vuepress/dist

@@ -1,0 +1,12 @@
+{
+  "name": "cp-wiki",
+  "devDependencies": {
+    "@iktakahiro/markdown-it-katex": "^4.0.0",
+    "markdown-it-container": "^3.0.0",
+    "vuepress": "^1.5.2"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  }
+}
