@@ -4,6 +4,10 @@
 
 线段树是一种树型数据结构，树中的每个节点代表一段$[L,R]$的区间，一个节点的左孩子和右孩子的区间不相交且其并恰好等于该节点对应的区间。树的叶子节点对应的区间为$[L,L]$，也即单点。
 
+下图给出了一个对应区间为$[1,4]$的线段树示例。
+
+![线段树示例](./segment-tree.png)
+
 线段树常用于含修改的区间查询。比较裸的题目会直接包含若干种操作，其中一些为修改操作，另一些为查询操作。还有些题目，则需要通过一定的观察才能发现可以用线段树进行求解。
 
 ## 标记永久化
@@ -18,7 +22,7 @@
 
 ::: spoiler 参考实现（Kotlin）
 
-<<< @/docs/data-structures/segment-tree/src/CF-EDU-ST-P1-S1B.kt
+<<< @/docs/data-structure/segment-tree/src/CF-EDU-ST-P1-S1B.kt
 
 :::
 
@@ -28,7 +32,7 @@
 
 ::: spoiler 参考实现：普通版本（C++）
 
-<<< @/docs/data-structures/segment-tree/src/LG-P3372-Normal.cpp
+<<< @/docs/data-structure/segment-tree/src/LG-P3372-Normal.cpp
 
 :::
 
@@ -36,6 +40,6 @@
 
 ::: spoiler 参考实现：标记永久化版本（C++）
 
-<<< @/docs/data-structures/segment-tree/src/LG-P3372-Persistent-Tag.cpp
+<<< @/docs/data-structure/segment-tree/src/LG-P3372-Persistent-Tag.cpp
 
 :::

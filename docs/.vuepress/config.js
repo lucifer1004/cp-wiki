@@ -12,11 +12,15 @@ module.exports = {
       },
       {
         text: '数据结构',
-        link: '/data-structures/',
+        link: '/data-structure/',
       },
       {
         text: '几何',
         link: '/geometry/',
+      },
+      {
+        text: '题解',
+        link: '/editorial/',
       },
       {
         text: '黑话',
