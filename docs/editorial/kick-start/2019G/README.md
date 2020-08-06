@@ -23,7 +23,7 @@ $1\leq M\leq N\leq 10^5, 1\leq Q\leq 10^5$。
 
 ::: spoiler 参考代码
 
-<<< @/docs/editorial/kick-start/src/2019G1A.cpp
+<<< @/docs/editorial/kick-start/2019G/src/a1.cpp
 
 :::
 
@@ -33,7 +33,7 @@ $1\leq M\leq N\leq 10^5, 1\leq Q\leq 10^5$。
 
 ::: spoiler 参考代码
 
-<<< @/docs/editorial/kick-start/src/2019G1B.cpp
+<<< @/docs/editorial/kick-start/2019G/src/a2.cpp
 
 :::
 
@@ -51,16 +51,16 @@ $1\leq M\leq N\leq 10^5, 1\leq Q\leq 10^5$。
 
 所有与异或相关的题目，必然要考虑二进制有关的性质。我们首先考虑和式$\sum_{i=1}^N(A_i \ xor\ k)$，不妨看一个例子：
 
-|数字|二进制表示|
-|:----------:|:----------:|
-|A1=15|1 1 1 1|
-|A2=8 |1 0 0 1|
-|A3=6 |0 1 1 0|
-|A4=3 |0 0 1 1|
-|1的个数|2 2 3 3|
-|0的个数|2 2 1 1|
-|-----|-------|
-|k=7  |0 1 1 1|
+|  数字   | 二进制表示 |
+| :-----: | :--------: |
+|  A1=15  |  1 1 1 1   |
+|  A2=8   |  1 0 0 1   |
+|  A3=6   |  0 1 1 0   |
+|  A4=3   |  0 0 1 1   |
+| 1的个数 |  2 2 3 3   |
+| 0的个数 |  2 2 1 1   |
+|  -----  |  -------   |
+|   k=7   |  0 1 1 1   |
 
 在计算异或和的时候，我们原本是计算$k$与每一个$A_i$的异或值，然后求和。但实际上，通过观察，可以发现，异或计算的每一位是独立的，也即，我们可以计算$k$的每一位与所有$A_i$这一位的异或值，最后对所有的结果求和。
 
@@ -78,7 +78,7 @@ $\sum_{i=0}^{50}2^i\times(ones[i]\times(1-k[i])+zeros[i]\times k[i])$
 
 ::: spoiler 参考代码
 
-<<< @/docs/editorial/kick-start/src/2019G2.cpp
+<<< @/docs/editorial/kick-start/2019G/src/b.cpp
 
 :::
 
@@ -107,7 +107,7 @@ $\sum_{i=0}^{50}2^i\times(ones[i]\times(1-k[i])+zeros[i]\times k[i])$
 
 ::: spoiler 参考代码
 
-<<< @/docs/editorial/kick-start/src/2019G3A.cpp
+<<< @/docs/editorial/kick-start/2019G/src/c1.cpp
 
 :::
 
@@ -129,6 +129,6 @@ $\sum_{i=0}^{50}2^i\times(ones[i]\times(1-k[i])+zeros[i]\times k[i])$
 
 ::: spoiler 参考代码
 
-<<< @/docs/editorial/kick-start/src/2019G3B.cpp
+<<< @/docs/editorial/kick-start/2019G/src/c2.cpp
 
 :::

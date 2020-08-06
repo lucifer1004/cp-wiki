@@ -41,7 +41,7 @@ $minf[i-1][j-1]$ 的情况，不管取得最小值时的最后一个数字是什
 
 ::: spoiler 参考代码
 
-<<< @/docs/editorial/kick-start/src/2019F1.cpp
+<<< @/docs/editorial/kick-start/2019F/src/a.cpp
 
 :::
 
@@ -63,7 +63,7 @@ $minf[i-1][j-1]$ 的情况，不管取得最小值时的最后一个数字是什
 
 ::: spoiler 参考代码
 
-<<< @/docs/editorial/kick-start/src/2019F2.cpp
+<<< @/docs/editorial/kick-start/2019F/src/b.cpp
 
 :::
 
@@ -88,6 +88,6 @@ $n$ 个村子由 $n-1$ 条无向边连接，保证任意两个村子可达（也
 
 ::: spoiler 参考代码
 
-<<< @/docs/editorial/kick-start/src/2019F3.cpp
+<<< @/docs/editorial/kick-start/2019F/src/c.cpp
 
 :::

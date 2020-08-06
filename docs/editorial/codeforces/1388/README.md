@@ -18,7 +18,7 @@
 
 ::: spoiler 参考代码（C++）
 
-<<< @/docs/editorial/codeforces/src/1388A.cpp
+<<< @/docs/editorial/codeforces/1388/src/a.cpp
 
 :::
 
@@ -38,7 +38,7 @@
 
 ::: spoiler 参考代码（C++）
 
-<<< @/docs/editorial/codeforces/src/1388B.cpp
+<<< @/docs/editorial/codeforces/1388/src/b.cpp
 
 :::
 
@@ -66,7 +66,7 @@ $$happy[i]=\frac{h_i+cnt[i]}{2}$$
 
 ::: spoiler 参考代码（C++）
 
-<<< @/docs/editorial/codeforces/src/1388C.cpp
+<<< @/docs/editorial/codeforces/1388/src/c.cpp
 
 :::
 
@@ -90,7 +90,7 @@ $$happy[i]=\frac{h_i+cnt[i]}{2}$$
 
 ::: spoiler 参考代码（C++）
 
-<<< @/docs/editorial/codeforces/src/1388D.cpp
+<<< @/docs/editorial/codeforces/1388/src/d.cpp
 
 :::
 
@@ -116,7 +116,7 @@ X轴上方有$n$条互不相交且平行于X轴的线段。现在要求将这些
 
 ::: spoiler 参考代码（C++）
 
-<<< @/docs/editorial/codeforces/src/1388E.cpp
+<<< @/docs/editorial/codeforces/1388/src/e.cpp
 
 :::
 
