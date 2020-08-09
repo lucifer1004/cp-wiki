@@ -1,4 +1,4 @@
-# Codeforces Round 661 (CF1389) 题解
+# Codeforces Round 661 (CF1399) 题解
 
 ## Problem A - Remove Smallest
 

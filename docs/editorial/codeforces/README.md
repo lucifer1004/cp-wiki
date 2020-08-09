@@ -2,6 +2,7 @@
 
 ## Div.2 Round
 
+- [Round 662](./1393/)
 - [Round 660](./1388/)
 
 ## Educational Round
