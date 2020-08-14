@@ -21,7 +21,7 @@ $$
 
 模板题：[洛谷P1226](https://www.luogu.com.cn/problem/P1226)
 
-::: spoiler 参考代码
+::: spoiler 参考代码（C++）
 
 <<< @/docs/algebra/binary-exponentiation/src/LG-P1226-Recursion.cpp
 
@@ -35,7 +35,7 @@ $$
 
 模板题：[洛谷P1226](https://www.luogu.com.cn/problem/P1226)
 
-::: spoiler 参考代码
+::: spoiler 参考代码（C++）
 
 <<< @/docs/algebra/binary-exponentiation/src/LG-P1226-Iteration.cpp
 
