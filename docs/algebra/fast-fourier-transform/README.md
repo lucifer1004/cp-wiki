@@ -133,6 +133,14 @@ $$\{a_0\},\{a_4\},\{a_2\},\{a_6\},\{a_1\},\{a_5\},\{a_3\},\{a_7\}$$
 
 :::
 
+::: spoiler 参考代码（Kotlin）
+
+<<< @/docs/algebra/fast-fourier-transform/src/LG-P3803-Iteration.cpp
+
+:::
+
+由于语言差异，Kotlin版本并不能通过洛谷的测试。
+
 ## 练习题
 
 裸FFT并不可怕，本身FFT的码量并不算大，背一背也不是多大的事，关键是如何看出一道题目是FFT。
@@ -156,5 +164,27 @@ $$\{a_0\},\{a_4\},\{a_2\},\{a_6\},\{a_1\},\{a_5\},\{a_3\},\{a_7\}$$
 ::: spoiler 参考代码（C++）
 
 <<< @/docs/algebra/fast-fourier-transform/src/SPOJ-ADAMATCH.cpp
+
+:::
+
+### [SPOJ: TSUM](https://www.spoj.com/problems/TSUM/)
+
+如果暴力枚举，时间复杂度为$O(n^3)$，显然不行。如何降低复杂度呢？
+
+::: spoiler 提示一
+
+加法可以变为多项式的乘法。
+
+:::
+
+::: spoiler 提示二
+
+如何去除包含重复元素的项？
+
+:::
+
+::: spoiler 参考代码（C++）
+
+<<< @/docs/algebra/fast-fourier-transform/src/SPOJ-TSUM.cpp
 
 :::
