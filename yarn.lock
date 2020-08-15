@@ -1495,13 +1495,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-google-analytics@npm:^1.5.3":
-  version: 1.5.3
-  resolution: "@vuepress/plugin-google-analytics@npm:1.5.3"
-  checksum: 807c37482adeb89bceaee062bafff08ed059025b6bf88d0f443f0459e043d89c12cb2cc3c8bb0a4145a6bb5968b45711ad32ba4a0414623c5b360b83b7078b43
-  languageName: node
-  linkType: hard
-
 "@vuepress/plugin-last-updated@npm:1.5.3":
   version: 1.5.3
   resolution: "@vuepress/plugin-last-updated@npm:1.5.3"
@@ -3238,7 +3231,6 @@ __metadata:
   resolution: "cp-wiki@workspace:."
   dependencies:
     "@iktakahiro/markdown-it-katex": ^4.0.0
-    "@vuepress/plugin-google-analytics": ^1.5.3
     markdown-it-container: ^3.0.0
     vuepress: ^1.5.3
   languageName: unknown

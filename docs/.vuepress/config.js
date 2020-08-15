@@ -1,8 +1,7 @@
 module.exports = {
   title: "CP Wiki",
   themeConfig: {
-    nav: [
-      {
+    nav: [{
         text: "首页",
         link: "/",
       },
@@ -50,10 +49,4 @@ module.exports = {
       });
     },
   },
-  plugins: [
-    "@vuepress/google-analytics",
-    {
-      "ga": "G-86WYJ60C5M",
-    },
-  ],
 };
