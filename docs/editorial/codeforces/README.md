@@ -7,6 +7,7 @@
 
 ## Educational Round
 
+- [Round 93](./1398/)
 - [Round 92](./1389/)
 
 ## Div.3 Round
