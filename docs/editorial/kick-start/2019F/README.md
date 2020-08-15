@@ -91,3 +91,5 @@ $n$ 个村子由 $n-1$ 条无向边连接，保证任意两个村子可达（也
 <<< @/docs/editorial/kick-start/2019F/src/c.cpp
 
 :::
+
+<Utterances />

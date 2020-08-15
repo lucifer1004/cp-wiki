@@ -132,3 +132,5 @@ $\sum_{i=0}^{50}2^i\times(ones[i]\times(1-k[i])+zeros[i]\times k[i])$
 <<< @/docs/editorial/kick-start/2019G/src/c2.cpp
 
 :::
+
+<Utterances />

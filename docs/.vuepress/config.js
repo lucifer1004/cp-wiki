@@ -1,6 +1,12 @@
 module.exports = {
   title: "CP Wiki",
   themeConfig: {
+    repo: 'lucifer1004/cp-wiki',
+    editLinks: true,
+    editLinkText: '在 GitHub 上编辑此页',
+    lastUpdated: '上次更新',
+    docsDir: 'docs',
+    smoothScroll: true,
     nav: [{
         text: "首页",
         link: "/",
@@ -49,4 +55,7 @@ module.exports = {
       });
     },
   },
+  plugins: [
+    ['autometa', {}]
+  ]
 };

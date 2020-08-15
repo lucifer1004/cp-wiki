@@ -188,3 +188,5 @@ $$\{a_0\},\{a_4\},\{a_2\},\{a_6\},\{a_1\},\{a_5\},\{a_3\},\{a_7\}$$
 <<< @/docs/algebra/fast-fourier-transform/src/SPOJ-TSUM.cpp
 
 :::
+
+<Utterances />

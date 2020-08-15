@@ -3233,6 +3233,7 @@ __metadata:
     "@iktakahiro/markdown-it-katex": ^4.0.0
     markdown-it-container: ^3.0.0
     vuepress: ^1.5.3
+    vuepress-plugin-autometa: ^0.1.13
   languageName: unknown
   linkType: soft
 
@@ -6216,6 +6217,27 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"lodash.defaultsdeep@npm:4.6.1":
+  version: 4.6.1
+  resolution: "lodash.defaultsdeep@npm:4.6.1"
+  checksum: 143c2bfa5ee476efa38c05ae2cc4245d53d9ff988ac7667d1b7aa4a069cf5015475530d649d95ef325e4a47fa1d4d8f135d3ef14ad07c63e8847aeeec46f1ca9
+  languageName: node
+  linkType: hard
+
+"lodash.findindex@npm:4.6.0":
+  version: 4.6.0
+  resolution: "lodash.findindex@npm:4.6.0"
+  checksum: 87298de97bba15612f15ba1d60cb55e0c39f4ed305bfa8da889c25038508f941ec732cec5057828ac80a110efd762b78fdb2207b5e5c5ebca829e800d8a7645d
+  languageName: node
+  linkType: hard
+
+"lodash.isempty@npm:4.4.0":
+  version: 4.4.0
+  resolution: "lodash.isempty@npm:4.4.0"
+  checksum: f5cf56151caafd6c121a4957c44395c16b0df86fe9631c2f9bc814add0497ae4c2512c507166621f0ba1f572348e0b482716ec353756a9a4d54d9d05b554bb42
+  languageName: node
+  linkType: hard
+
 "lodash.kebabcase@npm:^4.1.1":
   version: 4.1.1
   resolution: "lodash.kebabcase@npm:4.1.1"
@@ -6246,6 +6268,20 @@ fsevents@~2.1.2:
   dependencies:
     lodash._reinterpolate: ^3.0.0
   checksum: 45546a5b76376b138ef4f01aa2722813127c639428eb9baef3fbac176b509ee2dab5cb9d1ee8267dbeeef8d49371f9a748af3df83649bf8b75fa54993f65b7aa
+  languageName: node
+  linkType: hard
+
+"lodash.trimend@npm:^4.5.1":
+  version: 4.5.1
+  resolution: "lodash.trimend@npm:4.5.1"
+  checksum: 800b117175b17eb17ebc005f62a413f46008a66abeeca920ecbe1ec60095c2751936ee50e50581b5b9551ad9dfdffa41c6cfd2065c1d45917f4716e746bced2e
+  languageName: node
+  linkType: hard
+
+"lodash.trimstart@npm:^4.5.1":
+  version: 4.5.1
+  resolution: "lodash.trimstart@npm:4.5.1"
+  checksum: c8917ddf9560a91e964f5f896e8bcfe60ed612e291ee30a60b4391acd334a279c5c37a6d12e62b0902e1636bd4cf0c835f0500bec0d2f1c368de4e97f05eb5d2
   languageName: node
   linkType: hard
 
@@ -8359,6 +8395,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"remove-markdown@npm:0.3.0":
+  version: 0.3.0
+  resolution: "remove-markdown@npm:0.3.0"
+  checksum: 225e0c83a06bccb8741ae28162a652b49abdf3b8ee0524fbbc44e3fc323cd61864e674afc430081c835971bfb3e54bd84553381088f5448c0368398b1a86abe7
+  languageName: node
+  linkType: hard
+
 "remove-trailing-separator@npm:^1.0.1":
   version: 1.1.0
   resolution: "remove-trailing-separator@npm:1.1.0"
@@ -9270,6 +9313,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"striptags@npm:3.1.1":
+  version: 3.1.1
+  resolution: "striptags@npm:3.1.1"
+  checksum: 33632a060bc964f799fd4d7364a69c9bbfcaa3928e5e24901ebffbb1a534c3e361300a92bf2ba0adf014651f23549713f83316f36627d9c9b1bc25da853650dc
+  languageName: node
+  linkType: hard
+
 "stylehacks@npm:^4.0.0":
   version: 4.0.3
   resolution: "stylehacks@npm:4.0.3"
@@ -10086,6 +10136,21 @@ fsevents@~2.1.2:
   peerDependencies:
     webpack: ^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0
   checksum: ab01e962fb62c72cfc957da424994a33fca28137e2d9d940e5ce517fd0341fb4fc00e16aa94c182c08d92b43073a28c376ace8fe8e81c8104cc4546a3de902df
+  languageName: node
+  linkType: hard
+
+"vuepress-plugin-autometa@npm:^0.1.13":
+  version: 0.1.13
+  resolution: "vuepress-plugin-autometa@npm:0.1.13"
+  dependencies:
+    lodash.defaultsdeep: 4.6.1
+    lodash.findindex: 4.6.0
+    lodash.isempty: 4.4.0
+    lodash.trimend: ^4.5.1
+    lodash.trimstart: ^4.5.1
+    remove-markdown: 0.3.0
+    striptags: 3.1.1
+  checksum: 46a4c79918cf50aea2b46ead63f8350eb03e2a8e4c2db1a790d9c9742af3ebcd1d2e6f40e4ca35711243f89b3ad1191bc679658d71be8bd97fc2a0b3e50b2798
   languageName: node
   linkType: hard
 

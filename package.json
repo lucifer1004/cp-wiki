@@ -3,7 +3,8 @@
   "devDependencies": {
     "@iktakahiro/markdown-it-katex": "^4.0.0",
     "markdown-it-container": "^3.0.0",
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-autometa": "^0.1.13"
   },
   "scripts": {
     "dev": "vuepress dev docs",
