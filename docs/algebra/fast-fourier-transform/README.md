@@ -135,7 +135,7 @@ $$\{a_0\},\{a_4\},\{a_2\},\{a_6\},\{a_1\},\{a_5\},\{a_3\},\{a_7\}$$
 
 ::: spoiler 参考代码（Kotlin）
 
-<<< @/docs/algebra/fast-fourier-transform/src/LG-P3803-Iteration.cpp
+<<< @/docs/algebra/fast-fourier-transform/src/LG-P3803-Iteration.kt
 
 :::
 
