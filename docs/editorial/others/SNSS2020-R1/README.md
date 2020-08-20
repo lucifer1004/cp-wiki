@@ -42,7 +42,7 @@
 
 :::
 
-## Problem B - [Corporate Names](https://contest.yandex.com/snss2020/contest/19320/problems/C/)
+## Problem C - [Corporate Names](https://contest.yandex.com/snss2020/contest/19320/problems/C/)
 
 ### 题目描述
 
