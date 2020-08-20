@@ -1,9 +1,11 @@
 # 题解
 
-## [Leetcode](./leetcode)
+## [Leetcode](./leetcode/)
 
-## [Codeforces](./codeforces)
+## [Codeforces](./codeforces/)
 
-## [AtCoder](./atcoder)
+## [AtCoder](./atcoder/)
 
-## [Kick Start](./kick-start)
+## [Kick Start](./kick-start/)
+
+## [其他比赛](./others/)
