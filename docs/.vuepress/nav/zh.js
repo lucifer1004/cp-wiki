@@ -15,7 +15,23 @@ module.exports = [{
   link: "/geometry/",
 }, {
   text: "题解",
-  link: "/editorial/",
+  ariaLabel: "题解",
+  items: [{
+    text: "Codeforces",
+    link: "/editorial/codeforces/"
+  }, {
+    text: "AtCoder",
+    link: "/editorial/atcoder/"
+  }, {
+    text: "Leetcode",
+    link: "/editorial/leetcode/"
+  }, {
+    text: "Kick Start",
+    link: "/editorial/kick-start/"
+  }, {
+    text: "其他比赛",
+    link: "/editorial/others/"
+  }],
 }, {
   text: "黑话",
   link: "/jargon/",

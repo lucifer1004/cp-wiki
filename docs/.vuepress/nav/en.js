@@ -22,7 +22,23 @@ module.exports = [{
   },
   {
     text: "Editorial",
-    link: "/en/editorial/",
+    ariaLabel: "Editorial",
+    items: [{
+      text: "Codeforces",
+      link: "/en/editorial/codeforces/"
+    }, {
+      text: "AtCoder",
+      link: "/en/editorial/atcoder/"
+    }, {
+      text: "Leetcode",
+      link: "/en/editorial/leetcode/"
+    }, {
+      text: "Kick Start",
+      link: "/en/editorial/kick-start/"
+    }, {
+      text: "Others",
+      link: "/en/editorial/others/"
+    }],
   }, {
     text: "Jargon",
     link: "/jargon/",
