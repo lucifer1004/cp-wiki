@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: ./problem_solving.png
+heroImage: /problem_solving.png
 heroText: CP-Wiki
 tagline: lucifer1004的CP笔记
 features:
