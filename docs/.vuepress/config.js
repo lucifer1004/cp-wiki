@@ -20,6 +20,10 @@ module.exports = {
         link: "/data-structure/",
       },
       {
+        text: "图论",
+        link: "/graph-theory/",
+      },
+      {
         text: "几何",
         link: "/geometry/",
       },
