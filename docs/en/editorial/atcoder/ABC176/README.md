@@ -24,9 +24,9 @@ Let $n=\sum a_i\times10^i$, since $\forall i,10^i\equiv1(\mod9)$, we have $n\equ
 
 Just greedily increase current number to the maximum to its left, and then update the maximum if current number is larger than it.
 
-::: spoiler 参考代码（C++）
+::: spoiler Code (C++)
 
-<<<@/docs/editorial/atcoder/ABC176/src/d.cpp
+<<<@/docs/editorial/atcoder/ABC176/src/c.cpp
 
 :::
 
@@ -36,7 +36,7 @@ It's a very typical $0$-$1$ BFS, since the cost is $0$ if we go along the roads,
 
 Compared to ordinary BFS, we need to use a deque instead of a single-ended queue. For relaxations that cost $0$, we do `push_front`, while for those cost $1$, we do `push_back`. In this way, the elements in the deque are kept in an non-decreasing order, which means we will happily take the current value as the optimal value when we first reach the target position. 
 
-::: spoiler 参考代码（C++）
+::: spoiler Code (C++)
 
 <<<@/docs/editorial/atcoder/ABC176/src/d.cpp
 
@@ -51,7 +51,7 @@ Supposing the maximum of rows is $R_{max}$, and $C_{max}$ for columns. It is obv
 
 There might still be a log of combinations (worst case $O(NM)$). However, we do not need to check these combinations one by one. We can consider it from the perspective of targets. Say there are $n$ rows of $R_{max}$ and $m$ columns of $C_{max}$, if the number of target is smaller than $nm$, then it is ensured than there is at least one combination which will give us $R_{max}+C_{max}$. Otherwise, there are not so many combinations, so we can check them one by one, until we find a combination giving $R_{max}+C_{max}$, or we finish all the combinations and none is suitable, then we will have $R_{max}+C_{max}-1$ instead.
 
-::: spoiler 参考代码（C++）
+::: spoiler Code (C++)
 
 <<<@/docs/editorial/atcoder/ABC176/src/e.cpp
 
@@ -85,7 +85,7 @@ During the update $dp[i][j]\rightarrow val$, we need to update
 
 After all these, we still have not handled the last number $last$. So we need to compare $opt$ and $dp[last][last]+1$. After that, we add to $opt$ the number of natural triplets $triplets$, and now we have the answer.
 
-::: spoiler 参考代码（C++）
+::: spoiler Code (C++)
 
 <<<@/docs/editorial/atcoder/ABC176/src/f.cpp
 
