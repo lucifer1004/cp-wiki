@@ -34,7 +34,7 @@
 
 ::: spoiler 参考代码（C++）
 
-<<< @/docs/editorial/atcoder/ABC174/src/ABC174E.cpp
+<<< @/docs/editorial/atcoder/ABC174/src/e.cpp
 
 :::
 
@@ -50,7 +50,7 @@
 
 ::: spoiler 参考代码（C++）
 
-<<< @/docs/editorial/atcoder/ABC174/src/ABC174F.cpp
+<<< @/docs/editorial/atcoder/ABC174/src/f.cpp
 
 :::
 
