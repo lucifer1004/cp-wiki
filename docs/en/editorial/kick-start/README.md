@@ -2,6 +2,7 @@
 
 ## 2020
 
+- [2020 Round E](/editorial/kick-start/2020E/)
 - [2020 Round D](./2020D/)
 
 ## 2019
