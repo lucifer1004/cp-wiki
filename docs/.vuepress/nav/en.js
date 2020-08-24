@@ -5,6 +5,10 @@ module.exports = [{
     text: "Topics",
     ariaLabel: "Topics",
     items: [{
+        text: "Basics",
+        link: "/basic/",
+      },
+      {
         text: "Algebra",
         link: "/algebra/",
       }, {
@@ -17,7 +21,6 @@ module.exports = [{
         text: "Geometry",
         link: "/geometry/",
       }
-
     ]
   },
   {
