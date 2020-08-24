@@ -44,6 +44,6 @@ module.exports = [{
     }],
   }, {
     text: "Jargon",
-    link: "/jargon/",
+    link: "/en/jargon/",
   }
 ]
