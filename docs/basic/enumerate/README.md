@@ -34,7 +34,7 @@ for (int i = 1; i < (1 << n); ++i) {
 
 ## 学习资源
 
-###  [Matters Computational](https://www.springer.com/gp/book/9783642147630)
+### [Matters Computational](https://www.springer.com/gp/book/9783642147630)
 
 - 第六章：枚举组合
 - 第七章：枚举分组（将$n$个球放到$k$个盒子里）
