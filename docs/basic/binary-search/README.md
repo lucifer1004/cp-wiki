@@ -4,6 +4,12 @@
 
 二分查找在CP中的一个常见应用是**二分答案**。在这一类题目中，我们往往需要求出满足条件的最大值或最小值。如果这一取值和条件的成立与否之间满足有序性，我们就可以通过对整个定义域进行二分查找，来找到我们需要的最值。
 
+## 学习资源
+
+### [ITMO Academy: pilot course](https://codeforces.com/edu/course/2/lesson/6)
+
+来自Codeforces EDU。包括视频教程、图文教程和22道练习题。
+
 ## 练习题
 
 ### [SPOJ: AGGRCOW](https://www.spoj.com/problems/AGGRCOW/)

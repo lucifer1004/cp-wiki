@@ -25,6 +25,15 @@ P.show()
 
 标记永久化指的是不下传懒标记，而是在每次查询时，逐层考虑懒标记中的信息。对于主席树、树套树等复杂数据结构，标记永久化有减小常数的作用，并能够一定程度上减少代码量。
 
+## 学习资源
+
+### ITMO Academy: pilot course
+
+- [Part 1]([https://codeforces.com/edu/course/2/lesson/4](https://codeforces.com/edu/course/2/lesson/4))
+- [Part 2]([https://codeforces.com/edu/course/2/lesson/5](https://codeforces.com/edu/course/2/lesson/5))
+
+来自Codeforces EDU。包括视频教程、图文教程和35道练习题。其中Part 1侧重于单点修改，基本不涉及懒标记；Part 2侧重于区间修改，懒标记是其中的重要内容。
+
 ## 练习题
 
 ### 模板题：[Codeforces Edu Segment Tree P1 S1B](https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/problem/B)
