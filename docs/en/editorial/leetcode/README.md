@@ -18,3 +18,4 @@
 - [Bi-weekly Contest 32](/editorial/leetcode/BC32/)
 - [Bi-weekly Contest 31](/editorial/leetcode/BC31/)
 - [Bi-weekly Contest 30](/editorial/leetcode/BC30/)
+- [Bi-weekly Contest 29](/editorial/leetcode/BC29/)
