@@ -12,7 +12,7 @@
 
 ## 练习题
 
-### [SPOJ: AGGRCOW](https://www.spoj.com/problems/AGGRCOW/)
+### [SPOJ - AGGRCOW](https://www.spoj.com/problems/AGGRCOW/)
 
 ---
 

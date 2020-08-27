@@ -49,14 +49,14 @@ for (int i = 1; i < (1 << n); ++i) {
 
 ## 练习题
 
-### [Leetcode 46. 全排列](https://leetcode-cn.com/problems/permutations/)
+### [LC46 - 全排列](https://leetcode-cn.com/problems/permutations/)
 
-枚举不含重复元素数组的全排列
+枚举不含重复元素数组的全排列。
 
-### [Leetcode 47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii/)
+### [LC47 - 全排列 II](https://leetcode-cn.com/problems/permutations-ii/)
 
-枚举含有重复元素数组的全排列
+枚举含有重复元素数组的全排列。
 
-### [Leetcode 1494. 并行课程 II](https://leetcode-cn.com/problems/parallel-courses-ii/) 
+### [LC1494 - 并行课程 II](https://leetcode-cn.com/problems/parallel-courses-ii/) 
 
-枚举子集
+枚举子集。

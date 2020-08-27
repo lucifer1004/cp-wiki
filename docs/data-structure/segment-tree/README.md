@@ -36,7 +36,7 @@ P.show()
 
 ## 练习题
 
-### 模板题：[Codeforces Edu Segment Tree P1 S1B](https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/problem/B)
+### 模板题：[CF EDU - Segment Tree for the Minimum](https://codeforces.com/edu/course/2/lesson/4/1/practice/contest/273169/problem/B)
 
 单点修改+区间查询。
 
@@ -46,7 +46,7 @@ P.show()
 
 :::
 
-### 模板题：[洛谷P3372](https://www.luogu.com.cn/problem/P3372)
+### 模板题：[洛谷 P3372 - 线段树 1](https://www.luogu.com.cn/problem/P3372)
 
 区间修改+区间查询。因为修改和查询都是区间操作，所以需要使用懒标记。
 
@@ -64,7 +64,7 @@ P.show()
 
 :::
 
-### [SPOJ: GSS1](https://www.spoj.com/problems/GSS1/)
+### [SPOJ - GSS1](https://www.spoj.com/problems/GSS1/)
 
 本题只需要实现查询，不需要实现修改。关键是，我们需要存储哪些信息，才能够由子区间的最大值，得到父区间的最大值？
 

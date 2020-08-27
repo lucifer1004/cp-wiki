@@ -20,6 +20,9 @@ module.exports = [{
       }, {
         text: "Geometry",
         link: "/geometry/",
+      }, {
+        text: "String",
+        link: "/string/",
       }
     ]
   },

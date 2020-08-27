@@ -153,7 +153,7 @@ $$\{a_0\},\{a_4\},\{a_2\},\{a_6\},\{a_1\},\{a_5\},\{a_3\},\{a_7\}$$
 
 裸FFT并不可怕，本身FFT的码量并不算大，背一背也不是多大的事，关键是如何看出一道题目是FFT。
 
-### [SPOJ: ADAMATCH](https://www.spoj.com/problems/ADAMATCH/)
+### [SPOJ - ADAMATCH](https://www.spoj.com/problems/ADAMATCH/)
 
 如果暴力枚举子串，时间复杂度为$O(|r|^2)$，显然不行。如何降低复杂度呢？
 
@@ -179,7 +179,7 @@ $$\{a_0\},\{a_4\},\{a_2\},\{a_6\},\{a_1\},\{a_5\},\{a_3\},\{a_7\}$$
 
 :::
 
-### [SPOJ: TSUM](https://www.spoj.com/problems/TSUM/)
+### [SPOJ - TSUM](https://www.spoj.com/problems/TSUM/)
 
 如果暴力枚举，时间复杂度为$O(n^3)$，显然不行。如何降低复杂度呢？
 
