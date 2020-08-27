@@ -23,6 +23,9 @@ module.exports = [{
       }, {
         text: "String",
         link: "/string/",
+      }, {
+        text: "Combinatorics",
+        link: "/combinatorics/"
       }
     ]
   },
@@ -46,7 +49,14 @@ module.exports = [{
       link: "/en/editorial/others/"
     }],
   }, {
-    text: "Jargon",
-    link: "/en/jargon/",
-  }
+    text: "Others",
+    ariaLabel: "Others",
+    items: [{
+      text: "Jargon",
+      link: "/en/jargon/",
+    }, {
+      text: "Hall of Fame",
+      link: "/hall-of-fame/"
+    }]
+  },
 ]
