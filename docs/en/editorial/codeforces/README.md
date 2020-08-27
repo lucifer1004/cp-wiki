@@ -8,6 +8,7 @@
 
 ## Educational Round
 
+- [Round 94](/editorial/codeforces/1400/)
 - [Round 93](/editorial/codeforces/1398/)
 - [Round 92](/editorial/codeforces/1389/)
 

@@ -8,6 +8,7 @@
 
 ## Educational Round
 
+- [Round 94](./1400/)
 - [Round 93](./1398/)
 - [Round 92](./1389/)
 
