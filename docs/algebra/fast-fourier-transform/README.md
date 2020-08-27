@@ -92,7 +92,7 @@ $$T(n)=2T(n/2)$$
 
 将FFT的运算过程看做一个矩阵乘法，逆FFT，也即从点值表示求取系数表示的过程，可以视为左乘逆矩阵。在点值表示的点选取为$\omega_n^k$时，FFT矩阵$\mathbb{A}(\omega_n^k)$的逆矩阵恰好为$\frac{1}{n}\mathbb{A}(\omega_n^{-k})$，因此可以复用FFT的计算过程，只需要加上一个标志变量来表示当前是在进行FFT还是IFFT。
 
-### 模板题：[洛谷P3803](https://www.luogu.com.cn/problem/P3803)
+### 模板题：[洛谷 P3803 - 多项式乘法（FFT）](https://www.luogu.com.cn/problem/P3803)
 
 下面给出了本题的递归实现。
 
