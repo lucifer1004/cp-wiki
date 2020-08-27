@@ -81,7 +81,7 @@ During the update $dp[i][j]\rightarrow val$, we need to update
 
 - Global optimum $opt\rightarrow\max\{opt,val\}$
 - Local optimum $local\_opt[i]\rightarrow\max\{local\_opt[i],val\}$, and $local\_opt[j]\rightarrow\max\{local\_opt[j],val\}$
-- State $dp[i][j]\rightarrow\{dp[i][j],val\}$, and $dp[j][i]\rightarrow\{dp[j][i],val\}$
+- State $dp[i][j]\rightarrow\max\{dp[i][j],val\}$, and $dp[j][i]\rightarrow\max\{dp[j][i],val\}$
 
 After all these, we still have not handled the last number $last$. So we need to compare $opt$ and $dp[last][last]+1$. After that, we add to $opt$ the number of natural triplets $triplets$, and now we have the answer.
 
