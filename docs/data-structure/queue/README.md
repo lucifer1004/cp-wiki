@@ -14,8 +14,44 @@
 
 ### [LC862 - 和至少为K的最短子数组](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/)
 
-::: details 提示
+::: details 提示一
 
-使用单调队列。
+计算前缀和。
+
+:::
+
+::: details 提示二
+
+用单调队列维护单调递增的前缀和。注意，如果最左端的一个元素已经被使用过，那么后面不会再使用它（因为后面使用它得到的区间长度一定比当前得到的区间长度更长）。
+
+:::
+
+::: details 参考代码（C++）
+
+```cpp
+typedef long long ll;
+
+class Solution {
+public:
+    int shortestSubarray(vector<int>& A, int K) {
+        int n = A.size();
+        vector<ll> s(n + 1);
+        for (int i = 1; i <= n; ++i)
+            s[i] = s[i - 1] + A[i - 1];
+        deque<int> dq;
+        int ans = n + 1;
+        for (int i = 0; i <= n; ++i) {
+            while (!dq.empty() && s[dq.back()] >= s[i])
+                dq.pop_back();
+            while (!dq.empty() && s[dq.front()] + K <= s[i]) {
+                ans = min(ans, i - dq.front());
+                dq.pop_front();
+            }
+            dq.push_back(i);
+        }
+        return ans == n + 1 ? -1 : ans;
+    }
+};
+```
 
 :::
