@@ -21,7 +21,7 @@ $$
 
 模板题：[洛谷P1226](https://www.luogu.com.cn/problem/P1226)
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/algebra/binary-exponentiation/src/LG-P1226-Recursion.cpp
 
@@ -35,7 +35,7 @@ $$
 
 模板题：[洛谷P1226](https://www.luogu.com.cn/problem/P1226)
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/algebra/binary-exponentiation/src/LG-P1226-Iteration.cpp
 
@@ -54,5 +54,9 @@ $$
 ### 倍增法求LCA
 
 如果把$f(x)$看作是求取$x$的父节点，那么$f^n(x)$就可以是看成求取$x$第$n$代的祖先节点。倍增法求LCA的关键就是用倍增方法来快速求取$f^n(x)$。
+
+### 稀疏表
+
+稀疏表是一种用于RMQ（区间最值查询）的数据结构。稀疏表的构建同样使用了倍增的思想。
 
 <Utterances />

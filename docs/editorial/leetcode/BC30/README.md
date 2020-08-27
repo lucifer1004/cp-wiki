@@ -4,7 +4,7 @@
 
 模拟题，使用字符串操作比较方便的语言可以加快速度。或者可以直接用语言内置的日期库。
 
-::: spoiler 参考代码（Python3）
+::: details 参考代码（Python3）
 
 ```python
 class Solution:
@@ -25,7 +25,7 @@ class Solution:
 
 方法一：利用前缀和暴力枚举所有子数组的和，排序后再累加计算区间和。时间复杂度$O(n^2\log n)$。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 typedef long long ll;
@@ -64,7 +64,7 @@ public:
 
 总的时间复杂度为$O(N\log S)$，其中$S$为数组元素的总和。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 typedef long long ll;
@@ -132,7 +132,7 @@ public:
 
 首先将数组排序，之后枚举在左边和在右边进行操作的次数即可。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -157,7 +157,7 @@ public:
 
 边界条件是$dp[1]=true$，之后递推求解即可。对于某种状态$dp[state]$，只要有一种取法能够使得剩下的数对应状态$dp[state-k*k]=false$，该状态即为获胜状态；否则为失败状态。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {

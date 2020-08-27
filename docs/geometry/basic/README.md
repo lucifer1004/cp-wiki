@@ -10,7 +10,7 @@
 
 下面的示例中给出了点的结构体定义，其中定义了加减和数乘运算。
 
-::: spoiler 二维空间中点的结构体定义示例
+::: details 二维空间中点的结构体定义示例
 
 ```cpp
 struct point2d {
@@ -57,7 +57,7 @@ point2d operator*(ftype a, point2d b) {
 
 :::
 
-::: spoiler 三维空间中点的结构体定义示例
+::: details 三维空间中点的结构体定义示例
 
 ```cpp
 struct point3d {

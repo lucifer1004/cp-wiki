@@ -3231,7 +3231,6 @@ __metadata:
   resolution: "cp-wiki@workspace:."
   dependencies:
     "@iktakahiro/markdown-it-katex": ^4.0.0
-    markdown-it-container: ^3.0.0
     vuepress: ^1.5.3
     vuepress-plugin-autometa: ^0.1.13
   languageName: unknown
@@ -6416,13 +6415,6 @@ fsevents@~2.1.2:
   version: 2.0.0
   resolution: "markdown-it-container@npm:2.0.0"
   checksum: d6ace394dcd17e0ee23252a9c62b8c19e616b54ef1d25a9f2ae723171fb968fb5fa1ee046eb7c7e5a85dea77e8a4f3ee8c9019aab714254767fbd35e0ba1afb2
-  languageName: node
-  linkType: hard
-
-"markdown-it-container@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "markdown-it-container@npm:3.0.0"
-  checksum: 7d011d1151770a80a8eb15436556fbf5b7f0579ec81a57675fa93dbde4ff3958ea87b2048f688d3e1179dfe3dcb03e80891da5f6c28fb056980d8fc7bd5bdc43
   languageName: node
   linkType: hard
 

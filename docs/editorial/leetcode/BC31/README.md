@@ -4,7 +4,7 @@
 
 根据区间长度和起点的奇偶性进行讨论即可。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -22,7 +22,7 @@ public:
 
 记录前缀和中的奇数和偶数的数目，然后分别讨论即可。注意子数组和子串都要求是连续的。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 const int MOD = 1e9 + 7;
@@ -55,7 +55,7 @@ public:
 
 枚举分割点，用两个`map`分别记录左边和右边的字符种数即可。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -88,7 +88,7 @@ public:
 
 [CF1392C: Omkar and Waterslide](https://codeforces.com/contest/1392/problem/C)与本题类似。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {

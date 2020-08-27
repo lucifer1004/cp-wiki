@@ -4,7 +4,7 @@
 
 直接模拟机器人的行走过程，用一个集合维护当前已经经过的位置。
 
-::: spoiler 参考代码（Python3）
+::: details 参考代码（Python3）
 
 ```python
 class Solution:
@@ -30,7 +30,7 @@ class Solution:
 
 按余数进行统计，然后考虑$k$的奇偶性分别讨论即可。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -66,7 +66,7 @@ public:
 
 假设当前右指针位置为$r$，左边能够满足$nums[i]+nums[r]\leq target$的$i$的最大值为$l$，则最大值为$a_r$的子序列中，满足条件的子序列数目为子序列总数减去$a_0,\cdots,a_l$一个都没有取的子序列总数。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 const int MOD = 1e9 + 7;
@@ -111,7 +111,7 @@ public:
 
 本题数组已经按照$x$升序排列。如果原始数组无序，则首先还需要自行排序。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {

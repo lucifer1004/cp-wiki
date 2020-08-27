@@ -4,7 +4,7 @@
 
 方法一：暴力枚举
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -24,7 +24,7 @@ public:
 
 方法二：计数
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -47,7 +47,7 @@ public:
 
 找出每一个全为1的最长连续段，假设有$m$个这样的段，每段长度为$l_i$，则最终的结果为$\sum\frac{l_i(l_i-1)}{2}$。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 typedef long long ll;
@@ -78,7 +78,7 @@ public:
 
 因为概率不会超过$1$，所以概率相乘是不会增加的。所以，求概率最大的路径，等价于权值相加情况下求最短路径，直接用Dijkstra算法求解即可。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 const double eps = 1e-8;
@@ -133,7 +133,7 @@ public:
 
 此外，本题也可以通过三分查找求解。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 const double eps = 1e-8;

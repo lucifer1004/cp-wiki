@@ -4,7 +4,7 @@
 
 分别求出总和，最大值和最小值即可。
 
-::: spoiler 参考代码（Python3）
+::: details 参考代码（Python3）
 
 ```python
 class Solution:
@@ -18,7 +18,7 @@ class Solution:
 
 $O(\sqrt{n})$求出$n$的所有因子，排序后取第$k$个即可。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -45,7 +45,7 @@ public:
 
 求出每个元素左边连续1的长度和右边连续1的长度，然后枚举删除的位置即可。时间复杂度$O(n)$。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -93,7 +93,7 @@ for (int i = 1; i < (1 << n); ++i) {
 
 当然，在最后的状压DP之前，还有对$pre$和$valid$的预处理，相关的细节看代码就可以。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 const int INF = 0x3f3f3f3f;

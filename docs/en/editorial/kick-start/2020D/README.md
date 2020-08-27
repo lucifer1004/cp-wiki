@@ -8,7 +8,7 @@ Implementation. Keep a record of the current maximum. Compare the current value 
 
 Time complexity is $O(N)$.
 
-::: spoiler Code
+::: details Code
 
 <<< @/docs/editorial/kick-start/2020D/src/a.cpp
 
@@ -20,7 +20,7 @@ Simple DP. Enumerate all choices of the last step and the current step.
 
 Time complexity is $O(P^2K)$, where $P=4$ in this problem.
 
-::: spoiler Code
+::: details Code
 
 <<< @/docs/editorial/kick-start/2020D/src/b.cpp
 
@@ -40,7 +40,7 @@ Then we add up all the results and divide it by $N^2$.
 
 The total time complexity is $O(N)$.
 
-::: spoiler Code
+::: details Code
 
 <<< @/docs/editorial/kick-start/2020D/src/c.cpp
 
@@ -60,7 +60,7 @@ The last step is to determine whether we should use the leftmost room or the rig
 
 The total time complexity is $O((N+Q)\log N)$.
 
-::: spoiler Code
+::: details Code
 
 <<< @/docs/editorial/kick-start/2020D/src/d1.cpp
 
@@ -68,7 +68,7 @@ The total time complexity is $O((N+Q)\log N)$.
 
 And here is [Heltion](https://codeforces.com/profile/Heltion)'s Cartesian tree solution.
 
-::: spoiler Code
+::: details Code
 
 <<< @/docs/editorial/kick-start/2020D/src/d2.cpp
 

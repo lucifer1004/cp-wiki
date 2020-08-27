@@ -6,7 +6,7 @@
 
 ### 题解
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1393/src/a.cpp
 
@@ -18,7 +18,7 @@
 
 ### 题解
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1393/src/b.cpp
 
@@ -30,7 +30,7 @@
 
 ### 题解
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1393/src/c.cpp
 
@@ -42,7 +42,7 @@
 
 ### 题解
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1393/src/d.cpp
 
@@ -54,7 +54,7 @@
 
 ### 题解
 
-<!-- ::: spoiler 参考代码（C++）
+<!-- ::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1393/src/e1.cpp
 
@@ -64,7 +64,7 @@
 
 ### 题解
 
-<!-- ::: spoiler 参考代码（C++）
+<!-- ::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1393/src/e2.cpp
 

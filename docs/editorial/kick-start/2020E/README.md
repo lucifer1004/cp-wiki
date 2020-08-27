@@ -14,13 +14,13 @@
 
 总时间复杂度为$O(N)$。
 
-::: spoiler 参考代码（Python）
+::: details 参考代码（Python）
 
 <<< @/docs/editorial/kick-start/2020E/src/a.py
 
 :::
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/kick-start/2020E/src/a.cpp
 
@@ -71,13 +71,13 @@ $\underbrace{A\cdots A}_{A-C个}C\underbrace{X\cdots X}_{N-(A+B-C)个}\underbrac
 总时间复杂度为$O(N)$。
 
 
-::: spoiler 参考代码（Python）
+::: details 参考代码（Python）
 
 <<< @/docs/editorial/kick-start/2020E/src/b.py
 
 :::
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/kick-start/2020E/src/b.cpp
 
@@ -115,7 +115,7 @@ $$r_i+e_i\leq\sum_je_j$$
 
 在整个过程中，我们需要记录能够得到的最长玩耍时间$MAX\_VAL$和对应的删除次数$MIN\_DEL$。因为我们一直在删除，而没有重新添加过，所以只有在$CVAL>MAX\_VAL$时才需要进行更新。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/kick-start/2020E/src/c.cpp
 
@@ -146,7 +146,7 @@ $$r_i+e_i\leq\sum_je_j$$
 
 下面的代码是我比赛后参考[ecnerwala](https://codingcompetitions.withgoogle.com/kickstart/submissions/000000000019ff47/ZWNuZXJ3YWxh)的代码重写的版本。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/kick-start/2020E/src/d1.cpp
 
@@ -156,7 +156,7 @@ $$r_i+e_i\leq\sum_je_j$$
 
 这种方法的时间复杂度我无法准确给出，但肯定是比较高的。可能比赛的评测数据并没有特别刁钻的，所以最后勉强通过了。姑且也放在这里，供大家批评。
 
-::: spoiler 参考代码（C++，我自己比赛时的解答）
+::: details 参考代码（C++，我自己比赛时的解答）
 
 <<< @/docs/editorial/kick-start/2020E/src/d2.cpp
 

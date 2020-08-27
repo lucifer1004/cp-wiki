@@ -21,7 +21,7 @@ $1\leq M\leq N\leq 10^5, 1\leq Q\leq 10^5$。
 
 时间复杂度为$O(N+N/2+N/3+N/4+...+N/N+Q)\simeq O(N\lg N+Q)$
 
-::: spoiler 参考代码
+::: details 参考代码
 
 <<< @/docs/editorial/kick-start/2019G/src/a1.cpp
 
@@ -31,7 +31,7 @@ $1\leq M\leq N\leq 10^5, 1\leq Q\leq 10^5$。
 
 对于每一个缺失的页码$P_i$，将其分解质因数，然后搜索得到其所有的因子$F_1,F_2,...F_k$，给对应的`cnt`加上1。(这是我比赛时用的方法，比前一种方法的工作量要大上不少，也导致了第一题用时比较久，40分钟才过。）
 
-::: spoiler 参考代码
+::: details 参考代码
 
 <<< @/docs/editorial/kick-start/2019G/src/a2.cpp
 
@@ -76,7 +76,7 @@ $\sum_{i=0}^{50}2^i\times(ones[i]\times(1-k[i])+zeros[i]\times k[i])$
 
 得到这一累积和后，我们就可以很容易地判断某一位上取1之后，后面的位置是否存在一种取法，使得总异或和不超过$M$。只要这一条件能够满足，我们就取1。否则检查取0时能否满足，如果能满足，就取0。如果取0也不行，说明无解。
 
-::: spoiler 参考代码
+::: details 参考代码
 
 <<< @/docs/editorial/kick-start/2019G/src/b.cpp
 
@@ -105,7 +105,7 @@ $\sum_{i=0}^{50}2^i\times(ones[i]\times(1-k[i])+zeros[i]\times k[i])$
 
 由于本题数据比较弱，使用这两个剪枝条件就可以通过了。
 
-::: spoiler 参考代码
+::: details 参考代码
 
 <<< @/docs/editorial/kick-start/2019G/src/c1.cpp
 
@@ -127,7 +127,7 @@ $\sum_{i=0}^{50}2^i\times(ones[i]\times(1-k[i])+zeros[i]\times k[i])$
 
 这样，我们就得到了所有满足B的快乐值不小于$H$的方法，然后，我们再检查是否满足A的快乐值不小于$H$即可。
 
-::: spoiler 参考代码
+::: details 参考代码
 
 <<< @/docs/editorial/kick-start/2019G/src/c2.cpp
 

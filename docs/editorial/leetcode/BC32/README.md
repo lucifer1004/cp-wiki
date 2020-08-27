@@ -4,7 +4,7 @@
 
 暴力枚举。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -34,7 +34,7 @@ public:
 
 需要注意的是，题目没有说s和t长度相等，需要先判断一下。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -63,7 +63,7 @@ public:
 
 计算当前的嵌套深度，如果深度小于0，则添加`(`将其补至0。字符串全部扫描完后，如果深度不为0，还需要相应地添加`))`。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -121,7 +121,7 @@ public:
 
 用一个数组记录每种状态最早出现的位置，然后在遍历过程中，针对每个位置处的状态，看看前缀中是否存在与其异或后结果为好状态的状态。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {

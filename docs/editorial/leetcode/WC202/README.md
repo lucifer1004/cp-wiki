@@ -4,7 +4,7 @@
 
 直接遍历即可。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -34,7 +34,7 @@ f(n)=\left\{
 \right.
 $$
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -53,7 +53,7 @@ public:
 
 判断可行性的方法很简单，每当当前位置满足磁力大于等于$mid$就放球，最后检查放入的数目是否大于等于需要放的球数$m$。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -88,7 +88,7 @@ public:
 
 直接BFS即可，注意要自顶向下，而不能自底向上，因为自底向上的过程中，会产生大量无用的$x+1$节点。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {

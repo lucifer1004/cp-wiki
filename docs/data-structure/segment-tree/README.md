@@ -8,7 +8,7 @@
 
 ![线段树示例](./segment-tree.png)
 
-::: spoiler 作图代码（SageMath）
+::: details 作图代码（SageMath）
 
 ```python
 G = Graph({0: [1, 2], 1: [3, 4], 2: [5, 6]})
@@ -40,7 +40,7 @@ P.show()
 
 单点修改+区间查询。
 
-::: spoiler 参考实现（Kotlin）
+::: details 参考实现（Kotlin）
 
 <<< @/docs/data-structure/segment-tree/src/CF-EDU-ST-P1-S1B.kt
 
@@ -50,7 +50,7 @@ P.show()
 
 区间修改+区间查询。因为修改和查询都是区间操作，所以需要使用懒标记。
 
-::: spoiler 参考实现：普通版本（C++）
+::: details 参考实现：普通版本（C++）
 
 <<< @/docs/data-structure/segment-tree/src/LG-P3372-Normal.cpp
 
@@ -58,7 +58,7 @@ P.show()
 
 我们也可以引入标记永久化，虽然对这一题来说，性能上无法有明显提升，但代码量可以略微减少一些。
 
-::: spoiler 参考实现：标记永久化版本（C++）
+::: details 参考实现：标记永久化版本（C++）
 
 <<< @/docs/data-structure/segment-tree/src/LG-P3372-Persistent-Tag.cpp
 
@@ -68,7 +68,7 @@ P.show()
 
 本题只需要实现查询，不需要实现修改。关键是，我们需要存储哪些信息，才能够由子区间的最大值，得到父区间的最大值？
 
-::: spoiler 提示一：节点需要存储的信息
+::: details 提示一：节点需要存储的信息
 
 - 最大和
 - 最大前缀和
@@ -77,9 +77,7 @@ P.show()
 
 :::
 
----
-
-::: spoiler 提示二：区间的合并
+::: details 提示二：区间的合并
 
 合并两个区间时：
 
@@ -90,9 +88,7 @@ P.show()
 
 :::
 
----
-
-::: spoiler 参考实现（C++）
+::: details 参考实现（C++）
 
 <<< @/docs/data-structure/segment-tree/src/SPOJ-GSS1.cpp
 

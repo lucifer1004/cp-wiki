@@ -16,7 +16,7 @@
 
 经验就是CF的题号和难度对应关系是非常明确的，在Div.2的A/B题感觉卡住了的话，通常可以认为是有关键条件没有注意到，导致想复杂了。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1388/src/a.cpp
 
@@ -36,7 +36,7 @@
 
 所以就是很简单的贪心了，最后$\left\lceil\frac{n}{4}\right\rceil$位放$8$，前面都放$9$。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1388/src/b.cpp
 
@@ -64,7 +64,7 @@ $$happy[i]=\frac{h_i+cnt[i]}{2}$$
 
 然后在DFS过程中判断上面三个条件是否都满足就行了。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1388/src/c.cpp
 
@@ -88,7 +88,7 @@ $$happy[i]=\frac{h_i+cnt[i]}{2}$$
 
 显然，这样得到的结果一定是最优的。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1388/src/d.cpp
 
@@ -114,7 +114,7 @@ X轴上方有$n$条互不相交且平行于X轴的线段。现在要求将这些
 
 这实际上还是$O(n^3)$的暴力，不过用C++ 64可以在时限内通过。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1388/src/e.cpp
 

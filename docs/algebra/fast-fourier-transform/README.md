@@ -96,7 +96,7 @@ $$T(n)=2T(n/2)$$
 
 下面给出了本题的递归实现。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/algebra/fast-fourier-transform/src/LG-P3803-Recursion.cpp
 
@@ -127,15 +127,13 @@ $$\{a_0\},\{a_4\},\{a_2\},\{a_6\},\{a_1\},\{a_5\},\{a_3\},\{a_7\}$$
 
 下面给出了洛谷P3803的非递归实现。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/algebra/fast-fourier-transform/src/LG-P3803-Iteration.cpp
 
 :::
 
----
-
-::: spoiler 参考代码（Kotlin）
+::: details 参考代码（Kotlin）
 
 <<< @/docs/algebra/fast-fourier-transform/src/LG-P3803-Iteration.kt
 
@@ -157,23 +155,19 @@ $$\{a_0\},\{a_4\},\{a_2\},\{a_6\},\{a_1\},\{a_5\},\{a_3\},\{a_7\}$$
 
 如果暴力枚举子串，时间复杂度为$O(|r|^2)$，显然不行。如何降低复杂度呢？
 
-::: spoiler 提示一
+::: details 提示一
 
 首先考虑字母`'A'`。不妨把字符串为`'A'`的位置设为$1$，其余位置设为$0$。看起来似乎可以进行多项式乘法，但乘法的结果似乎没有明显的意义。
 
 :::
 
----
-
-::: spoiler 提示二
+::: details 提示二
 
 如果把`r`串逆序呢？看看此时乘积的每一项有怎样的含义。
 
 :::
 
----
-
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/algebra/fast-fourier-transform/src/SPOJ-ADAMATCH.cpp
 
@@ -183,23 +177,19 @@ $$\{a_0\},\{a_4\},\{a_2\},\{a_6\},\{a_1\},\{a_5\},\{a_3\},\{a_7\}$$
 
 如果暴力枚举，时间复杂度为$O(n^3)$，显然不行。如何降低复杂度呢？
 
-::: spoiler 提示一
+::: details 提示一
 
 加法可以变为多项式的乘法。
 
 :::
 
----
-
-::: spoiler 提示二
+::: details 提示二
 
 如何去除包含重复元素的项？
 
 :::
 
----
-
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/algebra/fast-fourier-transform/src/SPOJ-TSUM.cpp
 

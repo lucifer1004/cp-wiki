@@ -10,7 +10,7 @@
 
 先排序，然后从小到大遍历，判断较小的那一个能否被删除。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1399/src/a.cpp
 
@@ -18,7 +18,7 @@
 
 用FP的思想，就是要得到一个$b_i=a_{i+1}-a_i$的差数组，然后判断$b_i$的最大值是否超过$1$。
 
-::: spoiler 参考代码（Haskell）
+::: details 参考代码（Haskell）
 
 <<< @/docs/editorial/codeforces/1399/src/a.hs
 
@@ -34,7 +34,7 @@
 
 所有盒子的A都要以最少的A为准，所有盒子的B都要以最少的B为准。对于某一个盒子，需要的总操作次数等于A的差量和B的差量中较大的那一个。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1399/src/b.cpp
 
@@ -42,7 +42,7 @@
 
 这题的FP相对来说是比较容易实现的。
 
-::: spoiler 参考代码（Haskell）
+::: details 参考代码（Haskell）
 
 <<< @/docs/editorial/codeforces/1399/src/b.hs
 
@@ -58,7 +58,7 @@
 
 考虑到数据范围，直接枚举体重总和，然后计算每种体重总和下的最大配对数。当然，在枚举之前，首先要将体重数据有序化。这可以通过排序或哈希表两种方式来实现。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1399/src/c.cpp
 
@@ -66,7 +66,7 @@
 
 FP就递归处理就好了。
 
-::: spoiler 参考代码（Haskell）
+::: details 参考代码（Haskell）
 
 <<< @/docs/editorial/codeforces/1399/src/c.hs
 
@@ -84,7 +84,7 @@ FP就递归处理就好了。
 
 记录下一个待使用的编号，以及当前结尾为$0$的子序列的编号和当前结尾为$1$的子序列的编号。对于每一个元素，如果没有能与其匹配的子序列，就要申请一个新的子序列；否则就将其进行匹配，并将对应的子序列移入另一组（$0$到$1$，$1$到$0$）。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1399/src/d.cpp
 
@@ -92,7 +92,7 @@ FP就递归处理就好了。
 
 FP通过递归进行处理。
 
-::: spoiler 参考代码（Haskell）
+::: details 参考代码（Haskell）
 
 <<< @/docs/editorial/codeforces/1399/src/d.hs
 
@@ -108,7 +108,7 @@ FP通过递归进行处理。
 
 显然通过DFS可以计算出每一条边影响的叶子节点数量，从而可以计算对每一条边进行操作的回报（减少的总权重）。那么，自然想到基于优先队列的贪心方法，每次操作都选择回报最大的那条边进行，这样得到的结果一定是最优的。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1399/src/e1.cpp
 
@@ -130,7 +130,7 @@ FP通过递归进行处理。
 - 情形一：使用一条成本为$1$的边就可以满足要求，此时显然应该选择这条边。
 - 情形二：比较对成本为$1$的优先队列连续操作两次的回报，与对成本为$2$的优先队列操作一次的回报。如果前者大于后者，则对优先队列$1$进行**一次**操作；否则对优先队列$2$进行一次操作。要注意，这里不能对优先队列$1$连续进行两次操作，因为第二和第三次操作的总回报可能小于对优先队列$2$操作一次的回报。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1399/src/e2.cpp
 
@@ -160,7 +160,7 @@ DP的顺序自然是从短的区间到长的区间，因为长的可以覆盖短
 
 最后的结果就是$[0,M-1]$（$M$是离散化后点的总数）。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/codeforces/1399/src/f.cpp
 

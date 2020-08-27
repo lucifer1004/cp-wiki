@@ -4,7 +4,7 @@
 
 暴力枚举。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -28,7 +28,7 @@ public:
 
 直接模拟求解。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -57,7 +57,7 @@ public:
 
 首先计算出每行末尾连续的$0$的数量，然后从最上面一行开始，找到最靠近的一个能满足当前行对$0$的个数需求的行，用冒泡的方式把这一行换上来。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 class Solution {
@@ -97,7 +97,7 @@ public:
 
 分别记录当前在第一个数组和第二个数组中能够取得的最大值，每次移动两个数组中较小的那个指针；如果双指针指向的数字相等，则可以将两个最大值进行同步。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 ```cpp
 typedef long long ll;

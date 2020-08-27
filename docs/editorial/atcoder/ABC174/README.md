@@ -32,7 +32,7 @@
 
 经典二分。二分查找最后的答案，判断所需要的次数是否超过$K$次。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/atcoder/ABC174/src/e.cpp
 
@@ -48,7 +48,7 @@
 
 经典题。离线做法是按查询区间右端点排序然后依次处理，过程中用树状数组记录和更新当前状态。同一个数字，只有最后一次出现是有效的。
 
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<< @/docs/editorial/atcoder/ABC174/src/f.cpp
 

@@ -14,17 +14,13 @@
 
 ### [SPOJ - AGGRCOW](https://www.spoj.com/problems/AGGRCOW/)
 
----
-
-::: spoiler 提示
+::: details 提示
 
 如果把题目变成：要求任意两头牛之间的距离不小于$D$，最多能安排多少头牛，我们应该如何做？
 
 :::
 
----
-
-::: spoiler 参考代码（C++）
+::: details 参考代码（C++）
 
 <<<@/docs/basic/binary-search/src/SPOJ-AGGRCOW.cpp
 
