@@ -16,15 +16,15 @@ module.exports = {
       "/": {
         editLinkText: "在 GitHub 上编辑此页",
         lastUpdated: "上次更新",
-        selectText: "选择语言",
-        label: "简体中文",
+        selectText: "选择语言 | Language",
+        label: "🇨🇳 简体中文",
         nav: require("./nav/zh"),
       },
       "/en/": {
         editLinkText: "Edit this page on GitHub",
         lastUpdated: "Last Updated",
         selectText: "Language",
-        label: "English",
+        label: "🇬🇧 English",
         nav: require("./nav/en"),
       },
     },
@@ -43,7 +43,7 @@ module.exports = {
     ["autometa", {}],
   ],
   extraWatchFiles: [
-    '.vuepress/nav/en.js',
-    '.vuepress/nav/zh.js'
-  ]
+    ".vuepress/nav/en.js",
+    ".vuepress/nav/zh.js",
+  ],
 };

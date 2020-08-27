@@ -30,7 +30,7 @@ module.exports = [{
     ]
   },
   {
-    text: "Editorial",
+    text: "Editorials",
     ariaLabel: "Editorial",
     items: [{
       text: "Codeforces",
@@ -45,7 +45,10 @@ module.exports = [{
       text: "Kick Start",
       link: "/en/editorial/kick-start/"
     }, {
-      text: "Others",
+      text: "Project Euler",
+      link: "/editorial/project-euler/"
+    }, {
+      text: "Other Contests",
       link: "/en/editorial/others/"
     }],
   }, {
