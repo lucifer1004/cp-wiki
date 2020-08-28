@@ -32,3 +32,25 @@ Consider two types of transitions:
 <<<@/docs/string/aho-corasick/src/CF1400F.cpp
 
 :::
+
+### [SPOJ - Ada and Jobs](https://www.spoj.com/problems/ADAJOBS/)
+
+The challenge lies in that tasks are added dynamically, but we cannot afford reconstructing the whole automaton every time a new word is added.
+
+::: details Hint 1
+
+Store all operations offline. When constructing the automaton, assign every stop node a timestamp indicating its order. Meanwhile, store the number of words in the dictionary at the time a query is made. In this way, we only need to build the ACA once. During matching, we need to find a stop node whose timestamp is no larger than the timestamp of the query.
+
+:::
+
+::: details Hint 2
+
+During matching, we do not need to go all the way up along the `fail` pointers. Instead, we can push down the timestamp during construction.
+
+:::
+
+::: details Code (C++)
+
+<<<@/docs/string/aho-corasick/src/SPOJ-ADAJOBS.cpp
+
+:::
