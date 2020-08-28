@@ -18,14 +18,20 @@ We can build an Aho-Corasick automaton with the generated strings.
 
 :::
 
-::: details Hint 3
+:::: details Hint 3
 
 Consider two types of transitions:
 
 - Discard the current digit, and increase the cost by $1$.
 - Keep the current digit, and move on the Aho-Corasick automaton. This transition is prohibited if the target position is marked.
 
+::: tip Tips
+
+In this specific problem, no $x$-prime string is a suffix of another $x$-prime string, otherwise they will have different digit sums. In consequence, we do not need to follow `fail` pointers when moving on the automaton. However, do note that this is seldom the case, or you might get WA on other ACA problems (~~like me on [ADAJOBS](#spoj-ada-and-jobs)~~).
+
 :::
+
+::::
 
 ::: details Code (C++)
 
