@@ -22,6 +22,11 @@ template <typename T> void read(T &x) {
   x *= sig;
 }
 
+// `lo` is the minimum of the segment.
+// `lh` is the current value of the left endpoint.
+// `rh` is the current value of the right endpoint.
+// `lazy` is the lazy tag for addition.
+// `flag` is the lazy tag for assignment.
 struct Node {
   int l, r;
   ll lo, lh, rh, lazy = 0;

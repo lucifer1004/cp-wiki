@@ -22,6 +22,10 @@ template <typename T> void read(T &x) {
   x *= sig;
 }
 
+// `lo` is the current minimum of the segment.
+// `lh` is the current value of the left endpoint.
+// `lazy` is the lazy tag for addition.
+// `flag` is the lazy tag for assignment.
 struct Node {
   int l, r;
   ll lo, lh, lazy = 0;
@@ -29,6 +33,7 @@ struct Node {
 } s[MAXN << 2];
 int h, w;
 
+// Push up
 void calc(int idx) {
   s[idx].lo = min(s[lson].lo, s[rson].lo);
   s[idx].lh = s[lson].lh;
@@ -43,6 +48,7 @@ void build(int idx, int l, int r) {
   build(rson, mid + 1, r);
 }
 
+// Lazy propagation
 void pushdown(int idx) {
   if (s[idx].flag) {
     ll L = s[idx].lh;
@@ -63,6 +69,7 @@ void pushdown(int idx) {
   s[idx].lazy = 0;
 }
 
+// Assign segment [l, r] according to f[l-1] = L
 void update(int idx, int l, int r, ll L) {
   if (s[idx].l >= l && s[idx].r <= r) {
     s[idx].lo = s[idx].lh = L + s[idx].l - l + 1;
@@ -79,6 +86,7 @@ void update(int idx, int l, int r, ll L) {
   calc(idx);
 }
 
+// Range addition
 void add(int idx, int l, int r) {
   if (s[idx].l >= l && s[idx].r <= r) {
     s[idx].lh++;
@@ -95,6 +103,7 @@ void add(int idx, int l, int r) {
   calc(idx);
 }
 
+// Range minimum query
 ll query(int idx, int l, int r) {
   if (r < 1 || l > w)
     return INF;
