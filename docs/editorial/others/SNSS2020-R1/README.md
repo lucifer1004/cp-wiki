@@ -1,4 +1,4 @@
-# SnarkNews Summer Series - 2020 Round 1 题解
+# SnarkNews Summer Series 2020 Round 1 题解
 
 ## Problem A - [Electric Lighting](https://contest.yandex.com/snss2020/contest/19320/problems/)
 
