@@ -10,6 +10,12 @@
 
 比较能跑的最远距离和需要跑的距离即可。
 
+::: details 参考代码（Python）
+
+<<<@/docs/editorial/atcoder/ABC177/src/a.py
+
+:::
+
 ## Problem B - [Substring](https://atcoder.jp/contests/abc177/tasks/abc177_b)
 
 ### 题目描述
@@ -19,6 +25,12 @@
 ### 题解
 
 数据范围很小，枚举即可。
+
+::: details 参考代码（Python）
+
+<<<@/docs/editorial/atcoder/ABC177/src/b.py
+
+:::
 
 ## Problem C - [Sum of product of pairs](https://atcoder.jp/contests/abc177/tasks/abc177_c)
 
@@ -30,6 +42,12 @@
 
 $\prod_{i<j} a_ia_j=\frac{\sum a_i(\sum a_j-a_i)}{2}$，注意取模意义下除以$2$要变为乘$2$的逆元。
 
+::: details 参考代码（Python）
+
+<<<@/docs/editorial/atcoder/ABC177/src/c.py
+
+:::
+
 ## Problem D - [Friends](https://atcoder.jp/contests/abc177/tasks/abc177_d)
 
 ### 题目描述
@@ -38,7 +56,7 @@ $\prod_{i<j} a_ia_j=\frac{\sum a_i(\sum a_j-a_i)}{2}$，注意取模意义下除
 
 ### 题解
 
-并查集找出最大的联通分量即为答案。
+并查集找出最大的连通分量即为答案。
 
 ::: details 参考代码（C++）
 
@@ -78,7 +96,7 @@ $\prod_{i<j} a_ia_j=\frac{\sum a_i(\sum a_j-a_i)}{2}$，注意取模意义下除
 需要查询的是区间最小值。
 
 实现以上两种操作和一种查询即可。
- 
+
 ::: details 参考代码（C++）
 
 <<<@/docs/editorial/atcoder/ABC177/src/f.cpp
@@ -89,7 +107,7 @@ $\prod_{i<j} a_ia_j=\frac{\sum a_i(\sum a_j-a_i)}{2}$，注意取模意义下除
 
 如果题目改为可以向左或向右走，只需要对数据结构稍作修改即可。
 
-::: 
+:::
 
 ::: details 参考代码（C++）
 

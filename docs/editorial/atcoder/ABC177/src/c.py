@@ -1,7 +1,3 @@
-def read_ints():
-    return map(int, input().split(' '))
-
-
 mod = int(1e9 + 7)
 
 
@@ -16,7 +12,7 @@ def fexp(x, y):
 
 
 input()
-a = list(read_ints())
+a = list(map(int, input().split(' ')))
 s = sum(a)
 ans = 0
 for i in a:

@@ -68,7 +68,7 @@ We can use segment tree. For each row, if the prohibited range is $[L,R]$, then 
 We need to query the range minimum.
 
 So we can just implement the two types of operations and the range minimum query.
- 
+
 ::: details Code (C++)
 
 <<<@/docs/editorial/atcoder/ABC177/src/f.cpp
@@ -79,7 +79,7 @@ So we can just implement the two types of operations and the range minimum query
 
 If we are also allowed to go left, we only need to make a few modifications to the code above. For range $[L,R]$, we can both come from the left and the right. But no matter where we come from, the range minimum is at either $L$ or $R$.
 
-::: 
+:::
 
 ::: details Code (C++, modified problem)
 
