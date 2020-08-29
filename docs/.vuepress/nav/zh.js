@@ -24,40 +24,41 @@ module.exports = [{
     link: "/string/",
   }, {
     text: "组合数学 | Combinatorics",
-    link: "/combinatorics/"
-  }]
+    link: "/combinatorics/",
+  }],
 }, {
   text: "题解 | Editorials",
   ariaLabel: "题解",
   items: [{
-      text: "Codeforces",
-      link: "/editorial/codeforces/",
-    }, {
-      text: "AtCoder",
-      link: "/editorial/atcoder/",
-    }, {
-      text: "Leetcode",
-      link: "/editorial/leetcode/",
-    }, {
-      text: "Kick Start",
-      link: "/editorial/kick-start/",
-    }, {
-      text: "Project Euler",
-      link: "/editorial/project-euler/",
-    },
-    {
-      text: "其他比赛 | Other Contests",
-      link: "/editorial/others/",
-    }
-  ],
+    text: "Codeforces",
+    link: "/editorial/codeforces/",
+  }, {
+    text: "AtCoder",
+    link: "/editorial/atcoder/",
+  }, {
+    text: "Leetcode",
+    link: "/editorial/leetcode/",
+  }, {
+    text: "Kick Start",
+    link: "/editorial/kick-start/",
+  }, {
+    text: "Project Euler",
+    link: "/editorial/project-euler/",
+  }, {
+    text: "其他比赛 | Other Contests",
+    link: "/editorial/others/",
+  }],
 }, {
   text: "其他 | Others",
   ariaLabel: "其他",
   items: [{
+    text: "小贴士 | Tips",
+    link: "/tips/",
+  }, {
     text: "黑话 | Jargon",
     link: "/jargon/",
   }, {
     text: "名人堂 | Hall of Fame",
-    link: "/hall-of-fame/"
-  }]
+    link: "/hall-of-fame/",
+  }],
 }];
