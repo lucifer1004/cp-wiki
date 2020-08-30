@@ -8,5 +8,10 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vue-google-adsense": "^1.8.3",
+    "vue-script2": "^2.1.0",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }

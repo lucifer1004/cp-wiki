@@ -52,6 +52,14 @@ Google每年举办三种类型的编程竞赛。
 
 赛题质量波动较大，总体难度低于其他平台。比较适合新手。
 
+<InArticleAdsense
+    style="display:block; text-align:center;"
+    data-ad-layout="in-article"
+    data-ad-format="fluid"
+    data-ad-client="ca-pub-2391425047778930"
+    data-ad-slot="9967998595">
+</InArticleAdsense>
+
 ## 网站平台（OJ类）
 
 ### [SPOJ](https://www.spoj.com/)

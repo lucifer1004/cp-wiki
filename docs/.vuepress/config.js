@@ -44,6 +44,9 @@ module.exports = {
   },
   plugins: [
     ["autometa", {}],
+    ["sitemap", {
+      hostname: "https://cp-wiki.vercel.app",
+    }],
   ],
   extraWatchFiles: [
     ".vuepress/nav/en.js",
