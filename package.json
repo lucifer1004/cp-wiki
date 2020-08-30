@@ -2,16 +2,15 @@
   "name": "cp-wiki",
   "devDependencies": {
     "@iktakahiro/markdown-it-katex": "^4.0.0",
+    "vue-google-adsense": "^1.8.3",
+    "vue-script2": "^2.1.0",
     "vuepress": "^1.5.3",
-    "vuepress-plugin-autometa": "^0.1.13"
+    "vuepress-plugin-autometa": "^0.1.13",
+    "vuepress-plugin-medium-zoom": "^1.1.8",
+    "vuepress-plugin-sitemap": "^2.3.1"
   },
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
-  },
-  "dependencies": {
-    "vue-google-adsense": "^1.8.3",
-    "vue-script2": "^2.1.0",
-    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }

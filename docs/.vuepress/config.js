@@ -1,57 +1,72 @@
 module.exports = {
-  title: "CP Wiki",
+  title: 'CP Wiki',
   locales: {
-    "/": {
-      lang: "zh-CN",
-      description: "lucifer1004的CP笔记",
+    '/': {
+      lang: 'zh-CN',
+      description: 'lucifer1004的CP笔记',
     },
-    "/en/": {
-      lang: "en-US",
+    '/en/': {
+      lang: 'en-US',
       description: "lucifer1004's CP notes",
     },
   },
   themeConfig: {
-    repo: "lucifer1004/cp-wiki",
+    repo: 'lucifer1004/cp-wiki',
     locales: {
-      "/": {
-        editLinkText: "在 GitHub 上编辑此页",
-        lastUpdated: "上次更新",
-        selectText: "选择语言 | Language",
-        ariaLabel: "选择语言",
-        label: "🇨🇳 简体中文",
-        nav: require("./nav/zh"),
-        sidebar: require("./sidebar/zh"),
+      '/': {
+        editLinkText: '在 GitHub 上编辑此页',
+        lastUpdated: '上次更新',
+        selectText: '选择语言 | Language',
+        ariaLabel: '选择语言',
+        label: '🇨🇳 简体中文',
+        nav: require('./nav/zh'),
+        sidebar: require('./sidebar/zh'),
       },
-      "/en/": {
-        editLinkText: "Edit this page on GitHub",
-        lastUpdated: "Last Updated",
-        selectText: "Language",
-        ariaLabel: "Select language",
-        label: "🇬🇧 English",
-        nav: require("./nav/en"),
-        sidebar: "auto",
+      '/en/': {
+        editLinkText: 'Edit this page on GitHub',
+        lastUpdated: 'Last Updated',
+        selectText: 'Language',
+        ariaLabel: 'Select language',
+        label: '🇬🇧 English',
+        nav: require('./nav/en'),
+        sidebar: 'auto',
       },
     },
     editLinks: true,
-    docsDir: "docs",
+    docsDir: 'docs',
     smoothScroll: true,
   },
   markdown: {
     lineNumbers: true,
-    extendMarkdown: (md) => {
-      md.use(require("@iktakahiro/markdown-it-katex"));
+    extendMarkdown: md => {
+      md.use(require('@iktakahiro/markdown-it-katex'));
     },
   },
   plugins: [
-    ["autometa", {}],
-    ["sitemap", {
-      hostname: "https://cp-wiki.vercel.app",
-    }],
+    ['autometa', {}],
+    [
+      'sitemap',
+      {
+        hostname: 'https://cp-wiki.vercel.app',
+      },
+    ],
+    [
+      'vuepress-plugin-medium-zoom',
+      {
+        selector: '.my-wrapper .my-img',
+        delay: 1000,
+        options: {
+          margin: 24,
+          background: '#BADA55',
+          scrollOffset: 0,
+        },
+      },
+    ],
   ],
   extraWatchFiles: [
-    ".vuepress/nav/en.js",
-    ".vuepress/nav/zh.js",
-    ".vuepress/sidebar/en.js",
-    ".vuepress/sidebar/zh.js",
+    '.vuepress/nav/en.js',
+    '.vuepress/nav/zh.js',
+    '.vuepress/sidebar/en.js',
+    '.vuepress/sidebar/zh.js',
   ],
 };

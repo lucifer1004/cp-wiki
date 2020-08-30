@@ -3235,6 +3235,7 @@ __metadata:
     vue-script2: ^2.1.0
     vuepress: ^1.5.3
     vuepress-plugin-autometa: ^0.1.13
+    vuepress-plugin-medium-zoom: ^1.1.8
     vuepress-plugin-sitemap: ^2.3.1
   languageName: unknown
   linkType: soft
@@ -6507,6 +6508,13 @@ fsevents@~2.1.2:
   version: 0.3.0
   resolution: "media-typer@npm:0.3.0"
   checksum: be1c825782df7f38eebd451d778f6407bb15a59c8807a69e7f2ad74a25440e474536441c6bf583fdf2803ea23b866e91ff68f565cda297211dd89147758c8df3
+  languageName: node
+  linkType: hard
+
+"medium-zoom@npm:^1.0.4":
+  version: 1.0.6
+  resolution: "medium-zoom@npm:1.0.6"
+  checksum: e97e15471d14f0f62debc1d1917959b4221981c287c6de1e1fbf367148198494876eaf18bb7361c3a780d6615d74dca5b63694efcc5b9b2ae70c3910c0b7081a
   languageName: node
   linkType: hard
 
@@ -10214,6 +10222,15 @@ fsevents@~2.1.2:
   dependencies:
     markdown-it-container: ^2.0.0
   checksum: 2caa6daf5e25f23eb05635d128ce644b9a7a2fea9f346750ef09653079a8ea1e85cb14c17a58b990183c7e86212d9b8d4ab7f69c6d7a02f952bd9376930eaec8
+  languageName: node
+  linkType: hard
+
+"vuepress-plugin-medium-zoom@npm:^1.1.8":
+  version: 1.1.8
+  resolution: "vuepress-plugin-medium-zoom@npm:1.1.8"
+  dependencies:
+    medium-zoom: ^1.0.4
+  checksum: c3010a2cec895aa0f99353afa41fc20d1eca2f294d7dda0b2491649ced0aef3fa431b1e23d4ca61065e7b13e0465504f46cc807424c9da2a05c45acd100f4cc9
   languageName: node
   linkType: hard
 
