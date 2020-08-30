@@ -3235,6 +3235,7 @@ __metadata:
     vue-script2: ^2.1.0
     vuepress: ^1.5.3
     vuepress-plugin-autometa: ^0.1.13
+    vuepress-plugin-git-log: ^1.0.1
     vuepress-plugin-medium-zoom: ^1.1.8
     vuepress-plugin-sitemap: ^2.3.1
   languageName: unknown
@@ -10222,6 +10223,15 @@ fsevents@~2.1.2:
   dependencies:
     markdown-it-container: ^2.0.0
   checksum: 2caa6daf5e25f23eb05635d128ce644b9a7a2fea9f346750ef09653079a8ea1e85cb14c17a58b990183c7e86212d9b8d4ab7f69c6d7a02f952bd9376930eaec8
+  languageName: node
+  linkType: hard
+
+"vuepress-plugin-git-log@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "vuepress-plugin-git-log@npm:1.0.1"
+  dependencies:
+    cross-spawn: ^6.0.5
+  checksum: df54aef496fbfb09bd96641da5ace6dbedaecbbea313802f3020cd110befb13c39566711cad64ce2494ad9e290f62ec5079ee53fc70ce357421c20da155f1e71
   languageName: node
   linkType: hard
 

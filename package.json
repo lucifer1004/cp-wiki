@@ -6,6 +6,7 @@
     "vue-script2": "^2.1.0",
     "vuepress": "^1.5.3",
     "vuepress-plugin-autometa": "^0.1.13",
+    "vuepress-plugin-git-log": "^1.0.1",
     "vuepress-plugin-medium-zoom": "^1.1.8",
     "vuepress-plugin-sitemap": "^2.3.1"
   },
