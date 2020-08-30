@@ -26,6 +26,12 @@
 
 ## Problem B - [Elimination](https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-2/problems/B) 
 
+### 题目描述
+
+有$1,2,\cdots,N$共$N$个选手进行一对一的比赛。编号大的选手一定不弱于编号小的选手。当任意两个选手比赛时，编号大的那个获胜概率为$P$（$0.5\leq P\leq1$）。每次比赛后，输的一方立即被淘汰。求每个选手被淘汰（或最终胜利）时总比赛场数的期望。
+
+### 题解
+
 本题待补。
 
 ## Problem C - [Circular Circles](https://www.facebook.com/codingcompetitions/hacker-cup/2020/round-2/problems/C)
