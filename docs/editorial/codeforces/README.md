@@ -1,5 +1,9 @@
 # Codeforces 题解
 
+## Regular Round
+
+- [Round 666](./1396/)
+
 ## Div.2 Round
 
 - [Round 665](./1401/)
