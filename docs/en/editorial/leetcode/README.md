@@ -13,6 +13,7 @@
 - [Weekly Contest 196](/editorial/leetcode/WC196/)
 - [Weekly Contest 195](/editorial/leetcode/WC195/)
 - [Weekly Contest 194](/editorial/leetcode/WC194/)
+- [Weekly Contest 193](/editorial/leetcode/WC193/)
 
 ## Bi-weekly Contest
 
