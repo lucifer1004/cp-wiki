@@ -26,4 +26,18 @@
 
 :::
 
+### [SNSS-2020 R2 - Meeting with readers](https://contest.yandex.com/snss2020/contest/19321/problems/D/)
+
+::: details 提示
+
+如果只选择不满意值不超过$W$的作家，能否覆盖会议所需要的时间段？
+
+:::
+
+::: details 参考代码（C++）
+
+<<< @/docs/editorial/others/SNSS2020-R2/src/d.cpp
+
+:::
+
 <Utterances />
