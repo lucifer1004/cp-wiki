@@ -1,8 +1,15 @@
 export default ({ Vue, options, router, siteData, isServer }) => {
-  import('vue-google-adsense').then(Ads => {
-    Vue.use(require('vue-script2'));
-    Vue.use(Ads.default.Adsense);
-    Vue.use(Ads.default.InArticleAdsense);
-    Vue.use(Ads.default.InFeedAdsense);
-  });
+  if (!isServer) {
+    import('vue-google-adsense')
+      .then(module => {
+        const Ads = module.default;
+        Vue.use(require('vue-script2'));
+        Vue.use(Ads.Adsense);
+        Vue.use(Ads.InArticleAdsense);
+        Vue.use(Ads.InFeedAdsense);
+      })
+      .catch(e => {
+        console.log(e);
+      });
+  }
 };
