@@ -46,6 +46,7 @@
 ## 波兰
 
 - [Errichto (Kamil Debowski)](https://codeforces.com/profile/Errichto)
+- [Radewoosh (Mateusz Radecki)](https://codeforces.com/profile/Radewoosh)
 
 ## 瑞士
 

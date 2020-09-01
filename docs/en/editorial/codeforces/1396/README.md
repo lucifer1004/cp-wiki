@@ -112,6 +112,40 @@ Not yet.
 
 ## Problem E - [Distance Matching](https://codeforces.com/contest/1396/problem/E)
 
-Not yet.
+First we want to find when the problem has no answer.
+
+Considering $dist(u,v)=dep(u)+dep(v)-2\cdot dep(LCA(u,v))$, we can conclude that all possible values have the same parity, since they share the $\sum dep(i)$ part, while the second part is always even.
+
+Now let's turn to the perspective of edges. We randomly choose a root, then for each non-root node, we consider the edge from its parent to it. We define $sz[i]$ to be the size of the subtree rooted at $i$. Then the edge can be counted at most $\min(sz[i],n-sz[i])$ times (we try to make as many pairs as we can from nodes in the subtree to the outer nodes). Meanwhile, it will be counted at least $sz[i] \% 2$ times (we try to make as many pairs as we can in its subtree). For this part, see also [CF1280C - Jeremy Bearimy](https://codeforces.com/problemset/problem/1280/C).
+
+So we have found the lowered bound $LB=\sum_{i\neq root} sz[i]\%2$ and the upper bound $UB=\sum_{i\neq root} \min(sz[i],n-sz[i])$. And we have known its parity must conform to that of $LB$ and $UB$. If $k<LB$, $k>UB$ or $k$'s parity is different from $LB$'s, the problem has no answer.
+
+Can we definitely find a valid answer if $LB\leq k\leq UB$ and $k-LB$ is even?
+
+Yes, we can, based on the strategy below.
+
+We will consider how many nodes in each subtree (except the root tree) are cross matched (matched with an external node). The upper limit for each subtree has been calculated in the last step, which equals to $w[i]=\min(sz[i],n-sz[i])$. We use binary search to find the minimal global upper bound $limit$ which will be applied to all subtrees, so that
+
+$cross\_match[i]=\min(w[i], limit+(w[i]-limit)\%2)$ and $\sum_{i\neq root}cross\_match[i]\geq k$
+
+both hold. Note that the $(w[i]-limit)\%2$ part is added so that the parity can be kept.
+
+Since we need $\sum_{i\neq root}cross\_match[i]=k$, further modification is required. Here we only modify those nodes with $cross\_match[i]=limit+1$ to $limit-1$, until the updated sum meets the requirement. Since $limit$ is the minimal possible value to make $\sum_{i\neq root}cross\_match[i]\geq k$, it is ensured that we can meet the requirement within finite steps, otherwise $limit-1$ will also make $\sum_{i\neq root}cross\_match[i]\geq k$, which contradicts with the premise.
+
+Now that we have constructed all $cross\_match[i]$, how can we ensure that a valid matching can be made based on it? Let's consider an invalid configuration instead. In an invalid configuration, there must be a node $u$ where $cross\_match[u]>\sum_{v\text{\ is\ }u\text{'s child}}cross\_match[v]+1$, but this case has been excluded via the global upper bound.
+
+Since we already have a valid configuration, we now need to implement it.
+
+We will use another DFS, and handle the deepest subtrees first, because a cross match for a deeper subtree will finally become an internal match at a higher level. For each subtree, we deal with its internal matches. Note that all sub-subtrees of current subtree will have no more internal matches, since that has been handled earlier, so we must match a node in one sub-subtree with a node in another sub-subtree. To achieve that, we will use a `set` to store the current number of unmatched nodes in every sub-subtree (the root of the current subtree is also considered a sub-subtree with a single element). Every time, we choose one node from the largest group, and one node from the second largest group, then make them a pair. We repeat this until the number of internally matched nodes has met our configuration. Since all remaining unmatched nodes will be handled outside the current subtree, they will be cross matched just as we have expected. 
+
+We still have a few finishing touches. We need to collect all unmatched nodes in the sub-subtrees and put them into the $to\_match$ list of the current subtree. There is a trick in this step: we need to always merge a shorter vector into a longer one, in order to save time.
+
+This solution is from [jiangly](https://codeforces.com/profile/jiangly).
+
+::: details Code (C++, based on jiangly's solution)
+
+<<< @/docs/editorial/codeforces/1396/src/e.cpp
+
+:::
 
 <Utterances />

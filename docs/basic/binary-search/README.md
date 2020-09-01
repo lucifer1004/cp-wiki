@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+---
+
 # 二分查找
 
 二分查找是一个非常实用的算法。它的基本思想是，对于一个在某种意义上有序的数组，这个数组的前半部分满足某一条件，而后半部分不满足这一条件，我们不断选择区间中点，判断其是否满足条件，从而将区间不断折半，最后就可以找到数组中的转折点，也即满足这一条件的最后一个点，或不满足这个条件的第一个点。因为区间的大小每次都缩小为原来的一半，所以二分查找的复杂度是$O(\log N)$。
@@ -37,6 +41,57 @@
 ::: details 参考代码（C++）
 
 <<< @/docs/editorial/others/SNSS2020-R2/src/d.cpp
+
+:::
+
+### [LC1482 - 制作 m 束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/)
+
+::: details 提示
+
+在第$k$天，最多能够制作多少束花？
+
+:::
+
+::: details 参考代码（C++）
+
+```cpp
+typedef long long ll;
+
+class Solution {
+public:
+    int minDays(vector<int>& bloomDay, int m, int k) {
+        int n = bloomDay.size();
+        if (n / k < m)
+            return -1;
+        int l = 1, r = 1e9;
+        auto check = [&](int x) {
+            vector<bool> flower(n);
+            for (int i = 0; i < n; ++i)
+                if (bloomDay[i] <= x)
+                    flower[i] = true;
+            int bunch = 0, curr = 0;
+            for (int i = 0; i < n; ++i) {
+                if (flower[i])
+                    curr++;
+                else {
+                    bunch += curr / k;
+                    curr = 0;
+                }
+            }
+            bunch += curr / k;
+            return bunch;
+        };
+        while (l <= r) {
+            int mid = (l + r) >> 1;
+            if (check(mid) < m)
+                l = mid + 1;
+            else
+                r = mid - 1;
+        }
+        return l;
+    }
+};
+```
 
 :::
 

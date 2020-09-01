@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+---
+
 # 快速傅里叶变换
 
 快速傅里叶变换（Fast Fourier Transform, FTT）在CP中最主要的应用是计算多项式乘法。
