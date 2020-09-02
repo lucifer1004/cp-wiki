@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+---
+
 # 队列
 
 队列（Queue）是一种具有先进先出特性的线性数据结构。
@@ -55,3 +59,31 @@ public:
 ```
 
 :::
+
+### [KS2019C2 - Circuit Board](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000050ff2/0000000000150aae)
+
+::: details 提示一
+
+求出第$i$行以$(i,j)$结尾的最长的合法长度。因为有$k$的限制，我们需要知道区间最大值和最小值，并且在指针移动过程中，我们需要对其进行更新。用`set`是一种可行的策略，还有更优的方法吗？
+
+:::
+
+::: details 提示二
+
+使用两个单调双端队列，一个升序，一个降序。
+
+:::
+
+::: details 提示三
+
+对于每一列求解最大矩形面积问题。
+
+:::
+
+::: details 参考代码（C++）
+
+<<<@/docs/editorial/kick-start/2019C/src/b2.cpp
+
+:::
+
+<Utterances />
