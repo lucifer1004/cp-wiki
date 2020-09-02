@@ -81,6 +81,10 @@ Google每年举办三种类型的编程竞赛。
 
 国内老牌OJ，由杭州电子科技大学主办。过去办比赛较多，现在主要负责举办每年的百度之星。
 
+### [UOJ](http://uoj.ac/)
+
+国内OJ平台，代码[开源](https://github.com/UniversalOJ/UOJ-System)，被广泛传播用于搭建私有OJ。
+
 ### [LibreOJ](https://loj.ac/)
 
 国内OJ平台。
