@@ -105,11 +105,29 @@ public:
 
 :::
 
-::: details 提示二
+:::: details 提示二
 
 尝试在坐标系中画出到点$(x,y)$操作距离为$L$的范围，并用约束条件描述。
 
+![CF1394C配图](./CF1394C.png)
+
+::: details 作图代码（Sagemath）
+
+```python
+var('x')
+g = Graphics()
+g += plot(x-3, (x,0,3))
+g += plot(x+3, (x,-3,0))
+g += plot(3, (x,0,3))
+g += plot(-3, (x,-3,0))
+g += line([(3,0),(3,3)])
+g += line([(-3,-3),(-3,0)])
+g.show()
+```
+
 :::
+
+::::
 
 ::: details 提示三
 
