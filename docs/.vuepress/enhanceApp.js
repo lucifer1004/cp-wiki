@@ -12,4 +12,12 @@ export default ({ Vue, options, router, siteData, isServer }) => {
         console.log(e);
       });
   }
+
+  //// This might be used in the future
+  // router.addRoutes([
+  //   {
+  //     path: '/tag/:tag',
+  //     component: BlogListByTag,
+  //   },
+  // ]);
 };

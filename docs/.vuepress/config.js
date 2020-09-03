@@ -1,5 +1,23 @@
 module.exports = {
   title: 'CP Wiki',
+  head: [
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href:
+          'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href:
+          'https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css',
+      },
+    ],
+  ],
   locales: {
     '/': {
       lang: 'zh-CN',
@@ -43,6 +61,20 @@ module.exports = {
     },
   },
   plugins: [
+    [
+      '@vuepress/blog',
+      {
+        directories: [
+          {
+            id: 'blog',
+            dirname: '_blogs',
+            path: '/_blog/',
+            itemPermalink: '/blog/:year/:month/:day/:slug',
+            itemLayout: 'Layout',
+          },
+        ],
+      },
+    ],
     ['autometa', {}],
     [
       'sitemap',
@@ -62,9 +94,8 @@ module.exports = {
     ],
   ],
   extraWatchFiles: [
-    '.vuepress/nav/en.js',
-    '.vuepress/nav/zh.js',
-    '.vuepress/sidebar/en.js',
-    '.vuepress/sidebar/zh.js',
+    '.vuepress/nav/*.js',
+    '.vuepress/sidebar/*.js',
+    '.vuepress/layouts/*.vue',
   ],
 };

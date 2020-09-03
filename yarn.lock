@@ -1271,6 +1271,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vssue/api-github-v3@npm:^1.1.2":
+  version: 1.4.4
+  resolution: "@vssue/api-github-v3@npm:1.4.4"
+  dependencies:
+    "@vssue/utils": ^1.4.0
+    axios: ^0.18.1
+  checksum: 3a1b07ff8c723f98f4ef51da4d0107f147164d30a6d0d2eb8671c3626edc0cf08f7ee1be59726a1d07dcc3ed191373d2c3f892b8993579004c26b4cbb12f9365
+  languageName: node
+  linkType: hard
+
+"@vssue/utils@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "@vssue/utils@npm:1.4.0"
+  dependencies:
+    date-fns: ^1.29.0
+    qs: ^6.6.0
+  checksum: 6efee08ecc31f52fd5310672746758bf27ae785347a85c47dac339bb22f52085edcd6e50aacb2c7770e05addf12b3b469b87ca44d2a58777bdf5a34443d2fdf2
+  languageName: node
+  linkType: hard
+
+"@vssue/vuepress-plugin-vssue@npm:^1.2.0":
+  version: 1.4.6
+  resolution: "@vssue/vuepress-plugin-vssue@npm:1.4.6"
+  dependencies:
+    vssue: ^1.4.6
+  peerDependencies:
+    vuepress: ^1.0.0
+  checksum: 99c3e9c672253149d26a9d0914918f2cec585da57943498b92dfda52f7a7b23e8ebccbaeaa3c63b0370354f8c5d5ebc52b3b8ddda1ede72564dfe5d540114172
+  languageName: node
+  linkType: hard
+
 "@vue/babel-helper-vue-jsx-merge-props@npm:^1.0.0":
   version: 1.0.0
   resolution: "@vue/babel-helper-vue-jsx-merge-props@npm:1.0.0"
@@ -1492,6 +1523,22 @@ __metadata:
   dependencies:
     lodash.debounce: ^4.0.8
   checksum: d011564815a99dcd8631aedf1fa5616f578e981ac0159054f6334d7666320cd4d9ad55aeae40e94a5899a25cbbbc3fccb36b0dedcef433b0d358f713134b1d7b
+  languageName: node
+  linkType: hard
+
+"@vuepress/plugin-blog@npm:^1.9.2":
+  version: 1.9.2
+  resolution: "@vuepress/plugin-blog@npm:1.9.2"
+  dependencies:
+    "@vssue/api-github-v3": ^1.1.2
+    "@vssue/vuepress-plugin-vssue": ^1.2.0
+    dayjs: ^1.8.19
+    vuejs-paginate: ^2.1.0
+    vuepress-plugin-disqus: ^0.2.0
+    vuepress-plugin-feed: ^0.1.8
+    vuepress-plugin-mailchimp: ^1.4.1
+    vuepress-plugin-sitemap: ^2.3.1
+  checksum: 0813c805f7dc36d518f85328224156ef89775656f81cacf8c3928a0a16b74f9e66f3ee1fdd6ec3e251acc6cd97ddfc09729084535fb0a9aeca26a660cbd80115
   languageName: node
   linkType: hard
 
@@ -2166,6 +2213,16 @@ __metadata:
   version: 1.10.0
   resolution: "aws4@npm:1.10.0"
   checksum: f8c20a0031a2ae88bb29a89d5e5f8139eb0cc8aa964d0a8d69a476a4b0f6cf3954e3dd40bd08cea69c95ee31e2e69226d82e804628261a2375223ac67582009d
+  languageName: node
+  linkType: hard
+
+"axios@npm:^0.18.1":
+  version: 0.18.1
+  resolution: "axios@npm:0.18.1"
+  dependencies:
+    follow-redirects: 1.5.10
+    is-buffer: ^2.0.2
+  checksum: 6188a1b815733c1b6118eddc70d931caea7f867ca77ade8205e49cd6e457b837460cc4e325e19c66a81190a170fde5b76480878366b3743131977da76d571bec
   languageName: node
   linkType: hard
 
@@ -3240,6 +3297,7 @@ __metadata:
   resolution: "cp-wiki@workspace:."
   dependencies:
     "@iktakahiro/markdown-it-katex": ^4.0.0
+    "@vuepress/plugin-blog": ^1.9.2
     "@vuepress/plugin-medium-zoom": ^1.5.4
     vue-google-adsense: ^1.8.3
     vue-script2: ^2.1.0
@@ -3565,6 +3623,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"date-fns@npm:^1.29.0":
+  version: 1.30.1
+  resolution: "date-fns@npm:1.30.1"
+  checksum: 351fc19b04d79de77823a90213b87039392528fdd44a42e3e87f28333e76a48f99e4fbb37c9823b6284f7eb0ef88368fafe61749d6eff173241170977751fa47
+  languageName: node
+  linkType: hard
+
+"dayjs@npm:^1.8.19":
+  version: 1.8.35
+  resolution: "dayjs@npm:1.8.35"
+  checksum: 83dcbaecee87e8f6b2e7775be48e67b45779a273506ab4b5723cb1db5b601b474b7292770d646c855edcd6f5659639da9cf5e4871b4c93284448195b2fcf7573
+  languageName: node
+  linkType: hard
+
 "de-indent@npm:^1.0.2":
   version: 1.0.2
   resolution: "de-indent@npm:1.0.2"
@@ -3572,12 +3644,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:2.6.9, debug@npm:^2.2.0, debug@npm:^2.3.3, debug@npm:^2.6.9":
+"debug@npm:2.6.9, debug@npm:^2.1.3, debug@npm:^2.2.0, debug@npm:^2.3.3, debug@npm:^2.6.9":
   version: 2.6.9
   resolution: "debug@npm:2.6.9"
   dependencies:
     ms: 2.0.0
   checksum: 559f44f98cf25e2ee489022aec173afbff746564cb108c4493becb95bc3c017a67bdaa25a0ff64801fd32c35051d00af0e56cc7f762ae2c3bc089496e5a1c31b
+  languageName: node
+  linkType: hard
+
+"debug@npm:=3.1.0, debug@npm:~3.1.0":
+  version: 3.1.0
+  resolution: "debug@npm:3.1.0"
+  dependencies:
+    ms: 2.0.0
+  checksum: 1295acd5e0531761255661d325cd0a80ac8c5f6de8942a53bb23c2197ccb97526972de662ed0e5d9393be83f3428a298a6e7185ecb02f0da6282019cd2ffb4a8
   languageName: node
   linkType: hard
 
@@ -3601,15 +3682,6 @@ __metadata:
     supports-color:
       optional: true
   checksum: dcfb8ede26b4d899628a75806923ab9ad29daae7db0f6f1ca6227b660693ae0ca085c7f87261793abe0832ad56aff2afc33f907c6b5dc96a41fc208771feb465
-  languageName: node
-  linkType: hard
-
-"debug@npm:~3.1.0":
-  version: 3.1.0
-  resolution: "debug@npm:3.1.0"
-  dependencies:
-    ms: 2.0.0
-  checksum: 1295acd5e0531761255661d325cd0a80ac8c5f6de8942a53bb23c2197ccb97526972de662ed0e5d9393be83f3428a298a6e7185ecb02f0da6282019cd2ffb4a8
   languageName: node
   linkType: hard
 
@@ -4432,6 +4504,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"feed@npm:2.0.4":
+  version: 2.0.4
+  resolution: "feed@npm:2.0.4"
+  dependencies:
+    luxon: ^1.3.3
+    xml: ^1.0.1
+  checksum: e2f25ff7d0a12342389a031787051d39d6f6d3f3cccfef87317cc33fc9f318fd5fd4cbb7fa23e4116c230c8231f21c6dfde44b9d762a2466010aed39397a29c6
+  languageName: node
+  linkType: hard
+
 "figgy-pudding@npm:^3.5.1":
   version: 3.5.2
   resolution: "figgy-pudding@npm:3.5.2"
@@ -4530,6 +4612,15 @@ __metadata:
     inherits: ^2.0.3
     readable-stream: ^2.3.6
   checksum: b8fa1fbfadd5c4b6df3cf2c34b3c408fe508a2899c536bafa339f679de545689997e907bd4ff61dd292942f8044fb2f293a5956dd8b601f6a5601617842d0dda
+  languageName: node
+  linkType: hard
+
+"follow-redirects@npm:1.5.10":
+  version: 1.5.10
+  resolution: "follow-redirects@npm:1.5.10"
+  dependencies:
+    debug: =3.1.0
+  checksum: 6e58e02c31337b6b41ffc3d5f3d49920b7db428eddcf374537da00ef121fe473983e12d8557f4304287604168d3efcc288d1f009abaf4c9d61e5db0c0cee3c4a
   languageName: node
   linkType: hard
 
@@ -4750,6 +4841,13 @@ fsevents@~2.1.2:
   dependencies:
     assert-plus: ^1.0.0
   checksum: 2650725bc6939616da8432e5351ca87d8b29421bb8dc19c21bad2c37cd337d2a50d36fcc398ce0c16a075f6079afe114131780dca7e2f4b96063e53e7d28fd7a
+  languageName: node
+  linkType: hard
+
+"github-markdown-css@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "github-markdown-css@npm:3.0.1"
+  checksum: c8257b17b52289b9c870a77a707801483ba4c7a0fe1b3600c524246dad4a26a6d5fd75ee95c7b6b390b9a4cbbf357e2a76c6c54d5e27abd739570d2395bda4e3
   languageName: node
   linkType: hard
 
@@ -5554,6 +5652,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"is-buffer@npm:^2.0.2":
+  version: 2.0.4
+  resolution: "is-buffer@npm:2.0.4"
+  checksum: cd1cbc19e5ad2f33284109210945606494bf1adbe775b157b18ffeeb98571187d5fd1dc3fcd36566f67b90a776e364262f496c8998f8f369694b68ad334f8655
+  languageName: node
+  linkType: hard
+
 "is-callable@npm:^1.1.4, is-callable@npm:^1.2.0":
   version: 1.2.0
   resolution: "is-callable@npm:1.2.0"
@@ -6048,6 +6153,15 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"jsonp@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "jsonp@npm:0.2.1"
+  dependencies:
+    debug: ^2.1.3
+  checksum: c18eae184e60d2c5fc0c762e498ea3d2bf8881a1b8e5a9ffe018716ad59431a34a476cbe3adee2c729227c2a3ed4d31d24e419cae2436da64d05db53b17da12c
+  languageName: node
+  linkType: hard
+
 "jsprim@npm:^1.2.2":
   version: 1.4.1
   resolution: "jsprim@npm:1.4.1"
@@ -6389,6 +6503,13 @@ fsevents@~2.1.2:
   dependencies:
     yallist: ^3.0.2
   checksum: ffd9a280fa3400e731265db502270c2a65432f3fbfac23d480c72f675ec16dbbeddd57d4baf7aca70ab7af49949fad1bcaaf5a5e6e1cfed7316de71bb5dddf1c
+  languageName: node
+  linkType: hard
+
+"luxon@npm:^1.3.3":
+  version: 1.25.0
+  resolution: "luxon@npm:1.25.0"
+  checksum: 3f0d64355beab707f5e8eb4e2d7e1cad90569c2a4c4dce440e0b4be4eb6833ec1a83513a4210361cd4dc5a266c0221718a9afd15f7cde3002d8fa1d0976b9e50
   languageName: node
   linkType: hard
 
@@ -8175,6 +8296,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"qs@npm:^6.6.0":
+  version: 6.9.4
+  resolution: "qs@npm:6.9.4"
+  checksum: beba62d1e1c66e9888cc08a488eb95771c252a92289a96bff4b767a49e4e7afe9487d7ee3269b856292d8281b855ac5eac927c2e77f845e407ee4fe54743fea7
+  languageName: node
+  linkType: hard
+
 "qs@npm:~6.5.2":
   version: 6.5.2
   resolution: "qs@npm:6.5.2"
@@ -8190,6 +8318,17 @@ fsevents@~2.1.2:
     object-assign: ^4.1.0
     strict-uri-encode: ^1.0.0
   checksum: 68d4ad519a9fc288bc9ade3e515ce89a6806b88fd92e1459277570dca753665bb1b43e4cc7747012fc3b19b3d4283a724d519b568859943f57aaa3668c4d5b4b
+  languageName: node
+  linkType: hard
+
+"query-string@npm:^6.9.0":
+  version: 6.13.1
+  resolution: "query-string@npm:6.13.1"
+  dependencies:
+    decode-uri-component: ^0.2.0
+    split-on-first: ^1.0.0
+    strict-uri-encode: ^2.0.0
+  checksum: 5e640f0cf6077f3fd4dcb6d8f3a88306bbb5d5638001450b15a244ca74f76e4a6a1d70baff114cef43ca15670d5d2523f92113f3567561b9dbd1fcb26489066a
   languageName: node
   linkType: hard
 
@@ -9108,6 +9247,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"split-on-first@npm:^1.0.0":
+  version: 1.1.0
+  resolution: "split-on-first@npm:1.1.0"
+  checksum: 2ef26fee62665be9547e8035734b856e658b08fd13e70271a2f258147f29d1f18e12b5cb7f7670d83e113c172a9c5fe3d87d9d7c02a1d3d57824818d75d942ab
+  languageName: node
+  linkType: hard
+
 "split-string@npm:^3.0.1, split-string@npm:^3.0.2":
   version: 3.1.0
   resolution: "split-string@npm:3.1.0"
@@ -9238,6 +9384,13 @@ fsevents@~2.1.2:
   version: 1.1.0
   resolution: "strict-uri-encode@npm:1.1.0"
   checksum: 6c80f6998a45414d7c124772383cc10ce7bd22586af80762407cded1569666564fb8c0a4c9c997ac39a1116d46dfffc5d57135e759a0acb66a4da1191f5a3a4a
+  languageName: node
+  linkType: hard
+
+"strict-uri-encode@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "strict-uri-encode@npm:2.0.0"
+  checksum: 775012e88b9d8dff939d514bf376d615a15e8228a5dd587a94ac3c71fce41aa3635cd808aa796e2c1cd33f3f2fe2fbf89b74ee18a504a1905efa1854311e04bb
   languageName: node
   linkType: hard
 
@@ -10091,6 +10244,35 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"vssue@npm:^1.4.6":
+  version: 1.4.6
+  resolution: "vssue@npm:1.4.6"
+  dependencies:
+    "@vssue/utils": ^1.4.0
+    github-markdown-css: ^3.0.1
+    vue: ^2.6.10
+    vue-i18n: ^8.11.2
+    vue-property-decorator: ^8.1.1
+  checksum: e26e75d5277ec3e241945c46315c4de3e4248824e03483802640a872a66b1444bcd9fa30d82d923b8b010bbde7172a6dc5dbb7e7fc63f88233b8781ee92a0941
+  languageName: node
+  linkType: hard
+
+"vue-class-component@npm:^7.1.0":
+  version: 7.2.5
+  resolution: "vue-class-component@npm:7.2.5"
+  peerDependencies:
+    vue: ^2.0.0
+  checksum: 482632d16c1bbeb208bf4fd517362664a9745c378ebd792c242d393a38ceb5183f286e65371061b9d73f2f73038faaa44963ada441af955ab8584e7d07e57ea2
+  languageName: node
+  linkType: hard
+
+"vue-disqus@npm:^3.0.5":
+  version: 3.0.5
+  resolution: "vue-disqus@npm:3.0.5"
+  checksum: c848ea5c6ce0c5771aa3bcd9fba87bf7cae7b65d2456d64d57f84c4340f04e5ddf7c9219549d13cd36cd5c3ca06233053322d7d12e4de7574a78102cc656d834
+  languageName: node
+  linkType: hard
+
 "vue-google-adsense@npm:^1.8.3":
   version: 1.8.3
   resolution: "vue-google-adsense@npm:1.8.3"
@@ -10105,6 +10287,13 @@ fsevents@~2.1.2:
   version: 2.3.4
   resolution: "vue-hot-reload-api@npm:2.3.4"
   checksum: dedefb87284bdba222a93bc55bc1441ee16d9e30546d57107c42d21102cfcafba058c8be35f2678370cee0588f1bf3ee7b32dbf3c1610e5c9bf851a5996a8351
+  languageName: node
+  linkType: hard
+
+"vue-i18n@npm:^8.11.2":
+  version: 8.21.0
+  resolution: "vue-i18n@npm:8.21.0"
+  checksum: 5ad83f7c202eca5075541df83b4f4729812ecec89c186198abe0e8b6a0fd6e0cd60c4f533ae90f6640c98ee36a1a245663b4d57d594f0e22dbc7dc8f61e5bcaa
   languageName: node
   linkType: hard
 
@@ -10128,6 +10317,17 @@ fsevents@~2.1.2:
     vue-template-compiler:
       optional: true
   checksum: bc7d4c63e0890a701115e2469bdd0277b4abf271c58152a9b911e55898cbcce2670ada649904fd18b2ef8dccab9536f2fad06761ecccda6b3db4472771f0d260
+  languageName: node
+  linkType: hard
+
+"vue-property-decorator@npm:^8.1.1":
+  version: 8.5.1
+  resolution: "vue-property-decorator@npm:8.5.1"
+  dependencies:
+    vue-class-component: ^7.1.0
+  peerDependencies:
+    vue: "*"
+  checksum: 417f734f8c062d3a717c20ffbc0b0aef96d7a7b5069c2bb81b71a5bfd03e8e83e458d5e52947cda7bb949bbc4957b5253f6c4937a4598bb83beb5b950a06218b
   languageName: node
   linkType: hard
 
@@ -10195,6 +10395,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"vuejs-paginate@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "vuejs-paginate@npm:2.1.0"
+  checksum: 1270a2c2f6052776512a9e7115bc3015a46ea5701565be73ce79554ed18a482496dbeecfa5c81e6e9c7392b13dc9efae43a5d755e4ad2c2f1405c3c5b9b4060c
+  languageName: node
+  linkType: hard
+
 "vuepress-html-webpack-plugin@npm:^3.2.0":
   version: 3.2.0
   resolution: "vuepress-html-webpack-plugin@npm:3.2.0"
@@ -10236,12 +10443,48 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"vuepress-plugin-disqus@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "vuepress-plugin-disqus@npm:0.2.0"
+  dependencies:
+    vue-disqus: ^3.0.5
+  checksum: b4c8b5a6c769d5d1e0056cdb7073d25cd2579637e43f148b645405ca8045ada71a2ef0463d586f64f7de1335a0f178bf136e63f1ca62de63002fca27bd99a5e1
+  languageName: node
+  linkType: hard
+
+"vuepress-plugin-feed@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "vuepress-plugin-feed@npm:0.1.8"
+  dependencies:
+    feed: 2.0.4
+    lodash.defaultsdeep: 4.6.1
+    lodash.isempty: 4.4.0
+    lodash.trimend: ^4.5.1
+    lodash.trimstart: ^4.5.1
+    remove-markdown: 0.3.0
+    striptags: 3.1.1
+  peerDependencies:
+    vuepress: 1.x
+  checksum: 966bac04caaf32d53f4b0b16d831b571a84ad667de51203cb4aed2912b154f5a867015e1c5a583d1e5403c8a3dbed7ed54f40414527e54189aef7437bded3fa6
+  languageName: node
+  linkType: hard
+
 "vuepress-plugin-git-log@npm:^1.0.1":
   version: 1.0.1
   resolution: "vuepress-plugin-git-log@npm:1.0.1"
   dependencies:
     cross-spawn: ^6.0.5
   checksum: df54aef496fbfb09bd96641da5ace6dbedaecbbea313802f3020cd110befb13c39566711cad64ce2494ad9e290f62ec5079ee53fc70ce357421c20da155f1e71
+  languageName: node
+  linkType: hard
+
+"vuepress-plugin-mailchimp@npm:^1.4.1":
+  version: 1.4.2
+  resolution: "vuepress-plugin-mailchimp@npm:1.4.2"
+  dependencies:
+    jsonp: ^0.2.1
+    query-string: ^6.9.0
+  checksum: 2b7d25b4c9a94e50732a62ceb2003972456669b57ffedefd6ca6cf10987466b49dbaa60136b6e7a46c56a1143a223c99f304f2ea74a3eb909e01a223b25c8cf4
   languageName: node
   linkType: hard
 
@@ -10633,6 +10876,13 @@ fsevents@~2.1.2:
   version: 4.0.0
   resolution: "xdg-basedir@npm:4.0.0"
   checksum: 928953cb7dda8e2475932f748847a3aae751f44864a0067b03e5ca66820a36e1e9ffb647f9b06fb68ebcb0b9d06d5aee630717a1d2501be14cec99f82efa2fe6
+  languageName: node
+  linkType: hard
+
+"xml@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "xml@npm:1.0.1"
+  checksum: adde7652a6f6010d28079586e7f608d616138bcb6c44bbc9174292b5cc2fab09b351d6c5f009e9304df2e0030888198225dd2e9ccbf51b776c8928479bfea4cb
   languageName: node
   linkType: hard
 
