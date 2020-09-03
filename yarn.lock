@@ -1504,6 +1504,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vuepress/plugin-medium-zoom@npm:^1.5.4":
+  version: 1.5.4
+  resolution: "@vuepress/plugin-medium-zoom@npm:1.5.4"
+  dependencies:
+    medium-zoom: ^1.0.4
+  checksum: d201a2c3b2df048cbae1096b28ecacd856f0185bc84009003cd2d684430eef3ae7bd834f5f21441184ad3efc4e3d75b2466758584800b860dbb4ec033610dae3
+  languageName: node
+  linkType: hard
+
 "@vuepress/plugin-nprogress@npm:1.5.3":
   version: 1.5.3
   resolution: "@vuepress/plugin-nprogress@npm:1.5.3"
@@ -3231,6 +3240,7 @@ __metadata:
   resolution: "cp-wiki@workspace:."
   dependencies:
     "@iktakahiro/markdown-it-katex": ^4.0.0
+    "@vuepress/plugin-medium-zoom": ^1.5.4
     vue-google-adsense: ^1.8.3
     vue-script2: ^2.1.0
     vuepress: ^1.5.3

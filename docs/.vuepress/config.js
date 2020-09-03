@@ -50,6 +50,16 @@ module.exports = {
         hostname: 'https://cp-wiki.vercel.app',
       },
     ],
+    [
+      '@vuepress/medium-zoom',
+      {
+        selector: '.theme-default-content > p > img',
+        options: {
+          margin: 16,
+          background: '#eaf4fc',
+        },
+      },
+    ],
   ],
   extraWatchFiles: [
     '.vuepress/nav/en.js',
