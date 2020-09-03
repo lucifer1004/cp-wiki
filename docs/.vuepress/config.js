@@ -47,7 +47,7 @@ module.exports = {
         ariaLabel: 'Select language',
         label: '🇬🇧 English',
         nav: require('./nav/en'),
-        sidebar: 'auto',
+        sidebar: require('./sidebar/en'),
       },
     },
     editLinks: true,

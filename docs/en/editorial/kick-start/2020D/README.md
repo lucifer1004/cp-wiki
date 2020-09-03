@@ -73,3 +73,5 @@ And here is [Heltion](https://codeforces.com/profile/Heltion)'s Cartesian tree s
 <<< @/docs/editorial/kick-start/2020D/src/d2.cpp
 
 :::
+
+<Utterances />

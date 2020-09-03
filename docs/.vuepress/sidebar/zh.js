@@ -27,7 +27,7 @@ module.exports = {
     {
       title: '2019',
       collapsable: false,
-      children: ['2019G/', '2019F/', '2019C/'],
+      children: ['2019G/', '2019F/', '2019D/', '2019C/'],
     },
   ],
   '/blog/': null,

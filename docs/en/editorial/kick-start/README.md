@@ -1,12 +1,7 @@
-# Google Kick Start Editorial
+# About Google Kick Start
 
-## 2020
+Kick Start is a starter's level CP contest hosted by Google. There are 8 rounds every year, between March and November.
 
-- [2020 Round E](/editorial/kick-start/2020E/)
-- [2020 Round D](./2020D/)
+Each contest lasts 3 hours. Starting from 2020, there are 4 problems in every contest, and there are no more hidden verdicts, meaning that all results can be seen instantaneously.
 
-## 2019
-
-- [2019 Round G](/editorial/kick-start/2019G/)
-- [2019 Round F](/editorial/kick-start/2019F/)
-- [2019 Round C](/editorial/kick-start/2019C/)
+<Utterances />

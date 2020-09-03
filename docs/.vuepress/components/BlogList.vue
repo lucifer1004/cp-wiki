@@ -1,21 +1,25 @@
 <template>
   <div>
-    <p v-if="loading">{{loadingText}}</p>
+    <p v-if="loading">{{ loadingText }}</p>
     <div v-if="!loading" class="keywords banner">
       <a
         class="keyword"
         v-for="keywordItem in keywordList"
         v-bind:href="getTagURL(keywordItem.key)"
-      >{{`${keywordItem.key}: ${keywordItem.count}`}}</a>
+        >{{ `${keywordItem.key}: ${keywordItem.count}` }}</a
+      >
     </div>
     <div class="article" v-for="page in files">
-      <a v-bind:href="page.path">{{`${formatDate(page.frontmatter.published)} ${page.title}`}}</a>
+      <a v-bind:href="page.path">{{
+        `${formatDate(page.frontmatter.published)} ${page.title}`
+      }}</a>
       <div class="keywords">
         <a
           class="keyword"
           v-for="key in page.frontmatter.keywords"
           v-bind:href="getTagURL(key)"
-        >{{key}}</a>
+          >{{ key }}</a
+        >
       </div>
     </div>
   </div>
@@ -23,17 +27,17 @@
 <script>
 export default {
   data() {
-    return {loading: true, keywordMap: new Map(), keywordList: []};
+    return { loading: true, keywordMap: new Map(), keywordList: [] };
   },
   computed: {
     files() {
-      const blogs = this.$site.pages.filter((p) => {
+      const blogs = this.$site.pages.filter(p => {
         const baseCheck = p.path.indexOf('/blog/') >= 0 && p.path.length > 6;
         if (p.frontmatter && p.frontmatter.keywords)
-          p.frontmatter.keywords.forEach((keyword) => {
+          p.frontmatter.keywords.forEach(keyword => {
             if (!this.keywordMap.has(keyword)) {
               this.keywordMap[keyword] = this.keywordList.length;
-              this.keywordList.push({key: keyword, count: 0});
+              this.keywordList.push({ key: keyword, count: 0 });
             }
             this.keywordList[this.keywordMap[keyword]].count++;
           });
@@ -41,7 +45,7 @@ export default {
           ? p.frontmatter &&
             p.frontmatter.keywords &&
             p.frontmatter.keywords.findIndex(
-              (it) => it.toLowerCase() === this.$route.query.tag.toLowerCase()
+              it => it.toLowerCase() === this.$route.query.tag.toLowerCase()
             ) !== -1
           : true;
         return baseCheck && advancedCheck;
