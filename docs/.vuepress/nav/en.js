@@ -81,8 +81,12 @@ module.exports = [
       },
       {
         text: 'Hall of Fame',
-        link: '/hall-of-fame/',
+        link: '/en/hall-of-fame/',
       },
     ],
+  },
+  {
+    text: 'Blog',
+    link: '/en/blog/',
   },
 ];

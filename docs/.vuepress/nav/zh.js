@@ -85,4 +85,8 @@ module.exports = [
       },
     ],
   },
+  {
+    text: '博客 | Blog',
+    link: '/blog/',
+  },
 ];

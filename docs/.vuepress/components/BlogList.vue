@@ -32,7 +32,7 @@ export default {
   computed: {
     files() {
       const blogs = this.$site.pages.filter(p => {
-        const baseCheck = p.path.indexOf('/blog/') >= 0 && p.path.length > 6;
+        const baseCheck = p.path.indexOf('/blog/') >= 0 && p.path.length > 10;
         if (p.frontmatter && p.frontmatter.keywords)
           p.frontmatter.keywords.forEach(keyword => {
             if (!this.keywordMap.has(keyword)) {
@@ -68,7 +68,9 @@ export default {
       });
     },
     getTagURL(tag) {
-      return `/blog/?tag=${tag}`;
+      return this.$lang === 'zh-CN'
+        ? `/blog/?tag=${tag}`
+        : `/en/blog/?tag=${tag}`;
     },
   },
 };

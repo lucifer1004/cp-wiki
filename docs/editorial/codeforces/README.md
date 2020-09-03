@@ -1,21 +1,9 @@
-# Codeforces 题解
+# 关于Codeforces
 
-## Regular Round
+Codeforces上有四个分组（Div.1--Div.4），其中前三个的Rating下限分别是1900/2100、1600和1300。
 
-- [Round 666](./1396/)
+对于Div.1和Div.2分别进行的常规轮次，Div.1的下限是1900分。对于只有Div.2的轮次，Div.1的下限是2100分。
 
-## Div.2 Round
+主要赛制有两种，一种是每题有随时间递减的分值，错误提交扣分，赛中进行Hack；另一种是ICPC赛制，根据通过题目数量和每题用时和罚时的总和进行排名，赛后有12小时的公开Hack时间。
 
-- [Round 665](./1401/)
-- [Round 662](./1393/)
-- [Round 660](./1388/)
-
-## Educational Round
-
-- [Round 94](./1400/)
-- [Round 93](./1398/)
-- [Round 92](./1389/)
-
-## Div.3 Round
-
-- [Round 661](./1399/)
+<Utterances/>

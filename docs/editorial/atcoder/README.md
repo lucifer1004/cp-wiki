@@ -1,8 +1,3 @@
-# AtCoder 题解
+# 关于AtCoder
 
-## AtCoder Beginner Contest
-
-- [Round 177](./ABC177/)
-- [Round 176](./ABC176/)
-- [Round 175](./ABC175/)
-- [Round 174](./ABC174/)
+AtCoder的比赛分为Beginner、Regular、Grand三个级别。Beginner一般每周举行一次，Regular和Grand的举行时间不固定。

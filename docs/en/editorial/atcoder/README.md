@@ -1,8 +1,3 @@
-# AtCoder Editorial
+# About AtCoder contests
 
-## AtCoder Beginner Contest
-
-- [Round 177](./ABC177/)
-- [Round 176](./ABC176/)
-- [Round 175](/editorial/atcoder/ABC175/)
-- [Round 174](/editorial/atcoder/ABC174/)
+There are three types of contests, beginner, regular and grand. AtCoder Beginner Contest are held weekly, while the other two are not held regularly.

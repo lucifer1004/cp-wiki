@@ -1,21 +1,7 @@
-# Codeforces Editorial
+# About Codeforces Contests
 
-## Regular Round
+There are 4 divisions (Div.1--Div.4), and the lower bound for Div.1--Div.3 is 1900/2100, 1600, 1300.
 
-- [Round 666](./1396/)
+The 1900 bound (candidate master) for Div.1 applies to regular rounds where there are separate Div.1 and Div.2 contests, while the 2100 bound (master) applies to Div.2 only rounds.
 
-## Div.2 Round
-
-- [Round 665](/editorial/codeforces/1401/)
-- [Round 662](/editorial/codeforces/1393/)
-- [Round 660](/editorial/codeforces/1388/)
-
-## Educational Round
-
-- [Round 94](/editorial/codeforces/1400/)
-- [Round 93](/editorial/codeforces/1398/)
-- [Round 92](/editorial/codeforces/1389/)
-
-## Div.3 Round
-
-- [Round 661](/editorial/codeforces/1399/)
+<Utterances/>
