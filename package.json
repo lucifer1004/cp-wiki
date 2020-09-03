@@ -4,6 +4,7 @@
     "@iktakahiro/markdown-it-katex": "^4.0.0",
     "@vuepress/plugin-blog": "^1.9.2",
     "@vuepress/plugin-medium-zoom": "^1.5.4",
+    "generate-robotstxt": "^8.0.3",
     "vue-google-adsense": "^1.8.3",
     "vue-script2": "^2.1.0",
     "vuepress": "^1.5.3",

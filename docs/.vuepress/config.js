@@ -92,6 +92,10 @@ module.exports = {
         },
       },
     ],
+    [
+      require('./plugins/robots.js'),
+      { host: 'https://cp-wiki.vercel.app', allowAll: true },
+    ],
   ],
   extraWatchFiles: [
     '.vuepress/nav/*.js',
