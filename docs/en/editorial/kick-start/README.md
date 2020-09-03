@@ -9,3 +9,4 @@
 
 - [2019 Round G](/editorial/kick-start/2019G/)
 - [2019 Round F](/editorial/kick-start/2019F/)
+- [2019 Round C](/editorial/kick-start/2019C/)
