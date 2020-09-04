@@ -75,7 +75,36 @@ module.exports = {
         ],
       },
     ],
-    ['autometa', {}],
+    [
+      'autometa',
+      {
+        site: {
+          name: 'CP Wiki',
+          twitter: 'gabriel_wzh',
+        },
+        author: {
+          name: 'lucifer1004',
+          twitter: 'gabriel_wzh',
+        },
+        description_sources: [
+          'frontmatter',
+          'excerpt',
+          // markdown paragraph regex
+          //
+          /^((?:(?!^#)(?!^\-|\+)(?!^[0-9]+\.)(?!^!\[.*?\]\((.*?)\))(?!^\[\[.*?\]\])(?!^\{\{.*?\}\})[^\n]|\n(?! *\n))+)(?:\n *)+\n/gim,
+          //
+          // this excludes blockquotes using `(?!^>)`
+          ///^((?:(?!^#)(?!^\-|\+)(?!^[0-9]+\.)(?!^!\[.*?\]\((.*?)\))(?!^>)(?!^\[\[.*?\]\])(?!^\{\{.*?\}\})[^\n]|\n(?! *\n))+)(?:\n *)+\n/img,
+          // html paragraph regex
+          /<p(?:.*?)>(.*?)<\/p>/i,
+        ],
+        image_sources: [
+          'frontmatter',
+          /!\[.*?\]\((.*?)\)/i, // markdown image regex
+          /<img.*?src=['"](.*?)['"]/i, // html image regex
+        ],
+      },
+    ],
     [
       'sitemap',
       {
