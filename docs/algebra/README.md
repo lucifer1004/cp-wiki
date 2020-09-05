@@ -1,5 +1,5 @@
-# 代数
+# 关于代数
 
-## [倍增](./binary-exponentiation/)
+代数类的题目往往需要我们有一定的相关知识储备，重在平时的积累。
 
-## [快速傅里叶变换](./fast-fourier-transform/)
+<Utterances />

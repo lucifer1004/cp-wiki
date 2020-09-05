@@ -24,7 +24,7 @@ module.exports = [
         link: '/graph-theory/',
       },
       {
-        text: '几何 | Geometry',
+        text: '计算几何 | Computational Geometry',
         link: '/geometry/',
       },
       {

@@ -40,7 +40,7 @@ module.exports = {
     {
       title: 'Div.3 Round',
       collapsable: true,
-      children: ['1399/'],
+      children: ['1409/', '1399/'],
     },
   ],
   '/en/blog/': null,

@@ -1,6 +1,8 @@
+const { getSubfolders } = require('../utils');
+
 module.exports = {
-  '/basic/': ['enumerate/', 'binary-search/', 'ternary-search/'],
-  '/algebra/': ['binary-exponentiation/', 'fast-fourier-transform/'],
+  '/basic/': ['', ...getSubfolders('basic')],
+  '/algebra/': ['', ...getSubfolders('algebra')],
   '/data-structure/': [
     {
       title: '基础数据结构',
@@ -13,10 +15,10 @@ module.exports = {
       children: ['disjoint-union/', 'segment-tree/'],
     },
   ],
-  '/graph-theory/': [''],
-  '/geometry/': ['basic/'],
-  '/string/': ['prefix-function/', 'trie/', 'aho-corasick/'],
-  '/combinatorics/': ['inclusion-exclusion/'],
+  '/graph-theory/': ['', ...getSubfolders('graph-theory')],
+  '/geometry/': ['', ...getSubfolders('geometry')],
+  '/string/': ['', ...getSubfolders('string')],
+  '/combinatorics/': ['', ...getSubfolders('combinatorics')],
   '/tutorial/kick-start/': [
     '',
     {
@@ -58,7 +60,7 @@ module.exports = {
     {
       title: 'Div.3 Round',
       collapsable: true,
-      children: ['1399/'],
+      children: ['1409/', '1399/'],
     },
   ],
   '/blog/': null,
