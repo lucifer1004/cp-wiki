@@ -38,32 +38,32 @@ module.exports = [
     ],
   },
   {
-    text: 'Editorials',
-    ariaLabel: 'Editorial',
+    text: 'Tutorials',
+    ariaLabel: 'Tutorial',
     items: [
       {
         text: 'Codeforces',
-        link: '/en/editorial/codeforces/',
+        link: '/en/tutorial/codeforces/',
       },
       {
         text: 'AtCoder',
-        link: '/en/editorial/atcoder/',
+        link: '/en/tutorial/atcoder/',
       },
       {
         text: 'Leetcode',
-        link: '/en/editorial/leetcode/',
+        link: '/en/tutorial/leetcode/',
       },
       {
         text: 'Kick Start',
-        link: '/en/editorial/kick-start/',
+        link: '/en/tutorial/kick-start/',
       },
       {
         text: 'Project Euler',
-        link: '/editorial/project-euler/',
+        link: '/tutorial/project-euler/',
       },
       {
         text: 'Other Contests',
-        link: '/en/editorial/others/',
+        link: '/en/tutorial/others/',
       },
     ],
   },

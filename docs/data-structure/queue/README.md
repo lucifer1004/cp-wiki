@@ -82,7 +82,7 @@ public:
 
 ::: details 参考代码（C++）
 
-<<<@/docs/editorial/kick-start/2019C/src/b2.cpp
+<<<@/docs/tutorial/kick-start/2019C/src/b2.cpp
 
 :::
 

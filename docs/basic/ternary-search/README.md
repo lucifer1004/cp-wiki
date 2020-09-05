@@ -30,7 +30,7 @@ sidebarDepth: 3
 
 ::: details 参考代码（C++）
 
-<<<@/docs/editorial/codeforces/1394/src/c.cpp
+<<<@/docs/tutorial/codeforces/1394/src/c.cpp
 
 :::
 

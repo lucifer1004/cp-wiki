@@ -17,7 +17,7 @@ module.exports = {
   '/geometry/': ['basic/'],
   '/string/': ['prefix-function/', 'trie/', 'aho-corasick/'],
   '/combinatorics/': ['inclusion-exclusion/'],
-  '/editorial/kick-start/': [
+  '/tutorial/kick-start/': [
     '',
     {
       title: '2020',
@@ -30,7 +30,7 @@ module.exports = {
       children: ['2019G/', '2019F/', '2019D/', '2019C/'],
     },
   ],
-  '/editorial/atcoder/': [
+  '/tutorial/atcoder/': [
     '',
     {
       title: 'AtCoder Beginner Contest',
@@ -38,7 +38,7 @@ module.exports = {
       children: ['ABC177/', 'ABC176/', 'ABC175/', 'ABC174/'],
     },
   ],
-  '/editorial/codeforces/': [
+  '/tutorial/codeforces/': [
     '',
     {
       title: 'Regular Round',

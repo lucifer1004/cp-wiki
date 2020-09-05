@@ -42,7 +42,7 @@ sidebarDepth: 3
 
 ::: details 参考代码（C++）
 
-<<< @/docs/editorial/others/SNSS2020-R2/src/d.cpp
+<<< @/docs/tutorial/others/SNSS2020-R2/src/d.cpp
 
 :::
 
@@ -143,7 +143,7 @@ g.show()
 
 ::: details 参考代码（C++）
 
-<<<@/docs/editorial/codeforces/1394/src/c2.cpp
+<<<@/docs/tutorial/codeforces/1394/src/c2.cpp
 
 :::
 

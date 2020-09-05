@@ -35,35 +35,39 @@ module.exports = [
         text: '组合数学 | Combinatorics',
         link: '/combinatorics/',
       },
+      {
+        text: 'Ad-hoc',
+        link: '/ad-hoc/',
+      },
     ],
   },
   {
-    text: '题解 | Editorials',
+    text: '题解 | Tutorials',
     ariaLabel: '题解',
     items: [
       {
         text: 'Codeforces',
-        link: '/editorial/codeforces/',
+        link: '/tutorial/codeforces/',
       },
       {
         text: 'AtCoder',
-        link: '/editorial/atcoder/',
+        link: '/tutorial/atcoder/',
       },
       {
         text: 'Leetcode',
-        link: '/editorial/leetcode/',
+        link: '/tutorial/leetcode/',
       },
       {
         text: 'Kick Start',
-        link: '/editorial/kick-start/',
+        link: '/tutorial/kick-start/',
       },
       {
         text: 'Project Euler',
-        link: '/editorial/project-euler/',
+        link: '/tutorial/project-euler/',
       },
       {
         text: '其他比赛 | Other Contests',
-        link: '/editorial/others/',
+        link: '/tutorial/others/',
       },
     ],
   },
