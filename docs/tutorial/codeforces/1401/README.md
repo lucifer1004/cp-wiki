@@ -77,6 +77,8 @@ $$
 
 <<< @/docs/tutorial/codeforces/1401/src/d.cpp
 
+:::
+
 ## Problem E - [Devide Square](https://codeforces.com/contest/1401/problem/E)
 
 ### 题目描述
@@ -135,4 +137,3 @@ $$
 :::
 
 <Utterances />
-
