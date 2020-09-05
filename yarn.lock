@@ -3372,6 +3372,7 @@ __metadata:
     vuepress: ^1.5.3
     vuepress-plugin-autometa: ^0.1.13
     vuepress-plugin-git-log: ^1.0.1
+    vuepress-plugin-mailchimp: ^1.4.2
     vuepress-plugin-medium-zoom: ^1.1.8
     vuepress-plugin-sitemap: ^2.3.1
   languageName: unknown
@@ -10917,7 +10918,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"vuepress-plugin-mailchimp@npm:^1.4.1":
+"vuepress-plugin-mailchimp@npm:^1.4.1, vuepress-plugin-mailchimp@npm:^1.4.2":
   version: 1.4.2
   resolution: "vuepress-plugin-mailchimp@npm:1.4.2"
   dependencies:

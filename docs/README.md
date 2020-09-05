@@ -10,5 +10,7 @@ features:
   details: 每个人都有参加CP的不同理由。我个人把CP当做一种思维体操。
 - title: 如何参加CP
   details: 有许多在线的CP平台，知名的如Codeforces、AtCoder、USACO、Leetcode、洛谷等。还有许多平台提供了OJ功能，可以用于在线练习，比如POJ、HDOJ、Kattis、UVA、SPOJ、LibreOJ等。
-footer: MIT Licensed | Copyright © 2020-present Gabriel Wu
+footer: MIT Licensed | Copyright © 2020-present CP Wiki
 ---
+
+<SimpleNewsletter />

@@ -30,6 +30,7 @@ module.exports = {
   },
   themeConfig: {
     repo: 'lucifer1004/cp-wiki',
+    logo: '/favicon.ico',
     locales: {
       '/': {
         editLinkText: '在 GitHub 上编辑此页',
@@ -119,6 +120,13 @@ module.exports = {
           margin: 16,
           background: '#eaf4fc',
         },
+      },
+    ],
+    [
+      'vuepress-plugin-mailchimp',
+      {
+        endpoint:
+          'https://app.us17.list-manage.com/subscribe/post?u=1aceb21d1ce73c7969fb2b477&amp;id=2e839e1af0',
       },
     ],
     [
