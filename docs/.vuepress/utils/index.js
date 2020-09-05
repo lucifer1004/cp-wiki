@@ -12,4 +12,9 @@ module.exports = {
     }
     return ans;
   },
+  range(l, r, prefix, reversed = false) {
+    const v = [];
+    for (let i = l; i <= r; ++i) v.push(reversed ? r + l - i : i);
+    return v.map(it => `${prefix}${it}/`);
+  },
 };

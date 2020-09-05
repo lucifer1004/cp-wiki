@@ -1,4 +1,4 @@
-const { getSubfolders } = require('../utils');
+const { getSubfolders, range } = require('../utils');
 
 module.exports = {
   '/basic/': ['', ...getSubfolders('basic')],
@@ -61,6 +61,19 @@ module.exports = {
       title: 'Div.3 Round',
       collapsable: true,
       children: ['1409/', '1399/'],
+    },
+  ],
+  '/tutorial/leetcode/': [
+    '',
+    {
+      title: '周赛',
+      collapsable: true,
+      children: range(193, 204, 'WC', true),
+    },
+    {
+      title: '双周赛',
+      collapsable: true,
+      children: range(29, 34, 'BC', true),
     },
   ],
   '/blog/': null,
