@@ -3366,6 +3366,7 @@ __metadata:
     "@vuepress/plugin-blog": ^1.9.2
     "@vuepress/plugin-medium-zoom": ^1.5.4
     generate-robotstxt: ^8.0.3
+    tiny-pinyin: ^1.3.0
     vue-google-adsense: ^1.8.3
     vue-script2: ^2.1.0
     vuepress: ^1.5.3
@@ -10130,6 +10131,13 @@ fsevents@~2.1.2:
   version: 2.1.0
   resolution: "tiny-emitter@npm:2.1.0"
   checksum: 0055509c72e5fe35d6ab66fa6339342e0f29129e77ed2086e475fdf80be43a8651f2517be76513b46a042c8356396f4da5a35e2e23457252176808d5a892036a
+  languageName: node
+  linkType: hard
+
+"tiny-pinyin@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "tiny-pinyin@npm:1.3.0"
+  checksum: 6339af46f0c46369b87c3033f4497ae05dfba2a3bd4379573c3dd6434fe8ec1b9bbd8285837dde336563465bdbbfb06ee11118ba1947344a61bdae186a47a0b9
   languageName: node
   linkType: hard
 
