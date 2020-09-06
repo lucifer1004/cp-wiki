@@ -62,6 +62,10 @@ module.exports = [
         link: '/tutorial/project-euler/',
       },
       {
+        text: 'UOJ Translation',
+        link: '/en/tutorial/uoj/',
+      },
+      {
         text: 'Other Contests',
         link: '/en/tutorial/others/',
       },
