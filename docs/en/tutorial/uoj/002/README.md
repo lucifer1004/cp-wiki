@@ -1,5 +1,7 @@
 # UOJ002 - Hard to Get Up
 
+[Submit Your Solution](http://uoj.ac/problem/2)
+
 ## Description
 
 A warrior is to slay an evil dragon which hinders people from getting up easily. The dragon has $n$ gates defending it from attacks. On each gate there is an operation $op$ and a parameter $t$. $op$ can be $\text{OR}$, $\text{XOR}$ or $\text{AND}$，while $t$ is a non-negative integer. 
