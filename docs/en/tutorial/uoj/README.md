@@ -29,5 +29,6 @@ Then click the "提交" (Submit) button at the bottom to submit your answer.
 
 - [UOJ002 - Hard to Get Up](./002/)
 - [UOJ003 - Magic Forest](./003/)
+- [UOJ005 - Zoo](./005/)
 
 <Utterances />
