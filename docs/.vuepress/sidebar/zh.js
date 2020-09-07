@@ -12,7 +12,11 @@ module.exports = {
     {
       title: '进阶数据结构',
       collapsable: false,
-      children: ['disjoint-union/', 'segment-tree/'],
+      children: [
+        'balanced-binary-search-tree/',
+        'disjoint-union/',
+        'segment-tree/',
+      ],
     },
   ],
   '/graph-theory/': ['', ...getSubfolders('graph-theory')],

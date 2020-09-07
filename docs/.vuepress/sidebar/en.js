@@ -1,3 +1,5 @@
+const { getSubfolders, range } = require('../utils');
+
 module.exports = {
   '/en/tutorial/kick-start/': [
     '',
@@ -43,6 +45,7 @@ module.exports = {
       children: ['1409/', '1399/'],
     },
   ],
+  '/en/tutorial/uoj/': ['', ...getSubfolders('en/tutorial/uoj')],
   '/en/blog/': null,
   '/': 'auto',
 };

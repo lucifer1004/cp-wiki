@@ -12,6 +12,8 @@
 
 相对复杂一些的数据结构，是CP中数据结构方面的重点考察对象。
 
+### [平衡二叉搜索树](./balanced-binary-search-tree/)
+
 ### [并查集](./disjoint-union/)
 
 ### [线段树](./segment-tree/)

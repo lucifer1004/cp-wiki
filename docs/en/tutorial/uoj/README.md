@@ -14,7 +14,6 @@ Universal Online Judge (UOJ) is a famous OJ platform in China, with hundreds of 
 
 ![Success](./Register_3.png)
 
-
 ## Submission
 
 After signing in, you can go to a specific problem and submit your solution.
@@ -29,5 +28,6 @@ Then click the "提交" (Submit) button at the bottom to submit your answer.
 ## Shortcuts
 
 - [UOJ002 - Hard to Get Up](./002/)
+- [UOJ003 - Magic Forest](./003/)
 
 <Utterances />
