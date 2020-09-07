@@ -35,6 +35,10 @@ module.exports = [
         text: 'Combinatorics',
         link: '/combinatorics/',
       },
+      {
+        text: 'Ad Hoc',
+        link: '/en/ad-hoc',
+      },
     ],
   },
   {
