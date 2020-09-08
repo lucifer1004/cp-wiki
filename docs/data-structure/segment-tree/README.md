@@ -33,8 +33,8 @@ P.show()
 
 ### ITMO Academy: pilot course
 
-- [Part 1]([https://codeforces.com/edu/course/2/lesson/4](https://codeforces.com/edu/course/2/lesson/4))
-- [Part 2]([https://codeforces.com/edu/course/2/lesson/5](https://codeforces.com/edu/course/2/lesson/5))
+- [Part 1](https://codeforces.com/edu/course/2/lesson/4)
+- [Part 2](https://codeforces.com/edu/course/2/lesson/5)
 
 来自Codeforces EDU。包括视频教程、图文教程和35道练习题。其中Part 1侧重于单点修改，基本不涉及懒标记；Part 2侧重于区间修改，懒标记是其中的重要内容。
 
