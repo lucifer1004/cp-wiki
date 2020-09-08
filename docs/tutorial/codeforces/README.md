@@ -8,6 +8,7 @@ Codeforces上有四个分组（Div.1--Div.4），其中前三个的Rating下限�
 
 ## 快捷导航
 
+- [Codeforces Round 669 (Div. 2)](./1407/)
 - [Codeforces Round 667 (Div. 3)](./1409/)
 - [Codeforces Round 666](./1396/)
 - [Educational Codeforces Round 94](./1400/)

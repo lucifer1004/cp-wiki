@@ -32,7 +32,7 @@ module.exports = {
     {
       title: 'Div.2 Round',
       collapsable: true,
-      children: ['1401/', '1393/', '1388/'],
+      children: ['1407/', '1401/', '1393/', '1388/'],
     },
     {
       title: 'Educational Round',

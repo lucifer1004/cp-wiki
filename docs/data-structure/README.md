@@ -14,7 +14,7 @@
 
 ### [平衡二叉搜索树](./balanced-binary-search-tree/)
 
-### [并查集](./disjoint-union/)
+### [并查集](./disjoint-sets-union/)
 
 ### [线段树](./segment-tree/)
 

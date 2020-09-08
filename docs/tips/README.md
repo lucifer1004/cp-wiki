@@ -44,13 +44,17 @@ Google每年举办三种类型的编程竞赛。
 - [Code Jam](https://codingcompetitions.withgoogle.com/codejam)是Google的王牌赛事，也是最重要的赛事，分为资格赛、A轮、B轮、C轮和决赛。决赛每年有25个名额。
 - [Hash Code](https://codingcompetitions.withgoogle.com/hashcode)是一项团队赛，与一般编程竞赛不同，赛题一般为没有最优答案的优化问题。分为资格赛和决赛两轮。
 
+### [CodeChef](https://www.codechef.com/)
+
+由印度公司[Directi](https://www.directi.com/)创办的竞赛平台。特色是有Long Challenge，一种持续十多天的马拉松赛制，其中包含几道难度极高，可能需要花费数天时间的题目。
+
 ### [洛谷](https://www.luogu.com.cn/)
 
-国内竞赛和OJ平台。
+国内竞赛和OJ平台，用户群体的平均年龄比较低。
 
 ### [牛客竞赛](https://ac.nowcoder.com/acm/home)
 
-国内竞赛和OJ平台，商业性较强。
+国内竞赛和OJ平台，商业性较强。本体为[牛客网](https://nowcoder.com)，主要面向求职，讨论社区比较活跃。有一些公司在其平台上进行线上笔试和面试。
 
 ### [Leetcode](https://leetcode.com)
 
@@ -69,7 +73,7 @@ Google每年举办三种类型的编程竞赛。
 
 ## 网站平台（OJ类）
 
-### [SPOJ](https://www.spoj.com/)
+### [Sphere Online Judge](https://www.spoj.com/)
 
 ### [UVa Online Judge](https://onlinejudge.org/)
 
@@ -97,9 +101,17 @@ Google每年举办三种类型的编程竞赛。
 
 国内OJ平台。
 
+### [Vijos](https://vijos.org/)
+
+国内OJ平台。
+
 ### [AcWing](https://www.acwing.com/)
 
 由yxc（闫学灿）创办的OJ平台。
+
+### [HackerRank](https://www.hackerrank.com/)
+
+更偏向于求职，不限于CP，也包括很多软件开发相关的内容。有一些公司会在这一平台组织线上笔试。
 
 ## 实用工具
 

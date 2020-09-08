@@ -6,6 +6,7 @@ The 1900 bound (candidate master) for Div.1 applies to regular rounds where ther
 
 ## Shortcuts
 
+- [Codeforces Round 669 (Div. 2)](./1407/)
 - [Codeforces Round 667 (Div. 3)](./1409/)
 - [Codeforces Round 666](./1396/)
 - [Educational Codeforces Round 94](./1400/)
