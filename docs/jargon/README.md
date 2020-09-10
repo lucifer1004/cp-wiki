@@ -11,4 +11,13 @@
 - 裸：指一道题目的题面就非常直接地指向了解题所需要的算法或数据结构，不需要太多思考，直接套用经典方法即可。
 - 树剖：树链剖分的简称。
 
+<ClientOnly>
+  <InArticleAdsense
+      style="display:block; text-align:center;"
+      data-ad-layout="in-article"
+      data-ad-format="fluid"
+      data-ad-client="ca-pub-2391425047778930"
+      data-ad-slot="9967998595" />
+</ClientOnly>
+
 <Utterances />

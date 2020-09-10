@@ -50,6 +50,11 @@ export default {
           : true;
         return baseCheck && advancedCheck;
       });
+      blogs.sort(
+        (a, b) =>
+          new Date(b.frontmatter.published).getTime() -
+          new Date(a.frontmatter.published).getTime()
+      );
       this.loading = false;
       return blogs;
     },
@@ -83,6 +88,8 @@ export default {
 }
 
 .banner {
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
@@ -95,7 +102,7 @@ export default {
   border-radius: 7px;
   font-size: small;
   background: $accentColor;
-  margin-right: 5px;
+  margin: 2px 5px;
   color: white;
   font-weight: 500;
 }

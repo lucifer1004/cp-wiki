@@ -62,6 +62,10 @@ Google每年举办三种类型的编程竞赛。
 
 赛题质量波动较大，总体难度低于其他平台。比较适合新手。
 
+### [BinarySearch](https://binarysearch.io/)
+
+一个新的刷题网站，现在也在每周举办周赛。上面题目的总体难度要比Leetcode略高一些。
+
 <ClientOnly>
   <InArticleAdsense
       style="display:block; text-align:center;"
