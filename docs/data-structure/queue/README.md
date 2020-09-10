@@ -86,4 +86,54 @@ public:
 
 :::
 
+### [BS741 - Longest Equivalent Sublist After K Increments](https://binarysearch.io/problems/Longest-Equivalent-Sublist-After-K-Increments)
+
+::: details 提示一
+我们需要计算当前一段区间$[L,R]$所需要的操作次数。固定$L$不变，如果我们增大$R$，区间的最大值只会增大，那么需要的操作次数也一定增加。可以考虑使用双指针算法。
+:::
+
+::: details 提示二
+可以利用单调队列维护区间内的最大值。
+:::
+
+::: details 参考代码（C++）
+
+```cpp
+#include "solution.hpp"
+using namespace std;
+
+
+class Solution {
+    public:
+    int solve(vector<int>& nums, int k) {
+        int ans = 0;
+        int n = nums.size();
+        int l = 0, sum = 0;
+        deque<int> q;
+        auto check = [&](int len, int s){
+            if (q.empty())
+                return true;
+            int need = nums[q.front()] * len - s;
+            return need <= k;
+        };
+        for (int r = 0; r < n; ++r) {
+            sum += nums[r];
+            while (!q.empty() && nums[q.back()] <= nums[r])
+                q.pop_back();
+            q.push_back(r);
+            while (!check(r - l + 1, sum)) {
+                sum -= nums[l];
+                l++;
+                while (!q.empty() && q.front() < l)
+                    q.pop_front();
+            }
+            ans = max(ans, r - l + 1);
+        }
+        return ans;
+    }
+};
+```
+
+:::
+
 <Utterances />
