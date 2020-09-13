@@ -72,7 +72,7 @@ module.exports = {
     {
       title: '周赛',
       collapsable: true,
-      children: range(193, 205, 'WC', true),
+      children: range(193, 206, 'WC', true),
     },
     {
       title: '双周赛',
