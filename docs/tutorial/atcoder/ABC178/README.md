@@ -92,7 +92,7 @@ $$
 
 ## Problem F - [Contrast](https://atcoder.jp/contests/abc178/tasks/abc178_f)
 
-这题和Codeforces今年有一道$nAmB$的题目很像。
+这题和[CF1381C - Mastermind](https://codeforces.com/contest/1381/problem/C)很像。
 
 首先我们找出所有的冲突数，也即两个序列共有的数。我们把它们按照数值分组，然后用一个大根堆存储。每次，我们取出最上面两组，从中各取出一个位置，然后交叉放置，也即$x\rightarrow y,y\rightarrow x$；唯一的例外情况是只剩三组，且每组只有一个位置，此时我们采用轮换的方式，也即$x\rightarrow y,y\rightarrow z,z\rightarrow x$。
 

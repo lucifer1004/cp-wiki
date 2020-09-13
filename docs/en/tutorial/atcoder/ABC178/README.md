@@ -92,7 +92,7 @@ If you have referred to a solution on the Internet, that is OK. But the importan
 
 ## Problem F - [Contrast](https://atcoder.jp/contests/abc178/tasks/abc178_f)
 
-This problem is similar to a this year's Codeforces problem.
+This problem is similar to [CF1381C - Mastermind](https://codeforces.com/contest/1381/problem/C).
 
 First we need to handle the conflicting numbers. The strategy is based on swapping. We use a max-heap to store all conflicting numbers. Each time, we pick one from the top group $x$, and one from the second top group $y$, and put an $x$ at the $y$'s position, while putting a $y$ at the $x$'s position. There is only one exceptional case. If there are three groups left in the heap, and they all have only one position left, we should make a triplet swap, $x\rightarrow y,y\rightarrow z,z\rightarrow x$.
 
