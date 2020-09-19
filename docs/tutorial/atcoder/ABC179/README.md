@@ -2,7 +2,7 @@
 
 ## Problem A - [Plural Form](https://atcoder.jp/contests/abc179/tasks/abc179_a)
 
-直接实现逻辑即可。时间复杂度为$O(|S|)$.
+直接实现逻辑即可。时间复杂度为$O(|S|)$。
 
 ::: details 参考代码 （Python 3）
 
@@ -12,7 +12,7 @@
 
 ## Problem B - [Go to Jail](https://atcoder.jp/contests/abc179/tasks/abc179_b)
 
-按要求计数即可。时间复杂度为$O(N)$.
+按要求计数即可。时间复杂度为$O(N)$。
 
 ::: details 参考代码 （Python 3）
 
@@ -22,23 +22,23 @@
 
 ## Problem C - [A x B + C](https://atcoder.jp/contests/abc179/tasks/abc179_c)
 
-For a specific $C$, the number of $(A, B)$ pairs equals to the number of factors of $N-C$.
+固定$C$，符合条件的二元组$(A, B)$的数目就等于$N-C$的因子数，而一个正整数的因子数可以通过质因数分解求得。
 
-Note that the number of factors can be calculated via prime factorization. If 
+设
 
 $$
 n=p_1^{a_1}p_2^{a_2}\dots p_k^{a_k}
 $$
 
-Then the number of factors is 
+则其因子数为
 
 $$
 \prod_{i=1}^k(a_i+1)
 $$
 
-So we just perform prime factorization on all integers $1\dots N-1$, and calculate the sum of the number of factors.
+所以我们就计算$1\dots N-1$每个数的因子数，然后求和即可。
 
-Considering the number of prime numbers within $[1,x]$ can be approximated by $\frac{x}{\ln x}$, the total time complexity is $O(\frac{N\sqrt{N}}{\log N})$.
+因为$[1,x]$范围内的质数个数近似为$\frac{x}{\ln x}$，总时间复杂度为$O(\frac{N\sqrt{N}}{\log N})$。
 
 ::: details 参考代码 （C++）
 
@@ -48,13 +48,13 @@ Considering the number of prime numbers within $[1,x]$ can be approximated by $\
 
 ## Problem D - [Leaping Tak](https://atcoder.jp/contests/abc179/tasks/abc179_d)
 
-Suppose that we are currently at position $x$, where can we come from?
+考虑我们当前处在$x$位置，我们上一步可能来自哪里？
 
-We need to check all segments, and find a corresponding (if there is) segment $[l,r]$, which consists of the positions that can be our last position. Then we add $sum(l,r)$ to $dp[x]$.
+我们需要检查所有的区间，然后找出对应的区间$[l,r]$（如果这样的区间存在的话），这一区间包含了所有能够利用原区间中的步长跳跃到当前位置的位置，也即上一步可能的位置。接下来我们将$sum(l,r)$累加到$dp[x]$上。
 
-Since we need to calculate $sum(l,r)$ quickly, instead of using $dp[i]$, we use the prefix sum $sum[i]$.
+因为我们需要快速计算$sum(l,r)$，所以实际上我们可以使用前缀和$sum[i]$，而非$dp[i]$。
 
-Time complexity is $O(NK)$.
+时间复杂度为$O(NK)$。
 
 ::: details 参考代码 （C++）
 
@@ -64,11 +64,11 @@ Time complexity is $O(NK)$.
 
 ## Problem E - [Sequence Sum](https://atcoder.jp/contests/abc179/tasks/abc179_e)
 
-Obviously, after enough operations, the sequence will start looping forever. Since $M\leq10^5$, the length of the loop cannot be longer than $10^5$, so we just find the loop and calculate the result.
+显然，操作足够多次后，一定会开始循环。因为$M\leq10^5$，所以循环的长度不超过$10^5$，因此我们直接模拟找出循环节即可。
 
-Be careful that the start point of the loop is not necessarily $X$.
+需要注意的是，循环节的起点未必是$X$。
 
-Time complexity is $O(M)$.
+总时间复杂度为$O(M)$。
 
 ::: details 参考代码 （C++）
 
@@ -78,15 +78,13 @@ Time complexity is $O(M)$.
 
 ## Problem F - [Simplified Reversi](https://atcoder.jp/contests/abc179/tasks/abc179_f)
 
-When we put a white stone, how many black stones will be changed to white?
+当我们放一个白石头的时候，会改变多少黑石头的颜色？
 
-If we are performing the first type of operation, the number depends on the topmost white stone in the chosen column. If we are performing the second type of operation, the number depends on the leftmost white stone in the chosen row.
+对于第一种操作，这是由该列最上面的白石头决定的；对于第二种操作，这是由该行最左边的白石头决定的。
 
-What effects will our operation have on the board? The first type of operation will affect all rows within $[1, X]$ (where $X$ is the topmost white stone's row), and the second type of operation will affect all columns within $[1,X]$ (where $X$ is the leftmost white stone's column).
+而每种操作的影响是什么呢？第一种操作会影响$1\dots X$行（$X$是操作的列最上面的白石头所在的行），而第二种操作会影响$1\dots X$列（$X$是操作的行最左边的白石头所在的列）。
 
-So we just use two segment trees, one for columns and the other for rows. For each node, we store the maximum value in the segment. Particularly, for a leaf node, its maximum value equals to the topmost/leftmost position.
-
-Then when we apply an operation, it is like performing a cut on $[1,X]$, which sets all values $>X$ to $X$.
+很自然地想到用线段树来处理。一个储存每行最上面的白石头，另一个储存每列最左边的白石头。对于非叶结点，我们存储区间的最大值。因为我们每次操作相当于一个切割，把所有大于$X$的数都变为$X$，因此，存储区间最大值，可以让我们很方便地判断当前的切割是否产生了影响。
 
 时间复杂度为$O(Q\log N)$.
 
