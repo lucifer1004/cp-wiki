@@ -41,7 +41,14 @@ module.exports = {
     {
       title: 'AtCoder Beginner Contest',
       collapsable: true,
-      children: ['ABC178/', 'ABC177/', 'ABC176/', 'ABC175/', 'ABC174/'],
+      children: [
+        'ABC179/',
+        'ABC178/',
+        'ABC177/',
+        'ABC176/',
+        'ABC175/',
+        'ABC174/',
+      ],
     },
   ],
   '/tutorial/codeforces/': [
