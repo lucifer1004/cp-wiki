@@ -36,6 +36,10 @@ for (int i = 1; i < (1 << n); ++i) {
 
 如果我们对$n$个元素的所有子集进行子集的枚举，上面的两重循环可以在$O(3^n)$的时间复杂度内完成。
 
+## 折半搜索
+
+折半搜索（Meet in the middle），是一种对暴力枚举的优化策略。通过将原数据集分为两部分，然后对两部分分别进行枚举，再对两部分各自的搜索结果进行组合。如果最后一步的组合中，可以利用哈希表等将对二元组的枚举变为对一侧元素的枚举，就可以将整体的时间复杂度开方，从$O(2^N)$降低到$O(2^{N/2})$。
+
 ## 学习资源
 
 ### [Matters Computational](https://www.springer.com/gp/book/9783642147630)
@@ -51,6 +55,11 @@ for (int i = 1; i < (1 << n); ++i) {
 
 本书包含大量奇技淫巧，强烈建议收藏一本。
 
+### 参考链接
+
+- [Geeks for Geeks - Meet in the middle](https://www.geeksforgeeks.org/meet-in-the-middle/)
+- [OI Wiki - 折半搜索](https://oi-wiki.org/search/bidirectional/#_2)
+
 ## 练习题
 
 ### [LC46 - 全排列](https://leetcode-cn.com/problems/permutations/)
@@ -64,3 +73,7 @@ for (int i = 1; i < (1 << n); ++i) {
 ### [LC1494 - 并行课程 II](https://leetcode-cn.com/problems/parallel-courses-ii/) 
 
 枚举子集。
+
+### [LC805 - 数组的均值分割](https://leetcode-cn.com/problems/split-array-with-same-average/submissions/)
+
+折半搜索。
