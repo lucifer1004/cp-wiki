@@ -105,6 +105,40 @@ public:
 
 :::
 
+更好的方法是使用回溯（~~我发现我不太喜欢写回溯，于是有时候很吃亏~~），因为实际上有很多状态是没有必要枚举的（在前面就已经出现了重复的）。
+
+::: details 参考代码（C++，回溯）
+
+```cpp
+class Solution {
+    int n, ans = 0;
+    unordered_set<string> st;
+    void dfs(string &s, int pos) {
+        if (pos == n)
+            ans = max(ans, (int)st.size());
+        int rest = n - pos;
+        if (st.size() + rest <= ans)
+            return;
+        for (int i = pos; i < n; ++i) {
+            string sub = s.substr(pos, i - pos + 1);
+            if (st.count(sub))
+                continue;
+            st.insert(sub);
+            dfs(s, i + 1);
+            st.erase(sub);
+        }
+    }
+public:
+    int maxUniqueSplit(string s) {
+        n = s.size();
+        dfs(s, 0);
+        return ans;
+    }
+};
+```
+
+:::
+
 ## Problem C - [矩阵的最大非负积](https://leetcode-cn.com/problems/maximum-non-negative-product-in-a-matrix/)
 
 动态规划，记录每个位置上可以得到的最大非负乘积和最大非正乘积即可。
