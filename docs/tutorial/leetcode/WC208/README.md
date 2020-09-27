@@ -18,7 +18,7 @@ public:
                 continue;
             if (s == "../")
                 depth = max(0, depth - 1);
-            else 
+            else
                 depth++;
         }
         return depth;
@@ -54,7 +54,6 @@ public:
                 hi = profit;
                 idx = turn;
             }
-                
         }
         while (rem) {
             turn++;
