@@ -28,7 +28,7 @@ module.exports = {
     {
       title: '2020',
       collapsable: true,
-      children: ['2020E/', '2020D/'],
+      children: ['2020F/', '2020E/', '2020D/'],
     },
     {
       title: '2019',
@@ -79,7 +79,7 @@ module.exports = {
     {
       title: '周赛',
       collapsable: true,
-      children: range(193, 207, 'WC', true),
+      children: range(193, 208, 'WC', true),
     },
     {
       title: '双周赛',

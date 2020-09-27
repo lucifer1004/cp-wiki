@@ -86,6 +86,42 @@ public:
 
 :::
 
+### [BS397 - Bunnyhopping](https://binarysearch.com/problems/Bunnyhopping)
+
+::: details 提示
+考虑第$i$个位置，我们需要找到$[i-k,i-1]$这一段区间内的最小成本。也即，我们需要维护一个滑动窗口的最小值。
+:::
+
+::: details 参考代码（C++）
+
+```cpp
+#include "solution.hpp"
+using namespace std;
+const int INF = 0x3f3f3f3f;
+
+class Solution {
+    public:
+    int solve(vector<int>& nums, int k) {
+        int n = nums.size();
+        vector<int> cost(n, INF);
+        cost[0] = nums[0];
+        deque<int> dq;
+        dq.push_back(0);
+        for (int i = 1; i < n; ++i) {
+            while (!dq.empty() && i - dq.front() > k)
+                dq.pop_front();
+            cost[i] = cost[dq.front()] + nums[i];
+            while (!dq.empty() && cost[dq.back()] >= cost[i])
+                dq.pop_back();
+            dq.push_back(i);
+        }
+        return cost[n - 1];
+    }
+};
+```
+
+:::
+
 ### [BS741 - Longest Equivalent Sublist After K Increments](https://binarysearch.io/problems/Longest-Equivalent-Sublist-After-K-Increments)
 
 ::: details 提示一
