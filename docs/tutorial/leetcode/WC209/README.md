@@ -150,14 +150,6 @@ public:
 const double eps = 1e-8;
 
 class Solution {
-    double calc(double dx, double dy) {
-        bool sign = dy < 0;
-        double d = sqrt(dx * dx + dy * dy);
-        double arc = acos((double)dx / d);
-        if (sign)
-            arc = M_PI * 2 - arc;
-        return arc * 180 / M_PI;
-    }
 public:
     int visiblePoints(vector<vector<int>>& points, int angle, vector<int>& location) {
         int x = location[0], y = location[1];
@@ -167,9 +159,8 @@ public:
             int px = p[0], py = p[1];
             if (px == x && py == y)
                 same++;
-            else {
-                v.emplace_back(calc(px - x, py - y));
-            }
+            else
+                v.emplace_back(atan2(px - x, py - y) * 180 / M_PI);
         }
         sort(v.begin(), v.end());
         int m = v.size();
