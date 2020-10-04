@@ -56,6 +56,35 @@ public:
 
 :::
 
+### 方法三：计数数组后缀和
+
+我们可以首先进行计数（$\geq N$的元素视为$N$，因为特征值最大为$N$），然后计算计数数组的后缀和，就可以直接得到不小于某一个数的元素个数。
+
+时间复杂度$O(N)$。
+
+::: details 参考代码（C++）
+
+```cpp
+class Solution {
+public:
+    int specialArray(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> cnt(n + 1);
+        for (int num : nums)
+            cnt[min(num, n)]++;
+        for (int i = n; i >= 0; --i) {
+            if (i < n)
+                cnt[i] += cnt[i + 1];
+            if (cnt[i] == i)
+                return i;
+        }
+        return -1;
+    }
+};
+```
+
+:::
+
 ## Problem B - [奇偶树](https://leetcode-cn.com/problems/even-odd-tree/)
 
 经典层次遍历。BFS后得到每一层的序列，然后逐层检查即可。
