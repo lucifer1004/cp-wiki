@@ -192,6 +192,8 @@ public:
 
 要注意到的是，因为必须首先将高位的$1$翻转为$0$，所以本题其实只存在一种合法的操作顺序，我们只要按照这一顺序进行操作即可。
 
+### 方法一：递归
+
 手算几个数，可以发现$F(2^n)=2^{n+1}-1$，因此我们可以将其作为一个捷径。
 
 我们需要考虑两种情况：
@@ -222,6 +224,30 @@ class Solution {
 public:
     int minimumOneBitOperations(int n) {
         return f(n);
+    }
+};
+```
+
+:::
+
+### 方法二：格雷码
+
+如果进一步观察，可以发现，题目中给出的操作，实际上就是从Gray(n)变换为Gray(n-1)的操作。所以我们可以直接套用求逆格雷码的方法来进行求解。
+
+时间复杂度$O(\log N)$。
+
+::: details 参考代码（C++）
+
+```cpp
+class Solution {
+public:
+    int minimumOneBitOperations(int n) {
+        int ans = 0;
+        while (n) {
+            ans ^= n;
+            n >>= 1;
+        }
+        return ans;
     }
 };
 ```
