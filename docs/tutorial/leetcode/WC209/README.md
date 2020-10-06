@@ -160,7 +160,7 @@ public:
             if (px == x && py == y)
                 same++;
             else
-                v.emplace_back(atan2(px - x, py - y) * 180 / M_PI);
+                v.emplace_back(atan2(py - y, px - x) * 180 / M_PI);
         }
         sort(v.begin(), v.end());
         int m = v.size();
