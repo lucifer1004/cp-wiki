@@ -97,6 +97,47 @@ public:
 
 :::
 
+### [BS808 - K-Distinct-Groups](https://binarysearch.com/problems/K-Distinct-Groups)
+
+::: details 提示一
+
+如果要求选出$m$个组合，能否实现？
+
+:::
+
+::: details 提示二
+
+如果要选出$m$组，意味着每种类型最多用$m$次。
+
+:::
+
+::: details 参考代码（C++）
+
+```cpp
+#include "solution.hpp"
+using namespace std;
+
+class Solution {
+    public:
+    int solve(vector<int>& counts, int k) {
+        int l = 1, r = INT_MAX;
+        while (l <= r) {
+            int mid = l + (r - l) / 2;
+            int tot = 0;
+            for (int count : counts)
+                tot += min(mid, count);
+            if (tot >= (long long)mid * k)
+                l = mid + 1;
+            else
+                r = mid - 1;
+        }
+        return r;
+    }
+};
+```
+
+:::
+
 ### [CF1394C - Boboniu and String](https://codeforces.com/problemset/problem/1394/C)
 
 ::: details 提示一
