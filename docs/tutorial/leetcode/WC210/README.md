@@ -172,11 +172,8 @@ public:
         }
         for (int i = 1; i < (1 << n); ++i) {
             bs = bitset<16>(i);
-            int idx = 0;
-            while (!bs[idx])
-                idx++;
             cities = 0;
-            auto [max_dist, max_depth] = dfs(idx, 0, -1);
+            auto [max_dist, max_depth] = dfs(__builtin_ctz(i), 0, -1);
             if (cities == bs.count() && max_dist > 0)
                 ans[max_dist - 1]++;
         }
