@@ -97,7 +97,7 @@ public:
 
 :::
 
-### [BS808 - K-Distinct-Groups](https://binarysearch.com/problems/K-Distinct-Groups)
+### [BS - K-Distinct-Groups](https://binarysearch.com/problems/K-Distinct-Groups)
 
 ::: details 提示一
 
