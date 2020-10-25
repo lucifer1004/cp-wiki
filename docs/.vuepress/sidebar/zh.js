@@ -1,7 +1,13 @@
 const { getSubfolders, range } = require('../utils');
 
 module.exports = {
-  '/basic/': ['', ...getSubfolders('basic')],
+  '/basic/': [
+    '',
+    'enumerate/',
+    'binary-search/',
+    'ternary-search/',
+    'breadth-first-search/',
+  ],
   '/algebra/': ['', ...getSubfolders('algebra')],
   '/data-structure/': [
     {
