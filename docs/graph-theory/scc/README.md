@@ -18,6 +18,14 @@ Kosaraju算法的出发点是：一个连通分量是强连通分量，当且仅
 
 ## 练习题
 
+### [BS - Connected-Cities](https://binarysearch.com/problems/Connected-Cities)
+
+::: details 提示
+
+判断所有点是否构成一个强连通分量即可。
+
+:::
+
 ### [BS - Cheapest Cost to All Cities](https://binarysearch.com/problems/Cheapest-Cost-to-All-Cities)
 
 ::: details 提示一
