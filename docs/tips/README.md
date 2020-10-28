@@ -46,7 +46,7 @@ Google每年举办三种类型的编程竞赛。
 
 ### [CodeChef](https://www.codechef.com/)
 
-由印度公司[Directi](https://www.directi.com/)创办的竞赛平台。特色是有Long Challenge，一种持续十多天的马拉松赛制，其中包含几道难度极高，可能需要花费数天时间的题目。
+由印度公司[Directi](https://www.directi.com/)运营的竞赛平台。特色是有Long Challenge，一种持续十多天的马拉松赛制，其中包含几道难度极高，可能需要花费数天时间的题目。
 
 ### [洛谷](https://www.luogu.com.cn/)
 
@@ -85,6 +85,8 @@ Google每年举办三种类型的编程竞赛。
 
 ### [Kattis](https://open.kattis.com/)
 
+### [DMOJ](https://dmoj.ca/)
+
 ### [POJ](http://poj.org/)
 
 国内最老牌的OJ之一，由北京大学主办。目前界面和系统已经比较陈旧。
@@ -99,7 +101,7 @@ Google每年举办三种类型的编程竞赛。
 
 ### [LibreOJ](https://loj.ac/)
 
-国内OJ平台。
+国内OJ平台。由[Menci](https://oi.men.ci/)和张晴川创办。
 
 ### [Comet OJ](https://www.cometoj.com/)
 
@@ -111,7 +113,7 @@ Google每年举办三种类型的编程竞赛。
 
 ### [AcWing](https://www.acwing.com/)
 
-由yxc（闫学灿）创办的OJ平台。
+国内OJ平台。由闫学灿创办。
 
 ### [HackerRank](https://www.hackerrank.com/)
 
