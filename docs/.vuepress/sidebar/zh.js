@@ -26,6 +26,7 @@ module.exports = {
     },
   ],
   '/graph-theory/': ['', ...getSubfolders('graph-theory')],
+  '/dynamic-programming/': ['', ...getSubfolders('dynamic-programming')],
   '/geometry/': ['', ...getSubfolders('geometry')],
   '/string/': ['', ...getSubfolders('string')],
   '/combinatorics/': ['', ...getSubfolders('combinatorics')],

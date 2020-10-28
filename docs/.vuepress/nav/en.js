@@ -24,6 +24,10 @@ module.exports = [
         link: '/graph-theory/',
       },
       {
+        text: 'Dynamic Programming',
+        link: '/dynamic-programming/',
+      },
+      {
         text: 'Geometry',
         link: '/geometry/',
       },

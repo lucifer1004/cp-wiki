@@ -24,6 +24,10 @@ module.exports = [
         link: '/graph-theory/',
       },
       {
+        text: '动态规划 | Dynamic Programming',
+        link: '/dynamic-programming/',
+      },
+      {
         text: '计算几何 | Computational Geometry',
         link: '/geometry/',
       },
