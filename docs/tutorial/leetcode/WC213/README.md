@@ -36,7 +36,9 @@ public:
 
 ## Problem B - [统计字典序元音字符串的数目](https://leetcode-cn.com/problems/count-sorted-vowel-strings/)
 
-动态规划。$dp[i][j]$表示最后一个字母**不大于**第$j$个元音字母的长度为$i$的字符串数目。显然，我们有转移：
+### 方法一 动态规划
+
+用$dp[i][j]$表示最后一个字母**不大于**第$j$个元音字母的长度为$i$的字符串数目。显然，我们有转移：
 
 $$
 dp[i][j]=dp[i-1][j] + dp[i][j-1]
@@ -73,6 +75,40 @@ public:
 ```
 
 :::
+
+### 方法二 组合计数
+
+在本题中，我们可以写出方程：
+
+$$
+a+e+i+o+u=N
+$$
+
+其中$a,e,i,o,u$均为非负整数。
+
+不妨令
+
+$$
+a'=a+1,e'=e+1,\dots,u'=u+1
+$$
+
+则我们有：
+
+$$
+a'+e'+i'+o'+u'=N+5
+$$
+
+其中$a',e',i',o',u'$均为正整数。
+
+此时我们可以使用隔板法求解，一共$N+4$个间隔，需要放入$4$个搁板，所以最后的答案为${N+4}\choose4$。
+
+::: details 参考代码 （Python 3）
+
+```python
+class Solution:
+    def countVowelStrings(self, n: int) -> int:
+        return math.comb(n + 4, 4)
+```
 
 ## Problem C - [可以到达的最远建筑](https://leetcode-cn.com/problems/furthest-building-you-can-reach/)
 
