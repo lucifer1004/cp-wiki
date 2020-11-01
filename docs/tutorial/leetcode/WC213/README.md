@@ -110,6 +110,8 @@ class Solution:
         return math.comb(n + 4, 4)
 ```
 
+:::
+
 ## Problem C - [可以到达的最远建筑](https://leetcode-cn.com/problems/furthest-building-you-can-reach/)
 
 贪心。我们应当首先使用梯子，如果梯子已经用完，我们需要找出之前最小的一个高度差，改为使用砖块。这提示我们使用优先队列来存储每一个大于$0$的高度差。
