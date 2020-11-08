@@ -20,7 +20,7 @@
 
 ::: details 参考代码（C++）
 
-<<<@/docs/tutorial/others/HC2020-R2/src/c.cpp
+<<<@/docs/tutorial/others/HC2020-R2/src/a.cpp
 
 :::
 
