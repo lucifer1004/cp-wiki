@@ -42,7 +42,7 @@ We can maintain the farthest position $ans$, the current position $pos$, the pre
 
 In each round, we first update $sum$, then update $hi$. It is obvious that we can reach at most $pos+hi$ in this round, so we will use it to update $ans$, and then use $pos+sum$ to update $pos$.
 
-时间复杂度$\mathcal{O}(N)$。
+Time complexity is $\mathcal{O}(N)$。
 
 ::: details Code (C++)
 
