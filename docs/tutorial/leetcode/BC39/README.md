@@ -59,7 +59,7 @@ BFS即可，注意除了要记录当前的位置，还需要记录上一步是�
 ::: details 参考代码（C++）
 
 ```cpp
-const int INF = 1e9 + 7;
+const int INF = 0x3f3f3f3f;
 const int HI = 4005;
 
 class Solution {
