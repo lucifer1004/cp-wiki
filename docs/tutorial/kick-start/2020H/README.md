@@ -55,7 +55,7 @@ $$
 
 最后的时间复杂度为$O(N\log N+N\log MAX)$，这里的$MAX$为我们进行三分查找的范围。
 
-::: details 参考代码（C++）
+::: details 参考代码（C++，三分查找）
 
 <<< @/docs/tutorial/kick-start/2020H/src/c.cpp
 
@@ -63,11 +63,19 @@ $$
 
 我们也可以对$dist(x+1)-dist(x)$或$k(x)$进行二分查找，方法是类似的。
 
-::: details Code (C++, binary search)
+::: details Code (C++，二分查找)
 
 <<< @/docs/tutorial/kick-start/2020H/src/c1.cpp
 
 :::
+
+事实上，我们也可以对$x$使用中位数方法。但是，我们需要在第一次排序后，用$X_i-i$替换$X_i$，然后再次排序。[官方题解](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff49/000000000043b027#analysis)给出了很好的解释。
+
+::: details Code (C++，对$x$两次排序)
+
+<<< @/docs/tutorial/kick-start/2020H/src/c2.cpp
+
+::: 
 
 ## Problem D - [Friends](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff49/000000000043aee7)
 

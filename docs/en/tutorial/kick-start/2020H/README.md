@@ -69,6 +69,14 @@ We can also do binary search on $dist(x+1)-dist(x)$, or $k(x)$, and the solution
 
 :::
 
+Actually, we can also apply the median method on $x$. But we need to substitute $X_i$ with $X_i-i$ after the first sort, and then do a second sort. Detailed explanation can be seen in the [official analysis](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff49/000000000043b027#analysis).
+
+::: details Code (C++, two-pass sorting for $x$)
+
+<<< @/docs/tutorial/kick-start/2020H/src/c2.cpp
+
+::: 
+
 ## Problem D - [Friends](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff49/000000000043aee7)
 
 If we build a graph with the strings, we will have too many edges.
