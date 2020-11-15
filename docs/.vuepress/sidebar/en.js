@@ -6,7 +6,7 @@ module.exports = {
     {
       title: '2020',
       collapsable: true,
-      children: ['2020F/', '2020E/', '2020D/'],
+      children: ['2020H/', '2020F/', '2020E/', '2020D/'],
     },
     {
       title: '2019',
