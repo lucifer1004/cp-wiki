@@ -8,7 +8,7 @@
 
 ::: details 参考代码 （Python 3）
 
-<<<@/docs/tutorial/atcoder/abc183/src/a.py
+<<<@/docs/tutorial/atcoder/ABC183/src/a.py
 
 :::
 
@@ -26,7 +26,7 @@ $$
 
 ::: details 参考代码 （Python 3）
 
-<<<@/docs/tutorial/atcoder/abc183/src/b.py
+<<<@/docs/tutorial/atcoder/ABC183/src/b.py
 
 :::
 
@@ -38,7 +38,7 @@ $N$很小，枚举所有路线即可。
 
 ::: details 参考代码 （Python 3）
 
-<<<@/docs/tutorial/atcoder/abc183/src/c.py
+<<<@/docs/tutorial/atcoder/ABC183/src/c.py
 
 :::
 
@@ -54,7 +54,7 @@ $N$很小，枚举所有路线即可。
 
 ::: details 参考代码 （C++）
 
-<<<@/docs/tutorial/atcoder/abc183/src/d.cpp
+<<<@/docs/tutorial/atcoder/ABC183/src/d.cpp
 
 :::
 
@@ -70,7 +70,7 @@ $N$很小，枚举所有路线即可。
 
 ::: details 参考代码 （C++）
 
-<<<@/docs/tutorial/atcoder/abc183/src/e.cpp
+<<<@/docs/tutorial/atcoder/ABC183/src/e.cpp
 
 :::
 
@@ -82,7 +82,7 @@ $N$很小，枚举所有路线即可。
 
 ::: details 参考代码 （C++）
 
-<<<@/docs/tutorial/atcoder/abc183/src/f.cpp
+<<<@/docs/tutorial/atcoder/ABC183/src/f.cpp
 
 :::
 

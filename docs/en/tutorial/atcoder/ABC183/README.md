@@ -6,7 +6,7 @@ See the [Video Tutorial](https://www.youtube.com/watch?v=paWC0OYpOHk). And here 
 
 ::: details Code (Python 3)
 
-<<<@/docs/tutorial/atcoder/abc183/src/a.py
+<<<@/docs/tutorial/atcoder/ABC183/src/a.py
 
 :::
 
@@ -14,7 +14,7 @@ See the [Video Tutorial](https://www.youtube.com/watch?v=paWC0OYpOHk). And here 
 
 ::: details Code (Python 3)
 
-<<<@/docs/tutorial/atcoder/abc183/src/b.py
+<<<@/docs/tutorial/atcoder/ABC183/src/b.py
 
 :::
 
@@ -22,7 +22,7 @@ See the [Video Tutorial](https://www.youtube.com/watch?v=paWC0OYpOHk). And here 
 
 ::: details Code (Python 3)
 
-<<<@/docs/tutorial/atcoder/abc183/src/c.py
+<<<@/docs/tutorial/atcoder/ABC183/src/c.py
 
 :::
 
@@ -30,7 +30,7 @@ See the [Video Tutorial](https://www.youtube.com/watch?v=paWC0OYpOHk). And here 
 
 ::: details Code (C++)
 
-<<<@/docs/tutorial/atcoder/abc183/src/d.cpp
+<<<@/docs/tutorial/atcoder/ABC183/src/d.cpp
 
 :::
 
@@ -38,7 +38,7 @@ See the [Video Tutorial](https://www.youtube.com/watch?v=paWC0OYpOHk). And here 
 
 ::: details Code (C++)
 
-<<<@/docs/tutorial/atcoder/abc183/src/e.cpp
+<<<@/docs/tutorial/atcoder/ABC183/src/e.cpp
 
 :::
 
@@ -46,7 +46,7 @@ See the [Video Tutorial](https://www.youtube.com/watch?v=paWC0OYpOHk). And here 
 
 ::: details Code (C++)
 
-<<<@/docs/tutorial/atcoder/abc183/src/f.cpp
+<<<@/docs/tutorial/atcoder/ABC183/src/f.cpp
 
 :::
 
