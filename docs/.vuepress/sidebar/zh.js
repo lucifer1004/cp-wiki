@@ -4,6 +4,7 @@ module.exports = {
   '/basic/': [
     '',
     'enumerate/',
+    'sorting/',
     'binary-search/',
     'ternary-search/',
     'breadth-first-search/',
