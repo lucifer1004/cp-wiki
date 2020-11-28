@@ -18,6 +18,12 @@ sidebarDepth: 3
 
 ## 练习题
 
+### [LC493 - 翻转对](https://leetcode-cn.com/problems/reverse-pairs/)
+
+::: details 提示
+在归并排序的过程中求解。
+:::
+
 ### [CF1452E - Two Editorials](https://codeforces.com/contest/1452/problem/E)
 
 ::: details 提示一
