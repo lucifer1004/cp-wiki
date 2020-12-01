@@ -8,6 +8,7 @@ module.exports = {
     'binary-search/',
     'ternary-search/',
     'breadth-first-search/',
+    'small-to-large/',
   ],
   '/algebra/': ['', ...getSubfolders('algebra')],
   '/data-structure/': [
