@@ -2,6 +2,8 @@
 
 [视频题解](https://www.youtube.com/watch?v=paWC0OYpOHk)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/paWC0OYpOHk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Problem A - [ReLU](https://atcoder.jp/contests/abc183/tasks/abc183_a)
 
 直接输出$\max(0,N)$即可，时间复杂度$\mathcal{O}(1)$。

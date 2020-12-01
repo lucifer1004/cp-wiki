@@ -2,6 +2,8 @@
 
 [视频题解](https://www.youtube.com/watch?v=wnYpGt72S0w)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wnYpGt72S0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Problem A - [Determinant](https://atcoder.jp/contests/abc184/tasks/abc184_a)
 
 直接计算即可。
