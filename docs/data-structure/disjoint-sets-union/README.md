@@ -12,7 +12,7 @@ sidebarDepth: 3
 
 ## 练习题
 
-### [BS742 - Graph Weight Queries](https://binarysearch.io/problems/Graph-Weight-Queries)
+### [BS - Graph Weight Queries](https://binarysearch.io/problems/Graph-Weight-Queries)
 
 ::: details 提示一
 离线查询。
@@ -53,7 +53,7 @@ public:
         for (int i = 0; i < (n << 1); ++i)
             p[i] = i;
         auto cmp = [](vector<int> &a, vector<int> &b){
-           return a[2] < b[2]; 
+           return a[2] < b[2];
         };
         sort(edges.begin(), edges.end(), cmp);
         sort(queries.begin(), queries.end(), cmp);

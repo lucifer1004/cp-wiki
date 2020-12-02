@@ -6,6 +6,14 @@ sidebarDepth: 3
 
 队列（Queue）是一种具有先进先出特性的线性数据结构。
 
+## 用栈实现队列
+
+部分语言（比如JavaScript）的标准库没有提供队列实现，如果直接用数组之类的数据结构，那么模拟出队操作的时间复杂度会是$\mathcal{O}(N)$，这是我们所不能接受的。
+
+用链表来实现队列是一种可行的操作。但更简单的办法是利用标准库中已有的数组数据结构，用两个栈来模拟队列。原理很简单，栈是后入先出（LIFO）的，但再加上一个栈，负负得正，就得到了我们需要的先入先出（FIFO）性质，同时，出队操作的复杂度在均摊意义下是$\mathcal{O}(1)$的。
+
+练习：[LC232 - 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)。
+
 ## 双端队列
 
 双端队列（Deque）是可以在两端进行插入和弹出操作的线性数据结构。
@@ -86,7 +94,7 @@ public:
 
 :::
 
-### [BS397 - Bunnyhopping](https://binarysearch.com/problems/Bunnyhopping)
+### [BS - Bunnyhopping](https://binarysearch.com/problems/Bunnyhopping)
 
 ::: details 提示
 考虑第$i$个位置，我们需要找到$[i-k,i-1]$这一段区间内的最小成本。也即，我们需要维护一个滑动窗口的最小值。
@@ -122,7 +130,7 @@ class Solution {
 
 :::
 
-### [BS741 - Longest Equivalent Sublist After K Increments](https://binarysearch.io/problems/Longest-Equivalent-Sublist-After-K-Increments)
+### [BS - Longest Equivalent Sublist After K Increments](https://binarysearch.io/problems/Longest-Equivalent-Sublist-After-K-Increments)
 
 ::: details 提示一
 我们需要计算当前一段区间$[L,R]$所需要的操作次数。固定$L$不变，如果我们增大$R$，区间的最大值只会增大，那么需要的操作次数也一定增加。可以考虑使用双指针算法。
