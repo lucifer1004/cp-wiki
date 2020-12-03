@@ -1466,17 +1466,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/core@npm:1.5.4":
-  version: 1.5.4
-  resolution: "@vuepress/core@npm:1.5.4"
+"@vuepress/core@npm:1.7.1":
+  version: 1.7.1
+  resolution: "@vuepress/core@npm:1.7.1"
   dependencies:
     "@babel/core": ^7.8.4
     "@vue/babel-preset-app": ^4.1.2
-    "@vuepress/markdown": 1.5.4
-    "@vuepress/markdown-loader": 1.5.4
-    "@vuepress/plugin-last-updated": 1.5.4
-    "@vuepress/plugin-register-components": 1.5.4
-    "@vuepress/shared-utils": 1.5.4
+    "@vuepress/markdown": 1.7.1
+    "@vuepress/markdown-loader": 1.7.1
+    "@vuepress/plugin-last-updated": 1.7.1
+    "@vuepress/plugin-register-components": 1.7.1
+    "@vuepress/shared-utils": 1.7.1
     autoprefixer: ^9.5.1
     babel-loader: ^8.0.4
     cache-loader: ^3.0.0
@@ -1498,7 +1498,7 @@ __metadata:
     url-loader: ^1.0.1
     vue: ^2.6.10
     vue-loader: ^15.7.1
-    vue-router: ^3.1.3
+    vue-router: ^3.4.5
     vue-server-renderer: ^2.6.10
     vue-template-compiler: ^2.6.10
     vuepress-html-webpack-plugin: ^3.2.0
@@ -1508,42 +1508,42 @@ __metadata:
     webpack-dev-server: ^3.5.1
     webpack-merge: ^4.1.2
     webpackbar: 3.2.0
-  checksum: da9c3d3b969ab559c998994c29ecdfa879dfb4f929fa80dd4dc4c65774daca8ab4d7401a8b19cf986d78953cbf4200f23b13d94de20bf548b7c6f95ac9a1599c
+  checksum: fdf3d9daee358b6fb5f3164c0858dd7669298cc19fe8421a3666db48e057b057b64a2f7c47c7ed10248d1e5195be1dbea0f16c0265bcc146bf63ce6ce50db6f7
   languageName: node
   linkType: hard
 
-"@vuepress/markdown-loader@npm:1.5.4":
-  version: 1.5.4
-  resolution: "@vuepress/markdown-loader@npm:1.5.4"
+"@vuepress/markdown-loader@npm:1.7.1":
+  version: 1.7.1
+  resolution: "@vuepress/markdown-loader@npm:1.7.1"
   dependencies:
-    "@vuepress/markdown": 1.5.4
+    "@vuepress/markdown": 1.7.1
     loader-utils: ^1.1.0
     lru-cache: ^5.1.1
-  checksum: 6f41cc7b6627d187441c0818a0a310688f47288c0de4350f11ed0a17fd1c2631fa0a9dfc620d013e1fbd117fa6c07f531c728e262a6aee4f6c722d258df7d114
+  checksum: 7745b41f1bd399fde03275968cd449ff757d95efefd776989958f09b8ffe07a2052e0012ec78ce0e8751ac98aabd0972d434350b97ddb180e2c5aa375bec7ad8
   languageName: node
   linkType: hard
 
-"@vuepress/markdown@npm:1.5.4":
-  version: 1.5.4
-  resolution: "@vuepress/markdown@npm:1.5.4"
+"@vuepress/markdown@npm:1.7.1":
+  version: 1.7.1
+  resolution: "@vuepress/markdown@npm:1.7.1"
   dependencies:
-    "@vuepress/shared-utils": 1.5.4
+    "@vuepress/shared-utils": 1.7.1
     markdown-it: ^8.4.1
     markdown-it-anchor: ^5.0.2
     markdown-it-chain: ^1.3.0
     markdown-it-emoji: ^1.4.0
     markdown-it-table-of-contents: ^0.4.0
     prismjs: ^1.13.0
-  checksum: 983757a6c44949b65e3fb656ee6aa50956599b973d385637f2321bae40b9855c084316df6fe986a92d6381c211be54656eacb6d9eb8de3f9687ebc52e249a5df
+  checksum: 32d42320615fb77af76d316c5569ab79dc86a8e0d436706257c60c231a6a823ff365cbf5ff4b252b36389dff0cb3641b306f06ba9451c361c7bea91d2e0162d4
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-active-header-links@npm:1.5.4":
-  version: 1.5.4
-  resolution: "@vuepress/plugin-active-header-links@npm:1.5.4"
+"@vuepress/plugin-active-header-links@npm:1.7.1":
+  version: 1.7.1
+  resolution: "@vuepress/plugin-active-header-links@npm:1.7.1"
   dependencies:
     lodash.debounce: ^4.0.8
-  checksum: c6f2df460ff8dda3e37195dbb5e523eca226f7822a8a9e1e1d688bf0b5cc1c61c0cdb1658ce0589f0de1acaa83238fe2c2e756e882cad321980c68aa5195df1a
+  checksum: b6fc004089306c4d5ec3a86395023f1f2d29e233010bf3555009f8608a09fb38c33e13bd3786b1719d829fcc92aebf357b38756f2eb368ec67014eb0f1cd3f79
   languageName: node
   linkType: hard
 
@@ -1563,12 +1563,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-last-updated@npm:1.5.4":
-  version: 1.5.4
-  resolution: "@vuepress/plugin-last-updated@npm:1.5.4"
+"@vuepress/plugin-last-updated@npm:1.7.1":
+  version: 1.7.1
+  resolution: "@vuepress/plugin-last-updated@npm:1.7.1"
   dependencies:
     cross-spawn: ^6.0.5
-  checksum: 50d4d9de2700a8b3821154db8d9e1c0c252fe98d79c1db6043cf8b816f81030dce969f643688c0afd8ad0faa2be9397c3043c3134bfbc5efc8e2ef154cb97e92
+  checksum: e7e2981d1736e3403b89269fc5c22b923b03016d2528e0aebf4d753cc4393b7cc3cbe6945469522a56a50a9d5e82cebb3172f0f33b076a49e42005b51e07ae87
   languageName: node
   linkType: hard
 
@@ -1581,34 +1581,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-nprogress@npm:1.5.4":
-  version: 1.5.4
-  resolution: "@vuepress/plugin-nprogress@npm:1.5.4"
+"@vuepress/plugin-nprogress@npm:1.7.1":
+  version: 1.7.1
+  resolution: "@vuepress/plugin-nprogress@npm:1.7.1"
   dependencies:
     nprogress: ^0.2.0
-  checksum: fc2075796a6a6aa69ebf1b6f1f8ee709edb140f871f540d6ea27478c37017b5705ab048709b4febb11678e4f71a8caed75a419d2ffb37d5923749d4edf7fe1b7
+  checksum: 651fd9aac863780450c9fda5bc1e14eedbfd196e779a494f3b2036c30158979306a0d4d44d369bded9ce9a8bd3bdfad0d94ece06f4ba54235403b4b7de10ef62
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-register-components@npm:1.5.4":
-  version: 1.5.4
-  resolution: "@vuepress/plugin-register-components@npm:1.5.4"
+"@vuepress/plugin-register-components@npm:1.7.1":
+  version: 1.7.1
+  resolution: "@vuepress/plugin-register-components@npm:1.7.1"
   dependencies:
-    "@vuepress/shared-utils": 1.5.4
-  checksum: ca6e57ead37da3847fc0a48a9ca60f0f253a2b9fb21aafe6be211048c45b2864a46e575fea26f7d43795594ea30efc75bbdce880882d3729a410aac2fe343325
+    "@vuepress/shared-utils": 1.7.1
+  checksum: 149cfe02148a69427b8eae37e1d246e29645ceee72638c5ee81562d678ae3bd89b33af6bdfb5cb144a124d47cb2d40a1e0b5da1e257405f0eb8e595ae0ee52b9
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-search@npm:1.5.4":
-  version: 1.5.4
-  resolution: "@vuepress/plugin-search@npm:1.5.4"
-  checksum: ada298a9d2aa5199506e254fe3bf4ec2a7bf359ac3a9e294ea44d023f076bd307492cabb46f02122663976d549c4ff867d15d2c6eaaaf3ea6d53f00e8a7b551d
+"@vuepress/plugin-search@npm:1.7.1":
+  version: 1.7.1
+  resolution: "@vuepress/plugin-search@npm:1.7.1"
+  checksum: c3c5ebdf3b646882845b9d3d91477d6053ab21965959b5f78c4b516faa7f21f75eeb7256c20b7c5d0ed305f4197859a59709a507dddf8ba013225bf34c4fc958
   languageName: node
   linkType: hard
 
-"@vuepress/shared-utils@npm:1.5.4":
-  version: 1.5.4
-  resolution: "@vuepress/shared-utils@npm:1.5.4"
+"@vuepress/shared-utils@npm:1.7.1":
+  version: 1.7.1
+  resolution: "@vuepress/shared-utils@npm:1.7.1"
   dependencies:
     chalk: ^2.3.2
     escape-html: ^1.0.3
@@ -1619,24 +1619,24 @@ __metadata:
     semver: ^6.0.0
     toml: ^3.0.0
     upath: ^1.1.0
-  checksum: 71d7412e17d0c69d308016c68f5946e7a68f62ccc7e71eb0c603c4b60f083fa5cdfb3889a3303528d6ea4365c84c6055528b98d256f0840e7f69c0c25497d397
+  checksum: ea415128aed534b7eacd189c42fcd14d70861e4c094fd2661e49acade938302bc8faa64b2401a7d1beb4be5c8f72901df59df13e9c5ff003e9065e2d3690d8ff
   languageName: node
   linkType: hard
 
-"@vuepress/theme-default@npm:1.5.4":
-  version: 1.5.4
-  resolution: "@vuepress/theme-default@npm:1.5.4"
+"@vuepress/theme-default@npm:1.7.1":
+  version: 1.7.1
+  resolution: "@vuepress/theme-default@npm:1.7.1"
   dependencies:
-    "@vuepress/plugin-active-header-links": 1.5.4
-    "@vuepress/plugin-nprogress": 1.5.4
-    "@vuepress/plugin-search": 1.5.4
+    "@vuepress/plugin-active-header-links": 1.7.1
+    "@vuepress/plugin-nprogress": 1.7.1
+    "@vuepress/plugin-search": 1.7.1
     docsearch.js: ^2.5.2
     lodash: ^4.17.15
-    stylus: ^0.54.5
+    stylus: ^0.54.8
     stylus-loader: ^3.0.2
     vuepress-plugin-container: ^2.0.2
     vuepress-plugin-smooth-scroll: ^0.0.3
-  checksum: 66fe52d7094d91cd9ddd46780d3d9f7ba1477bda89e912020dc6789d820ff17e4425324e9136298697e9973265432cb0e6d02ffa7ae1a07ad8540b3e4b571fbb
+  checksum: e0ca15a58cf493d4195bef04a6c1204448d154a1c75ff8653b2eb882c028676b8c122fe4bb595e67591382cedcf259f1751b963c1e8d4849b20016cf9ef342a7
   languageName: node
   linkType: hard
 
@@ -3368,7 +3368,7 @@ __metadata:
     tiny-pinyin: ^1.3.0
     vue-google-adsense: ^1.8.3
     vue-script2: ^2.1.0
-    vuepress: ^1.5.4
+    vuepress: ^1.7.1
     vuepress-plugin-autometa: ^0.1.13
     vuepress-plugin-git-log: ^1.0.1
     vuepress-plugin-mailchimp: ^1.4.2
@@ -9931,7 +9931,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"stylus@npm:^0.54.5":
+"stylus@npm:^0.54.8":
   version: 0.54.8
   resolution: "stylus@npm:0.54.8"
   dependencies:
@@ -10763,10 +10763,10 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"vue-router@npm:^3.1.3":
-  version: 3.3.4
-  resolution: "vue-router@npm:3.3.4"
-  checksum: 5fb8bafedd8409a9be0640714c7ab5c9db403934f4f5edd5654086629fc37614fadff7a4d1afc97a6eaecdb6ebe68b3db6b3be4dd274c76a5d5e76f45f57f146
+"vue-router@npm:^3.4.5":
+  version: 3.4.9
+  resolution: "vue-router@npm:3.4.9"
+  checksum: eaacc4d5019428fd04ce7a31f8709f35cd0f26f2408445d1d2e6298508a6710a0ca7c3607080bbe10c5708e4ce0c00840f56f6097842494b43612561c42a8e54
   languageName: node
   linkType: hard
 
@@ -10953,19 +10953,19 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"vuepress@npm:^1.5.4":
-  version: 1.5.4
-  resolution: "vuepress@npm:1.5.4"
+"vuepress@npm:^1.7.1":
+  version: 1.7.1
+  resolution: "vuepress@npm:1.7.1"
   dependencies:
-    "@vuepress/core": 1.5.4
-    "@vuepress/theme-default": 1.5.4
+    "@vuepress/core": 1.7.1
+    "@vuepress/theme-default": 1.7.1
     cac: ^6.5.6
     envinfo: ^7.2.0
     opencollective-postinstall: ^2.0.2
     update-notifier: ^4.0.0
   bin:
     vuepress: cli.js
-  checksum: f7fd710967b753de697a86ccbdce102f38fa062b31d4bd92c99a68d768bd488ffed762ff58606ed198b314b1bd80a98d8655687dc447dbf2625a2669e6724f11
+  checksum: 5e23cbeb2aa648ea4db4572a9f4d66c53065d959d0ae58ce4ddc7cd839e972da5d2a422d4f1c1ef3fb49ab38d500a6bc06a3435b9c552df28fed148ac257141f
   languageName: node
   linkType: hard
 
