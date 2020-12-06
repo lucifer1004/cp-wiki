@@ -14,13 +14,13 @@
 
 ## 中国台湾
 
-- [dreamoon_love_AA (黄以文)](https://codeforces.com/profile/dreamoon_love_AA) [博客](http://dreamoon4.blogspot.com/)
-- [tmwilliamlin168 (William Lin)](https://codeforces.com/profile/tmwilliamlin168)
+- [dreamoon_love_AA (黄以文)](https://codeforces.com/profile/dreamoon_love_AA) [博客](http://dreamoon4.blogspot.com/) [YouTube频道](https://www.youtube.com/channel/UCMFwjnsjFyk3KS8Si-gvKng)
+- [tmwilliamlin168 (William Lin)](https://codeforces.com/profile/tmwilliamlin168) IOI 2020世界第一。
 
 ## 美国
 
 - [Benq (Benjamin Qi)](https://codeforces.com/profile/Benq)
-- [ecnerwala (Andrew Lawrence He)](https://codeforces.com/profile/ecnerwala)
+- [ecnerwala (Andrew Lawrence He)](https://codeforces.com/profile/ecnerwala) [Twitch频道](https://www.twitch.tv/ecnerwala)
 - [neal (Neal Wu)](https://codeforces.com/profile/neal)
 - [scott_wu (Scott Wu)](https://codeforces.com/profile/scott_wu)
 
@@ -41,7 +41,7 @@
 
 ## 白罗斯
 
-- [tourist (Gennady Korotkevich)](https://codeforces.com/profile/tourist) 当今世界上公认的编程竞赛第一人，IOI六金一银，Google Code Jam七连冠（2014--2020）。
+- [tourist (Gennady Korotkevich)](https://codeforces.com/profile/tourist) 当今世界上公认的编程竞赛第一人，IOI六金一银，Google Code Jam七连冠（2014--2020）。 [YouTube频道](https://www.youtube.com/channel/UCkySD00cmDWYHXA31hqRYRw) [Twitch频道](https://www.twitch.tv/the__tourist/)
 
 ## 波兰
 
