@@ -91,6 +91,26 @@ class Solution:
 
 :::
 
+使用C++中的内置函数`__builtin_clz`来求$i$的二进制表示的长度是更迅速的。因为内置函数有指令集优化，所以时间复杂度会来到$\mathcal{O}(N)$。
+
+::: details 参考代码（C++）
+```cpp
+const int MOD = 1e9 + 7;
+
+class Solution {
+public:
+    int concatenatedBinary(int n) {
+        long long ans = 0;
+        for (int i = 1; i <= n; ++i) {
+            int len = 32 - __builtin_clz(i);
+            ans = ((ans << len) + i) % MOD;
+        }
+        return ans;
+    }
+};
+```
+:::
+
 ## Problem D - [最小不兼容性](https://leetcode-cn.com/problems/minimum-incompatibility/)
 
 看到$N$的范围，立即想到进行状态压缩。
@@ -140,7 +160,7 @@ class Solution {
         int ans = INF;
         
         // 优化二：子集枚举优化
-        for (int sub = state - 1; sub; sub = (sub - 1) & state) {
+        for (int sub = state & (state - 1); sub; sub = (sub - 1) & state) {
             if (__builtin_popcount(sub) % sz != 0)
                 continue;
             int left = solve(sub);
