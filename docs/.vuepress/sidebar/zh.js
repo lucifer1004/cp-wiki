@@ -33,6 +33,7 @@ module.exports = {
   '/geometry/': ['', ...getSubfolders('geometry')],
   '/string/': ['', ...getSubfolders('string')],
   '/combinatorics/': ['', ...getSubfolders('combinatorics')],
+  '/miscellaneous/': ['', ...getSubfolders('miscellaneous')],
   '/tutorial/kick-start/': [
     '',
     {

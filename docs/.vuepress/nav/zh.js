@@ -40,6 +40,10 @@ module.exports = [
         link: '/combinatorics/',
       },
       {
+        text: '杂项 | Miscellaneous',
+        link: '/miscellaneous/',
+      },
+      {
         text: 'Ad Hoc',
         link: '/ad-hoc/',
       },
