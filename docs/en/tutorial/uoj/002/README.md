@@ -69,7 +69,7 @@ Consider each bit separately.
 
 ::: details Hint 2
 
-If for a set bit of $m$, it is not worse to choose $0$, we should choose $0$. More than that, we are free to choose from $0$ and $1$ for the bits following. 
+If for a set bit of $m$, it is not worse to choose $0$, we should choose $0$. More than that, we are free to choose from $0$ and $1$ for the bits following.
 
 :::
 
