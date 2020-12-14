@@ -44,4 +44,22 @@ abcababc
 
 ## Tutorial
 
+::: details Hint 1
+
+Use Z-Algorithm.
+
+:::
+
+::: details Hint 2
+
+Each $z[i]$ (we need to constraint it below $i$ since overlapping is not allowed) will contribute $1$ to $num[i\dots i+z[i]-1]$. So we can use a difference array and then get the values of each $num[i]$.
+
+:::
+
+::: details Code (C++)
+
+<<<@/docs/en/tutorial/uoj/005/src/005.cpp
+
+:::
+
 <Utterances />
