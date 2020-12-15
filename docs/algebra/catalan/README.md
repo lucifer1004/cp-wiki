@@ -32,6 +32,58 @@ $$
 - 凸多边形的三角划分
 - ……
 
+## 卡特兰数的性质
+
+- 参考资料：[Koshy et al., 2006](https://www.maa.org/sites/default/files/Koshy-CMJ-2006.pdf)
+
+### 奇偶性
+
+卡特兰数$C_n$是奇数，当且仅当$n=2^k-1$。
+
+证明：
+
+$$
+C_n=\frac{(2n)!}{(n+1)!n!}=\frac{(2n-1)!!\cdot2^n}{(n+1)!}
+$$
+
+显然$(2n-1)!!$中不含$2$，所以要判断$C_n$的奇偶性，也就要判断$(n+1)!$含有多少个$2$。
+
+这时，我们有：
+
+$$
+T=\lfloor\frac{n+1}{2}\rfloor+\lfloor\frac{n+1}{4}\rfloor+\cdots+\lfloor\frac{n+1}{2^k}\rfloor<n+1
+$$
+
+也即$T\leq n$。其中$k=\argmax_t(2^t\leq n+1)$。
+
+下面我们要说明$n=2^k-1$是等号成立的充要条件。
+
+充分性是显然的，将$n=2^k-1$代入上式，可得：
+
+$$
+T=2^{k-1}+2^{k-2}+\cdots+1=2^k-1=n
+$$
+
+下面说明必要性。设$n=2^k+x,0\leq x<2^k-1$，则$n+1<2^{k+1}$，也即$k=\argmax_t(2^t\leq n+1)$依然成立。
+
+此时，原式左边变为：
+
+$$
+l.h.s=2^k-1+\lfloor\frac{x+1}{2}\rfloor+\lfloor\frac{x+1}{4}\rfloor+\cdots+\lfloor\frac{x+1}{2^k}\rfloor
+$$
+
+从而:
+
+$$
+l.h.s<2^k-1+x+1=2^k+x=n
+$$
+
+这样，我们就说明了原命题的充要性。进而可知，$C_n$为奇数，当且仅当$n=2^k-1$。
+
+### 质数
+
+所有卡特兰数中只有两个质数，$C_2=2$以及$C_3=5$。
+
 ## 练习题
 
 ### [BS - Planar Edges](https://binarysearch.com/problems/Planar-Edges)
