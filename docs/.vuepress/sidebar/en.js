@@ -20,6 +20,7 @@ module.exports = {
       title: 'AtCoder Beginner Contest',
       collapsable: true,
       children: [
+        'ABC186/',
         'ABC185/',
         'ABC184/',
         'ABC183/',
