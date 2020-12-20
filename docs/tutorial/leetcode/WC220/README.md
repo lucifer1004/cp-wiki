@@ -52,6 +52,7 @@ public:
 - 空间复杂度$\mathcal{O}(N)$。
 
 ::: details 参考代码（C++）
+
 ```cpp
 class Solution {
 public:
@@ -77,6 +78,7 @@ public:
     }
 };
 ```
+
 :::
 
 ## Problem C - [跳跃游戏 VI](https://leetcode-cn.com/problems/jump-game-vi/)
@@ -87,6 +89,7 @@ public:
 - 空间复杂度$\mathcal{O}(N)$。
 
 ::: details 参考代码（C++）
+
 ```cpp
 class Solution {
 public:
@@ -108,6 +111,7 @@ public:
     }
 };
 ```
+
 :::
 
 ## Problem D - [检查边长度限制的路径是否存在](https://leetcode-cn.com/problems/checking-existence-of-edge-length-limited-paths/)
