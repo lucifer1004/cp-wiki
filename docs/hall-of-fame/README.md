@@ -26,6 +26,7 @@
 
 ## 俄罗斯
 
+- [300iq (Ildar Gainullin)](https://codeforces.com/profile/300iq)
 - [Mike Mirzayanov](https://codeforces.com/profile/MikeMirzayanov) 知名CP网站Codeforces的CEO。
 - [Um_nik (Alex Danilyuk)](https://codeforces.com/profile/Um_nik)
 
@@ -54,7 +55,6 @@
 
 ## 加拿大
 
-- [300iq (Ildar Gainullin)](https://codeforces.com/profile/300iq)
 - [ksun48 (Kevin Sun)](https://codeforces.com/profile/ksun48)
 
 <Utterances />

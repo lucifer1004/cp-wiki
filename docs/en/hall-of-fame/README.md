@@ -26,6 +26,7 @@ A record of some famous people in CP (handles are in lexical order).
 
 ## Russia
 
+- [300iq (Ildar Gainullin)](https://codeforces.com/profile/300iq)
 - [Mike Mirzayanov](https://codeforces.com/profile/MikeMirzayanov) CEO of [Codeforces](https://codeforces.com)
 - [Um_nik (Alex Danilyuk)](https://codeforces.com/profile/Um_nik)
 
@@ -54,7 +55,6 @@ A record of some famous people in CP (handles are in lexical order).
 
 ## Canada
 
-- [300iq (Ildar Gainullin)](https://codeforces.com/profile/300iq)
 - [ksun48 (Kevin Sun)](https://codeforces.com/profile/ksun48)
 
 <Utterances />
