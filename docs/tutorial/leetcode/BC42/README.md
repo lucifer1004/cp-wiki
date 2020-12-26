@@ -2,9 +2,9 @@
 
 ## Problem A - [无法吃午餐的学生数量](https://leetcode-cn.com/problems/number-of-students-unable-to-eat-lunch/)
 
-使用队列和栈直接模拟即可。可以预先统计喜欢每种三明治的学生人数，如果当前栈顶的三明治对应的学生人数已经为$0$，则可以提前终止。
+预先统计喜欢每种三明治的学生人数，并用栈模拟三明治堆。需要注意的是，不需要对学生的队列进行模拟，因为每次一定会找到一个喜欢当前栈顶三明治的学生，所以直接扣减人数即可。如果当前栈顶的三明治对应的学生人数已经为$0$，则可以提前终止。
 
-- 时间复杂度$\mathcal{O}(N^2)$。
+- 时间复杂度$\mathcal{O}(N)$。
 - 空间复杂度$\mathcal{O}(N)$。
 
 ::: details 参考代码（C++）
@@ -16,22 +16,14 @@ public:
         stack<int> st;
         for (int i = (int)sandwiches.size() - 1; i >= 0; --i)
             st.push(sandwiches[i]);
-        queue<int> q;
         vector<int> t(2);
-        for (int student : students) {
+        for (int student : students)
             t[student]++;
-            q.push(student);
-        }
         while (!st.empty() && t[st.top()]) {
-            while (q.front() != st.top()) {
-                q.pop();
-                q.push(1 - st.top());
-            }
-            q.pop();
             t[st.top()]--;
             st.pop();
         }
-        return q.size();
+        return st.size();
     }
 };
 ```
