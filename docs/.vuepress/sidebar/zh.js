@@ -100,7 +100,7 @@ module.exports = {
     {
       title: '双周赛',
       collapsable: true,
-      children: range(29, 41, 'BC', true),
+      children: range(29, 42, 'BC', true),
     },
   ],
   '/blog/': null,
