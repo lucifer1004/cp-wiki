@@ -4,6 +4,7 @@ There are three types of contests, beginner, regular and grand. AtCoder Beginner
 
 ## Shortcuts
 
+- [AtCoder Beginner Contest 187](./ABC187/)
 - [AtCoder Beginner Contest 186](./ABC186/)
 - [AtCoder Beginner Contest 185](./ABC185/)
 - [AtCoder Beginner Contest 184](./ABC184/)
