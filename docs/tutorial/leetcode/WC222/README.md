@@ -1,5 +1,7 @@
 # Leetcode 第222场周赛题解
 
+本场比赛的实况录像：[Bilibili](https://www.bilibili.com/video/BV1sA411W7VC) | [YouTube](https://youtu.be/nMh6nZxjWUQ)
+
 ## Problem A - [卡车上的最大单元数](https://leetcode-cn.com/problems/maximum-units-on-a-truck/)
 
 因为箱子可以一个一个装，所以显然应该优先选择单元数最大的箱子，因此对箱子类型按照单元数目降序排序，然后贪心选取即可。
