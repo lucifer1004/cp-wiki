@@ -138,7 +138,7 @@ public:
 这样，最长公共子序列就变成了最长上升子序列，而我们知道后者是有$\mathcal{O}(N\log N)$的解法的，于是本题得以解决。
 
 - 时间复杂度$\mathcal{O}(M\log\min(N,M))$，这里$\min(N,M)$是因为我们得到的公共子序列长度不会超过$\min(N,M)$，于是我们进行二分搜索的时间复杂度为$\mathcal{O}(\log\min(N,M))$。
-- 空间复杂度$\mathcal{O}(N)$。
+- 空间复杂度$\mathcal{O}(N+M)$。
 
 ::: details 参考代码（C++）
 
