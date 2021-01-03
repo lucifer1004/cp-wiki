@@ -72,7 +72,7 @@ public:
 
 ## Problem C - [将数组分成三个子数组的方案数](https://leetcode-cn.com/problems/ways-to-split-array-into-three-subarrays/)
 
-双指针+二分。
+### 方法一：双指针+二分
 
 - 双指针保证中间区间的和不小于左边区间。
 - 二分查找能够使得中间区间的和不大于右边区间的最右位置。
@@ -113,6 +113,44 @@ public:
                     lo = mid + 1;
             }
             ans += hi - m + 1;
+        }
+        return ans % MOD;
+    }
+};
+```
+
+:::
+
+### 方法二：三指针
+
+进一步观察可以发现，在方法一中，我们二分查找的右边界实际上是单调递增的，所以我们可以再增加一个指针，以达到线性的时间复杂度。
+
+- 时间复杂度$\mathcal{O}(N)$。
+- 空间复杂度$\mathcal{O}(N)$。
+
+::: details 参考代码（C++）
+
+```cpp
+typedef long long ll;
+const ll MOD = 1e9 + 7;
+
+class Solution {
+public:
+    int waysToSplit(vector<int>& nums) {
+        int n = nums.size();
+        vector<int> s(n + 1);
+        for (int i = 1; i <= n; ++i)
+            s[i] = s[i - 1] + nums[i - 1];
+        ll ans = 0;
+        int l = 2, r = 2;
+        for (int m = 2; m <= n - 1; ++m) {
+            l = max(l, m), r = max(r, m);
+            while (r + 1 < n && s[n] - s[r + 1] >= s[r + 1] - s[m - 1])
+                r++;
+            while (l < n && s[l] - s[m - 1] < s[m - 1])
+                l++;
+            if (r < n && l <= r && s[l] - s[m - 1] >= s[m - 1] && s[n] - s[r] >= s[r] - s[m - 1])
+                ans += r - l + 1;
         }
         return ans % MOD;
     }
