@@ -64,7 +64,7 @@ public:
 
 利用$allowedSwaps$构建并查集，然后在每一个连通分量内使用哈希表计数，然后贪心匹配即可。
 
-- 时间复杂度$\mathcal{O}(N)$。
+- 时间复杂度$\mathcal{O}(N+M)$，其中$N$是$target$和$source$的长度，$M$是$allowedSwaps$的长度。
 - 空间复杂度$\mathcal{O}(N)$。
 
 ::: details 参考代码（C++）
