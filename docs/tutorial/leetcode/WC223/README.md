@@ -177,4 +177,106 @@ public:
 
 :::
 
+### 优化一  动态规划的优化
+
+我们可以进一步优化可行性判断中的动态规划，用$dp[i]$表示状态为$i$时所用员工数量最少且最后一个员工的剩余时间最长的方案所对应的员工数量和最后一个员工的剩余时间，这样就不需要对子集进行枚举，同时也不再需要预计算每个子集的总和了。
+
+- 时间复杂度$\mathcal{O}(N\cdot2^N\log\sum job_i))$，其中$N$是任务的数量。
+- 空间复杂度$\mathcal{O}(2^N)$。
+
+::: details 参考代码（C++）
+
+```cpp
+class Solution {
+public:
+    int minimumTimeRequired(vector<int>& jobs, int k) {
+        int n = jobs.size();
+        int lo = *max_element(jobs.begin(), jobs.end());
+        int hi = 0;
+        for (int job : jobs)
+            hi += job;
+        int mask = 1 << n;
+        auto can = [&](int limit) {
+            vector<pair<int, int>> dp(mask, make_pair(k + 1, 0));
+            dp[0] = {0, limit};
+            for (int i = 0; i < mask; ++i) {
+                for (int j = 0; j < n; ++j) {
+                    if (i & (1 << j))
+                        continue;
+                    pair<int, int> nxt = dp[i].second + jobs[j] <= limit ? make_pair(dp[i].first, dp[i].second + jobs[j]) : make_pair(dp[i].first + 1, jobs[j]);
+                    dp[i ^ (1 << j)] = min(dp[i ^ (1 << j)], nxt);
+                }
+            }
+            return dp[mask - 1].first <= k;
+        };
+        while (lo <= hi) {
+            int mid = (lo + hi) >> 1;
+            if (can(mid))
+                hi = mid - 1;
+            else
+                lo = mid + 1;
+        }
+        return lo;
+    }
+};
+```
+
+:::
+
+###  优化二 二分上下界的优化
+
+事实上，我们知道最后的答案一定等于某一个子集的和，所以我们只需要在这些子集的和中进行二分搜索就可以了。从而，我们可以进一步优化时间复杂度。
+
+需要注意的是，要去除子集和中小于最大的单个元素的那些值，否则将导致错误。
+
+- 时间复杂度$\mathcal{O}(N\cdot2^N\log2^N))=\mathcal{O}(N^2\cdot2^N)$，其中$N$是任务的数量。
+- 空间复杂度$\mathcal{O}(2^N)$。
+
+::: 参考代码（C++）
+
+```cpp
+class Solution {
+public:
+    int minimumTimeRequired(vector<int>& jobs, int k) {
+        int n = jobs.size();
+        int mask = 1 << n;
+        vector<int> sub(mask);
+        for (int i = 0; i < mask; ++i)
+            for (int j = 0; j < n; ++j)
+                if (i & (1 << j))
+                    sub[i] += jobs[j];
+        set<int> s(sub.begin(), sub.end());
+        int ma = *max_element(jobs.begin(), jobs.end());
+        vector<int> v;
+        for (int i : s)
+            if (i >= ma)
+                v.emplace_back(i);
+        auto can = [&](int limit) {
+            vector<pair<int, int>> dp(mask, make_pair(k + 1, 0));
+            dp[0] = {0, limit};
+            for (int i = 0; i < mask; ++i) {
+                for (int j = 0; j < n; ++j) {
+                    if (i & (1 << j))
+                        continue;
+                    pair<int, int> nxt = dp[i].second + jobs[j] <= limit ? make_pair(dp[i].first, dp[i].second + jobs[j]) : make_pair(dp[i].first + 1, jobs[j]);
+                    dp[i ^ (1 << j)] = min(dp[i ^ (1 << j)], nxt);
+                }
+            }
+            return dp[mask - 1].first <= k;
+        };
+        int lo = 0, hi = v.size() - 1;
+        while (lo <= hi) {
+            int mid = (lo + hi) >> 1;
+            if (can(v[mid]))
+                hi = mid - 1;
+            else
+                lo = mid + 1;
+        }
+        return v[lo];
+    }
+};
+```
+
+:::
+
 <Utterances />
