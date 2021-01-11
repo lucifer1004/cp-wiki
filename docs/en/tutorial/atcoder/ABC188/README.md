@@ -42,13 +42,44 @@ Time complexity is $\mathcal{O}(2^N)$.
 
 ## Problem D - [Snuke Prime](https://atcoder.jp/contests/abc188/tasks/abc188_d)
 
-First discretize the endpoints ($a_i-1$ and $b_i+1$ should also be taken into consideration). Then use a difference array to find the cost of each segment without a subscription, then calculate the minimum cost for each segment and sum them up.
+:::tip
 
-Time complexity is $\mathcal{O}(N\log N)$.
+Editorial for this problem has been completely **rewritten**.
 
-::: details Code (C++)
+:::
+
+Consider at first we have an infinite time span $[0,+\infty)$. The services will split the span into several non-overlapping segments. For example, if we have servcies $[1,4]$ and $[3,8]$, the final segments would be (note that we discard the leftmost segment, which should be $[0,0]$ in this case):
+
+$$
+[1,2],[3,4],[5,8],[9,+\infty)
+$$
+
+Which can also be seen as:
+
+$$
+[1,3),[3,5),[5,9),[9,+\infty)
+$$
+
+ To represent these segments, we only need their left endpoints, that is, $1,3,5,9$. And these left endpoints come from either $a_i$ or $b_i+1$. This is because only the start or the end of a service will make a difference. A service $[a_i,b_i]$ can also be seen as $[a_i,b_i+1)$, in which $b_i+1$ is the first day that is not included, which means it is a start of a new segment. On the $a_i$-th day, the total cost will increase by $c_i$, while on the $b_i+1$-th day, the total cost will decrease by $c_i$.
+
+After we get the segments, we need to calculate the cost for each segment, and compare it with $C$, the price of the subscription. The time span of a segment can be easily determined from the start of the current segment and the start of the next segment.
+
+To deal with the segments, we have two choices.
+
+1. (More overhead) We can discretize the endpoints and use a difference array to find the cost of each segment.
+2. (Clearer) We can use a map to store the change happening to the total cost on each critical day ($a_i$ or $b_i+1$, which is the start endpoint of a segment), then handle the segments one by one.
+
+Both methods have a time complexity of $\mathcal{O}(N\log N)$, since in both cases we need a sorted list of the timestamps.
+
+::: details Code (C++, Discretization)
 
 <<<@/docs/tutorial/atcoder/ABC188/src/d.cpp
+
+:::
+
+::: details Code (C++, Map)
+
+<<<@/docs/tutorial/atcoder/ABC188/src/d2.cpp
 
 :::
 
