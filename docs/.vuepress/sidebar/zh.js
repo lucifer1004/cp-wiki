@@ -95,14 +95,24 @@ module.exports = {
   '/tutorial/leetcode/': [
     '',
     {
-      title: '周赛',
+      title: '周赛（221~240）',
       collapsable: true,
-      children: range(193, 223, 'WC', true),
+      children: range(221, 224, 'WC', true),
+    },
+    {
+      title: '周赛（201~220）',
+      collapsable: true,
+      children: range(201, 220, 'WC', true),
+    },
+    {
+      title: '周赛（181~200）',
+      collapsable: true,
+      children: range(193, 200, 'WC', true),
     },
     {
       title: '双周赛',
       collapsable: true,
-      children: range(29, 42, 'BC', true),
+      children: range(29, 44, 'BC', true),
     },
   ],
   '/blog/': null,
