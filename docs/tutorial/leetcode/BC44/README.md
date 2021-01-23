@@ -68,7 +68,7 @@ class Solution:
 我们目前拥有的信息是：
 
 $$
-a_1\otimes a_2,a_2\otimes a_3,\dots,a_{n-1}\otimes a_n
+a_1\oplus a_2,a_2\oplus a_3,\dots,a_{n-1}\oplus a_n
 $$
 
 我们可以利用它求出什么呢？
@@ -76,25 +76,25 @@ $$
 试着求一下前缀异或和，我们会得到：
 
 $$
-a_1\otimes a_2,a_1\otimes a_3,\dots,a_1\otimes a_n
+a_1\oplus a_2,a_1\oplus a_3,\dots,a_1\oplus a_n
 $$
 
 这时候，我们再把这些数异或起来：
 
 $$
-\underbrace{a_1\otimes\dots\otimes a_1}_{n-1个a_1}\otimes a_2\otimes a_3\otimes\dots\otimes a_n
+\underbrace{a_1\oplus\dots\oplus a_1}_{n-1个a_1}\oplus a_2\oplus a_3\oplus\dots\oplus a_n
 $$
 
 因为$n$是奇数，$n-1$就是偶数，那么前面的那串$a_1$就正好消掉了，我们就得到了：
 
 $$
-a_2\otimes a_3\otimes\dots\otimes a_n
+a_2\oplus a_3\oplus\dots\oplus a_n
 $$
 
 而我们正好又知道：
 
 $$
-a_1\otimes a_2\otimes a_3\otimes\dots\otimes a_n=1\otimes2\otimes\dots\otimes n
+a_1\oplus a_2\oplus a_3\oplus\dots\oplus a_n=1\oplus2\oplus\dots\oplus n
 $$
 
 这样我们就可以求出$a_1$，之后所有数就都可以被顺藤摸瓜地求出来了。
