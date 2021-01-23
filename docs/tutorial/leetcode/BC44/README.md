@@ -299,7 +299,7 @@ public:
 
 :::
 
-::: tips 小贴士
+::: tip 小贴士
 
 预处理部分，$inv[i]$有复杂度更优的求法。可以参考[OI-Wiki](https://oi-wiki.org/math/inverse/#n)。
 
