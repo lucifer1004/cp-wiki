@@ -186,7 +186,7 @@ Since surpassing the $N$-th position is also counted as reaching the $N$-th posi
 
 Finally, we can get $p_fE_f$, $p_s=p_N$ and $p_sE_s=p_NE_N$, and with these values, we can calculate the final answer $E$.
 
-- Tme complexity is $\mathcal{O}(N)$.
+- Time complexity is $\mathcal{O}(N)$.
 - Space complexity is $\mathcal{O}(N)$.
 
 ::: details Code (Rust)
