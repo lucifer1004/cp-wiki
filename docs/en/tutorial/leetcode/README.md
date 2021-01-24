@@ -2,6 +2,7 @@
 
 ## Weekly Contest
 
+- [Weekly Contest 225](/tutorial/leetcode/WC225/)
 - [Weekly Contest 224](/tutorial/leetcode/WC224/)
 - [Weekly Contest 223](/tutorial/leetcode/WC223/)
 - [Weekly Contest 222](/tutorial/leetcode/WC222/)

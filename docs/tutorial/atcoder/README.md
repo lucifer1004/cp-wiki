@@ -4,6 +4,7 @@ AtCoder的比赛分为Beginner、Regular、Grand三个级别。Beginner一般每
 
 ## 快捷导航
 
+- [AtCoder Beginner Contest 189](./ABC189/)
 - [AtCoder Beginner Contest 188](./ABC188/)
 - [AtCoder Beginner Contest 187](./ABC187/)
 - [AtCoder Beginner Contest 186](./ABC186/)

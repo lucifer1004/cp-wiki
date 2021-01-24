@@ -53,6 +53,7 @@ module.exports = {
       title: 'AtCoder Beginner Contest',
       collapsable: true,
       children: [
+        'ABC189/',
         'ABC188/',
         'ABC187/',
         'ABC186/',
@@ -97,7 +98,7 @@ module.exports = {
     {
       title: '周赛（221~240）',
       collapsable: true,
-      children: range(221, 224, 'WC', true),
+      children: range(221, 225, 'WC', true),
     },
     {
       title: '周赛（201~220）',
