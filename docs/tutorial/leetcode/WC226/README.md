@@ -4,10 +4,6 @@
 
 因为数据范围比较小，所以暴力枚举即可。
 
-### 思考
-
-如果数据范围达到$10^{18}$呢？
-
 - 时间复杂度$\mathcal{O}((H-L)\log H)$。
 - 空间复杂度$\mathcal{O}(\log H)$。
 
@@ -24,6 +20,14 @@ class Solution:
 
 :::
 
+### 思考
+
+如果数据范围达到$10^{18}$呢？
+
+::: details 提示
+可以采用数位DP的方法，具体可以参考[@Heltion](https://leetcode-cn.com/u/heltion/)的[题解](https://leetcode-cn.com/problems/maximum-number-of-balls-in-a-box/solution/shu-wei-dpzuo-fa-by-heltion-5wvg/)。
+:::
+
 ## Problem B - [从相邻元素对还原数组](https://leetcode-cn.com/problems/restore-the-array-from-adjacent-pairs/)
 
 因为所有数字都不同，所以首尾两个数字只会出现一次，而其他每个数字会出现两次。
@@ -32,10 +36,6 @@ class Solution:
 
 - 时间复杂度$\mathcal{O}(N)$。
 - 空间复杂度$\mathcal{O}(N)$。
-
-### 思考
-
-如果原数组中存在相同的元素呢？
 
 ::: details 参考代码（C++）
 
@@ -81,6 +81,10 @@ public:
 
 :::
 
+### 思考
+
+如果原数组中存在相同的元素呢？
+
 ## Problem C - [你能在你最喜欢的那天吃到你最喜欢的糖果吗？](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)
 
 这题题意有些绕人，但只要理解清楚，实现起来还是比较简单的（需要注意一些细节）。
@@ -96,10 +100,6 @@ public:
 
 - 时间复杂度$\mathcal{O}(N+Q)$，其中$N$是糖果的种数，$Q$是询问的个数。
 - 空间复杂度$\mathcal{O}(N)$。
-
-### 思考
-
-如果再增加一条规则：每天只能吃同一种类型的糖果，应该如何解题呢？
 
 ::: details 参考代码（C++）
 
@@ -135,6 +135,10 @@ public:
 
 :::
 
+### 思考
+
+如果再增加一条规则：每天只能吃同一种类型的糖果，应该如何解题呢？
+
 ## Problem D - [回文串分割 IV](https://leetcode-cn.com/problems/palindrome-partitioning-iv/)
 
 本题的数据范围较小，$\mathcal{O}(N^2)$的复杂度就足够通过。因此，我们只需要：
@@ -144,10 +148,6 @@ public:
 
 - 时间复杂度$\mathcal{O}(N^2)$。
 - 空间复杂度$\mathcal{O}(N^2)$。
-
-### 思考
-
-如果题目改成：能否分成$k$（$k\leq10$）个回文子串呢？
 
 ::: details 参考代码（C++）
 
@@ -182,5 +182,9 @@ public:
 ```
 
 :::
+
+### 思考
+
+如果题目改成：能否分成$k$（$k\leq10$）个回文子串呢？
 
 <Utterances />
