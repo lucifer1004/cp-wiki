@@ -56,6 +56,12 @@
 
 :::
 
+::: details 参考代码（C++）
+
+<<<@/docs/tutorial/atcoder/ABC190/src/d.cpp
+
+:::
+
 ## Problem E - [Magical Ornament](https://atcoder.jp/contests/abc190/tasks/abc190_e)
 
 我们可以把邻接对看成边，然后通过BFS找出所有关键宝石之间的最短路径，这些最短路径构成一个最短路径矩阵。
@@ -73,6 +79,12 @@
 
 :::
 
+::: details 参考代码（C++）
+
+<<<@/docs/tutorial/atcoder/ABC190/src/e.cpp
+
+:::
+
 ## Problem F - [Shift and Inversions](https://atcoder.jp/contests/abc190/tasks/abc190_f)
 
 我们可以用树状数组或类似归并排序的方法（实际上是CDQ分治）来求出原序列的逆序数。接下来，我们注意到当把$K$（从$1$开始的）从序列开始移动到序列结尾时，减少了$K-1$个逆序对，同时新增了$N-K$个逆序对，因此变化量为$N+1-2K$。这样我们就可以逐个求出所有序列的逆序数了。
@@ -85,5 +97,12 @@
 <<<@/docs/tutorial/atcoder/ABC190/src/f.rs
 
 :::
+
+::: details 参考代码（C++）
+
+<<<@/docs/tutorial/atcoder/ABC190/src/f.cpp
+
+:::
+
 
 <Utterances />

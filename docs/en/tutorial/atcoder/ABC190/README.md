@@ -56,6 +56,12 @@ Suppose the first element of the sequence is $a$ and there are $n$ elements, the
 
 :::
 
+::: details Code (C++)
+
+<<<@/docs/tutorial/atcoder/ABC190/src/d.cpp
+
+:::
+
 ## Problem E - [Magical Ornament](https://atcoder.jp/contests/abc190/tasks/abc190_e)
 
 We can view the adjacent pairs as edges, then we can use BFS to find the shortest distance between each pair of "significant gems" (the gems listed in $C_i$), which forms a distance matrix.
@@ -73,6 +79,12 @@ The final answer is $\min_i{dp[2^K-1][i]}$.
 
 :::
 
+::: details Code (C++)
+
+<<<@/docs/tutorial/atcoder/ABC190/src/e.cpp
+
+:::
+
 ## Problem F - [Shift and Inversions](https://atcoder.jp/contests/abc190/tasks/abc190_f)
 
 We first use Fenwick Tree or a merge-sort-like (which is actually CQD Divide & Conquer) method to find the number of inversions in the original sequence. Then we observe that when we do the rotation, only the inversions that include the current leading number change. Suppose the leading number is $K$ (we use $1$-index here), then we will lose $K-1$ inversions and gain $N-K$ inversions. So within each rotation, the total number of inversions changes by $N+1-2K$.
@@ -83,6 +95,12 @@ We first use Fenwick Tree or a merge-sort-like (which is actually CQD Divide & C
 ::: details Code (Rust)
 
 <<<@/docs/tutorial/atcoder/ABC190/src/f.rs
+
+:::
+
+::: details Code (C++)
+
+<<<@/docs/tutorial/atcoder/ABC190/src/f.cpp
 
 :::
 
