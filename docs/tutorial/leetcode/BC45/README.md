@@ -80,6 +80,9 @@ public:
 
 离散化之后，扫描进行动态规划即可。
 
+- 时间复杂度$\mathcal{O}(N(K+\log N))$
+- 空间复杂度$\mathcal{O}(NK)$
+
 ::: details 参考代码（C++）
 
 ```cpp
