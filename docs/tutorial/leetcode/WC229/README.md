@@ -134,9 +134,9 @@ public:
     int longestPalindrome(string word1, string word2) {
         int n = word1.size(), m = word2.size();
         string s = word1 + word2;
-        vector<vector<int>> lcs1(n + m + 1, vector<int>(n + m + 1));
-        vector<vector<int>> lcs2(n + m + 1, vector<int>(n + m + 1));
-        vector<vector<int>> lcs12(n + m + 1, vector<int>(n + m + 1));
+        vector<vector<int>> lps1(n + m + 1, vector<int>(n + m + 1));
+        vector<vector<int>> lps2(n + m + 1, vector<int>(n + m + 1));
+        vector<vector<int>> lps12(n + m + 1, vector<int>(n + m + 1));
         for (int len = 1; len <= n + m; ++len)
             for (int l = 1; l + len - 1 <= n + m; ++l) {
                 int r = l + len - 1;
@@ -144,31 +144,31 @@ public:
                 bool use2 = r > n;
                 if (len == 1) {
                     if (use1)
-                        lcs1[l][l] = 1;
+                        lps1[l][l] = 1;
                     if (use2)
-                        lcs2[l][l] = 1;
+                        lps2[l][l] = 1;
                     continue;
                 }
                 if (s[l - 1] == s[r - 1]) {
                     if (use1 && use2) {
-                        lcs12[l][r] = lcs12[l + 1][r - 1] + 2;
+                        lps12[l][r] = lps12[l + 1][r - 1] + 2;
                     }
                     if (use1) {
-                        if (lcs2[l + 1][r - 1] > 0)
-                            lcs12[l][r] = max(lcs12[l][r], lcs2[l + 1][r - 1] + 2);
-                        lcs1[l][r] = lcs1[l + 1][r - 1] + 2;
+                        if (lps2[l + 1][r - 1] > 0)
+                            lps12[l][r] = max(lps12[l][r], lps2[l + 1][r - 1] + 2);
+                        lps1[l][r] = lps1[l + 1][r - 1] + 2;
                     }
                     if (use2) {
-                        if (lcs1[l + 1][r - 1] > 0)
-                            lcs12[l][r] = max(lcs12[l][r], lcs1[l + 1][r - 1] + 2);
-                        lcs2[l][r] = lcs2[l + 1][r - 1] + 2;
+                        if (lps1[l + 1][r - 1] > 0)
+                            lps12[l][r] = max(lps12[l][r], lps1[l + 1][r - 1] + 2);
+                        lps2[l][r] = lps2[l + 1][r - 1] + 2;
                     }
                 }
-                lcs12[l][r] = max(lcs12[l][r], max(lcs12[l + 1][r], lcs12[l][r - 1]));
-                lcs1[l][r] = max(lcs1[l][r], max(lcs1[l + 1][r], lcs1[l][r - 1]));
-                lcs2[l][r] = max(lcs2[l][r], max(lcs2[l + 1][r], lcs2[l][r - 1]));
+                lps12[l][r] = max(lps12[l][r], max(lps12[l + 1][r], lps12[l][r - 1]));
+                lps1[l][r] = max(lps1[l][r], max(lps1[l + 1][r], lps1[l][r - 1]));
+                lps2[l][r] = max(lps2[l][r], max(lps2[l + 1][r], lps2[l][r - 1]));
         }
-        return lcs12[1][n + m];
+        return lps12[1][n + m];
     }
 };
 ```
