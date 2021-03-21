@@ -73,8 +73,8 @@ So we need to choose $2N-1$ edges in a graph with $2N$ nodes and loops are not a
 
 The MST part is quite trivial, both Kruskal and Prim can work fluently.
 
-- Time complexity is $\mathcal{O}(N^2\log N)$.
-- Space complexity is $\mathcal{O}(N^2\log N)$.
+- Time complexity is $\mathcal{O}(N^2\log N)$ for Kruskal, and $\mathcal{O}(N^2)$ for Prim (since it is a dense graph).
+- Space complexity is $\mathcal{O}(N^2)$.
  
 ::: details Code (C++)
 

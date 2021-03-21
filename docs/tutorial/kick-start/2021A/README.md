@@ -75,10 +75,10 @@
 
 最小（大）生成树的部分就很简单了，Kruskal或Prim算法都可以顺利通过。
 
-- 时间复杂度为$\mathcal{O}(N^2\log N)$.
-- 空间复杂度为$\mathcal{O}(N^2\log N)$.
+- 时间复杂度为$\mathcal{O}(N^2\log N)$（Kruskal），或$\mathcal{O}(N^2)$（Prim），因为是稠密图，所以这里用Prim算法可以有更优的时间复杂度。
+- 空间复杂度为$\mathcal{O}(N^2)$.
  
-::: details 参考代码（C++）
+::: details 参考代码（C++, Kruskal）
 
 <<< @/docs/tutorial/kick-start/2021A/src/d.cpp
 
