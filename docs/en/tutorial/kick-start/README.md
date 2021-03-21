@@ -6,10 +6,19 @@ Each contest lasts 3 hours. Starting from 2020, there are 4 problems in every co
 
 ## Shortcuts
 
+### 2021
+
+- [2021 Round A](./2021A/)
+
+### 2020
+
 - [2020 Round H](./2020H/)
 - [2020 Round F](./2020F/)
 - [2020 Round E](./2020E/)
 - [2020 Round D](./2020D/)
+
+### 2019
+
 - [2019 Round G](./2019G/)
 - [2019 Round F](./2019F/)
 - [2019 Round D](./2019D/)
