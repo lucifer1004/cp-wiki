@@ -12,7 +12,7 @@
     "vuepress-plugin-autometa": "0.1.13",
     "vuepress-plugin-git-log": "1.0.1",
     "vuepress-plugin-mailchimp": "1.4.2",
-    "vuepress-plugin-medium-zoom": "1.1.8",
+    "vuepress-plugin-medium-zoom": "1.1.9",
     "vuepress-plugin-sitemap": "2.3.1"
   },
   "scripts": {

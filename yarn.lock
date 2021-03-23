@@ -3372,7 +3372,7 @@ __metadata:
     vuepress-plugin-autometa: 0.1.13
     vuepress-plugin-git-log: 1.0.1
     vuepress-plugin-mailchimp: 1.4.2
-    vuepress-plugin-medium-zoom: 1.1.8
+    vuepress-plugin-medium-zoom: 1.1.9
     vuepress-plugin-sitemap: 2.3.1
   languageName: unknown
   linkType: soft
@@ -10920,12 +10920,12 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"vuepress-plugin-medium-zoom@npm:1.1.8":
-  version: 1.1.8
-  resolution: "vuepress-plugin-medium-zoom@npm:1.1.8"
+"vuepress-plugin-medium-zoom@npm:1.1.9":
+  version: 1.1.9
+  resolution: "vuepress-plugin-medium-zoom@npm:1.1.9"
   dependencies:
     medium-zoom: ^1.0.4
-  checksum: c3010a2cec895aa0f99353afa41fc20d1eca2f294d7dda0b2491649ced0aef3fa431b1e23d4ca61065e7b13e0465504f46cc807424c9da2a05c45acd100f4cc9
+  checksum: 117570910f85085b0435c0fd24c725c074e4d1286c8b109eb5353dabb6883f9b75ec059f44811e57c0c78a7822fc8f40f7d2e3bf729afa5568a83c6eef4761a5
   languageName: node
   linkType: hard
 
