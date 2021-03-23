@@ -3366,7 +3366,7 @@ __metadata:
     "@vuepress/plugin-medium-zoom": 1.5.4
     generate-robotstxt: 8.0.3
     tiny-pinyin: 1.3.2
-    vue-google-adsense: 1.8.3
+    vue-google-adsense: 1.9.2
     vue-script2: 2.1.0
     vuepress: 1.7.1
     vuepress-plugin-autometa: 0.1.13
@@ -10705,13 +10705,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"vue-google-adsense@npm:1.8.3":
-  version: 1.8.3
-  resolution: "vue-google-adsense@npm:1.8.3"
+"vue-google-adsense@npm:1.9.2":
+  version: 1.9.2
+  resolution: "vue-google-adsense@npm:1.9.2"
   peerDependencies:
-    vue: ^2.6.11
+    vue: ^2.6.12
     vue-script2: 2.1.0
-  checksum: cdfbbb9b30ea84e2d2925c4623a4abd7f9deb47cde699a28002bb1ee8048c5ac4512ccd732460de79aa80a85f6b107098e6a25b4f8907e58ec36271784b93453
+  checksum: 3e002a716457ec6304792c208ee2bcf9b9c376376d4d1f144c2c7d11e6f14261055e0e1b6da2535bc8cbbc0fdcfd0a7bae481852e6e8a28dfb44a9082fe96846
   languageName: node
   linkType: hard
 
