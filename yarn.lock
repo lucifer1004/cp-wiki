@@ -1166,12 +1166,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iktakahiro/markdown-it-katex@npm:4.0.0":
-  version: 4.0.0
-  resolution: "@iktakahiro/markdown-it-katex@npm:4.0.0"
+"@iktakahiro/markdown-it-katex@npm:4.0.1":
+  version: 4.0.1
+  resolution: "@iktakahiro/markdown-it-katex@npm:4.0.1"
   dependencies:
-    katex: 0.11.1
-  checksum: 78e65632bc7ee1cf143f312a49d015dc4864be0c83a3d6db215d8604caa32ca213276ad309f97e2cabfc776b9acabe33b3fa7621ac63e01d38f650e5fade3fb7
+    katex: ^0.12.0
+  checksum: 17363cbed325ec37a2bccd43f55ca37c51e49ee7f3e79c6cdbfa9ad05e879473032bbec125ddcaea608109bf10261881074798f2a1dd7536fc28bed0d8ec6b16
   languageName: node
   linkType: hard
 
@@ -3361,7 +3361,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cp-wiki@workspace:."
   dependencies:
-    "@iktakahiro/markdown-it-katex": 4.0.0
+    "@iktakahiro/markdown-it-katex": 4.0.1
     "@vuepress/plugin-blog": 1.9.2
     "@vuepress/plugin-medium-zoom": 1.5.4
     generate-robotstxt: 8.0.3
@@ -6341,14 +6341,14 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"katex@npm:0.11.1":
-  version: 0.11.1
-  resolution: "katex@npm:0.11.1"
+"katex@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "katex@npm:0.12.0"
   dependencies:
     commander: ^2.19.0
   bin:
     katex: cli.js
-  checksum: 4a67a8166335590fd5d0f6c9a2c1c709c3cfe5e7c09506c9530ba0ab1339a34719ad7c538836e3e192142fa10039b7992c2ddc831ca207daf069224dbf0b8832
+  checksum: c22db0f8ddafcad4c129cda9e15390714ba7a804e1171aaf43b88ce30ef6f7abb44c3990dd4df2a529d47af6d4d7b1a7fe313fe19b0fe49fc482a518bb3d07a2
   languageName: node
   linkType: hard
 
