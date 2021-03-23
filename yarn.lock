@@ -1166,7 +1166,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@iktakahiro/markdown-it-katex@npm:^4.0.0":
+"@iktakahiro/markdown-it-katex@npm:4.0.0":
   version: 4.0.0
   resolution: "@iktakahiro/markdown-it-katex@npm:4.0.0"
   dependencies:
@@ -1547,7 +1547,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-blog@npm:^1.9.2":
+"@vuepress/plugin-blog@npm:1.9.2":
   version: 1.9.2
   resolution: "@vuepress/plugin-blog@npm:1.9.2"
   dependencies:
@@ -1572,7 +1572,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-medium-zoom@npm:^1.5.4":
+"@vuepress/plugin-medium-zoom@npm:1.5.4":
   version: 1.5.4
   resolution: "@vuepress/plugin-medium-zoom@npm:1.5.4"
   dependencies:
@@ -3361,19 +3361,19 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cp-wiki@workspace:."
   dependencies:
-    "@iktakahiro/markdown-it-katex": ^4.0.0
-    "@vuepress/plugin-blog": ^1.9.2
-    "@vuepress/plugin-medium-zoom": ^1.5.4
-    generate-robotstxt: ^8.0.3
-    tiny-pinyin: ^1.3.0
-    vue-google-adsense: ^1.8.3
-    vue-script2: ^2.1.0
-    vuepress: ^1.7.1
-    vuepress-plugin-autometa: ^0.1.13
-    vuepress-plugin-git-log: ^1.0.1
-    vuepress-plugin-mailchimp: ^1.4.2
-    vuepress-plugin-medium-zoom: ^1.1.8
-    vuepress-plugin-sitemap: ^2.3.1
+    "@iktakahiro/markdown-it-katex": 4.0.0
+    "@vuepress/plugin-blog": 1.9.2
+    "@vuepress/plugin-medium-zoom": 1.5.4
+    generate-robotstxt: 8.0.3
+    tiny-pinyin: 1.3.0
+    vue-google-adsense: 1.8.3
+    vue-script2: 2.1.0
+    vuepress: 1.7.1
+    vuepress-plugin-autometa: 0.1.13
+    vuepress-plugin-git-log: 1.0.1
+    vuepress-plugin-mailchimp: 1.4.2
+    vuepress-plugin-medium-zoom: 1.1.8
+    vuepress-plugin-sitemap: 2.3.1
   languageName: unknown
   linkType: soft
 
@@ -4889,7 +4889,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"generate-robotstxt@npm:^8.0.3":
+"generate-robotstxt@npm:8.0.3":
   version: 8.0.3
   resolution: "generate-robotstxt@npm:8.0.3"
   dependencies:
@@ -10127,7 +10127,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"tiny-pinyin@npm:^1.3.0":
+"tiny-pinyin@npm:1.3.0":
   version: 1.3.0
   resolution: "tiny-pinyin@npm:1.3.0"
   checksum: 6339af46f0c46369b87c3033f4497ae05dfba2a3bd4379573c3dd6434fe8ec1b9bbd8285837dde336563465bdbbfb06ee11118ba1947344a61bdae186a47a0b9
@@ -10705,7 +10705,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"vue-google-adsense@npm:^1.8.3":
+"vue-google-adsense@npm:1.8.3":
   version: 1.8.3
   resolution: "vue-google-adsense@npm:1.8.3"
   peerDependencies:
@@ -10770,7 +10770,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"vue-script2@npm:^2.1.0":
+"vue-script2@npm:2.1.0":
   version: 2.1.0
   resolution: "vue-script2@npm:2.1.0"
   checksum: 350c93a86c54c61ee27121f7b5d0a60c0b38b953c2916eef1d273fa97816ce7681dc4860af7046e2c7e87695c7da2d4a7b3603150f757c9ba9e04d50c20d74c1
@@ -10851,7 +10851,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"vuepress-plugin-autometa@npm:^0.1.13":
+"vuepress-plugin-autometa@npm:0.1.13":
   version: 0.1.13
   resolution: "vuepress-plugin-autometa@npm:0.1.13"
   dependencies:
@@ -10901,7 +10901,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"vuepress-plugin-git-log@npm:^1.0.1":
+"vuepress-plugin-git-log@npm:1.0.1":
   version: 1.0.1
   resolution: "vuepress-plugin-git-log@npm:1.0.1"
   dependencies:
@@ -10910,7 +10910,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"vuepress-plugin-mailchimp@npm:^1.4.1, vuepress-plugin-mailchimp@npm:^1.4.2":
+"vuepress-plugin-mailchimp@npm:1.4.2, vuepress-plugin-mailchimp@npm:^1.4.1":
   version: 1.4.2
   resolution: "vuepress-plugin-mailchimp@npm:1.4.2"
   dependencies:
@@ -10920,7 +10920,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"vuepress-plugin-medium-zoom@npm:^1.1.8":
+"vuepress-plugin-medium-zoom@npm:1.1.8":
   version: 1.1.8
   resolution: "vuepress-plugin-medium-zoom@npm:1.1.8"
   dependencies:
@@ -10929,7 +10929,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"vuepress-plugin-sitemap@npm:^2.3.1":
+"vuepress-plugin-sitemap@npm:2.3.1, vuepress-plugin-sitemap@npm:^2.3.1":
   version: 2.3.1
   resolution: "vuepress-plugin-sitemap@npm:2.3.1"
   dependencies:
@@ -10953,7 +10953,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"vuepress@npm:^1.7.1":
+"vuepress@npm:1.7.1":
   version: 1.7.1
   resolution: "vuepress@npm:1.7.1"
   dependencies:
