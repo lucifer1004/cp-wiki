@@ -1547,19 +1547,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-blog@npm:1.9.2":
-  version: 1.9.2
-  resolution: "@vuepress/plugin-blog@npm:1.9.2"
+"@vuepress/plugin-blog@npm:1.9.4":
+  version: 1.9.4
+  resolution: "@vuepress/plugin-blog@npm:1.9.4"
   dependencies:
     "@vssue/api-github-v3": ^1.1.2
     "@vssue/vuepress-plugin-vssue": ^1.2.0
-    dayjs: ^1.8.19
+    dayjs: ^1.10.3
     vuejs-paginate: ^2.1.0
     vuepress-plugin-disqus: ^0.2.0
     vuepress-plugin-feed: ^0.1.8
     vuepress-plugin-mailchimp: ^1.4.1
     vuepress-plugin-sitemap: ^2.3.1
-  checksum: 0813c805f7dc36d518f85328224156ef89775656f81cacf8c3928a0a16b74f9e66f3ee1fdd6ec3e251acc6cd97ddfc09729084535fb0a9aeca26a660cbd80115
+  checksum: d8e66a96df5eb4874bdc20bae8f1e9be7bcfce2030c50021e573fbebe7f924f90b4e6480d48e12fbea767f2ba05624291a9cbb41c6b4f007d823f9fe8fafa7f6
   languageName: node
   linkType: hard
 
@@ -3362,7 +3362,7 @@ __metadata:
   resolution: "cp-wiki@workspace:."
   dependencies:
     "@iktakahiro/markdown-it-katex": 4.0.1
-    "@vuepress/plugin-blog": 1.9.2
+    "@vuepress/plugin-blog": 1.9.4
     "@vuepress/plugin-medium-zoom": 1.5.4
     generate-robotstxt: 8.0.3
     tiny-pinyin: 1.3.2
@@ -3698,10 +3698,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dayjs@npm:^1.8.19":
-  version: 1.8.35
-  resolution: "dayjs@npm:1.8.35"
-  checksum: 83dcbaecee87e8f6b2e7775be48e67b45779a273506ab4b5723cb1db5b601b474b7292770d646c855edcd6f5659639da9cf5e4871b4c93284448195b2fcf7573
+"dayjs@npm:^1.10.3":
+  version: 1.10.4
+  resolution: "dayjs@npm:1.10.4"
+  checksum: 3b7bb2232fff808209870bc72d4b2000941a1aa45f0226e2907f9dd1dda306d4b3a1eb9058450fd2c324b01a007a37809ac6f9b525806a86902c55e2934cd5d5
   languageName: node
   linkType: hard
 
