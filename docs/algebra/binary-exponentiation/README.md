@@ -63,4 +63,20 @@ $$
 
 稀疏表是一种用于RMQ（区间最值查询）的数据结构。稀疏表的构建同样使用了倍增的思想。
 
+## 练习题
+
+### [ARC060E - Tak and Hotels](https://atcoder.jp/contests/arc060/tasks/arc060_c)
+
+::: details 提示
+
+我们可以求出从每个旅店出发，一天之内能到的最远的旅店编号；对其进行倍增，就可以得到$2^k$天能到的最远的旅店的编号。
+
+:::
+
+::: details 参考代码（Rust）
+
+<<< @/docs/tutorial/atcoder/ARC060/src/e.rs
+
+:::
+
 <Utterances />
