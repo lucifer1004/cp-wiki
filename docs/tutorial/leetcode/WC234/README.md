@@ -32,7 +32,7 @@ class Solution:
 
 ### 方法二：正则表达式
 
-使用正则表达式分离出整数部分后批量处理。
+使用`re.split()`切分字母部分。
 
 ::: details 参考代码（Python 3）
 
@@ -40,6 +40,18 @@ class Solution:
 class Solution:
     def numDifferentIntegers(self, word: str) -> int:
         return len(set(map(int, filter(lambda x: len(x) > 0, re.split(r'[a-z]+', word)))))
+```
+
+:::
+
+或者利用`re.findall()`提取数字部分。
+
+::: details 参考代码（Python 3）
+
+```python
+class Solution:
+    def numDifferentIntegers(self, word: str) -> int:
+        return len(set(map(int, re.findall(r'\d+', word))))
 ```
 
 :::
