@@ -9,7 +9,7 @@
 
 ::: details 参考代码（Python 3）
 
-```cpp
+```python
 class Solution:
     def maxAscendingSum(self, nums: List[int]) -> int:
         ans = 0
