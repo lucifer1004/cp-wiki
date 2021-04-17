@@ -95,17 +95,19 @@ public:
 
 ## Problem D - [使字符串有序的最少操作次数](https://leetcode-cn.com/problems/minimum-number-of-operations-to-make-string-sorted/)
 
+### 方法一：枚举更小排列的数目
+
 操作看起来很唬人，实际上就是求当前排列的前一个排列。因此，我们实际要做的就是求给定排列的字典序。
 
 我们首先考虑，给定每一个字母的频率，我们能够构造多少种排列？
 
 显然，答案为$\dfrac{N!}{\prod n_i!}$，其中$\sum n_i=N$。
 
-那么，我们就可以逐位进行操作，对于每一位，我们枚举比当前字母小的所有字母，统计出以它们开始的排列的数目，这些都是比当前排列小的。
+那么，我们就可以逐位进行操作，对于每一位，我们枚举比当前字母小的所有字母，统计出以它们开始的排列的数目，这些都是比当前排列小的。注意这里可以复用计算结果，不需要每次全部重新计算。
 
 最后，就可以得到当前排列的字典序。
 
-- 时间复杂度$\mathcal{O}(N(|\sum|^2+\log M))$。其中$|\sum|$为字典大小，$M=10^9+7-2=10^9+5$。
+- 时间复杂度$\mathcal{O}(N(|\sum|+\log M))$。其中$|\sum|$为字典大小，$M=10^9+7-2=10^9+5$。
 - 空间复杂度$\mathcal{O}(N+|\sum|)$。
 
 ::: details 参考代码（C++）
@@ -145,15 +147,12 @@ public:
         }
         
         for (int i = 0; i < n; ++i) {
+            ll tot = fac[n - 1 - i];
+            for (int k = 0; k < 26; ++k)
+                tot = tot * invfac[cnt[k]] % MOD;
             for (int j = 0; j < s[i] - 'a'; ++j) {
-                if (cnt[j] == 0)
-                    continue;
-                cnt[j]--;
-                ll tot = fac[n - 1 - i];
-                for (int k = 0; k < 26; ++k)
-                    tot = tot * invfac[cnt[k]] % MOD;
-                ans = (ans + tot) % MOD;
-                cnt[j]++;
+                if (cnt[j])
+                    ans = (ans + tot * cnt[j] % MOD) % MOD;
             }
             cnt[s[i] - 'a']--;
         }
@@ -164,5 +163,9 @@ public:
 ```
 
 :::
+
+### 方法二：树状数组+线性逆元
+
+我们可以使用树状数组来维护每个字母的频率，同时用线性求逆元的方法获取`invfac`（可参考[OI-Wiki](https://oi-wiki.org/math/inverse/#n)）。这样的时间复杂度是$\mathcal{O}(N\log|\sum|+\log M)$。
 
 <Utterances />
