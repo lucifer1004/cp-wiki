@@ -63,7 +63,9 @@ public:
 
 对于给定的前缀异或和，为了使得最终结果最大，我们应当把当前异或和为$1$的位设为$0$，当前异或和为$0$的位设为$1$。当然，最多不能超过$K$位。
 
-- 时间复杂度$\mathcal{O}(NK)$。
+我们可以直接将当前异或和与$2^K-1$异或，从而在$\mathcal{O}(1)$时间内得到每一次查询的结果。
+
+- 时间复杂度$\mathcal{O}(N)$。
 - 空间复杂度$\mathcal{O}(N)$。
 
 ::: details 参考代码（C++）
@@ -73,16 +75,11 @@ class Solution {
 public:
     vector<int> getMaximumXor(vector<int>& nums, int maximumBit) {
         vector<int> ans;
-        int val = 0;
+        int val = 0, msk = (1 << maximumBit) - 1;
         for (int num : nums)
             val ^= num;
         while (!nums.empty()) {
-            int ret = 0;
-            for (int i = 0; i < maximumBit; ++i) {
-                if ((val & (1 << i)) == 0)
-                    ret ^= (1 << i);
-            }
-            ans.emplace_back(ret);
+            ans.emplace_back(msk ^ val);
             val ^= nums.back();
             nums.pop_back();
         }
