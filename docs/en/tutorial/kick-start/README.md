@@ -8,6 +8,7 @@ Each contest lasts 3 hours. Starting from 2020, there are 4 problems in every co
 
 ### 2021
 
+- [2021 Round B](./2021B/)
 - [2021 Round A](./2021A/)
 
 ### 2020

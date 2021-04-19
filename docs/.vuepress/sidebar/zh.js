@@ -39,7 +39,7 @@ module.exports = {
     {
       title: '2021',
       collapsable: true,
-      children: ['2021A/'],
+      children: ['2021B/', '2021A/'],
     },
     {
       title: '2020',
