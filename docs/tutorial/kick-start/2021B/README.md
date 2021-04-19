@@ -1,4 +1,4 @@
-# Google Kick Start 2021 Round A 题解
+# Google Kick Start 2021 Round B 题解
 
 ## Problem A - [Increasing Substring](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b/000000000077a882)
 
