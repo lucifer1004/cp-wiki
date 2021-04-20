@@ -1,12 +1,9 @@
+#include <cmath>
 #include <cstdio>
 #include <iostream>
-#define MAXN 1000010003
 
 using namespace std;
-typedef long long ll;
-
-bool p[MAXN];
-int primes[6000000], ptr = 0;
+using ll = long long;
 
 template <typename T>
 void read(T &x) {
@@ -19,37 +16,69 @@ void read(T &x) {
   x *= sig;
 }
 
+int mod_pow(int a, int b, int mod) {
+  int result = 1;
+
+  while (b > 0) {
+    if (b & 1) result = 1LL * result * a % mod;
+    a = 1LL * a * a % mod;
+    b >>= 1;
+  }
+
+  return result;
+}
+
+bool miller_rabin(int n) {
+  if (n < 2) return false;
+
+  // Check small primes.
+  for (int p : {2, 3, 5, 7, 11, 13, 17, 19, 23, 29})
+    if (n % p == 0) return n == p;
+
+  int r = __builtin_ctz(n - 1);
+  int d = (n - 1) >> r;
+
+  // https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test#Testing_against_small_sets_of_bases
+  for (int a : {2, 7, 61}) {
+    int x = mod_pow(a % n, d, n);
+    if (x <= 1 || x == n - 1) continue;
+    for (int i = 0; i < r - 1 && x != n - 1; i++) x = 1LL * x * x % n;
+    if (x != n - 1) return false;
+  }
+
+  return true;
+}
+
 class Solution {
  public:
   void solve(int case_num) {
     printf("Case #%d: ", case_num);
-    ll n;
-    read(n);
-    int lo = 0, hi = ptr - 2;
-    while (lo <= hi) {
-      int mid = (lo + hi) >> 1;
-      ll prod = 1LL * primes[mid] * primes[mid + 1];
-      if (prod <= n)
-        lo = mid + 1;
-      else
-        hi = mid - 1;
+    ll s;
+    read(s);
+
+    if (s < 15) {
+      printf("6\n");
+      return;
     }
-    printf("%lld\n", 1LL * primes[lo - 1] * primes[lo]);
+
+    int n = sqrt(s);
+    int b = n;
+    while (!miller_rabin(b)) b--;
+    int a = b - 1;
+    while (!miller_rabin(a)) a--;
+    int c = n + 1;
+    while (!miller_rabin(c)) c++;
+
+    if (1LL * b * c <= s)
+      printf("%lld\n", 1LL * b * c);
+    else
+      printf("%lld\n", 1LL * a * b);
   }
 };
 
 int main() {
   ios::sync_with_stdio(false);
   cin.tie(0);
-
-  p[1] = true;
-  for (int i = 2; i < MAXN; ++i) {
-    if (!p[i]) primes[ptr++] = i;
-    for (int j = 0; j < ptr && 1LL * i * primes[j] < MAXN; ++j) {
-      p[i * primes[j]] = true;
-      if (i % primes[j] == 0) break;
-    }
-  }
 
   int t;
   read(t);

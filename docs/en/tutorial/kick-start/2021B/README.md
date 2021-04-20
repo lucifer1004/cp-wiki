@@ -43,9 +43,25 @@ And the complexity:
 
 ## Problem C - [Consecutive Primes](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b/000000000077a8e6)
 
-The official solution leverages the concept of prime gap, and is a very beautiful brute-force solution.
+### Solution I: Find the three primes $A<B\leq\sqrt{S}<C$ closest to $\sqrt{S}$
 
-However, since the test cases are bundled, we can also pass Test 3 if we use Euler sieve to generate all primes smaller than $\sqrt{\text{MAXN}}$ optimally, and then use binary search for each query. Note that we need to make $\text{MAXN}$ a bit larger than $10^{18}$ so that we will also generate the smallest prime that is larger than $10^9$. 
+The official solution leverages the concept of the prime gap and is a very beautiful brute-force solution.
+
+I would not repeat the prime gap part, but will instead talk about the primality test. In this problem, a naive $\sqrt{N}$ primality test is enough to pass, but we could do better with [Miller-Rabin](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test), which runs in $\mathcal{O}(K\log^3N)$ time.
+
+Since $S\leq10^{18}$, the largest number we would need to check will be around $10^9$, in this case, $[2,7,61]$ would be enough to ensure the correctness of the primality test.
+
+::: details Code (C++)
+
+<<< @/docs/tutorial/kick-start/2021B/src/c.cpp
+
+:::
+
+### Solution II: Find all primes and binary search 
+
+Since the test cases are bundled, we can also pass Test 3 if we use Euler sieve to generate all primes smaller than $\sqrt{\text{MAXN}}$ optimally, and then use binary search for each query. Note that we need to make $\text{MAXN}$ a bit larger than $10^{18}$ so that we will also generate the smallest prime that is larger than $10^9$.
+
+Note that we need to use `bitset` instead of `bool[]` to save space.
 
 And the complexity:
 
@@ -54,7 +70,7 @@ And the complexity:
 
 ::: details Code (C++)
 
-<<< @/docs/tutorial/kick-start/2021B/src/c.cpp
+<<< @/docs/tutorial/kick-start/2021B/src/c2.cpp
 
 :::
 

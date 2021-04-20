@@ -36,9 +36,23 @@
 
 ## Problem C - [Consecutive Primes](https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435a5b/000000000077a8e6)
 
-官方题解利用了素数间隔的知识，给出了一个非常优美的暴力解法。
+### 解法一：找出最接近$\sqrt{S}$的三个素数$A<B\leq\sqrt{S}<C$
 
-不过，我们也可以利用欧拉筛在线性时间内求出所有不超过$\sqrt{\text{MAXN}}$的素数，然后二分求解每一个询问。注意这里$\text{MAXN}$需要比$10^{18}$略大一些，这样才能生成比$10^9$大的最小质数。
+官方题解利用了素数间隔（Prime gap）的知识，给出了一个非常优美的暴力解法。
+
+有关素数间隔的内容可以参考官方题解。这里说说素数检测（Primality test）。大家最熟悉的就是枚举$[2,\sqrt{N}]$之间的所有整数这种方法，时间复杂度是$\mathcal{O}(\sqrt{N})$。本题中使用这一方法也就可以通过了。但是借助[Miller-Rabin算法](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test)，我们可以做到$\mathcal{O}(K\log^3N)$的时间复杂度，其中$K$是检测因子的个数。对于$10^9$之内的整数，我们只需要使用$[2,7,61]$这三个因子就可以确保检测的正确性。
+
+::: details 参考代码（C++）
+
+<<< @/docs/tutorial/kick-start/2021B/src/c.cpp
+
+:::
+
+### 解法二：找出所有素数，然后二分查找
+
+我们也可以利用欧拉筛在线性时间内求出所有不超过$\sqrt{\text{MAXN}}$的素数，然后二分求解每一个询问。注意这里$\text{MAXN}$需要比$10^{18}$略大一些，这样才能生成比$10^9$大的最小质数。
+
+为了尽可能节约空间，标记数组需要使用`bitset`，而不是`bool[]`。
 
 复杂度：
 - 时间复杂度为$\mathcal{O}(\sqrt{\text{MAXN}}+Q\log\frac{\sqrt{\text{MAXN}}}{\ln\sqrt{\text{MAXN}}})$。
@@ -46,7 +60,7 @@
 
 ::: details 参考代码（C++）
 
-<<< @/docs/tutorial/kick-start/2021B/src/c.cpp
+<<< @/docs/tutorial/kick-start/2021B/src/c2.cpp
 
 :::
 
