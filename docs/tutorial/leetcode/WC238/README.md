@@ -132,9 +132,11 @@ public:
         int m = restrictions.size();
         if (m == 0)
             return n - 1;
+        restrictions.push_back({1, 0});
+        m++;
         sort(restrictions.begin(), restrictions.end());
         vector<int> l(m), r(m);
-        l[0] = min(restrictions[0][1], restrictions[0][0] - 1);
+        l[0] = 0;
         for (int i = 1; i < m; ++i) {
             int left = l[i - 1];
             int dist = restrictions[i][0] - restrictions[i - 1][0];
