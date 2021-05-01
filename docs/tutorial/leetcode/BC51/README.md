@@ -2,7 +2,7 @@
 
 ## Problem A - [将所有数字用字符替换](https://leetcode-cn.com/problems/replace-all-digits-with-characters/)
 
-模拟。
+模拟。题目已经保证了操作合法性，所以不需要额外处理。
 
 - 时间复杂度$\mathcal{O}(|S|)$。
 - 空间复杂度$\mathcal{O}(1)$。
@@ -13,10 +13,9 @@
 class Solution {
 public:
     string replaceDigits(string s) {
-        for (int i = 0; i < s.size(); i += 2) {
+        for (int i = 0; i < s.size(); i += 2)
             if (i + 1 < s.size())
-                s[i + 1] = (s[i] - 'a' + s[i + 1] - '0') % 26 + 'a';
-        }
+                s[i + 1] = s[i] + s[i + 1] - '0';
         
         return s;
     }
@@ -27,7 +26,7 @@ public:
 
 ## Problem B - [座位预约管理系统](https://leetcode-cn.com/problems/seat-reservation-manager/)
 
-用一个`set`维护所有空位置即可。
+用一个`set`维护所有空位置即可。题目已经保证了操作合法性，所以不需要额外处理。
 
 - 初始化时间复杂度为$\mathcal{O}(N\log N)$，`reserve`和`unreserve`操作时间复杂度为$\mathcal{O}(\log N)$。
 - 空间复杂度$\mathcal{O}(N)$。
