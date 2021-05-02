@@ -21,7 +21,7 @@ class Solution:
 
 回溯+剪枝。
 
-- 时间复杂度$\mathcal{O}(2^{|S|})$，但实际上会远远小于这一上界。
+- 时间复杂度$\mathcal{O}(|S|\cdot2^{|S|})$，但实际上会远远小于这一上界。
 - 空间复杂度$\mathcal{O}(|S|)$。
 
 ::: details 参考代码（Python 3）
@@ -101,7 +101,7 @@ public:
 
 ## Problem D - [包含每个查询的最小区间](https://leetcode-cn.com/problems/minimum-interval-to-include-each-query/)
 
-和第51场双周赛的[最后一题](../BC51/#problem-d-%E6%9C%80%E8%BF%91%E7%9A%84%E6%88%BF%E9%97%B4)如出一辙，将区间和查询分别排序，然后离线处理。
+和第51场双周赛的[最后一题](../BC51/)如出一辙，将区间和查询分别排序，然后离线处理。
 
 - 时间复杂度$\mathcal{O}(N\log N+Q\log Q+Q\log N)$。
 - 空间复杂度$\mathcal{O}(N)$。
