@@ -31,6 +31,11 @@ class Solution:
 
 ### 方法二：差分数组
 
+更优的做法是使用差分数组。
+
+- 时间复杂度$\mathcal{O}(N)$。
+- 空间复杂度为$\mathcal{O}(D)$。
+
 ::: details 参考代码（C++）
 
 ```cpp
@@ -52,9 +57,6 @@ public:
 ```
 
 :::
-
-- 时间复杂度$\mathcal{O}(N)$。
-- 空间复杂度为$\mathcal{O}(D)$。
 
 ## Problem B - [下标对中的最大距离](https://leetcode-cn.com/problems/maximum-distance-between-a-pair-of-values/)
 
