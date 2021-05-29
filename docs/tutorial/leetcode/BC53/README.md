@@ -184,4 +184,28 @@ public:
 
 :::
 
+事实上，对于一个给定的$state$，我们可以根据其二进制中$1$的个数来求出添加下一个元素时，对应于`nums1`中的第几个元素，从而可以将时间复杂度降低到$\mathcal{O}(N\cdot2^N)$。
+
+::: details 参考代码（C++）
+
+```cpp
+class Solution {
+public:
+    int minimumXORSum(vector<int>& nums1, vector<int>& nums2) {
+        int n = nums1.size();
+        vector<int> dp(1 << n, INT_MAX);
+        dp[0] = 0;
+        for (int i = 0; i + 1 < (1 << n); ++i) {
+            int j = __builtin_popcount(i);
+            for (int k = 0; k < n; ++k)
+                if (!(i & (1 << k)))
+                    dp[i ^ (1 << k)] = min(dp[i ^ (1 << k)], dp[i] + (nums1[j] ^ nums2[k]));
+        }
+        return dp[(1 << n) - 1];
+    }
+};
+```
+
+:::
+
 <Utterances />
