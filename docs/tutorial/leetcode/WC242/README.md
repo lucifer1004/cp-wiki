@@ -11,7 +11,7 @@
 
 ::: details 参考代码（C++）
 
-```c++
+```cpp
 class Solution {
 public:
     bool checkZeroOnes(string s) {
@@ -48,7 +48,7 @@ public:
 
 ::: details 参考代码（C++）
 
-```c++
+```cpp
 using ll = long long;
 
 template<typename ... Args>
@@ -166,7 +166,7 @@ public:
 
 ::: details 参考代码（C++）
 
-```c++
+```cpp
 class Solution {
 public:
     bool canReach(string s, int minJump, int maxJump) {        
@@ -211,7 +211,7 @@ public:
 
 ::: details 参考代码（C++）
 
-```c++
+```cpp
 class Solution {
 public:
     bool canReach(string s, int minJump, int maxJump) {        

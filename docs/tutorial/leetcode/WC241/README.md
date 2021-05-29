@@ -11,7 +11,7 @@
 
 ::: details 参考代码（C++）
 
-```c++
+```cpp
 class Solution {
 public:
     int subsetXORSum(vector<int>& nums) {
