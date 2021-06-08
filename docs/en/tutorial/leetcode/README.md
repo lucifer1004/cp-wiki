@@ -54,6 +54,7 @@
 - [Weekly Contest 195](/tutorial/leetcode/WC195/)
 - [Weekly Contest 194](/tutorial/leetcode/WC194/)
 - [Weekly Contest 193](/tutorial/leetcode/WC193/)
+- [Weekly Contest 192](/tutorial/leetcode/WC192/)
 
 ## Bi-weekly Contest
 
