@@ -120,7 +120,7 @@ public:
 
 ## Problem D - [找到最小生成树里的关键边和伪关键边](https://leetcode-cn.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
 
-本题与[CF160D - Edges in MST]([https://codeforces.com/contest/160/problem/D](https://codeforces.com/contest/160/problem/D))相同。
+本题与[CF160D - Edges in MST](https://codeforces.com/contest/160/problem/D)相同。
 
 ### 方法一 暴力枚举
 
