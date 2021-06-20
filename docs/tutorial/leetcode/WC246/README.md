@@ -53,7 +53,8 @@ public:
         auto [finish_hour, finish_minute] = get_hour_and_minute(finishTime);
         if (startTime > finishTime)
             finish_hour += 24;
-        return (finish_hour + 1 - start_hour) * 4 - (start_minute + 14) / 15 - (59 - finish_minute) / 15 - 1;
+        int ans = (finish_hour + 1 - start_hour) * 4 - (start_minute + 14) / 15 - (59 - finish_minute) / 15 - 1;
+        return max(ans, 0);
     }
 };  
 ```
