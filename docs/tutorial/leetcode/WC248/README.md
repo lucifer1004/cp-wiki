@@ -179,6 +179,8 @@ impl Solution {
 ::: details 参考代码（Rust）
 
 ```rust
+use std::collections::HashSet;
+
 fn sa_is(s: &[usize], upper: usize) -> Vec<usize> {
     let n = s.len();
     match n {
@@ -351,8 +353,6 @@ fn lcp_array<T: Ord>(s: &[T], sa: &[usize]) -> Vec<usize> {
     lcp
 }
 
-// 以上模板代码修改自[ac-library-rs](https://github.com/rust-lang-ja/ac-library-rs/blob/master/src/string.rs)
-
 impl Solution {
     pub fn longest_common_subpath(n: i32, paths: Vec<Vec<i32>>) -> i32 {
         let m = paths.len();
@@ -362,8 +362,6 @@ impl Solution {
         let mut global_path = vec![];
         let mut belong = vec![];
         let mut sep = n;
-        
-        // 将 m 条路径连成一条总路径，并用分隔符分隔
         for path in paths.iter() {
             for &city in path.iter() {
                 global_path.push(city);
@@ -371,8 +369,6 @@ impl Solution {
             }
             global_path.push(sep);
             belong.push(sep - n);
-            
-            // 使用的分隔符是 m 个不属于 [0,n) 且各不相同的数字，这样可以避免两个后缀的最长公共前缀跨越不同的路径
             sep += 1;
         }
 
@@ -387,34 +383,24 @@ impl Solution {
             let mid = (lo + hi) >> 1;
             let mut i = 0;
             let mut found = false;
+            let mut vis = HashSet::new();
 
             while i < lcp.len() {
                 if lcp[i] >= mid {
-                    let mut vis = vec![false; m];
-                    let mut vis_count = 0;
                     let mut j = i;
-                    
-                    // 找出不小于 mid 的最长的一段 lcp[i..j]，统计这些元素的归属，判断是否覆盖了所有路径。
                     while j < lcp.len() && lcp[j] >= mid {
-                        if !vis[belong[sa[j]] as usize] {
-                            vis[belong[sa[j]] as usize] = true;
-                            vis_count += 1;
-                        }
+                        vis.insert(belong[sa[j]]);
                         j += 1;
                     }
-                    
-                    // 因为 lcp[i] 表示 sa[i] 和 sa[i+1] 的最长公共前缀，所以还需要计入最后的一个位置。
-                    if !vis[belong[sa[j]] as usize] {
-                        vis_count += 1;
-                    }
+                    vis.insert(belong[sa[j]]);
 
-                    // 当前范围包含了 m 条路径，说明找到了长度为 mid 的公共子路径。
-                    if vis_count == m {
+                    if vis.len() == m {
                         found = true;
                         break;
                     }
 
                     i = j;
+                    vis.clear();
                 } else {
                     i += 1;
                 }
@@ -430,14 +416,12 @@ impl Solution {
         hi as i32
     }
 }
-
 ```
 
 :::
 
-### 方法三：后缀树
+### 方法三：后缀树/后缀自动机
 
 略。
-
 
 <Utterances />
