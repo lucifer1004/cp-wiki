@@ -127,6 +127,11 @@ module.exports = {
       collapsable: true,
       children: range(28, 60, 'BC', true),
     },
+    {
+      title: '力扣杯',
+      collapsable: true,
+      children: ['2021-fall-solo/'],
+    },
   ],
   '/blog/': null,
   '/': 'auto',
