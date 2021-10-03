@@ -103,7 +103,12 @@ module.exports = {
   '/tutorial/leetcode/': [
     '',
     {
-      title: '周赛（241~）',
+      title: '周赛（261~）',
+      collapsable: true,
+      children: range(261, 261, 'WC', true),
+    },
+    {
+      title: '周赛（241~260）',
       collapsable: true,
       children: range(241, 260, 'WC', true),
     },
