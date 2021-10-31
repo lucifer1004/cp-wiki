@@ -152,52 +152,42 @@ impl Solution {
 
 ```cpp
 class Solution {
-    bool isdigit(char ch) {
+    bool is_digit(char ch) {
         return ch >= '0' && ch <= '9';
-    }
-    
-    int to_num(string s) {
-        int ans = 0;
-        for (char ch : s) {
-            if (!isdigit(ch))
-                return -1;
-            ans = ans * 10 + ch - '0';
-        }
-        return ans;
     }
 public:
     bool possiblyEquals(string s1, string s2) {
         int n = s1.size(), m = s2.size();
         vector<vector<unordered_set<int>>> dp(n + 1, vector<unordered_set<int>>(m + 1));
         dp[0][0].emplace(0);
-        
-        vector<vector<int>> np(n + 1, vector<int>(n + 1, -1)), nq(m + 1, vector<int>(m + 1, -1));
-        for (int i = 0; i < n; ++i) {
-            for (int j = i; j < n; ++j) {
-                np[i][j] = to_num(s1.substr(i, j - i + 1));
-            }
-        }
-        for (int i = 0; i < m; ++i) {
-            for (int j = i; j < m; ++j) {
-                nq[i][j] = to_num(s2.substr(i, j - i + 1));
-            }
-        }
                 
         for (int i = 0; i <= n; ++i) {
             for (int j = 0; j <= m; ++j) {
                 for (int delta : dp[i][j]) {
-                    for (int p = i; p <= min(i + 3, n); ++p)
-                        if (np[i][p] > 0) 
-                            dp[p + 1][j].emplace(delta + np[i][p]);
+                    int num = 0;
+                    for (int p = i; p < min(i + 3, n); ++p) {
+                        if (is_digit(s1[p])) {
+                            num = num * 10 + s1[p] - '0';
+                            dp[p + 1][j].emplace(delta + num);
+                        } else {
+                            break;
+                        }
+                    }
                     
-                    for (int q = j; q <= min(j + 3, m); ++q)
-                        if (nq[j][q] > 0) 
-                            dp[i][q + 1].emplace(delta - nq[j][q]);
+                    num = 0;
+                    for (int q = j; q < min(j + 3, m); ++q) {
+                        if (is_digit(s2[q])) {
+                            num = num * 10 + s2[q] - '0';
+                            dp[i][q + 1].emplace(delta - num);
+                        } else {
+                            break;
+                        }
+                    }
                     
-                    if (i < n && delta < 0 && !isdigit(s1[i])) 
+                    if (i < n && delta < 0 && !is_digit(s1[i])) 
                         dp[i + 1][j].emplace(delta + 1);
                             
-                    if (j < m && delta > 0 && !isdigit(s2[j])) 
+                    if (j < m && delta > 0 && !is_digit(s2[j])) 
                         dp[i][j + 1].emplace(delta - 1);
                             
                     if (i < n && j < m && delta == 0 && s1[i] == s2[j])
