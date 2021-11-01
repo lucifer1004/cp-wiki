@@ -67,62 +67,76 @@ public:
 - 时间复杂度$\mathcal{O}(NC)$，其中$C$表示有效数值的范围大小。
 - 空间复杂度$\mathcal{O}(C)$。
 
+::: details 参考代码（C++）
+
+```cpp
+const int INF = 0x3f3f3f3f;
+
+class Solution {
+public:
+    int minimumOperations(vector<int>& nums, int start, int goal) {
+        if (goal == start)
+            return 0;
+
+        queue<int> q;
+        vector<int> dis(1001, INF);
+        q.emplace(start);
+        dis[start] = 0;
+
+        while (!q.empty()) {
+            int u = q.front();
+            q.pop();
+            for (int num : nums) {
+                for (int nxt : {u - num, u + num, u ^ num}) {
+                    if (nxt == goal)
+                        return dis[u] + 1;
+                    if (nxt >= 0 && nxt <= 1000 && dis[nxt] == INF)
+                        dis[nxt] = dis[u] + 1, q.emplace(nxt);
+                }
+            }
+        }
+
+        return -1;
+    }
+};
+```
+
+:::
+
 ::: details 参考代码（Rust）
 
 ```rust
-use std::collections::{HashMap, VecDeque};
+use std::collections::VecDeque;
+
+const INF: i32 = 1_000_000_000;
 
 impl Solution {
     pub fn minimum_operations(nums: Vec<i32>, start: i32, goal: i32) -> i32 {
-        let mut dis = HashMap::new();
+        if start == goal {
+            return 0;
+        }
+
+        let mut dis = [INF; 1001];
         let mut q = VecDeque::new();
         q.push_back(start);
-        dis.insert(start, 0);
+        dis[start as usize] = 0;
         
         while !q.is_empty() {
             let u = q.pop_front().unwrap();
-            let d = *dis.get(&u).unwrap();
-            if u == goal {
-                return d;
-            }
             for &num in nums.iter() {
-                if !dis.contains_key(&(u + num)) {
-                    if u + num == goal {
-                        return d + 1;
+                for &nxt in [u + num, u - num, u ^ num].iter() {
+                    if nxt == goal {
+                        return dis[u as usize] + 1;
                     }
-                    if u + num >= 0 && u + num <= 1000 {
-                        dis.insert(u + num, d + 1);
-                        q.push_back(u + num);
-                    }
-                }
-                
-                if !dis.contains_key(&(u - num)) {
-                    if u - num == goal {
-                        return d + 1;
-                    }
-                    if u - num >= 0 && u - num <= 1000 {
-                        dis.insert(u - num, d + 1);
-                        q.push_back(u - num);
-                    }
-                }
-                
-                if !dis.contains_key(&(u ^ num)) {
-                    if (u ^ num) == goal {
-                        return d + 1;
-                    }
-                    if u ^ num >= 0 && u ^ num <= 1000 {
-                        dis.insert(u ^ num, d + 1);
-                        q.push_back(u ^ num);
+                    if nxt >= 0 && nxt <= 1000 && dis[nxt as usize] == INF {
+                        dis[nxt as usize] = dis[u as usize] + 1;
+                        q.push_back(nxt);
                     }
                 }
             }
         }
         
-        if dis.contains_key(&goal) {
-            *dis.get(&goal).unwrap()
-        } else {
-            -1
-        }
+        -1
     }
 }
 ```
@@ -145,8 +159,8 @@ impl Solution {
 
 最后，我们检查$dp[N][M]$是否包含$0$即可。
 
-- 时间复杂度$\mathcal{O}(C\cdot N^2)$。其中$C$表示长度差的可能取值范围的大小。在本题中，$C$的极限取值范围为$[-10000, 10000]$。
-- 空间复杂度$\mathcal{O}(C\cdot N^2)$。
+- 时间复杂度$\mathcal{O}(NMD\cdot 10^D)$。其中$D$表示连续数字串的最长长度，本题中$D=3$。$D$决定了长度差的取值范围为$(-10^D, 10^D)$，这是因为连续的数字串前面至少有一个字母（或为字符串串首），而由我们的转移规则可知，字母只有在串的长度小于等于另一个串时才会被用于匹配，因此连续$D$个数字至多使得当前字符串比另一字符串长$10^D-1$。
+- 空间复杂度$\mathcal{O}(NM\cdot 10^D)$。
 
 ::: details 参考代码（C++）
 
