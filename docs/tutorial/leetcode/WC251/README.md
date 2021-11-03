@@ -91,7 +91,7 @@ class Solution:
 
 ::: details 参考代码（C++）
 
-```c++
+```cpp
 class Solution {
 public:
     int maxCompatibilitySum(vector<vector<int>>& students, vector<vector<int>>& mentors) {

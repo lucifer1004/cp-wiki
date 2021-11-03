@@ -79,7 +79,7 @@ public:
 
 ::: details 参考代码（C++）
 
-```c++
+```cpp
 class Solution {
 public:
     long long maxPoints(vector<vector<int>>& points) {
