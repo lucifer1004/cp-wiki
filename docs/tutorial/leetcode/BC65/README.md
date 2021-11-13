@@ -223,4 +223,72 @@ public:
 
 :::
 
+### 方法二：单调队列
+
+在二分的大框架下，我们也可以从弱到强来考虑选出的$K$个工人。
+
+显然，每个工人都必须做一个任务，否则总共做不到$K$个。对于第$i$个工人，我们将所有难度值不超过$workers[i] + strength$的任务维护在一个双端队列中。由于我们已经对任务进行排序，这个队列天然就是一个单调队列。
+
+- 首先考虑这个工人不吃药的情况。此时我们看队列最前面，也即当前最容易的任务是否能够被完成。如果可以，则让该工人做这个最容易的任务。因为任务是必须要做的，而后面的人能力都比当前这个人要强，所以安排当前这个人来做任务是不亏的。
+- 如果他不吃药就做不了任务，那就必须吃药。吃药之后，我们应该让他做当前最难的任务，也即队尾的任务。
+- 如果吃了药也做不了任何任务，则说明无法完成$K$个任务。
+
+这样，时间复杂度就优化掉了一个log。
+
+- 时间复杂度$\mathcal{O}(N\log N)$。
+- 空间复杂度$\mathcal{O}(N)$。
+
+> 参考了[@灵剑2012](https://leetcode-cn.com/problems/maximum-number-of-tasks-you-can-assign/solution/ji-yu-er-fen-dan-diao-dui-lie-de-onlogns-zy8q/)的题解。
+
+::: details 参考代码（C++）
+
+```cpp
+class Solution {
+public:
+    int maxTaskAssign(vector<int>& tasks, vector<int>& workers, int pills, int strength) {
+        int n = tasks.size(), m = workers.size();
+        
+        sort(tasks.begin(), tasks.end());
+        sort(workers.begin(), workers.end());
+        
+        auto check = [&](int k) {
+            if (m < k)
+                return false;
+ 
+            int ptr = -1, rem = pills;
+            deque<int> dq;
+            for (int i = m - k; i < m; ++i) {
+                while (ptr + 1 < k && tasks[ptr + 1] <= workers[i] + strength)
+                    dq.push_back(tasks[++ptr]);
+                if (dq.empty())
+                    return false;
+                if (dq.front() <= workers[i])
+                    dq.pop_front();
+                else if (rem > 0) {
+                    rem--;
+                    dq.pop_back();
+                } else 
+                    return false;
+            }
+
+            return true;
+        };
+        
+        int lo = 1, hi = n;
+        while (lo <= hi) {
+            int mid = (lo + hi) >> 1;
+                        
+            if (check(mid))
+                lo = mid + 1;
+            else
+                hi = mid - 1;
+        }
+        
+        return hi;
+    }
+};
+```
+
+:::
+
 <Utterances />
