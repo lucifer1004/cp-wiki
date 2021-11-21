@@ -105,7 +105,7 @@ module.exports = {
     {
       title: '周赛（261~）',
       collapsable: true,
-      children: range(261, 267, 'WC', true),
+      children: range(261, 268, 'WC', true),
     },
     {
       title: '周赛（241~260）',
