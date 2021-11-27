@@ -82,6 +82,7 @@
 
 ## Bi-weekly Contest
 
+- [Bi-weekly Contest 66](/tutorial/leetcode/BC66/)
 - [Bi-weekly Contest 65](/tutorial/leetcode/BC65/)
 - [Bi-weekly Contest 64](/tutorial/leetcode/BC64/)
 - [Bi-weekly Contest 63](/tutorial/leetcode/BC63/)
