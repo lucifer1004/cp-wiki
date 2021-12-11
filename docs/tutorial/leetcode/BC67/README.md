@@ -116,6 +116,61 @@ public:
 
 :::
 
+### 方法二：位优化Floyd
+
+在建立有向图后，我们可以使用位优化的Floyd来进行第二步计算。
+
+- 时间复杂度$\mathcal{O}(N^3/W)$，其中$W$为字长。
+- 空间复杂度$\mathcal{O}(N^2)$。
+
+::: details 参考代码（C++）
+
+```cpp
+using ll = long long;
+using bs = bitset<100>;
+
+ll dis(int x1, int y1, int x2, int y2) {
+    return 1LL * (x1 - x2) * (x1 - x2) + 1LL * (y1 - y2) * (y1 - y2);
+}
+
+class Solution {
+public:
+    int maximumDetonation(vector<vector<int>>& bombs) {
+        int n = bombs.size();
+        vector<bs> d(n);
+        for (int i = 0; i < n; ++i) {
+            d[i].set(i);
+            auto &p = bombs[i];
+            for (int j = 0; j < n; ++j) {
+                auto &q = bombs[j];
+                if (dis(p[0], p[1], q[0], q[1]) <= 1LL * p[2] * p[2])
+                    d[i].set(j);
+            }
+        }
+        
+        for (int mid = 0; mid < n; ++mid) 
+            for (int s = 0; s < n; ++s) {
+                if (d[s][mid])
+                    d[s] |= d[mid];
+            }
+        
+        int ans = 0;
+        for (int i = 0; i < n; ++i)
+            ans = max(ans, (int)d[i].count());
+        
+        return ans;
+    }
+};
+```
+
+:::
+
+### 方法三：缩点+DAG上动态规划
+
+我们还可以进一步将时间复杂度优化到$\mathcal{O}(N^2)$。
+
+首先，我们使用Tarjan等方法将建好的有向图缩点得到一个有向无环图（DAG），新图中的每个点都对应原图中的一个环，点的权值就是环的大小。之后在这个DAG上按照拓扑序进行动态规划即可。
+
 ## Problem D - [序列顺序查询](https://leetcode-cn.com/problems/sequentially-ordinal-rank-tracker/)
 
 ### 方法一：平衡树
