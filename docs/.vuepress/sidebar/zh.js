@@ -130,7 +130,7 @@ module.exports = {
     {
       title: '双周赛',
       collapsable: true,
-      children: range(28, 66, 'BC', true),
+      children: range(28, 67, 'BC', true),
     },
     {
       title: '力扣杯',
