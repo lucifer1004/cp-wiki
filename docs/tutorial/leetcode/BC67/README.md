@@ -165,12 +165,6 @@ public:
 
 :::
 
-### 方法三：缩点+DAG上动态规划
-
-我们还可以进一步将时间复杂度优化到$\mathcal{O}(N^2)$。
-
-首先，我们使用Tarjan等方法将建好的有向图缩点得到一个有向无环图（DAG），新图中的每个点都对应原图中的一个环，点的权值就是环的大小。之后在这个DAG上按照拓扑序进行动态规划即可。
-
 ## Problem D - [序列顺序查询](https://leetcode-cn.com/problems/sequentially-ordinal-rank-tracker/)
 
 ### 方法一：平衡树
@@ -206,6 +200,48 @@ public:
     
     string get() {
         return s.find_by_order(counter++)->second;
+    }
+};
+```
+
+:::
+
+### 方法二：双set
+
+注意到本题中的查询操作并不是随机进行的，而是按照严格递增的方式，我们可以采用类似数据流中中位数的方式，维护两个`set`来实现本题要求的功能。
+
+- 插入的时间复杂度都为$\mathcal{O}(\log N)$，查询的时间复杂度在均摊意义下为$\mathcal{O}(\log N)$。
+- 空间复杂度$\mathcal{O}(N)$。
+
+::: details 参考代码（C++）
+
+```cpp
+class SORTracker {
+    set<pair<int, string>, greater<>> s1;
+    set<pair<int, string>> s2;
+    int counter = 0;
+public:
+    SORTracker() {}
+    
+    void add(string name, int score) {
+        s1.emplace(-score, name);
+        if (*s1.begin() > *s2.begin()) {
+            s2.insert(*s1.begin());
+            s1.erase(s1.begin());
+        }
+    }
+    
+    string get() {
+        counter++;
+        while (s1.size() > counter) {
+            s2.insert(*s1.begin());
+            s1.erase(s1.begin());
+        }
+        while (s1.size() < counter) {
+            s1.insert(*s2.begin());
+            s2.erase(s2.begin());
+        }
+        return s1.begin()->second;
     }
 };
 ```
