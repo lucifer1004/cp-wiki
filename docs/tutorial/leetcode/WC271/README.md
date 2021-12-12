@@ -66,24 +66,55 @@ class Solution:
 ```cpp
 class Solution {
 public:
-    ListNode* deleteMiddle(ListNode* head) {
-        ListNode *p = head;
-        vector<ListNode *> nodes;
-        while (p != nullptr) {
-            nodes.push_back(p);
-            p = p->next;
+    long long subArrayRanges(vector<int>& nums) {
+        int n = nums.size();
+        long long ans = 0;
+        
+        vector<int> l(n, -1), r(n, n);
+        stack<int> st;
+        for (int i = 0; i < n; ++i) {
+            while (!st.empty() && nums[i] >= nums[st.top()]) {
+                r[st.top()] = i;
+                st.pop();
+            }
+            st.push(i);
         }
         
-        int n = nodes.size();
-        if (n == 1)
-            return nullptr;
+        st = stack<int>();
+        for (int i = n - 1; i >= 0; --i) {
+            while (!st.empty() && nums[i] > nums[st.top()]) {
+                l[st.top()] = i;
+                st.pop();
+            }
+            st.push(i);
+        }
         
-        int mid = n / 2;
-        ListNode *pre = nodes[mid - 1];
-        ListNode *nxt = (mid + 1 < n) ? nodes[mid + 1] : nullptr;
-        pre->next = nxt;
+        for (int i = 0; i < n; ++i)
+            ans += 1LL * nums[i] * (i - l[i]) * (r[i] - i);
         
-        return nodes[0];
+        l.assign(n, -1), r.assign(n, n);
+        st = stack<int>();
+        for (int i = 0; i < n; ++i) {
+            while (!st.empty() && nums[i] <= nums[st.top()]) {
+                r[st.top()] = i;
+                st.pop();
+            }
+            st.push(i);
+        }
+        
+        st = stack<int>();
+        for (int i = n - 1; i >= 0; --i) {
+            while (!st.empty() && nums[i] < nums[st.top()]) {
+                l[st.top()] = i;
+                st.pop();
+            }
+            st.push(i);
+        }
+        
+        for (int i = 0; i < n; ++i)
+            ans -= 1LL * nums[i] * (i - l[i]) * (r[i] - i);
+        
+        return ans;
     }
 };
 ```
