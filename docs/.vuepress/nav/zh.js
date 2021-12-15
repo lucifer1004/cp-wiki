@@ -74,6 +74,10 @@ module.exports = [
         link: '/tutorial/project-euler/',
       },
       {
+        text: 'Advent of Code',
+        link: '/tutorial/advent-of-code/',
+      },
+      {
         text: '其他比赛 | Other Contests',
         link: '/tutorial/others/',
       },

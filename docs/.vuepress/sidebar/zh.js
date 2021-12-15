@@ -100,6 +100,14 @@ module.exports = {
       children: ['1409/', '1399/'],
     },
   ],
+  '/tutorial/advent-of-code/': [
+    '',
+    {
+      title: '提示',
+      collapsable: true,
+      children: range(2015, 2021, '', true),
+    },
+  ],
   '/tutorial/leetcode/': [
     '',
     {

@@ -66,8 +66,12 @@ module.exports = [
         link: '/en/tutorial/kick-start/',
       },
       {
+        text: 'Advent of Code',
+        link: '/en/tutorial/advent-of-code/',
+      },
+      {
         text: 'Project Euler',
-        link: '/tutorial/project-euler/',
+        link: '/en/tutorial/project-euler/',
       },
       {
         text: 'UOJ Translation',

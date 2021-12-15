@@ -68,6 +68,14 @@ module.exports = {
       children: ['1409/', '1399/'],
     },
   ],
+  '/en/tutorial/advent-of-code/': [
+    '',
+    {
+      title: 'Hints',
+      collapsable: true,
+      children: range(2015, 2021, '', true),
+    },
+  ],
   '/en/tutorial/uoj/': ['', ...getSubfolders('en/tutorial/uoj')],
   '/en/blog/': null,
   '/': 'auto',
