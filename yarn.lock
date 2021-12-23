@@ -1466,19 +1466,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/core@npm:1.8.2":
-  version: 1.8.2
-  resolution: "@vuepress/core@npm:1.8.2"
+"@vuepress/core@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@vuepress/core@npm:1.9.1"
   dependencies:
     "@babel/core": ^7.8.4
     "@vue/babel-preset-app": ^4.1.2
-    "@vuepress/markdown": 1.8.2
-    "@vuepress/markdown-loader": 1.8.2
-    "@vuepress/plugin-last-updated": 1.8.2
-    "@vuepress/plugin-register-components": 1.8.2
-    "@vuepress/shared-utils": 1.8.2
+    "@vuepress/markdown": 1.9.1
+    "@vuepress/markdown-loader": 1.9.1
+    "@vuepress/plugin-last-updated": 1.9.1
+    "@vuepress/plugin-register-components": 1.9.1
+    "@vuepress/shared-utils": 1.9.1
     autoprefixer: ^9.5.1
     babel-loader: ^8.0.4
+    bundle-require: 2.1.8
     cache-loader: ^3.0.0
     chokidar: ^2.0.3
     connect-history-api-fallback: ^1.5.0
@@ -1486,6 +1487,7 @@ __metadata:
     core-js: ^3.6.4
     cross-spawn: ^6.0.5
     css-loader: ^2.1.1
+    esbuild: 0.14.7
     file-loader: ^3.0.1
     js-yaml: ^3.13.1
     lru-cache: ^5.1.1
@@ -1508,42 +1510,42 @@ __metadata:
     webpack-dev-server: ^3.5.1
     webpack-merge: ^4.1.2
     webpackbar: 3.2.0
-  checksum: d0f949232abd3c2f9ee81fd90621d3291e8fe18fa6b304eb0530ec1cd230dcfd284a8da14554d75cccbf236e305f1492fa08c3feeeb2c6df55fe6aea6d2ed0d9
+  checksum: aa54c61c7004d5cc8b3b506c53a2ec2b57d8612ac562296b5be25b7e86e8daa041aad4311f16b613fbec21236bbd878c0aa2dae376edaa39fa96e34eabd500b7
   languageName: node
   linkType: hard
 
-"@vuepress/markdown-loader@npm:1.8.2":
-  version: 1.8.2
-  resolution: "@vuepress/markdown-loader@npm:1.8.2"
+"@vuepress/markdown-loader@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@vuepress/markdown-loader@npm:1.9.1"
   dependencies:
-    "@vuepress/markdown": 1.8.2
+    "@vuepress/markdown": 1.9.1
     loader-utils: ^1.1.0
     lru-cache: ^5.1.1
-  checksum: 33bab35a58388e6f2871c5c69992a4142ac478eeaf5465b4a738dc89e5727546b7a68319b898c6bdd3df6d3e45e394f8d82b37fa7a405189d9e5c97366810153
+  checksum: 725f3db79b729dae67c3d221a5c8fff8f814cdb2beb946907e8409983911b2046a5553caf6d96f483cf5008458ecba2047d9180fe9b8bcc11f131628ee5ab6e8
   languageName: node
   linkType: hard
 
-"@vuepress/markdown@npm:1.8.2":
-  version: 1.8.2
-  resolution: "@vuepress/markdown@npm:1.8.2"
+"@vuepress/markdown@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@vuepress/markdown@npm:1.9.1"
   dependencies:
-    "@vuepress/shared-utils": 1.8.2
+    "@vuepress/shared-utils": 1.9.1
     markdown-it: ^8.4.1
     markdown-it-anchor: ^5.0.2
     markdown-it-chain: ^1.3.0
     markdown-it-emoji: ^1.4.0
     markdown-it-table-of-contents: ^0.4.0
     prismjs: ^1.13.0
-  checksum: 013e9a9e410fcd263f6a5733d3f7fcf839a4f6a99ec0617d05a41bd233792798c463cd9cdfd1d2ca1632f63344c58704d71c7fe660e5d347ad49cf953bd3cb81
+  checksum: e140d354214c54d83bdb5f43062b0aca9dbb52899999217942f44b6c46a6d6bbdd40cc454979fbfb01bd726430c4fef286c54c4f964842a4296647fb17963ca8
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-active-header-links@npm:1.8.2":
-  version: 1.8.2
-  resolution: "@vuepress/plugin-active-header-links@npm:1.8.2"
+"@vuepress/plugin-active-header-links@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@vuepress/plugin-active-header-links@npm:1.9.1"
   dependencies:
     lodash.debounce: ^4.0.8
-  checksum: d906b90300e391991f3c1761f6f5f8d79fd05e864fba40d6534a00012e4e01bd195b81969a1c8390bf667fe9de227fab3158bba36e5ae2af24c48c41661bb844
+  checksum: c06a9c04513806c5ed064f1db6096850e9ca1911052921f82dfa752b35cb38a0c185b0e1ea42c652fc170ed39baa4c2275519c27c167557b233dec5250c5e138
   languageName: node
   linkType: hard
 
@@ -1563,12 +1565,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-last-updated@npm:1.8.2":
-  version: 1.8.2
-  resolution: "@vuepress/plugin-last-updated@npm:1.8.2"
+"@vuepress/plugin-last-updated@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@vuepress/plugin-last-updated@npm:1.9.1"
   dependencies:
     cross-spawn: ^6.0.5
-  checksum: afa8e7c4a11ad016f07cfeb8f2053f57dd0ffe73ca4c0537fa14e8792792a3fdcae712a60c34635fda1ca51384a8bb40bce74a726814eedba116c9feddc1f4ec
+  checksum: 84b6607d5ef408a13e9ed555529660d42de92b26589e1238fcd3e01084ca4213fcd1faafbf205b603a217fd0dc0b86d4f43e735a606bc77063a2a1ee327a89c3
   languageName: node
   linkType: hard
 
@@ -1581,34 +1583,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-nprogress@npm:1.8.2":
-  version: 1.8.2
-  resolution: "@vuepress/plugin-nprogress@npm:1.8.2"
+"@vuepress/plugin-nprogress@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@vuepress/plugin-nprogress@npm:1.9.1"
   dependencies:
     nprogress: ^0.2.0
-  checksum: dbbf767f5490ee095b882eeb71b8a4b9d38b054021fface55d5f77d026e2d7e32bcca98ed9e7fd2a0d1c085805736f9c9e0f006621e4bb3df12b0a755f2c22e9
+  checksum: c237e99a0a3ec5da3d1076c2aa24d66c6fe95b4dc02de46211fcedc210dc4cfa4745a04438e96021bcb9740a63abaec99cd2c7f949acfab7540c99d667758b80
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-register-components@npm:1.8.2":
-  version: 1.8.2
-  resolution: "@vuepress/plugin-register-components@npm:1.8.2"
+"@vuepress/plugin-register-components@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@vuepress/plugin-register-components@npm:1.9.1"
   dependencies:
-    "@vuepress/shared-utils": 1.8.2
-  checksum: f1e5499368384396c2df481613f628e8cc1ec9987f8d7dedff4c528529e676083b05fb2e72404fa272cb94fc7c5baac9308d2265cd093138258a34354cfb3a8e
+    "@vuepress/shared-utils": 1.9.1
+  checksum: bfd0a2f351a58710ce0adc67a5377d9659c2067715d3591e0dbc59c39d61acc6dc344e8f9820eee460511b85452017f8f959ce7394ab32098d783520de86b785
   languageName: node
   linkType: hard
 
-"@vuepress/plugin-search@npm:1.8.2":
-  version: 1.8.2
-  resolution: "@vuepress/plugin-search@npm:1.8.2"
-  checksum: feae0806ea68d0e69bd044ccc96f252563940b36ab45cd77c0d8fea8d1977d9978685fc89544d4b4ad4dadc4f0eca22d40b6d4792fcf70213aa8f8e5931bda3f
+"@vuepress/plugin-search@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@vuepress/plugin-search@npm:1.9.1"
+  checksum: 776037edf9f3a5a19eed8d2374140fe15b586783f05c8c8ac82a9fb109392fa4fd78cc2a96525d733a148b65aec97ffecd0514cbcd84e6b080b2d3841597fe12
   languageName: node
   linkType: hard
 
-"@vuepress/shared-utils@npm:1.8.2":
-  version: 1.8.2
-  resolution: "@vuepress/shared-utils@npm:1.8.2"
+"@vuepress/shared-utils@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@vuepress/shared-utils@npm:1.9.1"
   dependencies:
     chalk: ^2.3.2
     escape-html: ^1.0.3
@@ -1619,24 +1621,24 @@ __metadata:
     semver: ^6.0.0
     toml: ^3.0.0
     upath: ^1.1.0
-  checksum: dbeed8ea45119712d945c4716e6fed500931835e69d9e2409b90acc63931e34a1ed4c88066271471aae1ce1ebbe2e96ab5ee04a5538a6c9a7860649f4c42d63a
+  checksum: 655bed5c4eab44865286744116b1988f88778dd2cb384d62d64402a14c66ecc8998f44d0f166278dc11e605ce7e398f244a5180f64138ff29235e17a2e29d6c0
   languageName: node
   linkType: hard
 
-"@vuepress/theme-default@npm:1.8.2":
-  version: 1.8.2
-  resolution: "@vuepress/theme-default@npm:1.8.2"
+"@vuepress/theme-default@npm:1.9.1":
+  version: 1.9.1
+  resolution: "@vuepress/theme-default@npm:1.9.1"
   dependencies:
-    "@vuepress/plugin-active-header-links": 1.8.2
-    "@vuepress/plugin-nprogress": 1.8.2
-    "@vuepress/plugin-search": 1.8.2
+    "@vuepress/plugin-active-header-links": 1.9.1
+    "@vuepress/plugin-nprogress": 1.9.1
+    "@vuepress/plugin-search": 1.9.1
     docsearch.js: ^2.5.2
     lodash: ^4.17.15
     stylus: ^0.54.8
     stylus-loader: ^3.0.2
     vuepress-plugin-container: ^2.0.2
     vuepress-plugin-smooth-scroll: ^0.0.3
-  checksum: 326c7793149d0661020c064b31d6ee684cc3adbd0af33ffbd4a00363989eef5a2a778b757ceb8b6e3af295de539b63fdd94bf502a44b5195d725d88ebc6dc75e
+  checksum: 035f6579a9a78858c0fbaf78f34bfa1121c34ee744bebbaf32859cdc8cf9e8fc2d56a22fd6c29f9a0e52c051ee86fe2c899bc05c4f0c2748622e1c80f80f93f0
   languageName: node
   linkType: hard
 
@@ -2620,6 +2622,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bundle-require@npm:2.1.8":
+  version: 2.1.8
+  resolution: "bundle-require@npm:2.1.8"
+  peerDependencies:
+    esbuild: ">=0.13"
+  checksum: 08d288c802ec5f31e543fc10472842f010b372270a7e71d10213bfb0c3e02c8b90f9ad6add71ae6d139342a23ec3915bff649cf521aaa98e637761154620ce09
+  languageName: node
+  linkType: hard
+
 "bytes@npm:3.0.0":
   version: 3.0.0
   resolution: "bytes@npm:3.0.0"
@@ -3368,7 +3379,7 @@ __metadata:
     tiny-pinyin: 1.3.2
     vue-google-adsense: 1.10.1
     vue-script2: 2.1.0
-    vuepress: 1.8.2
+    vuepress: ^1.9.1
     vuepress-plugin-autometa: 0.1.13
     vuepress-plugin-git-log: 1.0.1
     vuepress-plugin-mailchimp: 1.4.2
@@ -4289,6 +4300,187 @@ __metadata:
   version: 4.2.8
   resolution: "es6-promise@npm:4.2.8"
   checksum: b85e5faab1b3785b8bf1a6c91b5f176cf3e5e4550359508ef54dd58b19ad2b831e04607e2a0a464f2a1407bf02897d5c88daf6e3d94c2ee4510e8191b44b64ef
+  languageName: node
+  linkType: hard
+
+"esbuild-android-arm64@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-android-arm64@npm:0.14.7"
+  checksum: cbe04a7325f4ee6217776518edb3f6b0777e6d4d476703852b26651d85a494e3aa22144668b0ba667d72271797870023d8ef05a1f25bdd2f50139271470e128e
+  languageName: node
+  linkType: hard
+
+"esbuild-darwin-64@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-darwin-64@npm:0.14.7"
+  checksum: b6e2ba019431847639f12f3ead22f2139b8446ff2dbee1d13b7c9d3c8b14ef29871b075d647e7894a05ea825d41bb212eddc2343d60c645085bdb73116ac616b
+  languageName: node
+  linkType: hard
+
+"esbuild-darwin-arm64@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-darwin-arm64@npm:0.14.7"
+  checksum: 30f0bc7a2f3912e603ee36a2c294c43b1761c19320aa296d2fcd84099e4377bdfbf8ede3b03762adef9e57ecdf672728afd3bd5fc807333dc3d24920c7a8dc90
+  languageName: node
+  linkType: hard
+
+"esbuild-freebsd-64@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-freebsd-64@npm:0.14.7"
+  checksum: 299fd6267418d02933c9bed0229acfaaee456d2e9b018ca27463b02313a101cc436fdf1f90a73757a98c30c1a10b1316bb2b1e773e9cccff85cf1bb511232865
+  languageName: node
+  linkType: hard
+
+"esbuild-freebsd-arm64@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-freebsd-arm64@npm:0.14.7"
+  checksum: 122f62211ce0028edd048ed35722aa9b00bcded19f7313f87b43d4e126b73346eab286fca6cd3ab6d9d31399c3a3a031aae81a349574bcc8ba4b265140c8ff9f
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-32@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-linux-32@npm:0.14.7"
+  checksum: 37e4aa2790c6378b04ad6ff957568b167fa6d8bde8a49ae1c9192750748ae38a0bebf11109121e58144beab2dad852135e0c8cf2f148a0fb9db3c43fe5150c3f
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-64@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-linux-64@npm:0.14.7"
+  checksum: 498fad94f46daa1f6337dc54576a9d7c64777b00b4a321b5a277617647c9477a7afc2ce3e792f139545cdad90258cec967aae8bd60e9072e7b0aed71fd07a902
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-arm64@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-linux-arm64@npm:0.14.7"
+  checksum: 63f5376fa37c414c4e0b5607fd5d5659b7cf3f513e6177373a0c4846c9de03fd6392d844d65b88056d2f38304838b2121a33c74db4809ee5e1b03413028e2682
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-arm@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-linux-arm@npm:0.14.7"
+  checksum: 63e08fecc27559150f28e1d5465acf997dda82a16356db4d5a2327b016481dfc9dadafe079818aaf21c6725be334d540731c47a769d98a009b6d0c48429c78b8
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-mips64le@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-linux-mips64le@npm:0.14.7"
+  checksum: 6021e157370df564018bcc0202eb41d531ce5231882b8a9944de207e25b0f072610ef5c8adcefb78ee0dd488d09731165c39d2ec84ab75ad215c474712f31363
+  languageName: node
+  linkType: hard
+
+"esbuild-linux-ppc64le@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-linux-ppc64le@npm:0.14.7"
+  checksum: 2578bc0d69bdca936594417e32373327c9b50f60f83727c6ee03767ff8b4133f782aef32053d9ddf05365820dcd8e9a5f58fc01f08c93213d997db26e83b6a9d
+  languageName: node
+  linkType: hard
+
+"esbuild-netbsd-64@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-netbsd-64@npm:0.14.7"
+  checksum: 027c64c9ecec1b3d2fbdeea792826de901a2ce7a3933e53a52eedfc96daf7985d150f0b481be8a8b1e84545d25410ee6487ed785a48c270912ebe770ce0b6db6
+  languageName: node
+  linkType: hard
+
+"esbuild-openbsd-64@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-openbsd-64@npm:0.14.7"
+  checksum: f35ec75c7396069cdc7bc8ded00adcd231cf90b36d8b4cdf8eb260b680a9137a51397305d73e5da305eb237c24152357b7c9f5fbc48914506101e76301fc32ae
+  languageName: node
+  linkType: hard
+
+"esbuild-sunos-64@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-sunos-64@npm:0.14.7"
+  checksum: 477e5ee5ec5f588d9b66f010f31509e542807cce49129bd853464d47404d69ed8952a0cdfe655ca8df7c87152a11cce1c4fcbc905c5291bfa0dc11771c0a40b9
+  languageName: node
+  linkType: hard
+
+"esbuild-windows-32@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-windows-32@npm:0.14.7"
+  checksum: 97c9214096664917d66d90f877164735701a38ccf2b7ebfdd5654535c0057a6b8919b46911f00aa43be12abc2561558bfd8fa4f03608547a3dd0f7ff96e29d49
+  languageName: node
+  linkType: hard
+
+"esbuild-windows-64@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-windows-64@npm:0.14.7"
+  checksum: ba0b00d7cc3a0111643c864f62af77a6d130a02d9764b5141c3414be47f40684873eb0be18589aca10b19e52642dfd7a346fd0b53226319673154c884e5906e5
+  languageName: node
+  linkType: hard
+
+"esbuild-windows-arm64@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild-windows-arm64@npm:0.14.7"
+  checksum: ee1ebccd2b4a837431c58eb2d218361d919aff1f75d920bb1de017c33f6b821660acfacee43a8b1141208aaae59f00fada64ea91f559774ed86c2d2b8fb25b7b
+  languageName: node
+  linkType: hard
+
+"esbuild@npm:0.14.7":
+  version: 0.14.7
+  resolution: "esbuild@npm:0.14.7"
+  dependencies:
+    esbuild-android-arm64: 0.14.7
+    esbuild-darwin-64: 0.14.7
+    esbuild-darwin-arm64: 0.14.7
+    esbuild-freebsd-64: 0.14.7
+    esbuild-freebsd-arm64: 0.14.7
+    esbuild-linux-32: 0.14.7
+    esbuild-linux-64: 0.14.7
+    esbuild-linux-arm: 0.14.7
+    esbuild-linux-arm64: 0.14.7
+    esbuild-linux-mips64le: 0.14.7
+    esbuild-linux-ppc64le: 0.14.7
+    esbuild-netbsd-64: 0.14.7
+    esbuild-openbsd-64: 0.14.7
+    esbuild-sunos-64: 0.14.7
+    esbuild-windows-32: 0.14.7
+    esbuild-windows-64: 0.14.7
+    esbuild-windows-arm64: 0.14.7
+  dependenciesMeta:
+    esbuild-android-arm64:
+      optional: true
+    esbuild-darwin-64:
+      optional: true
+    esbuild-darwin-arm64:
+      optional: true
+    esbuild-freebsd-64:
+      optional: true
+    esbuild-freebsd-arm64:
+      optional: true
+    esbuild-linux-32:
+      optional: true
+    esbuild-linux-64:
+      optional: true
+    esbuild-linux-arm:
+      optional: true
+    esbuild-linux-arm64:
+      optional: true
+    esbuild-linux-mips64le:
+      optional: true
+    esbuild-linux-ppc64le:
+      optional: true
+    esbuild-netbsd-64:
+      optional: true
+    esbuild-openbsd-64:
+      optional: true
+    esbuild-sunos-64:
+      optional: true
+    esbuild-windows-32:
+      optional: true
+    esbuild-windows-64:
+      optional: true
+    esbuild-windows-arm64:
+      optional: true
+  bin:
+    esbuild: bin/esbuild
+  checksum: f3a1d00fb321b865ccb2a6ff197ecb50330fa4c9e6c6177a3b10f797b061c887d198db984a5032bff5a69c42eec9faac0851a5d621eae65ebf5bdadeddfaeeaa
   languageName: node
   linkType: hard
 
@@ -10943,19 +11135,20 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"vuepress@npm:1.8.2":
-  version: 1.8.2
-  resolution: "vuepress@npm:1.8.2"
+"vuepress@npm:^1.9.1":
+  version: 1.9.1
+  resolution: "vuepress@npm:1.9.1"
   dependencies:
-    "@vuepress/core": 1.8.2
-    "@vuepress/theme-default": 1.8.2
+    "@vuepress/core": 1.9.1
+    "@vuepress/theme-default": 1.9.1
     cac: ^6.5.6
     envinfo: ^7.2.0
     opencollective-postinstall: ^2.0.2
     update-notifier: ^4.0.0
+    webpack-chain: ^6.0.0
   bin:
     vuepress: cli.js
-  checksum: 8d8e0465e0fb13b3231b708a3ba2bffa7b28e4de6fd0c9248e8b0a5667ff1856934a4ac94482d4c595328e5d01b7d9991898f3be1995d4f75e0128c17b30b46e
+  checksum: 0b31e7058cf676428591c0719cba50c5964943283a5f040f666e5ca849788d17dcb144e0d8facf65da73c56a19e19ee1507c1048f39ee289430e38586ce45f4f
   languageName: node
   linkType: hard
 
