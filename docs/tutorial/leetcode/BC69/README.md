@@ -19,7 +19,6 @@ class Solution:
 
 :::
 
-
 ## Problem B - [链表最大孪生和](https://leetcode-cn.com/problems/maximum-twin-sum-of-a-linked-list/)
 
 ### 方法一：暴力
@@ -31,7 +30,7 @@ class Solution:
 
 ::: details 参考代码（Python 3）
 
-```cpp
+```python
 class Solution:
     def pairSum(self, head: Optional[ListNode]) -> int:
         nums = []
