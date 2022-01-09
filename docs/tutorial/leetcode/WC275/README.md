@@ -29,9 +29,9 @@ class Solution:
 - 时间复杂度$\mathcal{O}(N)$。
 - 空间复杂度$\mathcal{O}(1)$。
 
-::: details 参考代码（Python 3）
+::: details 参考代码（C++）
 
-```python
+```cpp
 class Solution {
 public:
     int minSwaps(vector<int>& nums) {
