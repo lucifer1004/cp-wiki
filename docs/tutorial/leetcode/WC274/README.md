@@ -1,4 +1,4 @@
-# Leetcode 第274场周赛题
+# Leetcode 第274场周赛题解
 
 ## Problem A - [检查是否所有 A 都在 B 之前](https://leetcode-cn.com/problems/check-if-all-as-appears-before-all-bs/)
 

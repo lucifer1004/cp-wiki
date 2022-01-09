@@ -1,4 +1,4 @@
-# Leetcode 第275场周赛题
+# Leetcode 第275场周赛题解
 
 ## Problem A - [检查是否每一行每一列都包含全部整数](https://leetcode-cn.com/problems/check-if-every-row-and-column-contains-all-numbers/)
 
