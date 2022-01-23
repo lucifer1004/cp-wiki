@@ -140,7 +140,7 @@ public:
             if (ch == 'S') {
                 int tmp = zero;
                 zero = two = one;
-                one = zero;
+                one = tmp;
             } else {
                 zero = (zero + two) % MOD;
             }
