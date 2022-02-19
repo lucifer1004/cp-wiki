@@ -137,7 +137,7 @@ template <class T> class FenwickTree {
   int limit;
   vector<T> arr;
 
-  T lowbit(T x) { return x & (-x); }
+  int lowbit(int x) { return x & (-x); }
 
 public:
   FenwickTree(int limit) {
