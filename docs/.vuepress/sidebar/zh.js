@@ -146,9 +146,9 @@ module.exports = {
       children: range(28, 73, 'BC', true),
     },
     {
-      title: '力扣杯',
+      title: '其他比赛',
       collapsable: true,
-      children: ['2021-fall-solo/'],
+      children: ['2021-fall-solo/', '2022-spring-cnunionpay/'],
     },
   ],
   '/blog/': null,
