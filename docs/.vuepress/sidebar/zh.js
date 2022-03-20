@@ -37,6 +37,11 @@ module.exports = {
   '/tutorial/kick-start/': [
     '',
     {
+      title: '2022',
+      collapsable: true,
+      children: ['2022A/'],
+    },
+    {
       title: '2021',
       collapsable: true,
       children: ['2021B/', '2021A/'],
