@@ -115,7 +115,7 @@ public:
 ::: details 参考代码（C++）
 
 ```cpp
-#include<atcoder/string>
+#include <atcoder/string>
 
 using ll = long long;
 
@@ -165,7 +165,7 @@ class Solution {
 ::: details 参考代码（C++）
 
 ```cpp
-#include<atcoder/string>
+#include <atcoder/string>
 
 using ll = long long;
 
