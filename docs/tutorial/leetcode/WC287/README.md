@@ -150,7 +150,7 @@ class Encrypter:
 
 
     def encrypt(self, word1: str) -> str:
-        return ''.join(self.d[ch] for ch in word1)
+        return ''.join(self.d[ch] for ch in word1) if all(ch in self.d for ch in word1) else ''
 
 
     def decrypt(self, word2: str) -> int:
@@ -179,8 +179,11 @@ public:
 
     string encrypt(string word1) {
         string result;
-        for (char ch : word1)
+        for (char ch : word1) {
+            if (v[ch - 'a'].empty())
+                return "";
             result += v[ch - 'a'];
+        }
         return result;
     }
     
