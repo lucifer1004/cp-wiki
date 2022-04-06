@@ -167,7 +167,7 @@ public:
 
 ```python
 from functools import reduce
-from math import log10
+from numpy import float128, log10
 
 MOD = 100000
 
@@ -183,9 +183,10 @@ class Solution:
             else:
                 return t[:5] + '...' + t[-5:] + 'e' + str(z)
         else:
-            l = sum(map(log10, range(left, right + 1)))
+            l = float(
+                sum(map(lambda x: log10(float128(x)), range(left, right + 1))))
             L = str(10 ** (l - trunc(l)) * 10000)[:5]
-            
+
             R = 1
             two = 0
             five = 0
@@ -198,7 +199,7 @@ class Solution:
                     five += 1
                     num //= 5
                 R = R * num % MOD
-                
+
             z = min(two, five)
             R = R * pow(2, two - z, MOD) % MOD
             R = R * pow(5, five - z, MOD) % MOD
