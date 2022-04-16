@@ -118,7 +118,7 @@ module.exports = {
     {
       title: '周赛（281~）',
       collapsable: true,
-      children: range(281, 287, 'WC', true),
+      children: range(281, 288, 'WC', true),
     },
     {
       title: '周赛（261~280）',
@@ -153,7 +153,7 @@ module.exports = {
     {
       title: '其他比赛',
       collapsable: true,
-      children: ['2021-fall-solo/', '2022-spring-cnunionpay/'],
+      children: ['2021-fall-solo/', '2022-spring-cnunionpay/', '2022-spring-solo/'],
     },
   ],
   '/blog/': null,
