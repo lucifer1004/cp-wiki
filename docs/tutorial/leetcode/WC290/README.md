@@ -48,7 +48,7 @@ class Solution:
 :::
 
 
-## Problem C - [转角路径的乘积中最多能有几个尾随零](https://leetcode-cn.com/problems/maximum-trailing-zeros-in-a-cornered-path/)
+## Problem C - [统计包含每个点的矩形数目](https://leetcode.cn/problems/count-number-of-rectangles-containing-each-point/)
 
 ### 方法一：沿 y 方向枚举
 
