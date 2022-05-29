@@ -1,6 +1,6 @@
 # Leetcode 第198场周赛题解
 
-## Problem A - [换酒问题](https://leetcode-cn.com/problems/water-bottles/)
+## Problem A - [换酒问题](https://leetcode.cn/problems/water-bottles/)
 
 直接模拟即可。
 
@@ -22,7 +22,7 @@ public:
 
 :::
 
-## Problem B - [子树中标签相同的节点数](https://leetcode-cn.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)
+## Problem B - [子树中标签相同的节点数](https://leetcode.cn/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)
 
 DFS过程中记录当前节点子树中每种标签的数目即可。
 
@@ -65,7 +65,7 @@ public:
 
 :::
 
-## Problem C - [最多的不重叠子字符串](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-substrings/)
+## Problem C - [最多的不重叠子字符串](https://leetcode.cn/problems/maximum-number-of-non-overlapping-substrings/)
 
 首先提取出可以独立成立的所有区间，然后将这些区间按照左端点排序，再进行动态规划求取最优方案。
 
@@ -145,7 +145,7 @@ public:
 
 :::
 
-## Problem D - [找到最接近目标值的函数值](https://leetcode-cn.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/)
+## Problem D - [找到最接近目标值的函数值](https://leetcode.cn/problems/find-a-value-of-a-mysterious-function-closest-to-target/)
 
 容易发现，在$l$固定时，$func(arr,l,r)$的结果是单调递减的，因此可以再通过二分查找找到与$target$最接近的两个值（一前一后），然后更新结果。为了快速计算$func(arr,l,r)$，可以预构建一个稀疏表。
 

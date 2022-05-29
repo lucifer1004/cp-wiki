@@ -1,6 +1,6 @@
 # Leetcode 第235场周赛题解
 
-## Problem A - [截断句子](https://leetcode-cn.com/problems/truncate-sentence/)
+## Problem A - [截断句子](https://leetcode.cn/problems/truncate-sentence/)
 
 Python大法好。
 
@@ -14,7 +14,7 @@ class Solution:
 
 :::
 
-## Problem B - [查找用户活跃分钟数](https://leetcode-cn.com/problems/finding-the-users-active-minutes/)
+## Problem B - [查找用户活跃分钟数](https://leetcode.cn/problems/finding-the-users-active-minutes/)
 
 哈希表套哈希集合去重。
 
@@ -41,7 +41,7 @@ public:
 
 :::
 
-## Problem C - [绝对差值和](https://leetcode-cn.com/problems/minimum-absolute-sum-difference/)
+## Problem C - [绝对差值和](https://leetcode.cn/problems/minimum-absolute-sum-difference/)
 
 对$nums1$排序后，我们可以在$\mathcal{O}(\log N)$的时间内找出$nums1$中与$nums2$中某一元素最为接近的两个元素，从而能够确定修改某一个位置可以得到的最小差值。因此，只要枚举修改哪一个位置即可。
 
@@ -80,7 +80,7 @@ public:
 
 :::
 
-## Problem D - [序列中不同最大公约数的数目](https://leetcode-cn.com/problems/number-of-different-subsequences-gcds/)
+## Problem D - [序列中不同最大公约数的数目](https://leetcode.cn/problems/number-of-different-subsequences-gcds/)
 
 不妨来思考下面一个问题：
 

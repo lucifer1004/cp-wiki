@@ -1,6 +1,6 @@
 # Leetcode 第278场周赛题解
 
-## Problem A - [将找到的值乘以 2](https://leetcode-cn.com/problems/keep-multiplying-found-values-by-two/)
+## Problem A - [将找到的值乘以 2](https://leetcode.cn/problems/keep-multiplying-found-values-by-two/)
 
 ### 方法一：模拟
 
@@ -22,7 +22,7 @@ class Solution:
 
 :::
 
-## Problem B - [分组得分最高的所有下标](https://leetcode-cn.com/problems/all-divisions-with-the-highest-score-of-a-binary-array/)
+## Problem B - [分组得分最高的所有下标](https://leetcode.cn/problems/all-divisions-with-the-highest-score-of-a-binary-array/)
 
 ### 方法一：前缀和
 
@@ -57,7 +57,7 @@ class Solution:
 
 :::
 
-## Problem C - [查找给定哈希值的子串](https://leetcode-cn.com/problems/find-substring-with-given-hash-value/)
+## Problem C - [查找给定哈希值的子串](https://leetcode.cn/problems/find-substring-with-given-hash-value/)
 
 ### 方法一：倒序滑动窗口
 
@@ -105,7 +105,7 @@ class Solution:
 
 :::
 
-## Problem D - [字符串分组](https://leetcode-cn.com/problems/groups-of-strings/)
+## Problem D - [字符串分组](https://leetcode.cn/problems/groups-of-strings/)
 
 ### 方法一：并查集+枚举
 

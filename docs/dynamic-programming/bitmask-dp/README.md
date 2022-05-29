@@ -10,9 +10,9 @@ sidebarDepth: 3
 
 ## 练习题
 
-### [LC464 - 我能赢吗](https://leetcode-cn.com/problems/can-i-win/)（[题解](https://leetcode-cn.com/problems/can-i-win/solution/zhuang-tai-ya-suo-ji-yi-hua-di-gui-by-lucifer1004/)）
+### [LC464 - 我能赢吗](https://leetcode.cn/problems/can-i-win/)（[题解](https://leetcode.cn/problems/can-i-win/solution/zhuang-tai-ya-suo-ji-yi-hua-di-gui-by-lucifer1004/)）
 
-### [LC465 - 最优账单平衡](https://leetcode-cn.com/problems/optimal-account-balancing/solution/)（[题解](https://leetcode-cn.com/problems/optimal-account-balancing/solution/zhuang-tai-ya-suo-dong-tai-gui-hua-by-lu-2qrt/)）
+### [LC465 - 最优账单平衡](https://leetcode.cn/problems/optimal-account-balancing/solution/)（[题解](https://leetcode.cn/problems/optimal-account-balancing/solution/zhuang-tai-ya-suo-dong-tai-gui-hua-by-lu-2qrt/)）
 
 本题与[BS - Minimum Number of Transfers to Settle Debts](https://binarysearch.com/problems/Minimum-Number-of-Transfers-to-Settle-Debts)（[English Editorial](https://binarysearch.com/problems/Minimum-Number-of-Transfers-to-Settle-Debts/editorials/3448671)）是相同的。
 
@@ -28,7 +28,7 @@ sidebarDepth: 3
 
 :::
 
-### [LC691 - 贴纸拼词](https://leetcode-cn.com/problems/stickers-to-spell-word/)（[题解](https://leetcode-cn.com/problems/stickers-to-spell-word/solution/zhuang-tai-ya-suo-dpji-you-hua-by-lucifer1004/)）
+### [LC691 - 贴纸拼词](https://leetcode.cn/problems/stickers-to-spell-word/)（[题解](https://leetcode.cn/problems/stickers-to-spell-word/solution/zhuang-tai-ya-suo-dpji-you-hua-by-lucifer1004/)）
 
 ::: details 提示
 
@@ -36,9 +36,9 @@ sidebarDepth: 3
 
 :::
 
-### [LC864 - 获取所有钥匙的最短路径](https://leetcode-cn.com/problems/shortest-path-to-get-all-keys/)（[题解](https://leetcode-cn.com/problems/shortest-path-to-get-all-keys/solution/zhuang-tai-ya-suo-bfs-by-lucifer1004/)）
+### [LC864 - 获取所有钥匙的最短路径](https://leetcode.cn/problems/shortest-path-to-get-all-keys/)（[题解](https://leetcode.cn/problems/shortest-path-to-get-all-keys/solution/zhuang-tai-ya-suo-bfs-by-lucifer1004/)）
 
-### [LC1349 - 参加考试的最大学生数](https://leetcode-cn.com/problems/maximum-students-taking-exam/)（[题解](https://leetcode-cn.com/problems/maximum-students-taking-exam/solution/zhuang-tai-ya-suo-dp-by-lucifer1004/)）
+### [LC1349 - 参加考试的最大学生数](https://leetcode.cn/problems/maximum-students-taking-exam/)（[题解](https://leetcode.cn/problems/maximum-students-taking-exam/solution/zhuang-tai-ya-suo-dp-by-lucifer1004/)）
 
 ::: tip 注意
 
@@ -46,9 +46,9 @@ sidebarDepth: 3
 
 :::
 
-### [LC1371 - 每个元音包含偶数次的最长子字符串](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/)（[题解](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/solution/zhuang-tai-ya-suo-ji-lu-yuan-yin-zi-mu-chu-xian-qi/)）
+### [LC1371 - 每个元音包含偶数次的最长子字符串](https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/)（[题解](https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/solution/zhuang-tai-ya-suo-ji-lu-yuan-yin-zi-mu-chu-xian-qi/)）
 
-### [LC1434 - 每个人戴不同帽子的方案数](https://leetcode-cn.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)（[题解](https://leetcode-cn.com/problems/number-of-ways-to-wear-different-hats-to-each-other/solution/zhuang-tai-ya-suo-ji-lu-mei-ge-ren-shi-fou-dai-sha/)）
+### [LC1434 - 每个人戴不同帽子的方案数](https://leetcode.cn/problems/number-of-ways-to-wear-different-hats-to-each-other/)（[题解](https://leetcode.cn/problems/number-of-ways-to-wear-different-hats-to-each-other/solution/zhuang-tai-ya-suo-ji-lu-mei-ge-ren-shi-fou-dai-sha/)）
 
 ::: details 提示
 
@@ -56,9 +56,9 @@ sidebarDepth: 3
 
 :::
 
-### [LC1494 - 并行课程 II](https://leetcode-cn.com/problems/parallel-courses-ii/)
+### [LC1494 - 并行课程 II](https://leetcode.cn/problems/parallel-courses-ii/)
 
-### [LC1595 - 连通两组点的最小成本](https://leetcode-cn.com/problems/minimum-cost-to-connect-two-groups-of-points/)（[题解](https://leetcode-cn.com/problems/minimum-cost-to-connect-two-groups-of-points/solution/zhuang-tai-ya-suo-dpmei-ju-zi-ji-you-hua-by-lucife/)）
+### [LC1595 - 连通两组点的最小成本](https://leetcode.cn/problems/minimum-cost-to-connect-two-groups-of-points/)（[题解](https://leetcode.cn/problems/minimum-cost-to-connect-two-groups-of-points/solution/zhuang-tai-ya-suo-dpmei-ju-zi-ji-you-hua-by-lucife/)）
 
 ::: tip 注意
 
@@ -66,7 +66,7 @@ sidebarDepth: 3
 
 :::
 
-### [LC1723 - 完成所有工作的最短时间](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs/)（[题解](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs/solution/er-fen-zhuang-ya-dp-by-lucifer1004-198p/)）
+### [LC1723 - 完成所有工作的最短时间](https://leetcode.cn/problems/find-minimum-time-to-finish-all-jobs/)（[题解](https://leetcode.cn/problems/find-minimum-time-to-finish-all-jobs/solution/er-fen-zhuang-ya-dp-by-lucifer1004-198p/)）
 
 ::: details 提示
 
@@ -74,7 +74,7 @@ sidebarDepth: 3
 
 :::
 
-### [LCP13 - 寻宝](https://leetcode-cn.com/problems/xun-bao/)（[题解](https://leetcode-cn.com/problems/xun-bao/solution/bfszhuang-tai-ya-suo-dp-by-lucifer1004/)）
+### [LCP13 - 寻宝](https://leetcode.cn/problems/xun-bao/)（[题解](https://leetcode.cn/problems/xun-bao/solution/bfszhuang-tai-ya-suo-dp-by-lucifer1004/)）
 
 ::: details 提示
 

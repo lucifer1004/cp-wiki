@@ -2,7 +2,7 @@
 
 本场比赛的实况录像：[Bilibili](https://www.bilibili.com/video/BV1sA411W7VC) | [YouTube](https://youtu.be/nMh6nZxjWUQ)
 
-## Problem A - [卡车上的最大单元数](https://leetcode-cn.com/problems/maximum-units-on-a-truck/)
+## Problem A - [卡车上的最大单元数](https://leetcode.cn/problems/maximum-units-on-a-truck/)
 
 因为箱子可以一个一个装，所以显然应该优先选择单元数最大的箱子，因此对箱子类型按照单元数目降序排序，然后贪心选取即可。
 
@@ -31,7 +31,7 @@ public:
 
 :::
 
-## Problem B - [大餐计数](https://leetcode-cn.com/problems/count-good-meals/)
+## Problem B - [大餐计数](https://leetcode.cn/problems/count-good-meals/)
 
 用哈希表统计每种美味程度的餐品的数目，然后对于每一种美味程度，枚举$2$的幂次即可。注意最后得到的结果要除以$2$再取模，因为每一个组合我们计算了两次。
 
@@ -70,7 +70,7 @@ public:
 
 :::
 
-## Problem C - [将数组分成三个子数组的方案数](https://leetcode-cn.com/problems/ways-to-split-array-into-three-subarrays/)
+## Problem C - [将数组分成三个子数组的方案数](https://leetcode.cn/problems/ways-to-split-array-into-three-subarrays/)
 
 ### 方法一：双指针+二分
 
@@ -159,7 +159,7 @@ public:
 
 :::
 
-## Problem D - [得到子序列的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence/)
+## Problem D - [得到子序列的最少操作次数](https://leetcode.cn/problems/minimum-operations-to-make-a-subsequence/)
 
 本题中，一个初看不起眼的条件成为了解题的最关键要素，也即“$target$不包含任何重复元素”。
 

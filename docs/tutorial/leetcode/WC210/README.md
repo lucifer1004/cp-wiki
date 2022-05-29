@@ -1,6 +1,6 @@
 # Leetcode 第210场周赛题解
 
-## Problem A - [括号的最大嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/)
+## Problem A - [括号的最大嵌套深度](https://leetcode.cn/problems/maximum-nesting-depth-of-the-parentheses/)
 
 只有括号是有效字符，其他字符都不需要考虑。每次遇到括号就更新当前深度，如果当前深度大于最大深度就更新最大深度。
 
@@ -26,7 +26,7 @@ public:
 
 :::
 
-## Problem B - [最大网络秩](https://leetcode-cn.com/problems/maximal-network-rank/)
+## Problem B - [最大网络秩](https://leetcode.cn/problems/maximal-network-rank/)
 
 题目说得很高深，其实就是问，图中任意找出两个点，以其中至少一个为端点的不重复的边的数目的最大值是多少？
 
@@ -61,7 +61,7 @@ public:
 
 :::
 
-## Problem C - [分割两个字符串得到回文串](https://leetcode-cn.com/problems/split-two-strings-to-make-palindrome/)
+## Problem C - [分割两个字符串得到回文串](https://leetcode.cn/problems/split-two-strings-to-make-palindrome/)
 
 以$A_\text{prefix}+B_\text{suffix}$为例，如果它是一个回文串，考虑它的左半边，有两种情况：
 
@@ -109,7 +109,7 @@ public:
 
 :::
 
-## Problem D - [统计子树中城市之间最大距离](https://leetcode-cn.com/problems/count-subtrees-with-max-distance-between-cities/)
+## Problem D - [统计子树中城市之间最大距离](https://leetcode.cn/problems/count-subtrees-with-max-distance-between-cities/)
 
 注意到数据范围$N\leq15$，我们可以枚举子集的构成方式。（这里吐槽一下题目的命名，用“子树”这个叫法，很容易让人误解，因此我们下面统一称为“子集”。）
 

@@ -1,6 +1,6 @@
 # Leetcode 第233场周赛题解
 
-## Problem A - [最大升序子数组和](https://leetcode-cn.com/problems/maximum-ascending-subarray-sum/)
+## Problem A - [最大升序子数组和](https://leetcode.cn/problems/maximum-ascending-subarray-sum/)
 
 双指针找出每一个升序子数组即可。暴力$\mathcal{O}(N^2)$亦可。
 
@@ -30,7 +30,7 @@ class Solution:
 
 :::
 
-## Problem B - [积压订单中的订单总数](https://leetcode-cn.com/problems/number-of-orders-in-the-backlog/)
+## Problem B - [积压订单中的订单总数](https://leetcode.cn/problems/number-of-orders-in-the-backlog/)
 
 小根堆存放积压的销售订单，大根堆存放积压的购买订单。按题意模拟即可。
 
@@ -96,7 +96,7 @@ public:
 
 :::
 
-## Problem C - [有界数组中指定下标处的最大值](https://leetcode-cn.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)
+## Problem C - [有界数组中指定下标处的最大值](https://leetcode.cn/problems/maximum-value-at-a-given-index-in-a-bounded-array/)
 
 在确定了$index$处的数值后，我们可以找到可能的最小总和：也即向左递减直到$1$，向右递减直到$1$的情况下的总和。如果这一最小总和不超过$M$（最大总和），那么我们就找到了一个可行解。
 
@@ -137,11 +137,11 @@ public:
 
 :::
 
-## Problem D - [统计异或值在范围内的数对有多少](https://leetcode-cn.com/problems/count-pairs-with-xor-in-a-range/)
+## Problem D - [统计异或值在范围内的数对有多少](https://leetcode.cn/problems/count-pairs-with-xor-in-a-range/)
 
 首先，$[L,R]$范围内的计数问题，可以转化为$[0,R]$和$[0,L-1]$的计数问题。
 
-接下来，考虑$[0,H]$的问题如何进行求解。参考[LC1707 -  与数组中元素的最大异或值](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/)等几道题，对于这种数组异或计数的问题，0-1字典树是一个很有效的解决方案。本题中，我们同样可以使用0-1字典树进行求解。
+接下来，考虑$[0,H]$的问题如何进行求解。参考[LC1707 -  与数组中元素的最大异或值](https://leetcode.cn/problems/maximum-xor-with-an-element-from-array/)等几道题，对于这种数组异或计数的问题，0-1字典树是一个很有效的解决方案。本题中，我们同样可以使用0-1字典树进行求解。
 
 1. 构造字典树。注意要在每个节点处记录当前节点为根节点的子树中包含数组元素的总个数。
 2. 遍历数组中的元素。对于每一个元素，在字典树中从最高位开始进行一次DFS（具体实现可参考代码）。

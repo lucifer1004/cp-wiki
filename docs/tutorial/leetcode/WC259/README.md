@@ -1,6 +1,6 @@
 # Leetcode 第259场周赛题解
 
-## Problem A - [执行操作后的变量值](https://leetcode-cn.com/problems/final-value-of-variable-after-performing-operations/)
+## Problem A - [执行操作后的变量值](https://leetcode.cn/problems/final-value-of-variable-after-performing-operations/)
 
 ### 方法一：模拟
 
@@ -25,7 +25,7 @@ class Solution:
 
 :::
 
-## Problem B - [数组美丽值求和](https://leetcode-cn.com/problems/sum-of-beauty-in-the-array/)
+## Problem B - [数组美丽值求和](https://leetcode.cn/problems/sum-of-beauty-in-the-array/)
 
 ### 方法一：前缀和
 
@@ -62,7 +62,7 @@ public:
 
 :::
 
-## Problem C - [检测正方形](https://leetcode-cn.com/problems/detect-squares/)
+## Problem C - [检测正方形](https://leetcode.cn/problems/detect-squares/)
 
 ### 方法一：哈希表
 
@@ -97,7 +97,7 @@ class DetectSquares:
 
 :::
 
-## Problem D - [重复 K 次的最长子序列](https://leetcode-cn.com/problems/longest-subsequence-repeated-k-times/)
+## Problem D - [重复 K 次的最长子序列](https://leetcode.cn/problems/longest-subsequence-repeated-k-times/)
 
 ### 方法一：回溯
 

@@ -1,6 +1,6 @@
 # Leetcode 第247场周赛题解
 
-## Problem A - [两个数对之间的最大乘积差](https://leetcode-cn.com/problems/maximum-product-difference-between-two-pairs/)
+## Problem A - [两个数对之间的最大乘积差](https://leetcode.cn/problems/maximum-product-difference-between-two-pairs/)
 
 ### 方法一：贪心
 
@@ -22,7 +22,7 @@ class Solution:
 
 :::
 
-## Problem B - [循环轮转矩阵](https://leetcode-cn.com/problems/cyclically-rotating-a-grid/)
+## Problem B - [循环轮转矩阵](https://leetcode.cn/problems/cyclically-rotating-a-grid/)
 
 ### 方法一：模拟
 
@@ -76,7 +76,7 @@ public:
 
 :::
 
-## Problem C - [最美子字符串的数目](https://leetcode-cn.com/problems/number-of-wonderful-substrings/)
+## Problem C - [最美子字符串的数目](https://leetcode.cn/problems/number-of-wonderful-substrings/)
 
 ### 方法一：状态压缩+前缀异或和
 
@@ -119,7 +119,7 @@ public:
 
 :::
 
-## Problem D - [统计为蚁群构筑房间的不同顺序](https://leetcode-cn.com/problems/count-ways-to-build-rooms-in-an-ant-colony/)
+## Problem D - [统计为蚁群构筑房间的不同顺序](https://leetcode.cn/problems/count-ways-to-build-rooms-in-an-ant-colony/)
 
 ### 方法一：树上的动态规划
 

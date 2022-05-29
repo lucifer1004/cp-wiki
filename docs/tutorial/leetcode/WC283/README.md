@@ -1,6 +1,6 @@
 # Leetcode 第283场周赛题解
 
-## Problem A - [Excel 表中某个范围内的单元格](https://leetcode-cn.com/problems/cells-in-a-range-on-an-excel-sheet/)
+## Problem A - [Excel 表中某个范围内的单元格](https://leetcode.cn/problems/cells-in-a-range-on-an-excel-sheet/)
 
 ### 方法一：模拟
 
@@ -59,7 +59,7 @@ impl Solution {
 
 :::
 
-## Problem B - [向数组中追加 K 个整数](https://leetcode-cn.com/contest/weekly-contest-283/problems/append-k-integers-with-minimal-sum/)
+## Problem B - [向数组中追加 K 个整数](https://leetcode.cn/contest/weekly-contest-283/problems/append-k-integers-with-minimal-sum/)
 
 ### 方法一：贪心
 
@@ -137,7 +137,7 @@ impl Solution {
 
 :::
 
-## Problem C - [根据描述创建二叉树](https://leetcode-cn.com/problems/create-binary-tree-from-descriptions/)
+## Problem C - [根据描述创建二叉树](https://leetcode.cn/problems/create-binary-tree-from-descriptions/)
 
 ### 方法一：模拟
 
@@ -247,7 +247,7 @@ impl Solution {
 
 :::
 
-## Problem D - [替换数组中的非互质数](https://leetcode-cn.com/problems/replace-non-coprime-numbers-in-array/)
+## Problem D - [替换数组中的非互质数](https://leetcode.cn/problems/replace-non-coprime-numbers-in-array/)
 
 ### 方法一：栈模拟
 

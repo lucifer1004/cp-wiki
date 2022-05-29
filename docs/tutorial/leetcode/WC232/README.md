@@ -1,6 +1,6 @@
 # Leetcode 第232场周赛题解
 
-## Problem A - [仅执行一次字符串交换能否使两个字符串相等](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)
+## Problem A - [仅执行一次字符串交换能否使两个字符串相等](https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal/)
 
 一次遍历即可。统计出所有不同的位置：
 
@@ -35,7 +35,7 @@ public:
 
 :::
 
-## Problem B - [找出星型图的中心节点](https://leetcode-cn.com/problems/find-center-of-star-graph/)
+## Problem B - [找出星型图的中心节点](https://leetcode.cn/problems/find-center-of-star-graph/)
 
 因为$N\geq3$，所以星型图中有且只有中心节点的度数大于$1$，因此只要统计节点的度数即可。
 
@@ -64,7 +64,7 @@ public:
 
 :::
 
-## Problem C - [最大平均通过率](https://leetcode-cn.com/problems/maximum-average-pass-ratio/)
+## Problem C - [最大平均通过率](https://leetcode.cn/problems/maximum-average-pass-ratio/)
 
 在大根堆中存储每个班级中增加一个通过学生后通过率的提升量，每次贪心地将学生安排到通过率提升最大的班级中即可。
 
@@ -113,7 +113,7 @@ public:
 
 :::
 
-## Problem D - [好子数组的最大分数](https://leetcode-cn.com/problems/maximum-score-of-a-good-subarray/)
+## Problem D - [好子数组的最大分数](https://leetcode.cn/problems/maximum-score-of-a-good-subarray/)
 
 使用单调栈：
 

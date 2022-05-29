@@ -1,6 +1,6 @@
 # Leetcode 第286场周赛题解
 
-## Problem A - [找出两数组的不同](https://leetcode-cn.com/problems/find-the-difference-of-two-arrays/)
+## Problem A - [找出两数组的不同](https://leetcode.cn/problems/find-the-difference-of-two-arrays/)
 
 ### 方法一：集合运算
 
@@ -21,7 +21,7 @@ class Solution:
 
 :::
 
-## Problem B - [美化数组的最少删除数](https://leetcode-cn.com/problems/minimum-deletions-to-make-array-beautiful/)
+## Problem B - [美化数组的最少删除数](https://leetcode.cn/problems/minimum-deletions-to-make-array-beautiful/)
 
 ### 方法一：反向思考+贪心
 
@@ -48,7 +48,7 @@ class Solution:
 
 :::
 
-## Problem C - [找到指定长度的回文数](https://leetcode-cn.com/problems/find-palindrome-with-fixed-length/)
+## Problem C - [找到指定长度的回文数](https://leetcode.cn/problems/find-palindrome-with-fixed-length/)
 
 ### 方法一：数学
 
@@ -81,7 +81,7 @@ class Solution:
 
 :::
 
-## Problem D - [从栈中取出 K 个硬币的最大面值和](https://leetcode-cn.com/problems/maximum-value-of-k-coins-from-piles/)
+## Problem D - [从栈中取出 K 个硬币的最大面值和](https://leetcode.cn/problems/maximum-value-of-k-coins-from-piles/)
 
 ### 方法一：动态规划
 

@@ -1,6 +1,6 @@
 # Leetcode 第32场双周赛题解
 
-## Problem A - [第k个缺失的正整数](https://leetcode-cn.com/problems/kth-missing-positive-number/)
+## Problem A - [第k个缺失的正整数](https://leetcode.cn/problems/kth-missing-positive-number/)
 
 暴力枚举。
 
@@ -26,7 +26,7 @@ public:
 
 :::
 
-## Problem B - [K次操作转变字符串](https://leetcode-cn.com/problems/can-convert-string-in-k-moves/)
+## Problem B - [K次操作转变字符串](https://leetcode.cn/problems/can-convert-string-in-k-moves/)
 
 对于需要操作1次的位置，需要在第1，27……次进行操作。
 对于需要操作2次的位置，需要在第2，28……次进行操作。
@@ -57,7 +57,7 @@ public:
 
 :::
 
-## Problem C - [平衡括号字符串的最少插入次数](https://leetcode-cn.com/problems/minimum-insertions-to-balance-a-parentheses-string/)
+## Problem C - [平衡括号字符串的最少插入次数](https://leetcode.cn/problems/minimum-insertions-to-balance-a-parentheses-string/)
 
 稍作改动的经典题——把`)`换成了`))`。首先把所有连续奇数个的`)`都补齐到偶数个，然后再把所有连续`)`折半，之后就是经典原题了。
 
@@ -108,7 +108,7 @@ public:
 
 :::
 
-## Problem D - [找出最长的超赞子字符串](https://leetcode-cn.com/problems/find-longest-awesome-substring/)
+## Problem D - [找出最长的超赞子字符串](https://leetcode.cn/problems/find-longest-awesome-substring/)
 
 要求子串能够重排成回文串，所有字符的个数中至多有一个奇数。因为只包含0~9，所以可以用一个10位二进制数表示当前每个字符的奇偶状态。在这种表示方法下，超赞字符串对应的状态只能为：
 

@@ -1,6 +1,6 @@
 # Leetcode 第215场周赛题解
 
-## Problem A - [设计有序流](https://leetcode-cn.com/problems/design-an-ordered-stream/)
+## Problem A - [设计有序流](https://leetcode.cn/problems/design-an-ordered-stream/)
 
 模拟。
 
@@ -30,7 +30,7 @@ public:
 
 :::
 
-## Problem B - [确定两个字符串是否接近](https://leetcode-cn.com/problems/determine-if-two-strings-are-close/)
+## Problem B - [确定两个字符串是否接近](https://leetcode.cn/problems/determine-if-two-strings-are-close/)
 
 首先判断长度是否相等。在长度相等的情况下，题目中的两种操作可以理解为：
 
@@ -76,7 +76,7 @@ public:
 
 :::
 
-## Problem C - [将 x 减到 0 的最小操作数](https://leetcode-cn.com/problems/minimum-operations-to-reduce-x-to-zero/)
+## Problem C - [将 x 减到 0 的最小操作数](https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero/)
 
 使用双指针。初始状态左指针在前缀和大于等于$x$的第一个位置处。之后右指针从最右边开始左移，左指针相应向左移动。在过程中不断更新最优解。
 
@@ -117,9 +117,9 @@ public:
 
 :::
 
-## Problem D - [最大化网格幸福感](https://leetcode-cn.com/problems/maximize-grid-happiness/)
+## Problem D - [最大化网格幸福感](https://leetcode.cn/problems/maximize-grid-happiness/)
 
-较麻烦的三进制状态压缩动态规划。可以利用类似滑动窗口（或者叫轮廓线）的方法进一步优化时间复杂度（参见[zerotrac](https://leetcode-cn.com/problems/maximize-grid-happiness/solution/zui-da-hua-wang-ge-xing-fu-gan-by-zerotrac2/)和[newhar](https://leetcode-cn.com/problems/maximize-grid-happiness/solution/you-yi-chong-zhuang-ya-jiao-zuo-hua-dong-chuang-ko/)的题解）。这里仅给出基本的按行动态规划的实现。
+较麻烦的三进制状态压缩动态规划。可以利用类似滑动窗口（或者叫轮廓线）的方法进一步优化时间复杂度（参见[zerotrac](https://leetcode.cn/problems/maximize-grid-happiness/solution/zui-da-hua-wang-ge-xing-fu-gan-by-zerotrac2/)和[newhar](https://leetcode.cn/problems/maximize-grid-happiness/solution/you-yi-chong-zhuang-ya-jiao-zuo-hua-dong-chuang-ko/)的题解）。这里仅给出基本的按行动态规划的实现。
 
 - 时间复杂度$O(IE\cdot\max(N,M)\cdot3^{2\cdot\min(N,M)})$。
 - 空间复杂度$O(K)$。

@@ -12,8 +12,8 @@ sidebarDepth: 3
 
 ## 练习题
 
-### [LC42 - 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/)
+### [LC42 - 接雨水](https://leetcode.cn/problems/trapping-rain-water/)
 
-### [LC84 - 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)
+### [LC84 - 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)
 
 ### [CF1402A - Fancy Fence](https://codeforces.com/problemset/problem/1402/A)

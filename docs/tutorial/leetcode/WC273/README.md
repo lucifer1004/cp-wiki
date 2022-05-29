@@ -1,6 +1,6 @@
 # Leetcode 第273场周赛题解
 
-## Problem A - [反转两次的数字](https://leetcode-cn.com/contest/problems/a-number-after-a-double-reversal/)
+## Problem A - [反转两次的数字](https://leetcode.cn/contest/problems/a-number-after-a-double-reversal/)
 
 ### 方法一：观察
 
@@ -19,7 +19,7 @@ class Solution:
 
 :::
 
-## Problem B - [执行所有后缀指令](https://leetcode-cn.com/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)
+## Problem B - [执行所有后缀指令](https://leetcode.cn/problems/execution-of-all-suffix-instructions-staying-in-a-grid/)
 
 ### 方法一：模拟
 
@@ -51,7 +51,7 @@ class Solution:
 
 :::
 
-## Problem C - [相同元素的间隔之和](https://leetcode-cn.com/problems/intervals-between-identical-elements/)
+## Problem C - [相同元素的间隔之和](https://leetcode.cn/problems/intervals-between-identical-elements/)
 
 ### 方法一：前缀和+单指针
 
@@ -83,7 +83,7 @@ class Solution:
 
 :::
 
-## Problem D -[还原原数组](https://leetcode-cn.com/problems/recover-the-original-array/)
+## Problem D -[还原原数组](https://leetcode.cn/problems/recover-the-original-array/)
 
 ### 方法一：哈希表
 

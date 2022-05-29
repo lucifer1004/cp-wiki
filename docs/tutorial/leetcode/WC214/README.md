@@ -1,6 +1,6 @@
 # Leetcode 第214场周赛题解
 
-## Problem A - [获取生成数组中的最大值](https://leetcode-cn.com/problems/get-maximum-in-generated-array/)
+## Problem A - [获取生成数组中的最大值](https://leetcode.cn/problems/get-maximum-in-generated-array/)
 
 按要求模拟。注意如果采用赋初值的方法，在$n=0$时，不能给$a[1]$赋值。
 
@@ -22,7 +22,7 @@ class Solution:
 
 :::
 
-## Problem B - [字符频次唯一的最小删除次数](https://leetcode-cn.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
+## Problem B - [字符频次唯一的最小删除次数](https://leetcode.cn/problems/minimum-deletions-to-make-character-frequencies-unique/)
 
 统计所有频次，排序后从大到小贪心设置。
 
@@ -47,7 +47,7 @@ class Solution:
 
 :::
 
-## Problem C - [销售价值减少的颜色球](https://leetcode-cn.com/problems/sell-diminishing-valued-colored-balls/)
+## Problem C - [销售价值减少的颜色球](https://leetcode.cn/problems/sell-diminishing-valued-colored-balls/)
 
 排序后贪心卖当前个数最多的球。注意需要不断合并当前个数相同的组。
 
@@ -92,7 +92,7 @@ public:
 
 :::
 
-## Problem D - [通过指令创建有序数组](https://leetcode-cn.com/problems/create-sorted-array-through-instructions/)
+## Problem D - [通过指令创建有序数组](https://leetcode.cn/problems/create-sorted-array-through-instructions/)
 
 树状数组模板题。
 

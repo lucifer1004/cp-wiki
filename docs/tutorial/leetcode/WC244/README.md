@@ -1,6 +1,6 @@
 # Leetcode 第244场周赛题解
 
-## Problem A - [判断矩阵经轮转后是否一致](https://leetcode-cn.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)
+## Problem A - [判断矩阵经轮转后是否一致](https://leetcode.cn/problems/determine-whether-matrix-can-be-obtained-by-rotation/)
 
 ### 方法一：模拟
 
@@ -62,7 +62,7 @@ class Solution:
 
 :::
 
-## Problem B - [使数组元素相等的减少操作次数](https://leetcode-cn.com/problems/reduction-operations-to-make-the-array-elements-equal/)
+## Problem B - [使数组元素相等的减少操作次数](https://leetcode.cn/problems/reduction-operations-to-make-the-array-elements-equal/)
 
 ### 方法一：排序
 
@@ -93,7 +93,7 @@ public:
 
 :::
 
-## Problem C - [使二进制字符串字符交替的最少反转次数](https://leetcode-cn.com/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/)
+## Problem C - [使二进制字符串字符交替的最少反转次数](https://leetcode.cn/problems/minimum-number-of-flips-to-make-the-binary-string-alternating/)
 
 ### 方法一：滑动窗口
 
@@ -133,7 +133,7 @@ class Solution:
 
 :::
 
-## Problem D - [装包裹的最小浪费空间](https://leetcode-cn.com/contest/weekly-contest-244/problems/minimum-space-wasted-from-packaging/)
+## Problem D - [装包裹的最小浪费空间](https://leetcode.cn/contest/weekly-contest-244/problems/minimum-space-wasted-from-packaging/)
 
 ### 方法一：双指针
 

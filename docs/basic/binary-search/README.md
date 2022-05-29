@@ -46,7 +46,7 @@ sidebarDepth: 3
 
 :::
 
-### [LC1482 - 制作 m 束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/)
+### [LC1482 - 制作 m 束花所需的最少天数](https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets/)
 
 ::: details 提示
 

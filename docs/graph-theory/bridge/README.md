@@ -26,7 +26,7 @@ Tarjan算法的核心思想是，除了记录节点的DFS序$dfn[u]$，同时用
 
 ## 练习题
 
-### [LC684 - 冗余连接](https://leetcode-cn.com/problems/redundant-connection/)
+### [LC684 - 冗余连接](https://leetcode.cn/problems/redundant-connection/)
 
 ::: details 提示
 

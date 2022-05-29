@@ -1,6 +1,6 @@
 # Leetcode 第236场周赛题解
 
-## Problem A - [数组元素积的符号](https://leetcode-cn.com/problems/sign-of-the-product-of-an-array/)
+## Problem A - [数组元素积的符号](https://leetcode.cn/problems/sign-of-the-product-of-an-array/)
 
 如果有零，显然结果为零；如果没有零，就看负数是奇数个还是偶数个。
 
@@ -27,7 +27,7 @@ public:
 
 :::
 
-## Problem B - [找出游戏的获胜者](https://leetcode-cn.com/problems/find-the-winner-of-the-circular-game/)
+## Problem B - [找出游戏的获胜者](https://leetcode.cn/problems/find-the-winner-of-the-circular-game/)
 
 经典约瑟夫问题。数学方法倒推求解。
 
@@ -50,7 +50,7 @@ public:
 
 :::
 
-## Problem C - [最少侧跳次数](https://leetcode-cn.com/problems/minimum-sideway-jumps/)
+## Problem C - [最少侧跳次数](https://leetcode.cn/problems/minimum-sideway-jumps/)
 
 比较简单的动态规划。只需要维护上一列三行的最小侧跳次数即可。
 
@@ -89,7 +89,7 @@ public:
 
 :::
 
-## Problem D - [求出 MK 平均值](https://leetcode-cn.com/problems/finding-mk-average/)
+## Problem D - [求出 MK 平均值](https://leetcode.cn/problems/finding-mk-average/)
 
 ### 方法一：`set`
 

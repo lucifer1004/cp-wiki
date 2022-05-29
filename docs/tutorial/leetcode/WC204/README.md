@@ -1,6 +1,6 @@
 # Leetcode 第204场周赛题解
 
-## Problem A - [重复至少 K 次且长度为 M 的模式](https://leetcode-cn.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)
+## Problem A - [重复至少 K 次且长度为 M 的模式](https://leetcode.cn/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)
 
 穷举所有长度为$M$的串并检查。同样是写枚举，Python的优势就凸显出来了，毕竟可以直接列表切片以及切片判相等。
 
@@ -38,7 +38,7 @@ var containsPattern = function(arr, m, k) {
 
 :::
 
-## Problem B - [乘积为正数的最长子数组长度](https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/)
+## Problem B - [乘积为正数的最长子数组长度](https://leetcode.cn/problems/maximum-length-of-subarray-with-positive-product/)
 
 首先用$0$将原数组分成若干子区间分别求解（因为$0$一定不在答案区间中）。
 
@@ -76,7 +76,7 @@ public:
 
 :::
 
-## Problem C - [使陆地分离的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-disconnect-island/)
+## Problem C - [使陆地分离的最少天数](https://leetcode.cn/problems/minimum-number-of-days-to-disconnect-island/)
 
 先跑一遍并查集，如果连通分量数量超过$2$或者为$0$，则不需要任何修改，答案为$0$。
 
@@ -183,7 +183,7 @@ public:
 
 :::
 
-## Problem D - [将子数组重新排序得到同一个二叉查找树的方案数](https://leetcode-cn.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
+## Problem D - [将子数组重新排序得到同一个二叉查找树的方案数](https://leetcode.cn/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
 
 对于任何一个数组，确定根节点（首个元素）后，我们可以将剩下元素分成大于根节点（右子树）和小于根节点（左子树）两种。容易发现，交换右子树中元素与左子树中元素之间的位置，不影响最后生成的二叉查找树。因此，设右子树有$n$个元素，左子树有$m$个元素，总的方法数就等于$C_{n+m}^n\cdot F(left)\cdot F(right)$。$F(left)$和$F(right)$递归求解即可。最后记得要减$1$（去掉自身）。
 

@@ -1,6 +1,6 @@
 # Leetcode 第262场周赛题解
 
-## Problem A - [至少在两个数组中出现的值](https://leetcode-cn.com/problems/two-out-of-three/)
+## Problem A - [至少在两个数组中出现的值](https://leetcode.cn/problems/two-out-of-three/)
 
 ### 方法一：模拟
 
@@ -22,7 +22,7 @@ class Solution:
 
 :::
 
-## Problem B - [获取单值网格的最小操作数](https://leetcode-cn.com/problems/minimum-operations-to-make-a-uni-value-grid/)
+## Problem B - [获取单值网格的最小操作数](https://leetcode.cn/problems/minimum-operations-to-make-a-uni-value-grid/)
 
 ### 方法一：贪心
 
@@ -61,7 +61,7 @@ public:
 
 :::
 
-## Problem C - [股票价格波动](https://leetcode-cn.com/problems/stock-price-fluctuation/)
+## Problem C - [股票价格波动](https://leetcode.cn/problems/stock-price-fluctuation/)
 
 ### 方法一：数据结构
 
@@ -114,7 +114,7 @@ public:
 
 :::
 
-## Problem D - [将数组分成两个数组并最小化数组和的差](https://leetcode-cn.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)
+## Problem D - [将数组分成两个数组并最小化数组和的差](https://leetcode.cn/problems/partition-array-into-two-arrays-to-minimize-sum-difference/)
 
 ### 方法一：Meet in the middle + 动态规划 + 双指针
 

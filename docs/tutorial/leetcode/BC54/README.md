@@ -1,6 +1,6 @@
 # Leetcode 第54场双周赛题解
 
-## Problem A - [检查是否区域内所有整数都被覆盖](https://leetcode-cn.com/problems/check-if-all-the-integers-in-a-range-are-covered/)
+## Problem A - [检查是否区域内所有整数都被覆盖](https://leetcode.cn/problems/check-if-all-the-integers-in-a-range-are-covered/)
 
 ### 方法一：暴力
 
@@ -31,7 +31,7 @@ class Solution:
 
 对于更大的数据范围，应当如何做？
 
-## Problem B - [找到需要补充粉笔的学生编号](https://leetcode-cn.com/problems/find-the-student-that-will-replace-the-chalk/)
+## Problem B - [找到需要补充粉笔的学生编号](https://leetcode.cn/problems/find-the-student-that-will-replace-the-chalk/)
 
 ### 方法一：贪心
 
@@ -63,7 +63,7 @@ class Solution:
 
 如果每个学生有一个需要粉笔的上限（取到这个上限之后这个学生就不参与后续的轮次），应当如何做？
 
-## Problem C - [最大的幻方](https://leetcode-cn.com/problems/largest-magic-square/)
+## Problem C - [最大的幻方](https://leetcode.cn/problems/largest-magic-square/)
 
 ### 方法一：前缀和+暴力
 
@@ -124,7 +124,7 @@ public:
 
 :::
 
-## Problem D - [反转表达式值的最少操作次数](https://leetcode-cn.com/problems/minimum-cost-to-change-the-final-value-of-expression/) 
+## Problem D - [反转表达式值的最少操作次数](https://leetcode.cn/problems/minimum-cost-to-change-the-final-value-of-expression/) 
 
 ### 方法一：栈+动态规划
 

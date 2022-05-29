@@ -1,6 +1,6 @@
 # Leetcode 第241场周赛题解
 
-## Problem A - [找出所有子集的异或总和再求和](https://leetcode-cn.com/problems/sum-of-all-subset-xor-totals/)
+## Problem A - [找出所有子集的异或总和再求和](https://leetcode.cn/problems/sum-of-all-subset-xor-totals/)
 
 ### 方法一：暴力
 
@@ -82,7 +82,7 @@ class Solution:
 
 :::
 
-## Problem B - [构成交替字符串需要的最小交换次数](https://leetcode-cn.com/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)
+## Problem B - [构成交替字符串需要的最小交换次数](https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-binary-string-alternating/)
 
 ### 方法一：模拟
 
@@ -120,7 +120,7 @@ class Solution:
 
 :::
 
-## Problem C - [找出和为指定值的下标对](https://leetcode-cn.com/problems/finding-pairs-with-a-certain-sum/)
+## Problem C - [找出和为指定值的下标对](https://leetcode.cn/problems/finding-pairs-with-a-certain-sum/)
 
 ### 方法一：哈希表+暴力
 
@@ -164,7 +164,7 @@ public:
 
 :::
 
-## Problem D - [恰有 K 根木棍可以看到的排列数目](https://leetcode-cn.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
+## Problem D - [恰有 K 根木棍可以看到的排列数目](https://leetcode.cn/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/)
 
 ### 方法一：第一类Stirling数
 

@@ -1,6 +1,6 @@
 # Leetcode 第74场双周赛题解
 
-## Problem A - [将数组划分成相等数对](https://leetcode-cn.com/problems/divide-array-into-equal-pairs/)
+## Problem A - [将数组划分成相等数对](https://leetcode.cn/problems/divide-array-into-equal-pairs/)
 
 ### 方法一：计数
 
@@ -19,7 +19,7 @@ class Solution:
 
 :::
 
-## Problem B - [字符串中最多数目的子字符串](https://leetcode-cn.com/problems/maximize-number-of-subsequences-in-a-string/)
+## Problem B - [字符串中最多数目的子字符串](https://leetcode.cn/problems/maximize-number-of-subsequences-in-a-string/)
 
 ### 方法一：分情况讨论
 
@@ -50,7 +50,7 @@ class Solution:
 
 :::
 
-## Problem C - [将数组和减半的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-halve-array-sum/)
+## Problem C - [将数组和减半的最少操作次数](https://leetcode.cn/problems/minimum-operations-to-halve-array-sum/)
 
 ### 方法一：优先队列+贪心
 
@@ -81,7 +81,7 @@ class Solution:
 
 :::
 
-## Problem D - [用地毯覆盖后的最少白色砖块](https://leetcode-cn.com/problems/minimum-white-tiles-after-covering-with-carpets/)
+## Problem D - [用地毯覆盖后的最少白色砖块](https://leetcode.cn/problems/minimum-white-tiles-after-covering-with-carpets/)
 
 ### 方法一：动态规划
 

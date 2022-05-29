@@ -1,6 +1,6 @@
 # Leetcode 第211场周赛题解
 
-## Problem A - [两个相同字符之间的最长子字符串](https://leetcode-cn.com/problems/largest-substring-between-two-equal-characters/)
+## Problem A - [两个相同字符之间的最长子字符串](https://leetcode.cn/problems/largest-substring-between-two-equal-characters/)
 
 我们可以记录每一个字母最早出现和最后出现的位置，然后枚举字母即可。
 
@@ -31,7 +31,7 @@ public:
 
 :::
 
-## Problem B - [执行操作后字典序最小的字符串](https://leetcode-cn.com/problems/lexicographically-smallest-string-after-applying-operations/)
+## Problem B - [执行操作后字典序最小的字符串](https://leetcode.cn/problems/lexicographically-smallest-string-after-applying-operations/)
 
 在本题的数据范围内，可以枚举所有可能的操作结果，从中选择最小的那一个。关键是：如何枚举？
 
@@ -76,7 +76,7 @@ public:
 
 :::
 
-## Problem C - [无矛盾的最佳球队](https://leetcode-cn.com/problems/best-team-with-no-conflicts/)
+## Problem C - [无矛盾的最佳球队](https://leetcode.cn/problems/best-team-with-no-conflicts/)
 
 本题的数据范围显然不可能支持我们进行所有子集的枚举。我们希望找到一种顺序，使得我们在进行选择时，总是不会发生冲突。
 
@@ -119,7 +119,7 @@ public:
 
 :::
 
-## Problem D - [带阈值的图连通性](https://leetcode-cn.com/problems/graph-connectivity-with-threshold/)
+## Problem D - [带阈值的图连通性](https://leetcode.cn/problems/graph-connectivity-with-threshold/)
 
 因为$N$最大可以到$10000$，我们显然不能枚举所有的边来构造这个图。不妨先把阈值条件放在一边，假设$P$是$A$和$B$的一个公因数，那么显然$P$也是$P$和$A$的公因数，同时也是$P$和$B$的公因数。因此，我们就可以不连接$(A,B)$，而是连接$(P,A)$和$(P,B)$。也就是说，我们可以枚举因子，然后将其所有的倍数与这一因子之间连边。
 

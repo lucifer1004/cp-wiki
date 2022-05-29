@@ -1,6 +1,6 @@
 # Leetcode 第44场双周赛题解
 
-## Problem A - [找到最高海拔](https://leetcode-cn.com/problems/find-the-highest-altitude/)
+## Problem A - [找到最高海拔](https://leetcode.cn/problems/find-the-highest-altitude/)
 
 逐个计算并记录最大值即可。
 
@@ -25,7 +25,7 @@ public:
 
 :::
 
-## Problem B - [需要教语言的最少人数](https://leetcode-cn.com/problems/minimum-number-of-people-to-teach/)
+## Problem B - [需要教语言的最少人数](https://leetcode.cn/problems/minimum-number-of-people-to-teach/)
 
 注意到好友关系不存在传递性，且好友关系不重复，所以本题并不涉及并查集这类数据结构，我们只用逐个处理好友关系即可。
 
@@ -61,7 +61,7 @@ class Solution:
 
 :::
 
-## Problem C - [解码异或后的排列](https://leetcode-cn.com/problems/decode-xored-permutation/)
+## Problem C - [解码异或后的排列](https://leetcode.cn/problems/decode-xored-permutation/)
 
 题目条件中的**n为奇数**非常显眼。这是一个重要的提示信息，说明我们的解法需要利用到**n为奇数**这一条件。
 
@@ -128,7 +128,7 @@ public:
 
 :::
 
-## Problem D - [生成乘积数组的方案数](https://leetcode-cn.com/problems/count-ways-to-make-array-with-product/)
+## Problem D - [生成乘积数组的方案数](https://leetcode.cn/problems/count-ways-to-make-array-with-product/)
 
 因为有选位置这个步骤，所以想到预先计算阶乘及其乘法逆元，从而可以在$\mathcal{O}(1)$时间计算出组合数。
 

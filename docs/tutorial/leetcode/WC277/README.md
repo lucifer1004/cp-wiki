@@ -1,6 +1,6 @@
 # Leetcode 第277场周赛题解
 
-## Problem A - [元素计数](https://leetcode-cn.com/problems/count-elements-with-strictly-smaller-and-greater-elements/)
+## Problem A - [元素计数](https://leetcode.cn/problems/count-elements-with-strictly-smaller-and-greater-elements/)
 
 ### 方法一：模拟
 
@@ -20,7 +20,7 @@ class Solution:
 
 :::
 
-## Problem B - [按符号重排数组](https://leetcode-cn.com/problems/rearrange-array-elements-by-sign/)
+## Problem B - [按符号重排数组](https://leetcode.cn/problems/rearrange-array-elements-by-sign/)
 
 ### 方法一：模拟
 
@@ -41,7 +41,7 @@ class Solution:
 
 :::
 
-## Problem C - [找出数组中的所有孤独数字](https://leetcode-cn.com/problems/find-all-lonely-numbers-in-the-array/)
+## Problem C - [找出数组中的所有孤独数字](https://leetcode.cn/problems/find-all-lonely-numbers-in-the-array/)
 
 ### 方法一：哈希表
 
@@ -61,7 +61,7 @@ class Solution:
 
 :::
 
-## Problem D - [基于陈述统计最多好人数](https://leetcode-cn.com/problems/maximum-good-people-based-on-statements/)
+## Problem D - [基于陈述统计最多好人数](https://leetcode.cn/problems/maximum-good-people-based-on-statements/)
 
 ### 方法一：枚举
 

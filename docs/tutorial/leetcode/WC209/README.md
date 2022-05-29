@@ -1,6 +1,6 @@
 # Leetcode 第209场周赛题解
 
-## Problem A - [特殊数组的特征值](https://leetcode-cn.com/problems/special-array-with-x-elements-greater-than-or-equal-x/)
+## Problem A - [特殊数组的特征值](https://leetcode.cn/problems/special-array-with-x-elements-greater-than-or-equal-x/)
 
 ### 方法一：暴力枚举特征值
 
@@ -85,7 +85,7 @@ public:
 
 :::
 
-## Problem B - [奇偶树](https://leetcode-cn.com/problems/even-odd-tree/)
+## Problem B - [奇偶树](https://leetcode.cn/problems/even-odd-tree/)
 
 经典层次遍历。BFS后得到每一层的序列，然后逐层检查即可。
 
@@ -132,7 +132,7 @@ public:
 
 :::
 
-## Problem C - [可见点的最大数目](https://leetcode-cn.com/problems/maximum-number-of-visible-points/)
+## Problem C - [可见点的最大数目](https://leetcode.cn/problems/maximum-number-of-visible-points/)
 
 首先排除与人的位置重合的点，只考虑剩下的点。
 
@@ -179,7 +179,7 @@ public:
 
 :::
 
-## Problem D - [使整数变为 0 的最少操作次数](https://leetcode-cn.com/problems/minimum-one-bit-operations-to-make-integers-zero/)
+## Problem D - [使整数变为 0 的最少操作次数](https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero/)
 
 要注意到的是，因为必须首先将高位的$1$翻转为$0$，所以本题其实只存在一种合法的操作顺序，我们只要按照这一顺序进行操作即可。
 

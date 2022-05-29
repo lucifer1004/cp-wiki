@@ -1,6 +1,6 @@
 # Leetcode 第255场周赛题解
 
-## Problem A - [找出数组的最大公约数](https://leetcode-cn.com/problems/find-greatest-common-divisor-of-array/)
+## Problem A - [找出数组的最大公约数](https://leetcode.cn/problems/find-greatest-common-divisor-of-array/)
 
 ### 方法一：模拟
 
@@ -16,7 +16,7 @@ class Solution:
 
 :::
 
-## Problem B - [找出不同的二进制字符串](https://leetcode-cn.com/problems/find-unique-binary-string/)
+## Problem B - [找出不同的二进制字符串](https://leetcode.cn/problems/find-unique-binary-string/)
 
 ### 方法一：构造
 
@@ -35,7 +35,7 @@ class Solution:
 
 :::
 
-## Problem C - [最小化目标值与所选元素的差](https://leetcode-cn.com/problems/minimize-the-difference-between-target-and-chosen-elements/)
+## Problem C - [最小化目标值与所选元素的差](https://leetcode.cn/problems/minimize-the-difference-between-target-and-chosen-elements/)
 
 ### 方法一：动态规划
 
@@ -73,7 +73,7 @@ public:
 
 :::
 
-## Problem D - [从子集的和还原数组](https://leetcode-cn.com/problems/find-array-given-subset-sums/)
+## Problem D - [从子集的和还原数组](https://leetcode.cn/problems/find-array-given-subset-sums/)
 
 ### 方法一：深度优先搜索
 

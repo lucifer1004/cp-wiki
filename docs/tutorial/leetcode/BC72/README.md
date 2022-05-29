@@ -1,6 +1,6 @@
 # Leetcode 第72场双周赛题解
 
-## Problem A - [统计数组中相等且可以被整除的数对](https://leetcode-cn.com/problems/count-equal-and-divisible-pairs-in-an-array/)
+## Problem A - [统计数组中相等且可以被整除的数对](https://leetcode.cn/problems/count-equal-and-divisible-pairs-in-an-array/)
 
 ### 方法一：暴力
 
@@ -25,7 +25,7 @@ class Solution:
 
 :::
 
-## Problem B - [找到和为给定整数的三个连续整数](https://leetcode-cn.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/)
+## Problem B - [找到和为给定整数的三个连续整数](https://leetcode.cn/problems/find-three-consecutive-integers-that-sum-to-a-given-number/)
 
 ### 方法一：数学
 
@@ -44,7 +44,7 @@ class Solution:
 
 :::
 
-## Problem C - [拆分成最多数目的偶整数之和](https://leetcode-cn.com/problems/maximum-split-of-positive-even-integers/)
+## Problem C - [拆分成最多数目的偶整数之和](https://leetcode.cn/problems/maximum-split-of-positive-even-integers/)
 
 ### 方法一：贪心
 
@@ -75,7 +75,7 @@ class Solution:
 
 :::
 
-## Problem D - [统计数组中好三元组数目](https://leetcode-cn.com/problems/count-good-triplets-in-an-array/)
+## Problem D - [统计数组中好三元组数目](https://leetcode.cn/problems/count-good-triplets-in-an-array/)
 
 ### 方法一：树状数组/线段树
 

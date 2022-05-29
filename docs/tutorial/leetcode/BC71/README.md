@@ -1,6 +1,6 @@
 # Leetcode 第71场双周赛题解
 
-## Problem A - [拆分数位后四位数字的最小和](https://leetcode-cn.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/)
+## Problem A - [拆分数位后四位数字的最小和](https://leetcode.cn/problems/minimum-sum-of-four-digit-number-after-splitting-digits/)
 
 ### 方法一：贪心
 
@@ -20,7 +20,7 @@ class Solution:
 
 :::
 
-## Problem B - [根据给定数字划分数组](https://leetcode-cn.com/problems/partition-array-according-to-given-pivot/)
+## Problem B - [根据给定数字划分数组](https://leetcode.cn/problems/partition-array-according-to-given-pivot/)
 
 ### 方法一：模拟
 
@@ -41,7 +41,7 @@ class Solution:
 
 :::
 
-## Problem C - [设置时间的最少代价](https://leetcode-cn.com/problems/minimum-cost-to-set-cooking-time/)
+## Problem C - [设置时间的最少代价](https://leetcode.cn/problems/minimum-cost-to-set-cooking-time/)
 
 ### 方法一：暴力
 
@@ -82,7 +82,7 @@ public:
 
 :::
 
-## Problem D - [删除元素后和的最小差值](https://leetcode-cn.com/problems/minimum-difference-in-sums-after-removal-of-elements/)
+## Problem D - [删除元素后和的最小差值](https://leetcode.cn/problems/minimum-difference-in-sums-after-removal-of-elements/)
 
 ### 方法一：堆
 

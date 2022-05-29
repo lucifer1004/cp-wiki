@@ -1,6 +1,6 @@
 # Leetcode 第268场周赛题解
 
-## Problem A - [两栋颜色不同且距离最远的房子](https://leetcode-cn.com/problems/two-furthest-houses-with-different-colors/)
+## Problem A - [两栋颜色不同且距离最远的房子](https://leetcode.cn/problems/two-furthest-houses-with-different-colors/)
 
 ### 方法一：暴力
 
@@ -48,7 +48,7 @@ class Solution:
 
 :::
 
-## Problem B - [给植物浇水](https://leetcode-cn.com/problems/watering-plants/)
+## Problem B - [给植物浇水](https://leetcode.cn/problems/watering-plants/)
 
 ### 方法一：模拟
 
@@ -81,7 +81,7 @@ public:
 
 :::
 
-## Problem C - [区间内查询数字的频率](https://leetcode-cn.com/problems/range-frequency-queries/)
+## Problem C - [区间内查询数字的频率](https://leetcode.cn/problems/range-frequency-queries/)
 
 ### 方法一：二分查找
 
@@ -117,7 +117,7 @@ public:
 
 :::
 
-## Problem D - [k 镜像数字的和](https://leetcode-cn.com/problems/sum-of-k-mirror-numbers/)
+## Problem D - [k 镜像数字的和](https://leetcode.cn/problems/sum-of-k-mirror-numbers/)
 
 ### 方法一：打表
 

@@ -1,6 +1,6 @@
 # Leetcode 第228场周赛题解
 
-## Problem A - [生成交替二进制字符串的最少操作数](https://leetcode-cn.com/problems/minimum-changes-to-make-alternating-binary-string/)
+## Problem A - [生成交替二进制字符串的最少操作数](https://leetcode.cn/problems/minimum-changes-to-make-alternating-binary-string/)
 
 我们或者将字符串变为`0101...0101`，或者将字符串变成`1010...1010`。所以，我们统计奇数和偶数位置上`0`和`1`的数目，然后选择两种方案中较优的那个即可。
 
@@ -32,7 +32,7 @@ class Solution:
 
 :::
 
-## Problem B - [统计同构子字符串的数目](https://leetcode-cn.com/problems/count-number-of-homogenous-substrings/)
+## Problem B - [统计同构子字符串的数目](https://leetcode.cn/problems/count-number-of-homogenous-substrings/)
 
 找出每一个最长的由相同字符组成的子串，假设其长度为$L$，则其对答案的贡献为$\frac{L(L+1)}{2}$。
 
@@ -61,7 +61,7 @@ class Solution:
 
 :::
 
-## Problem C - [袋子里最少数目的球](https://leetcode-cn.com/problems/minimum-limit-of-balls-in-a-bag/)
+## Problem C - [袋子里最少数目的球](https://leetcode.cn/problems/minimum-limit-of-balls-in-a-bag/)
 
 可能第一反应会考虑每次贪心选取球最多的那个袋子将其分为两半。但本题的操作次数最多可以达到$10^9$，逐次进行模拟显然是不现实的；另一方面，样例1（只有一个袋子，里面装着9个球，最多操作2次）也已经说明这一贪心策略是不对的。如果我们采用贪心方法，得到的结果会是$[9]\rightarrow[5,4]\rightarrow[4,3,2]$，最后的代价是$4$，而按照样例中的方法$[9]\rightarrow[6,3]\rightarrow[3,3,3]$，最后的代价是$3$。
 
@@ -99,7 +99,7 @@ class Solution:
 
 :::
 
-## Problem D - [一个图中连通三元组的最小度数](https://leetcode-cn.com/contest/weekly-contest-228/problems/minimum-degree-of-a-connected-trio-in-a-graph/)
+## Problem D - [一个图中连通三元组的最小度数](https://leetcode.cn/contest/weekly-contest-228/problems/minimum-degree-of-a-connected-trio-in-a-graph/)
 
 ### 方法一：暴力
 

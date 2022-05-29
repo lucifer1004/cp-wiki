@@ -1,6 +1,6 @@
 # Leetcode 第246场周赛题解
 
-## Problem A - [字符串中的最大奇数](https://leetcode-cn.com/problems/largest-odd-number-in-string/)
+## Problem A - [字符串中的最大奇数](https://leetcode.cn/problems/largest-odd-number-in-string/)
 
 ### 方法一：贪心
 
@@ -28,7 +28,7 @@ public:
 
 :::
 
-## Problem B - [你完成的完整对局数](https://leetcode-cn.com/problems/the-number-of-full-rounds-you-have-played/)
+## Problem B - [你完成的完整对局数](https://leetcode.cn/problems/the-number-of-full-rounds-you-have-played/)
 
 ### 方法一：数学
 
@@ -61,7 +61,7 @@ public:
 
 :::
 
-## Problem C - [统计子岛屿](https://leetcode-cn.com/problems/count-sub-islands/)
+## Problem C - [统计子岛屿](https://leetcode.cn/problems/count-sub-islands/)
 
 ### 方法一：宽度优先搜索
 
@@ -116,7 +116,7 @@ public:
 
 :::
 
-## Problem D - [查询差绝对值的最小值](https://leetcode-cn.com/problems/minimum-absolute-difference-queries/)
+## Problem D - [查询差绝对值的最小值](https://leetcode.cn/problems/minimum-absolute-difference-queries/)
 
 ### 方法一：前缀和
 

@@ -1,6 +1,6 @@
 # Leetcode 第33场双周赛题解
 
-## Problem A - [千位分隔数](https://leetcode-cn.com/problems/thousand-separator/)
+## Problem A - [千位分隔数](https://leetcode.cn/problems/thousand-separator/)
 
 模拟。
 
@@ -25,7 +25,7 @@ public:
 
 :::
 
-## Problem B - [可以到达所有点的最少点数目](https://leetcode-cn.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)
+## Problem B - [可以到达所有点的最少点数目](https://leetcode.cn/problems/minimum-number-of-vertices-to-reach-all-nodes/)
 
 因为是有向无环图，所以直接统计所有入度为$0$的节点即可。
 
@@ -49,7 +49,7 @@ public:
 
 :::
 
-## Problem C - [得到目标数组的最少函数调用次数](https://leetcode-cn.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)
+## Problem C - [得到目标数组的最少函数调用次数](https://leetcode.cn/problems/minimum-numbers-of-function-calls-to-make-target-array/)
 
 倒推。所有当前为奇数的数，必然是通过加一操作得来，因此先把所有奇数减一变为偶数；此时剩下的都是偶数，将不为$0$的数都减半（这只需要一次操作），如果已经都是$0$，则退出循环。
 
@@ -82,7 +82,7 @@ public:
 
 :::
 
-## Problem D - [二维网格图中探测环](https://leetcode-cn.com/problems/detect-cycles-in-2d-grid/)
+## Problem D - [二维网格图中探测环](https://leetcode.cn/problems/detect-cycles-in-2d-grid/)
 
 DFS实现无向图找环，遍历过程中记录深度，检查环的长度是否满足要求。实际上，因为本题的特殊性，不可能存在长度为$3$的环，所以只要能成环（有反向边），长度至少为$4$，因此即使不加对深度的判断，只根据是否已经访问过来进行判断，也是OK的。
 

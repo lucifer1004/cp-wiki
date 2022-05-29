@@ -1,6 +1,6 @@
 # Leetcode 第220场周赛题解
 
-## Problem A - [重新格式化电话号码](https://leetcode-cn.com/problems/reformat-phone-number/)
+## Problem A - [重新格式化电话号码](https://leetcode.cn/problems/reformat-phone-number/)
 
 按要求模拟即可。
 
@@ -44,7 +44,7 @@ public:
 
 :::
 
-## Problem B - [删除子数组的最大得分](https://leetcode-cn.com/problems/maximum-erasure-value/)
+## Problem B - [删除子数组的最大得分](https://leetcode.cn/problems/maximum-erasure-value/)
 
 双指针。用哈希表存储当前窗口内每种数字的个数。
 
@@ -81,7 +81,7 @@ public:
 
 :::
 
-## Problem C - [跳跃游戏 VI](https://leetcode-cn.com/problems/jump-game-vi/)
+## Problem C - [跳跃游戏 VI](https://leetcode.cn/problems/jump-game-vi/)
 
 单调队列优化动态规划。在单调队列中降序存储当前位置之前最多$k$个位置的结果。
 
@@ -114,7 +114,7 @@ public:
 
 :::
 
-## Problem D - [检查边长度限制的路径是否存在](https://leetcode-cn.com/problems/checking-existence-of-edge-length-limited-paths/)
+## Problem D - [检查边长度限制的路径是否存在](https://leetcode.cn/problems/checking-existence-of-edge-length-limited-paths/)
 
 离线处理。
 

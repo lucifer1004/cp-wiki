@@ -1,6 +1,6 @@
 # Leetcode 第194场周赛题解
 
-## Problem A - [数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array/)
+## Problem A - [数组异或操作](https://leetcode.cn/problems/xor-operation-in-an-array/)
 
 模拟。
 
@@ -20,7 +20,7 @@ public:
 
 :::
 
-## Problem B - [保证文件名唯一](https://leetcode-cn.com/problems/making-file-names-unique/)
+## Problem B - [保证文件名唯一](https://leetcode.cn/problems/making-file-names-unique/)
 
 按要求进行模拟。
 
@@ -56,7 +56,7 @@ public:
 
 :::
 
-## Problem C - [避免洪水泛滥](https://leetcode-cn.com/problems/avoid-flood-in-the-city/)
+## Problem C - [避免洪水泛滥](https://leetcode.cn/problems/avoid-flood-in-the-city/)
 
 首先一次遍历找到每一个下雨天下雨的池塘上一次下雨的日子。然后开始从最后一天倒推：
 
@@ -118,7 +118,7 @@ public:
 
 :::
 
-## Problem D - [找到最小生成树里的关键边和伪关键边](https://leetcode-cn.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
+## Problem D - [找到最小生成树里的关键边和伪关键边](https://leetcode.cn/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)
 
 本题与[CF160D - Edges in MST](https://codeforces.com/contest/160/problem/D)相同。
 

@@ -1,6 +1,6 @@
 # Leetcode 第242场周赛题解
 
-## Problem A - [哪种连续子字符串更长](https://leetcode-cn.com/problems/longer-contiguous-segments-of-ones-than-zeros/)
+## Problem A - [哪种连续子字符串更长](https://leetcode.cn/problems/longer-contiguous-segments-of-ones-than-zeros/)
 
 ### 方法一：暴力
 
@@ -35,7 +35,7 @@ public:
 
 :::
 
-## Problem B - [准时到达的列车最小时速](https://leetcode-cn.com/problems/minimum-speed-to-arrive-on-time/)
+## Problem B - [准时到达的列车最小时速](https://leetcode.cn/problems/minimum-speed-to-arrive-on-time/)
 
 ### 方法一：二分
 
@@ -94,7 +94,7 @@ public:
 
 :::
 
-## Problem C - [跳跃游戏 VII](https://leetcode-cn.com/problems/jump-game-vii/)
+## Problem C - [跳跃游戏 VII](https://leetcode.cn/problems/jump-game-vii/)
 
 ### 方法一：离散化+树状数组+双指针
 
@@ -248,7 +248,7 @@ public:
 
 
 
-## Problem D - [石子游戏 VIII](https://leetcode-cn.com/problems/stone-game-viii/)
+## Problem D - [石子游戏 VIII](https://leetcode.cn/problems/stone-game-viii/)
 
 ### 方法一：动态规划
 

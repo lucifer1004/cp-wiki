@@ -1,6 +1,6 @@
 # Leetcode 第271场周赛题解
 
-## Problem A - [环和杆](https://leetcode-cn.com/problems/rings-and-rods/)
+## Problem A - [环和杆](https://leetcode.cn/problems/rings-and-rods/)
 
 ### 方法一：模拟
 
@@ -23,7 +23,7 @@ class Solution:
 
 :::
 
-## Problem B - [子数组范围和](https://leetcode-cn.com/problems/sum-of-subarray-ranges/)
+## Problem B - [子数组范围和](https://leetcode.cn/problems/sum-of-subarray-ranges/)
 
 ### 方法一：暴力
 
@@ -121,7 +121,7 @@ public:
 
 :::
 
-## Problem C - [给植物浇水 II](https://leetcode-cn.com/problems/watering-plants-ii/)
+## Problem C - [给植物浇水 II](https://leetcode.cn/problems/watering-plants-ii/)
 
 ### 方法一：模拟
 
@@ -181,7 +181,7 @@ public:
 
 :::
 
-## Problem D - [摘水果](https://leetcode-cn.com/problems/maximum-fruits-harvested-after-at-most-k-steps/)
+## Problem D - [摘水果](https://leetcode.cn/problems/maximum-fruits-harvested-after-at-most-k-steps/)
 
 ### 方法一：双指针
 

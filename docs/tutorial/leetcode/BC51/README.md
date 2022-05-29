@@ -1,6 +1,6 @@
 # Leetcode 第51场双周赛题解
 
-## Problem A - [将所有数字用字符替换](https://leetcode-cn.com/problems/replace-all-digits-with-characters/)
+## Problem A - [将所有数字用字符替换](https://leetcode.cn/problems/replace-all-digits-with-characters/)
 
 模拟。题目已经保证了操作合法性，所以不需要额外处理。
 
@@ -24,7 +24,7 @@ public:
 
 :::
 
-## Problem B - [座位预约管理系统](https://leetcode-cn.com/problems/seat-reservation-manager/)
+## Problem B - [座位预约管理系统](https://leetcode.cn/problems/seat-reservation-manager/)
 
 用一个`set`维护所有空位置即可。题目已经保证了操作合法性，所以不需要额外处理。
 
@@ -56,7 +56,7 @@ public:
 
 :::
 
-## Problem C - [减小和重新排列数组后的最大元素](https://leetcode-cn.com/problems/maximum-element-after-decreasing-and-rearranging/)
+## Problem C - [减小和重新排列数组后的最大元素](https://leetcode.cn/problems/maximum-element-after-decreasing-and-rearranging/)
 
 排序后递推即可。注意第一个位置要强制设置为$1$（~~目测不少人都和我一样在这里吃了一发WA~~）。
 
@@ -85,7 +85,7 @@ public:
 
 :::
 
-## Problem D - [最近的房间](https://leetcode-cn.com/problems/closest-room/)
+## Problem D - [最近的房间](https://leetcode.cn/problems/closest-room/)
 
 离线处理即可。将所有房间和询问都按照面积降序排列，并用一个`set`维护当前符合条件的房间的编号。
 

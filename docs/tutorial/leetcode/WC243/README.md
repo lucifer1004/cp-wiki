@@ -1,6 +1,6 @@
 # Leetcode 第243场周赛题解
 
-## Problem A - [检查某单词是否等于两单词之和](https://leetcode-cn.com/problems/check-if-word-equals-summation-of-two-words/)
+## Problem A - [检查某单词是否等于两单词之和](https://leetcode.cn/problems/check-if-word-equals-summation-of-two-words/)
 
 ### 方法一：模拟
 
@@ -22,7 +22,7 @@ class Solution:
 
 :::
 
-## Problem B - [插入后的最大值](https://leetcode-cn.com/problems/maximum-value-after-insertion/)
+## Problem B - [插入后的最大值](https://leetcode.cn/problems/maximum-value-after-insertion/)
 
 ### 方法一：贪心
 
@@ -52,7 +52,7 @@ class Solution:
 
 :::
 
-## Problem C - [使用服务器处理任务](https://leetcode-cn.com/problems/process-tasks-using-servers/)
+## Problem C - [使用服务器处理任务](https://leetcode.cn/problems/process-tasks-using-servers/)
 
 ### 方法一：优先队列模拟
 
@@ -106,7 +106,7 @@ public:
 
 :::
 
-## Problem D - [准时抵达会议现场的最小跳过休息次数](https://leetcode-cn.com/problems/minimum-skips-to-arrive-at-meeting-on-time/)
+## Problem D - [准时抵达会议现场的最小跳过休息次数](https://leetcode.cn/problems/minimum-skips-to-arrive-at-meeting-on-time/)
 
 ### 方法一：动态规划
 

@@ -88,7 +88,7 @@ $$
 
 ### [BS - Planar Edges](https://binarysearch.com/problems/Planar-Edges)
 
-### [LC22 - 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)
+### [LC22 - 括号生成](https://leetcode.cn/problems/generate-parentheses/)
 
 ::: tip 小贴士
 本题要求给出具体的方案。如果只需要给出方案总数，那么结果即为卡特兰数。

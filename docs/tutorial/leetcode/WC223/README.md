@@ -1,6 +1,6 @@
 # Leetcode 第223场周赛题解
 
-## Problem A - [解码异或后的数组](https://leetcode-cn.com/problems/decode-xored-array/)
+## Problem A - [解码异或后的数组](https://leetcode.cn/problems/decode-xored-array/)
 
 利用异或的性质逐个求解即可。
 
@@ -25,7 +25,7 @@ public:
 
 :::
 
-## Problem B - [交换链表中的节点](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/)
+## Problem B - [交换链表中的节点](https://leetcode.cn/problems/swapping-nodes-in-a-linked-list/)
 
 直接找到两个节点，交换数值即可。
 
@@ -60,7 +60,7 @@ public:
 
 :::
 
-## Problem C - [执行交换操作后的最小汉明距离](https://leetcode-cn.com/problems/minimize-hamming-distance-after-swap-operations/)
+## Problem C - [执行交换操作后的最小汉明距离](https://leetcode.cn/problems/minimize-hamming-distance-after-swap-operations/)
 
 利用$allowedSwaps$构建并查集，然后在每一个连通分量内使用哈希表计数，然后贪心匹配即可。
 
@@ -128,7 +128,7 @@ public:
 
 :::
 
-## Problem D - [完成所有工作的最短时间](https://leetcode-cn.com/problems/find-minimum-time-to-finish-all-jobs/)
+## Problem D - [完成所有工作的最短时间](https://leetcode.cn/problems/find-minimum-time-to-finish-all-jobs/)
 
 二分+状压DP。DP之前预计算所有子集的和，DP过程中注意使用子集枚举的优化。
 

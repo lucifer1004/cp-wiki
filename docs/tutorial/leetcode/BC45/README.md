@@ -1,6 +1,6 @@
 # Leetcode 第45场双周赛题解
 
-## Problem A - [唯一元素的和](https://leetcode-cn.com/problems/sum-of-unique-elements/)
+## Problem A - [唯一元素的和](https://leetcode.cn/problems/sum-of-unique-elements/)
 
 计数然后累加符合要求的元素即可。
 
@@ -22,7 +22,7 @@ class Solution:
 
 :::
 
-## Problem B - [任意子数组和的绝对值的最大值](https://leetcode-cn.com/problems/maximum-absolute-sum-of-any-subarray/)
+## Problem B - [任意子数组和的绝对值的最大值](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray/)
 
 跟子数组和的最大值这道经典题其实很像，只不过我们除了要记录以当前位置结尾的最大值，还需要记录一个最小值。
 
@@ -46,7 +46,7 @@ class Solution:
 
 :::
 
-## Problem C - [删除字符串两端相同字符后的最短长度](https://leetcode-cn.com/problems/minimum-length-of-string-after-deleting-similar-ends/)
+## Problem C - [删除字符串两端相同字符后的最短长度](https://leetcode.cn/problems/minimum-length-of-string-after-deleting-similar-ends/)
 
 因为并不存在决策（一定是能删则删），所以只要一直按要求模拟即可。
 
@@ -76,7 +76,7 @@ public:
 
 :::
 
-## Problem D - [最多可以参加的会议数目 II](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended-ii/)
+## Problem D - [最多可以参加的会议数目 II](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended-ii/)
 
 离散化之后，扫描进行动态规划即可。
 

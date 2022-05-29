@@ -12,7 +12,7 @@ sidebarDepth: 3
 
 用链表来实现队列是一种可行的操作。但更简单的办法是利用标准库中已有的数组数据结构，用两个栈来模拟队列。原理很简单，栈是后入先出（LIFO）的，但再加上一个栈，负负得正，就得到了我们需要的先入先出（FIFO）性质，同时，出队操作的复杂度在均摊意义下是$\mathcal{O}(1)$的。
 
-练习：[LC232 - 用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)。
+练习：[LC232 - 用栈实现队列](https://leetcode.cn/problems/implement-queue-using-stacks/)。
 
 ## 双端队列
 
@@ -24,7 +24,7 @@ sidebarDepth: 3
 
 ## 练习题
 
-### [LC862 - 和至少为K的最短子数组](https://leetcode-cn.com/problems/shortest-subarray-with-sum-at-least-k/)
+### [LC862 - 和至少为K的最短子数组](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k/)
 
 ::: details 提示一
 

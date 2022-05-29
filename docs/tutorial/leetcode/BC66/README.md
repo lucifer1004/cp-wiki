@@ -1,6 +1,6 @@
 # Leetcode 第66场双周赛题解
 
-## Problem A - [统计出现过一次的公共字符串](https://leetcode-cn.com/problems/count-common-words-with-one-occurrence/)
+## Problem A - [统计出现过一次的公共字符串](https://leetcode.cn/problems/count-common-words-with-one-occurrence/)
 
 ### 方法一：模拟
 
@@ -22,7 +22,7 @@ class Solution:
 :::
 
 
-## Problem B - [从房屋收集雨水需要的最少水桶数](https://leetcode-cn.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/)
+## Problem B - [从房屋收集雨水需要的最少水桶数](https://leetcode.cn/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/)
 
 ### 方法一：贪心
 
@@ -58,7 +58,7 @@ class Solution:
 
 :::
 
-## Problem C - [网格图中机器人回家的最小代价](https://leetcode-cn.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)
+## Problem C - [网格图中机器人回家的最小代价](https://leetcode.cn/problems/minimum-cost-homecoming-of-a-robot-in-a-grid/)
 
 ### 方法一：脑筋急转弯
 
@@ -98,7 +98,7 @@ public:
 
 :::
 
-## Problem D - [统计农场中肥沃金字塔的数目](https://leetcode-cn.com/problems/count-fertile-pyramids-in-a-land/)
+## Problem D - [统计农场中肥沃金字塔的数目](https://leetcode.cn/problems/count-fertile-pyramids-in-a-land/)
 
 ### 方法一：动态规划
 

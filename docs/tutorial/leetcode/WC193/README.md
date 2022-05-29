@@ -1,6 +1,6 @@
 # Leetcode 第193场周赛题解
 
-## Problem A - [一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)
+## Problem A - [一维数组的动态和](https://leetcode.cn/problems/running-sum-of-1d-array/)
 
 就是前缀和。直接递推计算即可。
 
@@ -20,7 +20,7 @@ public:
 
 :::
 
-## Problem B - [不同整数的最少数目](https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/)
+## Problem B - [不同整数的最少数目](https://leetcode.cn/problems/least-number-of-unique-integers-after-k-removals/)
 
 贪心去除数量最少的整数，直到用完删除次数。
 
@@ -51,7 +51,7 @@ public:
 
 :::
 
-## Problem C - [制作 m 束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/)
+## Problem C - [制作 m 束花所需的最少天数](https://leetcode.cn/problems/minimum-number-of-days-to-make-m-bouquets/)
 
 二分答案。检查第$mid$天能够制作多少束花。
 
@@ -98,7 +98,7 @@ public:
 
 :::
 
-## Problem D - [树节点的第 K 个祖先](https://leetcode-cn.com/problems/kth-ancestor-of-a-tree-node/)
+## Problem D - [树节点的第 K 个祖先](https://leetcode.cn/problems/kth-ancestor-of-a-tree-node/)
 
 倍增法求LCA（最近公共祖先）中的基础步骤。
 

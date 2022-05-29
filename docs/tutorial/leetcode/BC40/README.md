@@ -1,6 +1,6 @@
 # Leetcode 第40场双周赛题解
 
-## Problem A - [最大重复子字符串](https://leetcode-cn.com/problems/maximum-repeating-substring/)
+## Problem A - [最大重复子字符串](https://leetcode.cn/problems/maximum-repeating-substring/)
 
 ### 方法一：暴力枚举
 
@@ -49,7 +49,7 @@ class Solution:
 
 :::
 
-## Problem B - [合并两个链表](https://leetcode-cn.com/problems/merge-in-between-linked-lists/)
+## Problem B - [合并两个链表](https://leetcode.cn/problems/merge-in-between-linked-lists/)
 
 比赛就不要考虑空间复杂度优化了，直接转数组之后再转回链表。这里的一个小窍门是利用Python的生成器实现链表快速转数组。
 
@@ -79,7 +79,7 @@ class Solution:
 
 :::
 
-## Problem C - [设计前中后队列](https://leetcode-cn.com/problems/design-front-middle-back-queue/)
+## Problem C - [设计前中后队列](https://leetcode.cn/problems/design-front-middle-back-queue/)
 
 利用两个双端队列（deque）来实现。这里定义平衡状态为$R-1\leq L\leq R$。为了保证在所有操作执行后都能够回到平衡状态，专门实现了一个`maintain()`方法用于维护这一平衡状态。
 
@@ -161,7 +161,7 @@ public:
 
 :::
 
-## Problem D - [得到山形数组的最少删除次数](https://leetcode-cn.com/problems/minimum-number-of-removals-to-make-mountain-array/)
+## Problem D - [得到山形数组的最少删除次数](https://leetcode.cn/problems/minimum-number-of-removals-to-make-mountain-array/)
 
 从左到右计算一次LIS，再从右到左计算一次LIS，就可以得到以每一个位置为中心点的山形数组的最大长度，从而可以得到最少需要的删除次数。
 

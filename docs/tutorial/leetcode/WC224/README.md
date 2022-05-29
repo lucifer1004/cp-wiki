@@ -1,6 +1,6 @@
 # Leetcode 第224场周赛题解
 
-## Problem A - [可以形成最大正方形的矩形数目](https://leetcode-cn.com/problems/number-of-rectangles-that-can-form-the-largest-square/)
+## Problem A - [可以形成最大正方形的矩形数目](https://leetcode.cn/problems/number-of-rectangles-that-can-form-the-largest-square/)
 
 显然一个矩形能够构成的最大正方形的边长为$\min(l,w)$，找出最大边长然后计数即可。当然也可以一次遍历，同时记录当前最大值的频次，不过时间复杂度是一样的。
 
@@ -17,7 +17,7 @@ class Solution:
 
 :::
 
-## Problem B - [同积元组](https://leetcode-cn.com/problems/tuple-with-same-product/)
+## Problem B - [同积元组](https://leetcode.cn/problems/tuple-with-same-product/)
 
 先统计出所有的乘积出现的频次。如果一个乘积出现了$k$次，则能够构成$4k(k-1)$个同积元组。
 
@@ -36,7 +36,7 @@ class Solution:
 
 :::
 
-## Problem C - [重新排列后的最大子矩阵](https://leetcode-cn.com/problems/largest-submatrix-with-rearrangements/)
+## Problem C - [重新排列后的最大子矩阵](https://leetcode.cn/problems/largest-submatrix-with-rearrangements/)
 
 首先逐列进行预处理，从最下方的行开始逆序进行动态规划，得到从每一个位置开始向下最长延伸的连续$1$的段的长度。
 
@@ -71,7 +71,7 @@ class Solution:
 
 :::
 
-## Problem D - [猫和老鼠 II](https://leetcode-cn.com/problems/cat-and-mouse-ii/)
+## Problem D - [猫和老鼠 II](https://leetcode.cn/problems/cat-and-mouse-ii/)
 
 本题的难点在于状态图并非DAG（有向无环图），所以，解题关键在于破环。如何破环？我们有两种方法。
 

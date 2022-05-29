@@ -1,6 +1,6 @@
 # Leetcode 第261场周赛题解
 
-## Problem A - [转换字符串的最少操作次数](https://leetcode-cn.com/problems/minimum-moves-to-convert-string/)
+## Problem A - [转换字符串的最少操作次数](https://leetcode.cn/problems/minimum-moves-to-convert-string/)
 
 ### 方法一：贪心
 
@@ -30,7 +30,7 @@ public:
 
 :::
 
-## Problem B - [找出缺失的观测数据](https://leetcode-cn.com/problems/find-missing-observations/)
+## Problem B - [找出缺失的观测数据](https://leetcode.cn/problems/find-missing-observations/)
 
 ### 方法一：贪心
 
@@ -70,7 +70,7 @@ public:
 
 :::
 
-## Problem C - [石子游戏 IX](https://leetcode-cn.com/problems/stone-game-ix/)
+## Problem C - [石子游戏 IX](https://leetcode.cn/problems/stone-game-ix/)
 
 ### 方法一：贪心
 
@@ -138,7 +138,7 @@ public:
 
 :::
 
-## Problem D - [含特定字母的最小子序列](https://leetcode-cn.com/contest/weekly-contest-261/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/)
+## Problem D - [含特定字母的最小子序列](https://leetcode.cn/contest/weekly-contest-261/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/)
 
 ### 方法一：贪心
 

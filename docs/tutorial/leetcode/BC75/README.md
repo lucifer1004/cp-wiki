@@ -1,6 +1,6 @@
 # Leetcode 第75场双周赛题解
 
-## Problem A - [转换数字的最少位翻转次数](https://leetcode-cn.com/problems/minimum-bit-flips-to-convert-number/)
+## Problem A - [转换数字的最少位翻转次数](https://leetcode.cn/problems/minimum-bit-flips-to-convert-number/)
 
 ### 方法一：位运算
 
@@ -22,7 +22,7 @@ public:
 
 :::
 
-## Problem B - [数组的三角和](https://leetcode-cn.com/problems/find-triangular-sum-of-an-array/)
+## Problem B - [数组的三角和](https://leetcode.cn/problems/find-triangular-sum-of-an-array/)
 
 ### 方法一：模拟
 
@@ -60,7 +60,7 @@ impl Solution {
 
 参考代码略。
 
-## Problem C - [选择建筑的方案数](https://leetcode-cn.com/contest/biweekly-contest-75/problems/number-of-ways-to-select-buildings/)
+## Problem C - [选择建筑的方案数](https://leetcode.cn/contest/biweekly-contest-75/problems/number-of-ways-to-select-buildings/)
 
 ### 方法一：动态规划
 
@@ -99,7 +99,7 @@ public:
 
 :::
 
-## Problem D - [构造字符串的总得分和](https://leetcode-cn.com/problems/sum-of-scores-of-built-strings/)
+## Problem D - [构造字符串的总得分和](https://leetcode.cn/problems/sum-of-scores-of-built-strings/)
 
 ### 方法一：后缀数组
 

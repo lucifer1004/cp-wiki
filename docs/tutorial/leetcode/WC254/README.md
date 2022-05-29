@@ -1,6 +1,6 @@
 # Leetcode 第254场周赛题解
 
-## Problem A - [作为子字符串出现在单词中的字符串数目](https://leetcode-cn.com/problems/number-of-strings-that-appear-as-substrings-in-word/)
+## Problem A - [作为子字符串出现在单词中的字符串数目](https://leetcode.cn/problems/number-of-strings-that-appear-as-substrings-in-word/)
 
 ### 方法一：暴力
 
@@ -18,7 +18,7 @@ class Solution:
 
 ### 方法二：AC自动机（略）
 
-## Problem B - [构造元素不等于两相邻元素平均值的数组](https://leetcode-cn.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)
+## Problem B - [构造元素不等于两相邻元素平均值的数组](https://leetcode.cn/problems/array-with-elements-not-equal-to-average-of-neighbors/)
 
 ### 方法一：排序+贪心
 
@@ -50,7 +50,7 @@ public:
 
 :::
 
-## Problem C - [数组元素的最小非零乘积](https://leetcode-cn.com/problems/minimum-non-zero-product-of-the-array-elements/)
+## Problem C - [数组元素的最小非零乘积](https://leetcode.cn/problems/minimum-non-zero-product-of-the-array-elements/)
 
 ### 方法一：贪心
 
@@ -85,7 +85,7 @@ class Solution:
 
 :::
 
-## Problem D - [你能穿过矩阵的最后一天](https://leetcode-cn.com/problems/last-day-where-you-can-still-cross/)
+## Problem D - [你能穿过矩阵的最后一天](https://leetcode.cn/problems/last-day-where-you-can-still-cross/)
 
 ### 方法一：二分答案+多源BFS
 

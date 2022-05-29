@@ -1,6 +1,6 @@
 # Leetcode 第225场周赛题解
 
-## Problem A - [替换隐藏数字得到的最晚时间](https://leetcode-cn.com/problems/latest-time-by-replacing-hidden-digits/)
+## Problem A - [替换隐藏数字得到的最晚时间](https://leetcode.cn/problems/latest-time-by-replacing-hidden-digits/)
 
 贪心替换即可。注意第一个数字和第二个数字有相互的依赖关系。
 
@@ -36,7 +36,7 @@ public:
 
 :::
 
-## Problem B - [满足三条件之一需改变的最少字符数](https://leetcode-cn.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)
+## Problem B - [满足三条件之一需改变的最少字符数](https://leetcode.cn/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)
 
 计数后分别考虑三种条件即可：
 
@@ -85,7 +85,7 @@ public:
 
 :::
 
-## Problem C - [找出第 K 大的异或坐标值](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)
+## Problem C - [找出第 K 大的异或坐标值](https://leetcode.cn/problems/find-kth-largest-xor-coordinate-value/)
 
 首先，如何求出每个坐标的异或值？我们可以用类似二维前缀和的办法来求。因为$\oplus$本身就是自己的逆运算，所以不需要像二维前缀和那样有$+$有$-$，直接全用$\oplus$即可。
 
@@ -123,7 +123,7 @@ public:
 
 :::
 
-## Problem D - [放置盒子](https://leetcode-cn.com/problems/building-boxes/)
+## Problem D - [放置盒子](https://leetcode.cn/problems/building-boxes/)
 
 本题需要一些观察。题目中的几个范例其实已经给出了提示：最理想的情况下，每一层都是从$1$开始的等差数列。特别地，在当前层为$n=\frac{k(k+1)}{2}$的情况下，上一层恰好可以放下$\frac{k(k-1)}{2}$个箱子。
 

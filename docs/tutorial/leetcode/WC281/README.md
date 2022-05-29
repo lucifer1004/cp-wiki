@@ -1,6 +1,6 @@
 # Leetcode 第281场周赛题解
 
-## Problem A - [统计各位数字之和为偶数的整数个数](https://leetcode-cn.com/problems/count-integers-with-even-digit-sum/)
+## Problem A - [统计各位数字之和为偶数的整数个数](https://leetcode.cn/problems/count-integers-with-even-digit-sum/)
 
 ### 方法一：暴力
 
@@ -23,7 +23,7 @@ class Solution:
 
 :::
 
-## Problem B - [合并零之间的节点](https://leetcode-cn.com/problems/merge-nodes-in-between-zeros/)
+## Problem B - [合并零之间的节点](https://leetcode.cn/problems/merge-nodes-in-between-zeros/)
 
 ### 方法一：模拟
 
@@ -55,7 +55,7 @@ class Solution:
 
 :::
 
-## Problem C - [构造限制重复的字符串](https://leetcode-cn.com/problems/construct-string-with-repeat-limit/)
+## Problem C - [构造限制重复的字符串](https://leetcode.cn/problems/construct-string-with-repeat-limit/)
 
 ### 方法一：贪心
 
@@ -104,7 +104,7 @@ public:
 
 :::
 
-## Problem D - [统计可以被 K 整除的下标对数目](https://leetcode-cn.com/problems/count-array-pairs-divisible-by-k/)
+## Problem D - [统计可以被 K 整除的下标对数目](https://leetcode.cn/problems/count-array-pairs-divisible-by-k/)
 
 ### 方法一：哈希表
 

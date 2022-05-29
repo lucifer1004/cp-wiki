@@ -1,6 +1,6 @@
 # Leetcode 第263场周赛题解
 
-## Problem A - [检查句子中的数字是否递增](https://leetcode-cn.com/problems/check-if-numbers-are-ascending-in-a-sentence/)
+## Problem A - [检查句子中的数字是否递增](https://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence/)
 
 ### 方法一：模拟
 
@@ -20,7 +20,7 @@ class Solution:
 
 :::
 
-## Problem B - [简易银行系统](https://leetcode-cn.com/problems/simple-bank-system/)
+## Problem B - [简易银行系统](https://leetcode.cn/problems/simple-bank-system/)
 
 ### 方法一：模拟
 
@@ -72,7 +72,7 @@ public:
 
 :::
 
-## Problem C - [统计按位或能得到最大值的子集数目](https://leetcode-cn.com/problems/count-number-of-maximum-bitwise-or-subsets/)
+## Problem C - [统计按位或能得到最大值的子集数目](https://leetcode.cn/problems/count-number-of-maximum-bitwise-or-subsets/)
 
 ### 方法一：暴力
 
@@ -108,7 +108,7 @@ public:
 
 :::
 
-## Problem D - [到达目的地的第二短时间](https://leetcode-cn.com/problems/second-minimum-time-to-reach-destination/)
+## Problem D - [到达目的地的第二短时间](https://leetcode.cn/problems/second-minimum-time-to-reach-destination/)
 
 ### 方法一：BFS + 二次松弛
 

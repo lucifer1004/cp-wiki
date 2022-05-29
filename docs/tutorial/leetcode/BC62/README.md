@@ -1,6 +1,6 @@
 # Leetcode 第62场双周赛题解
 
-## Problem A - [将一维数组转变成二维数组](https://leetcode-cn.com/problems/convert-1d-array-into-2d-array/)
+## Problem A - [将一维数组转变成二维数组](https://leetcode.cn/problems/convert-1d-array-into-2d-array/)
 
 ### 方法一：模拟
 
@@ -22,7 +22,7 @@ class Solution:
 :::
 
 
-## Problem B - [连接后等于目标字符串的字符串对](https://leetcode-cn.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)
+## Problem B - [连接后等于目标字符串的字符串对](https://leetcode.cn/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)
 
 ### 方法一：暴力
 
@@ -97,7 +97,7 @@ public:
 
 
 
-## Problem C - [考试的最大困扰度](https://leetcode-cn.com/problems/maximize-the-confusion-of-an-exam/)
+## Problem C - [考试的最大困扰度](https://leetcode.cn/problems/maximize-the-confusion-of-an-exam/)
 
 ### 方法一：贪心
 
@@ -138,7 +138,7 @@ public:
 
 :::
 
-## Problem D - [分割数组的最多方案数](https://leetcode-cn.com/problems/maximum-number-of-ways-to-partition-an-array/)
+## Problem D - [分割数组的最多方案数](https://leetcode.cn/problems/maximum-number-of-ways-to-partition-an-array/)
 
 ### 方法一：哈希表
 

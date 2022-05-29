@@ -1,6 +1,6 @@
 # Leetcode 第276场周赛题解
 
-## Problem A - [将字符串拆分为若干长度为 k 的组](https://leetcode-cn.com/problems/divide-a-string-into-groups-of-size-k/)
+## Problem A - [将字符串拆分为若干长度为 k 的组](https://leetcode.cn/problems/divide-a-string-into-groups-of-size-k/)
 
 ### 方法一：模拟
 
@@ -22,7 +22,7 @@ class Solution:
 
 :::
 
-## Problem B - [得到目标值的最少行动次数](https://leetcode-cn.com/problems/minimum-moves-to-reach-target-score/)
+## Problem B - [得到目标值的最少行动次数](https://leetcode.cn/problems/minimum-moves-to-reach-target-score/)
 
 ### 方法一：递归倒推
 
@@ -47,7 +47,7 @@ class Solution:
 
 :::
 
-## Problem C - [解决智力问题](https://leetcode-cn.com/problems/solving-questions-with-brainpower/)
+## Problem C - [解决智力问题](https://leetcode.cn/problems/solving-questions-with-brainpower/)
 
 ### 方法一：动态规划
 
@@ -81,7 +81,7 @@ public:
 
 :::
 
-## Problem D - [同时运行 N 台电脑的最长时间](https://leetcode-cn.com/problems/maximum-running-time-of-n-computers/)
+## Problem D - [同时运行 N 台电脑的最长时间](https://leetcode.cn/problems/maximum-running-time-of-n-computers/)
 
 ### 方法一：二分答案
 

@@ -1,6 +1,6 @@
 # Leetcode 第38场双周赛题解
 
-## Problem A - [按照频率将数组升序排序](https://leetcode-cn.com/problems/sort-array-by-increasing-frequency/)
+## Problem A - [按照频率将数组升序排序](https://leetcode.cn/problems/sort-array-by-increasing-frequency/)
 
 按照要求，先统计频率，然后排序。
 
@@ -30,7 +30,7 @@ public:
 
 :::
 
-## Problem B - [两点之间不包含任何点的最宽垂直面积](https://leetcode-cn.com/problems/widest-vertical-area-between-two-points-containing-no-points/)
+## Problem B - [两点之间不包含任何点的最宽垂直面积](https://leetcode.cn/problems/widest-vertical-area-between-two-points-containing-no-points/)
 
 将所有点按照$x$坐标排序，然后找到相邻两个点之间最大的$\Delta x$即可。
 
@@ -55,7 +55,7 @@ public:
 
 :::
 
-## Problem C - [统计只差一个字符的子串数目](https://leetcode-cn.com/problems/count-substrings-that-differ-by-one-character/)
+## Problem C - [统计只差一个字符的子串数目](https://leetcode.cn/problems/count-substrings-that-differ-by-one-character/)
 
 枚举不同的那一个字符的位置，然后向两端扩展。
 
@@ -89,7 +89,7 @@ public:
 
 :::
 
-## Problem D - [通过给定词典构造目标字符串的方案数](https://leetcode-cn.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/)
+## Problem D - [通过给定词典构造目标字符串的方案数](https://leetcode.cn/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/)
 
 预处理得到词典中的第$i$位有多少个字母$c$，记录为$can[i][c]$。
 

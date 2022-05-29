@@ -20,7 +20,7 @@ $$a=[300,100,300,300,200,100,800,500]$$
 
 ### 题解
 
-可以参考 [LC265-粉刷房子](https://leetcode-cn.com/problems/paint-house-ii/)
+可以参考 [LC265-粉刷房子](https://leetcode.cn/problems/paint-house-ii/)
 
 预先对数字进行标号处理，记为 $nums[1]...nums[t]$。
 

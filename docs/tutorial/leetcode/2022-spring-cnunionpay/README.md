@@ -1,6 +1,6 @@
 # 2022春中国银联专场竞赛题解
 
-## Problem A - [回文链表](https://leetcode-cn.com/contest/cnunionpay-2022spring/problems/D7rekZ/)
+## Problem A - [回文链表](https://leetcode.cn/contest/cnunionpay-2022spring/problems/D7rekZ/)
 
 ### 方法一：贪心
 
@@ -42,7 +42,7 @@ class Solution:
 
 :::
 
-## Problem B - [优惠活动系统](https://leetcode-cn.com/contest/cnunionpay-2022spring/problems/kDPV0f/)
+## Problem B - [优惠活动系统](https://leetcode.cn/contest/cnunionpay-2022spring/problems/kDPV0f/)
 
 ### 方法一：模拟
 
@@ -97,7 +97,7 @@ public:
 
 :::
 
-## Problem C - [理财产品](https://leetcode-cn.com/contest/cnunionpay-2022spring/problems/I4mOGz/)
+## Problem C - [理财产品](https://leetcode.cn/contest/cnunionpay-2022spring/problems/I4mOGz/)
 
 ### 方法一：二分答案
 
@@ -145,7 +145,7 @@ class Solution:
 
 :::
 
-## Problem D - [合作开发](https://leetcode-cn.com/contest/cnunionpay-2022spring/problems/lCh58I/)
+## Problem D - [合作开发](https://leetcode.cn/contest/cnunionpay-2022spring/problems/lCh58I/)
 
 ### 方法一：枚举子集+计数
 

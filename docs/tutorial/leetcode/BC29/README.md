@@ -1,6 +1,6 @@
 # Leetcode 第29场双周赛题解
 
-## Problem A - [去掉最低工资和最高工资后的工资平均值](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)
+## Problem A - [去掉最低工资和最高工资后的工资平均值](https://leetcode.cn/problems/average-salary-excluding-the-minimum-and-maximum-salary/)
 
 分别求出总和，最大值和最小值即可。
 
@@ -14,7 +14,7 @@ class Solution:
 
 :::
 
-## Problem B - [n 的第 k 个因子](https://leetcode-cn.com/problems/the-kth-factor-of-n/)
+## Problem B - [n 的第 k 个因子](https://leetcode.cn/problems/the-kth-factor-of-n/)
 
 $O(\sqrt{n})$求出$n$的所有因子，排序后取第$k$个即可。
 
@@ -41,7 +41,7 @@ public:
 
 :::
 
-## Problem C - [删掉一个元素以后全为 1 的最长子数组](https://leetcode-cn.com/problems/longest-subarray-of-1s-after-deleting-one-element/)
+## Problem C - [删掉一个元素以后全为 1 的最长子数组](https://leetcode.cn/problems/longest-subarray-of-1s-after-deleting-one-element/)
 
 求出每个元素左边连续1的长度和右边连续1的长度，然后枚举删除的位置即可。时间复杂度$O(n)$。
 
@@ -71,7 +71,7 @@ public:
 
 :::
 
-## Problem D - [并行课程 II](https://leetcode-cn.com/problems/parallel-courses-ii/)
+## Problem D - [并行课程 II](https://leetcode.cn/problems/parallel-courses-ii/)
 
 本题比赛时测试数据比较弱，导致很多错误贪心代码也都通过了评测，因此最后本场比赛unrated。
 

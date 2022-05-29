@@ -1,6 +1,6 @@
 # Leetcode 第251场周赛题解
 
-## Problem A - [字符串转化后的各位数字之和](https://leetcode-cn.com/problems/sum-of-digits-of-string-after-convert/)
+## Problem A - [字符串转化后的各位数字之和](https://leetcode.cn/problems/sum-of-digits-of-string-after-convert/)
 
 ### 方法一：模拟
 
@@ -22,7 +22,7 @@ class Solution:
 
 :::
 
-## Problem B - [子字符串突变后可能得到的最大整数](https://leetcode-cn.com/problems/largest-number-after-mutating-substring/)
+## Problem B - [子字符串突变后可能得到的最大整数](https://leetcode.cn/problems/largest-number-after-mutating-substring/)
 
 ### 方法一：贪心
 
@@ -49,7 +49,7 @@ public:
 
 :::
 
-## Problem C - [最大兼容性评分和](https://leetcode-cn.com/problems/maximum-compatibility-score-sum/)
+## Problem C - [最大兼容性评分和](https://leetcode.cn/problems/maximum-compatibility-score-sum/)
 
 这道题本身是一个二分图带权最大匹配问题，但是数据规模较小，因此我们可以有别的解题方法。
 
@@ -124,7 +124,7 @@ public:
 
 二分图带权最大匹配可以转化为费用流问题，从而在多项式时间内求解。这已经超出了一般算法面试的要求，这里不展开介绍。
 
-## Problem D - [删除系统中的重复文件夹](https://leetcode-cn.com/problems/delete-duplicate-folders-in-system/)
+## Problem D - [删除系统中的重复文件夹](https://leetcode.cn/problems/delete-duplicate-folders-in-system/)
 
 ### 方法一：树哈希
 

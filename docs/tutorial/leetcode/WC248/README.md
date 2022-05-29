@@ -1,6 +1,6 @@
 # Leetcode 第248场周赛题解
 
-## Problem A - [基于排列构建数组](https://leetcode-cn.com/problems/build-array-from-permutation/)
+## Problem A - [基于排列构建数组](https://leetcode.cn/problems/build-array-from-permutation/)
 
 ### 方法一：模拟
 
@@ -19,7 +19,7 @@ class Solution:
 
 :::
 
-## Problem B - [消灭怪物的最大数量](https://leetcode-cn.com/problems/eliminate-maximum-number-of-monsters/)
+## Problem B - [消灭怪物的最大数量](https://leetcode.cn/problems/eliminate-maximum-number-of-monsters/)
 
 ### 方法一：贪心
 
@@ -43,7 +43,7 @@ class Solution:
 
 :::
 
-## Problem C - [统计好数字的数目](https://leetcode-cn.com/problems/count-good-numbers/)
+## Problem C - [统计好数字的数目](https://leetcode.cn/problems/count-good-numbers/)
 
 ### 方法一：数学
 
@@ -68,7 +68,7 @@ class Solution:
 
 :::
 
-## Problem D - [最长公共子路径](https://leetcode-cn.com/problems/longest-common-subpath/)
+## Problem D - [最长公共子路径](https://leetcode.cn/problems/longest-common-subpath/)
 
 ### 方法一：Rabin-Karp算法+二分答案
 
@@ -78,7 +78,7 @@ class Solution:
 
 我们可以利用Rabin-Karp算法（字符串哈希）。我们可以求出每一条路径长度为$i$的子路径的哈希值，如果某一个哈希值在所有路径中都出现了，则认为存在长度为$i$的子路径。当然，由于可能存在哈希碰撞，这里的判定其实是必要不充分的。
 
-与本题类似的[718. 最长重复子数组](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/)中，哈希碰撞的可能性较小，但本题中有一个较强的数据，对于很多模数和乘数组合都可能发生哈希碰撞。
+与本题类似的[718. 最长重复子数组](https://leetcode.cn/problems/maximum-length-of-repeated-subarray/)中，哈希碰撞的可能性较小，但本题中有一个较强的数据，对于很多模数和乘数组合都可能发生哈希碰撞。
 
 这里，我们的应对策略是选择更大的模数，并使用128位的整型以支持对应的乘法运算。
 

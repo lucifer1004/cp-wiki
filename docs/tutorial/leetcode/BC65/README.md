@@ -1,6 +1,6 @@
 # Leetcode 第65场双周赛题解
 
-## Problem A - [检查两个字符串是否几乎相等](https://leetcode-cn.com/problems/check-whether-two-strings-are-almost-equivalent/)
+## Problem A - [检查两个字符串是否几乎相等](https://leetcode.cn/problems/check-whether-two-strings-are-almost-equivalent/)
 
 ### 方法一：模拟
 
@@ -22,7 +22,7 @@ class Solution:
 :::
 
 
-## Problem B - [模拟行走机器人 II](https://leetcode-cn.com/problems/walking-robot-simulation-ii/)
+## Problem B - [模拟行走机器人 II](https://leetcode.cn/problems/walking-robot-simulation-ii/)
 
 ### 方法一：优化模拟
 
@@ -91,7 +91,7 @@ public:
 
 :::
 
-## Problem C - [每一个查询的最大美丽值](https://leetcode-cn.com/problems/most-beautiful-item-for-each-query/)
+## Problem C - [每一个查询的最大美丽值](https://leetcode.cn/problems/most-beautiful-item-for-each-query/)
 
 ### 方法一：离线
 
@@ -128,7 +128,7 @@ public:
 
 :::
 
-## Problem D - [你可以安排的最多任务数目](https://leetcode-cn.com/problems/maximum-number-of-tasks-you-can-assign/)
+## Problem D - [你可以安排的最多任务数目](https://leetcode.cn/problems/maximum-number-of-tasks-you-can-assign/)
 
 ### 方法一：二分答案+贪心
 
@@ -240,7 +240,7 @@ public:
 - 时间复杂度$\mathcal{O}(N\log N)$。
 - 空间复杂度$\mathcal{O}(N)$。
 
-> 参考了[@灵剑2012](https://leetcode-cn.com/problems/maximum-number-of-tasks-you-can-assign/solution/ji-yu-er-fen-dan-diao-dui-lie-de-onlogns-zy8q/)的题解。
+> 参考了[@灵剑2012](https://leetcode.cn/problems/maximum-number-of-tasks-you-can-assign/solution/ji-yu-er-fen-dan-diao-dui-lie-de-onlogns-zy8q/)的题解。
 
 ::: details 参考代码（C++）
 

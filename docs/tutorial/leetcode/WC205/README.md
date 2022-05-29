@@ -1,6 +1,6 @@
 # Leetcode 第205场周赛题解
 
-## Problem A - [替换所有的问号](https://leetcode-cn.com/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)
+## Problem A - [替换所有的问号](https://leetcode.cn/problems/replace-all-s-to-avoid-consecutive-repeating-characters/)
 
 第一遍扫描把问号位置记下来，同时先暂时设成`a`。第二遍扫描检查合法性并修正。
 
@@ -42,7 +42,7 @@ public:
 
 :::
 
-## Problem B - [数的平方等于两数乘积的方法数](https://leetcode-cn.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)
+## Problem B - [数的平方等于两数乘积的方法数](https://leetcode.cn/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers/)
 
 用两个`map`记录平方，然后枚举乘积。
 
@@ -76,7 +76,7 @@ public:
 
 :::
 
-## Problem C - [避免重复字母的最小删除成本](https://leetcode-cn.com/problems/minimum-deletion-cost-to-avoid-repeating-letters/)
+## Problem C - [避免重复字母的最小删除成本](https://leetcode.cn/problems/minimum-deletion-cost-to-avoid-repeating-letters/)
 
 非常清晰的动态规划。用$dp[i][j]$表示处理到第$i$位，结尾为$j$的最小成本。显然有两种转移，一是保留当前字母，但要求上一位与其不同；二是删除当前字母，结尾字母不变，代价增加。
 
@@ -111,7 +111,7 @@ public:
 
 :::
 
-## Problem D - [保证图可完全遍历](https://leetcode-cn.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)
+## Problem D - [保证图可完全遍历](https://leetcode.cn/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)
 
 给两个人分别准备一个并查集。首先使用公共边，如果只用公共边无法连通，再分别使用各自独有的边。
 

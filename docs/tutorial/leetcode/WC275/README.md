@@ -1,6 +1,6 @@
 # Leetcode 第275场周赛题解
 
-## Problem A - [检查是否每一行每一列都包含全部整数](https://leetcode-cn.com/problems/check-if-every-row-and-column-contains-all-numbers/)
+## Problem A - [检查是否每一行每一列都包含全部整数](https://leetcode.cn/problems/check-if-every-row-and-column-contains-all-numbers/)
 
 ### 方法一：模拟
 
@@ -20,7 +20,7 @@ class Solution:
 
 :::
 
-## Problem B - [最少交换次数来组合所有的 1 II](https://leetcode-cn.com/problems/minimum-swaps-to-group-all-1s-together-ii/)
+## Problem B - [最少交换次数来组合所有的 1 II](https://leetcode.cn/problems/minimum-swaps-to-group-all-1s-together-ii/)
 
 ### 方法一：滑动窗口
 
@@ -56,7 +56,7 @@ public:
 
 :::
 
-## Problem C - [统计追加字母可以获得的单词数](https://leetcode-cn.com/problems/count-words-obtained-after-adding-a-letter/)
+## Problem C - [统计追加字母可以获得的单词数](https://leetcode.cn/problems/count-words-obtained-after-adding-a-letter/)
 
 ### 方法一：枚举删除的字母
 
@@ -100,7 +100,7 @@ public:
 
 :::
 
-## Problem D - [全部开花的最早一天](https://leetcode-cn.com/problems/earliest-possible-day-of-full-bloom/)
+## Problem D - [全部开花的最早一天](https://leetcode.cn/problems/earliest-possible-day-of-full-bloom/)
 
 ### 方法一：贪心
 

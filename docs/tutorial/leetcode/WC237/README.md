@@ -1,6 +1,6 @@
 # Leetcode 第237场周赛题解
 
-## Problem A - [判断句子是否为全字母句](https://leetcode-cn.com/problems/check-if-the-sentence-is-pangram/)
+## Problem A - [判断句子是否为全字母句](https://leetcode.cn/problems/check-if-the-sentence-is-pangram/)
 
 去重后看个数是否为26即可。
 
@@ -17,7 +17,7 @@ class Solution:
 
 :::
 
-## Problem B - [雪糕的最大数量](https://leetcode-cn.com/problems/maximum-ice-cream-bars/)
+## Problem B - [雪糕的最大数量](https://leetcode.cn/problems/maximum-ice-cream-bars/)
 
 排序后贪心即可。
 
@@ -41,7 +41,7 @@ class Solution:
 
 :::
 
-## Problem C - [单线程 CPU](https://leetcode-cn.com/problems/single-threaded-cpu/)
+## Problem C - [单线程 CPU](https://leetcode.cn/problems/single-threaded-cpu/)
 
 读清题意后按要求模拟即可。把所有任务按开始时间排序，同时用优先队列维护当前待执行的任务。
 
@@ -90,7 +90,7 @@ public:
 
 :::
 
-## Problem D - [所有数对按位与结果的异或和](https://leetcode-cn.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)
+## Problem D - [所有数对按位与结果的异或和](https://leetcode.cn/problems/find-xor-sum-of-all-pairs-bitwise-and/)
 
 ### 方法一：逐位处理
 

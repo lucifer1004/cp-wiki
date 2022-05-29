@@ -1,6 +1,6 @@
 # Leetcode 第56场双周赛题解
 
-## Problem A - [统计平方和三元组的数目](https://leetcode-cn.com/problems/count-square-sum-triples/)
+## Problem A - [统计平方和三元组的数目](https://leetcode.cn/problems/count-square-sum-triples/)
 
 ### 方法一：暴力+预处理
 
@@ -44,7 +44,7 @@ public:
 :::
 
 
-## Problem B - [迷宫中离入口最近的出口](https://leetcode-cn.com/problems/nearest-exit-from-entrance-in-maze/)
+## Problem B - [迷宫中离入口最近的出口](https://leetcode.cn/problems/nearest-exit-from-entrance-in-maze/)
 
 ### 方法一：宽度优先搜索
 
@@ -92,7 +92,7 @@ public:
 :::
 
 
-## Problem C - [求和游戏](https://leetcode-cn.com/problems/sum-game/)
+## Problem C - [求和游戏](https://leetcode.cn/problems/sum-game/)
 
 ### 方法一：分类讨论
 
@@ -147,7 +147,7 @@ public:
 
 :::
 
-## Problem D - [规定时间内到达终点的最小花费](https://leetcode-cn.com/problems/minimum-cost-to-reach-destination-in-time/)
+## Problem D - [规定时间内到达终点的最小花费](https://leetcode.cn/problems/minimum-cost-to-reach-destination-in-time/)
 
 ### 方法一：Dijkstra算法
 

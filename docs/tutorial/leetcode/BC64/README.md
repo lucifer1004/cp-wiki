@@ -1,6 +1,6 @@
 # Leetcode 第64场双周赛题解
 
-## Problem A - [数组中第 K 个独一无二的字符串](https://leetcode-cn.com/problems/kth-distinct-string-in-an-array/)
+## Problem A - [数组中第 K 个独一无二的字符串](https://leetcode.cn/problems/kth-distinct-string-in-an-array/)
 
 ### 方法一：模拟
 
@@ -22,7 +22,7 @@ class Solution:
 :::
 
 
-## Problem B - [两个最好的不重叠活动](https://leetcode-cn.com/problems/two-best-non-overlapping-events/)
+## Problem B - [两个最好的不重叠活动](https://leetcode.cn/problems/two-best-non-overlapping-events/)
 
 ### 方法一：排序+优先队列
 
@@ -60,7 +60,7 @@ public:
 
 :::
 
-## Problem C - [蜡烛之间的盘子](https://leetcode-cn.com/problems/plates-between-candles/)
+## Problem C - [蜡烛之间的盘子](https://leetcode.cn/problems/plates-between-candles/)
 
 ### 方法一：前缀和
 
@@ -113,7 +113,7 @@ public:
 
 :::
 
-## Problem D - [棋盘上有效移动组合的数目](https://leetcode-cn.com/problems/number-of-valid-move-combinations-on-chessboard/)
+## Problem D - [棋盘上有效移动组合的数目](https://leetcode.cn/problems/number-of-valid-move-combinations-on-chessboard/)
 
 ### 方法一：模拟
 

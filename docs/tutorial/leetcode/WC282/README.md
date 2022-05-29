@@ -1,6 +1,6 @@
 # Leetcode 第282场周赛题解
 
-## Problem A - [统计包含给定前缀的字符串](https://leetcode-cn.com/problems/counting-words-with-a-given-prefix/)
+## Problem A - [统计包含给定前缀的字符串](https://leetcode.cn/problems/counting-words-with-a-given-prefix/)
 
 ### 方法一：暴力
 
@@ -19,7 +19,7 @@ class Solution:
 
 :::
 
-## Problem B - [使两字符串互为字母异位词的最少步骤数](https://leetcode-cn.com/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)
+## Problem B - [使两字符串互为字母异位词的最少步骤数](https://leetcode.cn/problems/minimum-number-of-steps-to-make-two-strings-anagram-ii/)
 
 ### 方法一：哈希表
 
@@ -40,7 +40,7 @@ class Solution:
 
 :::
 
-## Problem C - [完成旅途的最少时间](https://leetcode-cn.com/problems/minimum-time-to-complete-trips/)
+## Problem C - [完成旅途的最少时间](https://leetcode.cn/problems/minimum-time-to-complete-trips/)
 
 ### 方法一：二分答案
 
@@ -68,7 +68,7 @@ class Solution:
 
 :::
 
-## Problem D - [完成比赛的最少时间](https://leetcode-cn.com/problems/minimum-time-to-finish-the-race/)
+## Problem D - [完成比赛的最少时间](https://leetcode.cn/problems/minimum-time-to-finish-the-race/)
 
 ### 方法一：动态规划
 

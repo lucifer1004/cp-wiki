@@ -1,6 +1,6 @@
 # Leetcode 第30场双周赛题解
 
-## Problem A - [转变日期格式](https://leetcode-cn.com/problems/reformat-date/)
+## Problem A - [转变日期格式](https://leetcode.cn/problems/reformat-date/)
 
 模拟题，使用字符串操作比较方便的语言可以加快速度。或者可以直接用语言内置的日期库。
 
@@ -21,7 +21,7 @@ class Solution:
 
 :::
 
-## Problem B - [子数组和排序后的区间和](https://leetcode-cn.com/problems/range-sum-of-sorted-subarray-sums/)
+## Problem B - [子数组和排序后的区间和](https://leetcode.cn/problems/range-sum-of-sorted-subarray-sums/)
 
 方法一：利用前缀和暴力枚举所有子数组的和，排序后再累加计算区间和。时间复杂度$O(n^2\log n)$。
 
@@ -128,7 +128,7 @@ public:
 
 :::
 
-## Problem C - [三次操作后最大值与最小值的最小差](https://leetcode-cn.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)
+## Problem C - [三次操作后最大值与最小值的最小差](https://leetcode.cn/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)
 
 首先将数组排序，之后枚举在左边和在右边进行操作的次数即可。
 
@@ -153,7 +153,7 @@ public:
 
 :::
 
-## Problem D - [石子游戏 IV](https://leetcode-cn.com/problems/stone-game-iv/)
+## Problem D - [石子游戏 IV](https://leetcode.cn/problems/stone-game-iv/)
 
 边界条件是$dp[1]=true$，之后递推求解即可。对于某种状态$dp[state]$，只要有一种取法能够使得剩下的数对应状态$dp[state-k*k]=false$，该状态即为获胜状态；否则为失败状态。
 

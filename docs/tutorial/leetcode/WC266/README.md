@@ -1,6 +1,6 @@
 # Leetcode 第266场周赛题解
 
-## Problem A - [统计字符串中的元音子字符串](https://leetcode-cn.com/problems/count-vowel-substrings-of-a-string/)
+## Problem A - [统计字符串中的元音子字符串](https://leetcode.cn/problems/count-vowel-substrings-of-a-string/)
 
 ### 方法一：暴力穷举
 
@@ -94,7 +94,7 @@ class Solution:
 
 :::
 
-## Problem B - [所有子字符串中的元音](https://leetcode-cn.com/problems/vowels-of-all-substrings/)
+## Problem B - [所有子字符串中的元音](https://leetcode.cn/problems/vowels-of-all-substrings/)
 
 ### 方法一：遍历
 
@@ -114,7 +114,7 @@ class Solution:
 
 :::
 
-## Problem C - [分配给商店的最多商品的最小值](https://leetcode-cn.com/problems/minimized-maximum-of-products-distributed-to-any-store/)
+## Problem C - [分配给商店的最多商品的最小值](https://leetcode.cn/problems/minimized-maximum-of-products-distributed-to-any-store/)
 
 ### 方法一：二分答案
 
@@ -156,7 +156,7 @@ public:
 
 :::
 
-## Problem D - [最大化一张图中的路径价值](https://leetcode-cn.com/problems/maximum-path-quality-of-a-graph/)
+## Problem D - [最大化一张图中的路径价值](https://leetcode.cn/problems/maximum-path-quality-of-a-graph/)
 
 ### 方法一：回溯
 

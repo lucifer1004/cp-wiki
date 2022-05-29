@@ -1,6 +1,6 @@
 # Leetcode 第221场周赛题解
 
-## Problem A - [判断字符串的两半是否相似](https://leetcode-cn.com/problems/determine-if-string-halves-are-alike/)
+## Problem A - [判断字符串的两半是否相似](https://leetcode.cn/problems/determine-if-string-halves-are-alike/)
 
 按要求模拟即可。
 
@@ -27,7 +27,7 @@ class Solution:
 
 :::
 
-## Problem B - [吃苹果的最大数目](https://leetcode-cn.com/problems/maximum-number-of-eaten-apples/)
+## Problem B - [吃苹果的最大数目](https://leetcode.cn/problems/maximum-number-of-eaten-apples/)
 
 我们用一个`map`按照坏掉的日期从近到远的顺序存储当前的苹果，每次我们贪心地吃坏掉日期最近的一个苹果。
 
@@ -73,7 +73,7 @@ public:
 
 :::
 
-## Problem C - [球会落何处](https://leetcode-cn.com/problems/where-will-the-ball-fall/)
+## Problem C - [球会落何处](https://leetcode.cn/problems/where-will-the-ball-fall/)
 
 模拟每一列的球的下落过程即可。如果当前列的隔板是`\`方向的，则检查右边的隔板，如果右边也是`\`，则球右移一列，否则球会停住；反之，检查左边的隔板，如果左边也是`/`，则球左移一列，否则球会停住。
 
@@ -110,7 +110,7 @@ public:
 
 :::
 
-## Problem D - [与数组中元素的最大异或值](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/)
+## Problem D - [与数组中元素的最大异或值](https://leetcode.cn/problems/maximum-xor-with-an-element-from-array/)
 
 我们可以使用0-1字典树存储数组中的元素。因为每个查询还包含一个上界$m_i$，所以我们在字典树的每个节点额外存储以当前节点为根节点的子树中的最小元素。其作用是：如果某一子树的最小元素都超过了$m_i$，则没有必要继续对这一子树进行搜索。
 

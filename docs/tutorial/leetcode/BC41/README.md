@@ -1,6 +1,6 @@
 # Leetcode 第41场双周赛题解
 
-## Problem A - [统计一致字符串的数目](https://leetcode-cn.com/problems/count-the-number-of-consistent-strings/)
+## Problem A - [统计一致字符串的数目](https://leetcode.cn/problems/count-the-number-of-consistent-strings/)
 
 直接模拟即可。
 
@@ -34,7 +34,7 @@ public:
 
 :::
 
-## Problem B - [有序数组中差绝对值之和](https://leetcode-cn.com/problems/sum-of-absolute-differences-in-a-sorted-array/)
+## Problem B - [有序数组中差绝对值之和](https://leetcode.cn/problems/sum-of-absolute-differences-in-a-sorted-array/)
 
 抓住原数组**有序**这一条件。首先计算出所有数的和，然后从左向右依次处理，过程中维护左边数的总和和右边数的总和，则可以在$\mathcal{O}(1)$时间内计算出任一位置数与其他所有数的差的绝对值之和。
 
@@ -68,7 +68,7 @@ public:
 
 :::
 
-## Problem C - [石子游戏 VI](https://leetcode-cn.com/problems/stone-game-vi/)
+## Problem C - [石子游戏 VI](https://leetcode.cn/problems/stone-game-vi/)
 
 我们发现，一枚石子的价值实际上等于$a[i]+b[i]$：
 
@@ -112,7 +112,7 @@ public:
 
 :::
 
-## Problem D - [从仓库到码头运输箱子](https://leetcode-cn.com/problems/delivering-boxes-from-storage-to-ports/)
+## Problem D - [从仓库到码头运输箱子](https://leetcode.cn/problems/delivering-boxes-from-storage-to-ports/)
 
 ### 方法一：线段树
 

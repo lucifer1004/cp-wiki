@@ -1,6 +1,6 @@
 # Leetcode 第274场周赛题解
 
-## Problem A - [检查是否所有 A 都在 B 之前](https://leetcode-cn.com/problems/check-if-all-as-appears-before-all-bs/)
+## Problem A - [检查是否所有 A 都在 B 之前](https://leetcode.cn/problems/check-if-all-as-appears-before-all-bs/)
 
 ### 方法一：模拟
 
@@ -19,7 +19,7 @@ class Solution:
 
 :::
 
-## Problem B - [银行中的激光束数量](https://leetcode-cn.com/problems/number-of-laser-beams-in-a-bank/)
+## Problem B - [银行中的激光束数量](https://leetcode.cn/problems/number-of-laser-beams-in-a-bank/)
 
 ### 方法一：模拟
 
@@ -57,7 +57,7 @@ class Solution:
 
 :::
 
-## Problem C - [摧毁小行星](https://leetcode-cn.com/problems/destroying-asteroids/)
+## Problem C - [摧毁小行星](https://leetcode.cn/problems/destroying-asteroids/)
 
 ### 方法一：贪心
 
@@ -93,7 +93,7 @@ class Solution:
 
 :::
 
-## Problem D - [参加会议的最多员工数](https://leetcode-cn.com/problems/maximum-employees-to-be-invited-to-a-meeting/)
+## Problem D - [参加会议的最多员工数](https://leetcode.cn/problems/maximum-employees-to-be-invited-to-a-meeting/)
 
 ### 方法一：DFS
 

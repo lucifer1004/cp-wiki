@@ -1,6 +1,6 @@
 # Leetcode 第70场双周赛题解
 
-## Problem A - [打折购买糖果的最小开销](https://leetcode-cn.com/problems/minimum-cost-of-buying-candies-with-discount/)
+## Problem A - [打折购买糖果的最小开销](https://leetcode.cn/problems/minimum-cost-of-buying-candies-with-discount/)
 
 ### 方法一：排序+贪心
 
@@ -19,7 +19,7 @@ class Solution:
 
 :::
 
-## Problem B - [统计隐藏数组数目](https://leetcode-cn.com/problems/count-the-hidden-sequences/)
+## Problem B - [统计隐藏数组数目](https://leetcode.cn/problems/count-the-hidden-sequences/)
 
 ### 方法一：假设起始值为0
 
@@ -46,7 +46,7 @@ class Solution:
 
 :::
 
-## Problem C - [价格范围内最高排名的 K 样物品](https://leetcode-cn.com/problems/k-highest-ranked-items-within-a-price-range/)
+## Problem C - [价格范围内最高排名的 K 样物品](https://leetcode.cn/problems/k-highest-ranked-items-within-a-price-range/)
 
 ### 方法一：BFS+排序
 
@@ -95,7 +95,7 @@ public:
 
 :::
 
-## Problem D - [分隔长廊的方案数](https://leetcode-cn.com/problems/number-of-ways-to-divide-a-long-corridor/)
+## Problem D - [分隔长廊的方案数](https://leetcode.cn/problems/number-of-ways-to-divide-a-long-corridor/)
 
 ### 方法一：动态规划
 

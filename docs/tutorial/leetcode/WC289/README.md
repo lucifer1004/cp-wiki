@@ -1,6 +1,6 @@
 # Leetcode 第289场周赛题解
 
-## Problem A - [计算字符串的数字和](https://leetcode-cn.com/problems/calculate-digit-sum-of-a-string/)
+## Problem A - [计算字符串的数字和](https://leetcode.cn/problems/calculate-digit-sum-of-a-string/)
 
 ### 方法一：模拟
 
@@ -22,7 +22,7 @@ class Solution:
 
 :::
 
-## Problem B - [完成所有任务需要的最少轮数](https://leetcode-cn.com/problems/minimum-rounds-to-complete-all-tasks/)
+## Problem B - [完成所有任务需要的最少轮数](https://leetcode.cn/problems/minimum-rounds-to-complete-all-tasks/)
 
 ### 方法一：计数
 
@@ -41,7 +41,7 @@ class Solution:
 :::
 
 
-## Problem C - [转角路径的乘积中最多能有几个尾随零](https://leetcode-cn.com/problems/maximum-trailing-zeros-in-a-cornered-path/)
+## Problem C - [转角路径的乘积中最多能有几个尾随零](https://leetcode.cn/problems/maximum-trailing-zeros-in-a-cornered-path/)
 
 ### 方法一：前缀和 + 枚举
 
@@ -112,7 +112,7 @@ public:
 
 :::
 
-## Problem D - [相邻字符不同的最长路径](https://leetcode-cn.com/problems/longest-path-with-different-adjacent-characters/)
+## Problem D - [相邻字符不同的最长路径](https://leetcode.cn/problems/longest-path-with-different-adjacent-characters/)
 
 ### 方法一：DFS
 

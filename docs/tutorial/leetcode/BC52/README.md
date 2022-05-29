@@ -1,6 +1,6 @@
 # Leetcode 第52场双周赛题解
 
-## Problem A - [将句子排序](https://leetcode-cn.com/problems/sorting-the-sentence/)
+## Problem A - [将句子排序](https://leetcode.cn/problems/sorting-the-sentence/)
 
 ### 方法一：模拟
 
@@ -19,7 +19,7 @@ class Solution:
 
 :::
 
-## Problem B - [增长的内存泄露](https://leetcode-cn.com/problems/incremental-memory-leak/)
+## Problem B - [增长的内存泄露](https://leetcode.cn/problems/incremental-memory-leak/)
 
 ### 方法一：模拟
 
@@ -43,7 +43,7 @@ class Solution:
 
 :::
 
-## Problem C - [旋转盒子](https://leetcode-cn.com/problems/rotating-the-box/)
+## Problem C - [旋转盒子](https://leetcode.cn/problems/rotating-the-box/)
 
 ### 方法一：模拟
 
@@ -87,7 +87,7 @@ public:
 
 :::
 
-## Problem D - [向下取整数对和](https://leetcode-cn.com/problems/sum-of-floored-pairs/)
+## Problem D - [向下取整数对和](https://leetcode.cn/problems/sum-of-floored-pairs/)
 
 ### 方法一：计数+前缀和+调和级数思想
 

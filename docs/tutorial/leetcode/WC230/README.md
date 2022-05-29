@@ -1,6 +1,6 @@
 # Leetcode 第230场周赛题解
 
-## Problem A - [统计匹配检索规则的物品数量](https://leetcode-cn.com/problems/count-items-matching-a-rule/)
+## Problem A - [统计匹配检索规则的物品数量](https://leetcode.cn/problems/count-items-matching-a-rule/)
 
 按要求模拟即可。
 
@@ -27,7 +27,7 @@ public:
 
 :::
 
-## Problem B - [最接近目标价格的甜点成本](https://leetcode-cn.com/problems/closest-dessert-cost/)
+## Problem B - [最接近目标价格的甜点成本](https://leetcode.cn/problems/closest-dessert-cost/)
 
 本题数据范围很小，暴力枚举辅料组合就可以通过，但时间复杂度为指数级。
 
@@ -68,7 +68,7 @@ public:
 
 :::
 
-## Problem C - [通过最少操作次数使数组的和相等](https://leetcode-cn.com/problems/equal-sum-arrays-with-minimum-number-of-operations/)
+## Problem C - [通过最少操作次数使数组的和相等](https://leetcode.cn/problems/equal-sum-arrays-with-minimum-number-of-operations/)
 
 我们可以发现：
 
@@ -144,7 +144,7 @@ public:
 
 :::
 
-## Problem D - [车队 II](https://leetcode-cn.com/problems/car-fleet-ii/)
+## Problem D - [车队 II](https://leetcode.cn/problems/car-fleet-ii/)
 
 因为每次发生相遇之后，都可能发生速度的变化，所以我们需要按照时间顺序来处理所有的事件。
 

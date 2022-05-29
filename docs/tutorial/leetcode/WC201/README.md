@@ -1,6 +1,6 @@
 # Leetcode 第201场周赛题解
 
-## Problem A -  [整理字符串](https://leetcode-cn.com/problems/make-the-string-great/)
+## Problem A -  [整理字符串](https://leetcode.cn/problems/make-the-string-great/)
 
 数据范围很小，直接模拟即可，注意题面中的**反之亦然**。
 
@@ -30,7 +30,7 @@ public:
 
 :::
 
-## Problem B - [找出第 N 个二进制字符串中的第 K 位](https://leetcode-cn.com/problems/find-kth-bit-in-nth-binary-string/)
+## Problem B - [找出第 N 个二进制字符串中的第 K 位](https://leetcode.cn/problems/find-kth-bit-in-nth-binary-string/)
 
 因为数据范围比较小，实际上可以暴力模拟。不过正确的做法是递归。
 
@@ -59,7 +59,7 @@ public:
 
 :::
 
-## Problem C - [和为目标值的最大数目不重叠非空子数组数目](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)
+## Problem C - [和为目标值的最大数目不重叠非空子数组数目](https://leetcode.cn/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target/)
 
 和前一天晚上的第四题类似，子串/子数组的题目中，前缀数组是一个常用的手段。这里为了使得子数组数目尽可能大，需要当前的子数组尽可能小，所以我们要保存每一个和值对应的最后一个位置。
 
@@ -89,7 +89,7 @@ public:
 
 :::
 
-## Problem D - [切棍子的最小成本](https://leetcode-cn.com/problems/minimum-cost-to-cut-a-stick/)
+## Problem D - [切棍子的最小成本](https://leetcode.cn/problems/minimum-cost-to-cut-a-stick/)
 
 逆向思考，既然不管按照什么顺序切，最后切成的子段总是一样的，我们就可以把问题变成从子段开始合并，直到合并成一个整体。这样就成了最经典的区间DP问题。
 

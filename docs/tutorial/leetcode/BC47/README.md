@@ -3,7 +3,7 @@
 - [视频题解-Bilibili](https://www.bilibili.com/video/BV12p4y1H72G/)
 - [实况录像-Bilibili](https://www.bilibili.com/video/BV1CV411v7Tt/)
 
-## Problem A - [找到最近的有相同 X 或 Y 坐标的点](https://leetcode-cn.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)
+## Problem A - [找到最近的有相同 X 或 Y 坐标的点](https://leetcode.cn/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate/)
 
 模拟即可。
 
@@ -36,7 +36,7 @@ public:
 
 :::
 
-## Problem B - [判断一个数字是否可以表示成三的幂的和](https://leetcode-cn.com/problems/check-if-number-is-a-sum-of-powers-of-three/)
+## Problem B - [判断一个数字是否可以表示成三的幂的和](https://leetcode.cn/problems/check-if-number-is-a-sum-of-powers-of-three/)
 
 从最大的3的幂开始，如果大于等于剩余数字，就应当使用这一幂次（因为剩下的所有幂次加起来也比它小）。看最后是否能减到0。
 
@@ -63,7 +63,7 @@ public:
 
 :::
 
-## Problem C - [所有子字符串美丽值之和](https://leetcode-cn.com/problems/sum-of-beauty-of-all-substrings/)
+## Problem C - [所有子字符串美丽值之和](https://leetcode.cn/problems/sum-of-beauty-of-all-substrings/)
 
 枚举子串起点，用`multiset`维护不同字符的出现频次。
 
@@ -96,7 +96,7 @@ public:
 
 :::
 
-## Problem D - [统计点对的数目](https://leetcode-cn.com/problems/count-pairs-of-nodes/)
+## Problem D - [统计点对的数目](https://leetcode.cn/problems/count-pairs-of-nodes/)
 
 先假设$(a,b)$的公共边可以计算两次，这时可以对度数排序后双指针求解。
 

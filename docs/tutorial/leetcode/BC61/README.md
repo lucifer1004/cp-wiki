@@ -1,6 +1,6 @@
 # Leetcode 第61场双周赛题解
 
-## Problem A - [差的绝对值为 K 的数对数目](https://leetcode-cn.com/problems/count-number-of-pairs-with-absolute-difference-k/)
+## Problem A - [差的绝对值为 K 的数对数目](https://leetcode.cn/problems/count-number-of-pairs-with-absolute-difference-k/)
 
 ### 方法一：暴力穷举
 
@@ -50,7 +50,7 @@ class Solution:
 :::
 
 
-## Problem B - [从双倍数组中还原原数组](https://leetcode-cn.com/problems/find-original-array-from-doubled-array/)
+## Problem B - [从双倍数组中还原原数组](https://leetcode.cn/problems/find-original-array-from-doubled-array/)
 
 ### 方法一：贪心
 
@@ -86,7 +86,7 @@ class Solution:
 :::
 
 
-## Problem C - [出租车的最大盈利](https://leetcode-cn.com/problems/maximum-earnings-from-taxi/)
+## Problem C - [出租车的最大盈利](https://leetcode.cn/problems/maximum-earnings-from-taxi/)
 
 ### 方法一：动态规划
 
@@ -124,7 +124,7 @@ public:
 
 :::
 
-## Problem D - [使数组连续的最少操作数](https://leetcode-cn.com/problems/minimum-number-of-operations-to-make-array-continuous/)
+## Problem D - [使数组连续的最少操作数](https://leetcode.cn/problems/minimum-number-of-operations-to-make-array-continuous/)
 
 ### 方法一：排序+双指针
 

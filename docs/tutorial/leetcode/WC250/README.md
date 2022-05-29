@@ -1,6 +1,6 @@
 # Leetcode 第250场周赛题解
 
-## Problem A - [可以输入的最大单词数](https://leetcode-cn.com/problems/maximum-number-of-words-you-can-type/)
+## Problem A - [可以输入的最大单词数](https://leetcode.cn/problems/maximum-number-of-words-you-can-type/)
 
 ### 方法一：模拟
 
@@ -31,7 +31,7 @@ class Solution:
 
 :::
 
-## Problem B - [新增的最少台阶数](https://leetcode-cn.com/problems/add-minimum-number-of-rungs/)
+## Problem B - [新增的最少台阶数](https://leetcode.cn/problems/add-minimum-number-of-rungs/)
 
 ### 方法一：贪心
 
@@ -58,7 +58,7 @@ public:
 
 :::
 
-## Problem C - [扣分后的最大得分](https://leetcode-cn.com/problems/maximum-number-of-points-with-cost/)
+## Problem C - [扣分后的最大得分](https://leetcode.cn/problems/maximum-number-of-points-with-cost/)
 
 ### 方法一：动态规划
 
@@ -108,7 +108,7 @@ public:
 
 :::
 
-## Problem D - [查询最大基因差](https://leetcode-cn.com/problems/maximum-genetic-difference-query/)
+## Problem D - [查询最大基因差](https://leetcode.cn/problems/maximum-genetic-difference-query/)
 
 ### 方法一：0-1字典树+离线查询
 

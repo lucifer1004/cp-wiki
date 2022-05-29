@@ -1,6 +1,6 @@
 # Leetcode 第272场周赛题解
 
-## Problem A - [找出数组中的第一个回文字符串](https://leetcode-cn.com/problems/find-first-palindromic-string-in-the-array/)
+## Problem A - [找出数组中的第一个回文字符串](https://leetcode.cn/problems/find-first-palindromic-string-in-the-array/)
 
 ### 方法一：模拟
 
@@ -19,7 +19,7 @@ class Solution:
 
 :::
 
-## Problem B - [向字符串添加空格](https://leetcode-cn.com/problems/adding-spaces-to-a-string/)
+## Problem B - [向字符串添加空格](https://leetcode.cn/problems/adding-spaces-to-a-string/)
 
 ### 方法一：模拟
 
@@ -39,7 +39,7 @@ class Solution:
 
 :::
 
-## Problem C - [股票平滑下跌阶段的数目](https://leetcode-cn.com/problems/number-of-smooth-descent-periods-of-a-stock/)
+## Problem C - [股票平滑下跌阶段的数目](https://leetcode.cn/problems/number-of-smooth-descent-periods-of-a-stock/)
 
 ### 方法一：动态规划
 
@@ -71,7 +71,7 @@ public:
 
 :::
 
-## Problem D - [使数组 K 递增的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-make-the-array-k-increasing/)
+## Problem D - [使数组 K 递增的最少操作次数](https://leetcode.cn/problems/minimum-operations-to-make-the-array-k-increasing/)
 
 ### 方法一：最长不下降子序列
 

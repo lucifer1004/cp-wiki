@@ -1,6 +1,6 @@
 # Leetcode 第53场双周赛题解
 
-## Problem A - [长度为三且各字符不同的子字符串](https://leetcode-cn.com/problems/substrings-of-size-three-with-distinct-characters/)
+## Problem A - [长度为三且各字符不同的子字符串](https://leetcode.cn/problems/substrings-of-size-three-with-distinct-characters/)
 
 ### 方法一：暴力
 
@@ -44,7 +44,7 @@ class Solution:
 
 :::
 
-## Problem B - [数组中最大数对和的最小值](https://leetcode-cn.com/problems/minimize-maximum-pair-sum-in-array/)
+## Problem B - [数组中最大数对和的最小值](https://leetcode.cn/problems/minimize-maximum-pair-sum-in-array/)
 
 ### 方法一：贪心
 
@@ -88,7 +88,7 @@ class Solution:
 
 :::
 
-## Problem C - [矩阵中最大的三个菱形和](https://leetcode-cn.com/problems/get-biggest-three-rhombus-sums-in-a-grid/)
+## Problem C - [矩阵中最大的三个菱形和](https://leetcode.cn/problems/get-biggest-three-rhombus-sums-in-a-grid/)
 
 ### 方法一：前缀和
 
@@ -143,7 +143,7 @@ public:
 
 :::
 
-## Problem D - [两个数组最小的异或值之和](https://leetcode-cn.com/problems/minimum-xor-sum-of-two-arrays/)
+## Problem D - [两个数组最小的异或值之和](https://leetcode.cn/problems/minimum-xor-sum-of-two-arrays/)
 
 ### 方法一：状态压缩动态规划
 

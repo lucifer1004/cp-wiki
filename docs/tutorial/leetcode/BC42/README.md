@@ -1,6 +1,6 @@
 # Leetcode 第42场双周赛题解
 
-## Problem A - [无法吃午餐的学生数量](https://leetcode-cn.com/problems/number-of-students-unable-to-eat-lunch/)
+## Problem A - [无法吃午餐的学生数量](https://leetcode.cn/problems/number-of-students-unable-to-eat-lunch/)
 
 预先统计喜欢每种三明治的学生人数，并用栈模拟三明治堆。需要注意的是，不需要对学生的队列进行模拟，因为每次一定会找到一个喜欢当前栈顶三明治的学生，所以直接扣减人数即可。如果当前栈顶的三明治对应的学生人数已经为$0$，则可以提前终止。
 
@@ -30,7 +30,7 @@ public:
 
 :::
 
-## Problem B - [平均等待时间](https://leetcode-cn.com/problems/average-waiting-time/)
+## Problem B - [平均等待时间](https://leetcode.cn/problems/average-waiting-time/)
 
 因为顾客到达时间是有序的，所以直接模拟即可。记录厨师完成上一道菜的时间，与当前顾客的到达时间比较，就可以得到厨师开始给当前顾客做菜的时间，从而计算出厨师做完这道菜的时间和顾客的等待时间。
 
@@ -56,7 +56,7 @@ class Solution:
 
 :::
 
-## Problem C - [修改后的最大二进制字符串](https://leetcode-cn.com/problems/maximum-binary-string-after-change/)
+## Problem C - [修改后的最大二进制字符串](https://leetcode.cn/problems/maximum-binary-string-after-change/)
 
 借助`10->01`这一操作，我们可以将所有的`1`移到字符串末尾；借助`00->10`这一操作，我们可以将所有的`000...000`串变为`111...110`。在这一观察的基础上，容易想到，要得到最大的二进制字符串，我们应该首先把所有不在开头的`1`移到末尾，使得字符串变为`11...1100...0011...11`的形式，然后再用第二种操作把中间部分变为`11...10`。在这一操作顺序下，我们最终得到的字符串中最多包含一个`0`（考虑初始全为`1`的特殊情况），并且这个`0`的位置是尽可能靠后的，因此，得到的字符串就是我们要求的答案。
 
@@ -90,7 +90,7 @@ public:
 
 :::
 
-## Problem D - [得到连续 K 个 1 的最少相邻交换次数](https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)
+## Problem D - [得到连续 K 个 1 的最少相邻交换次数](https://leetcode.cn/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)
 
 如果之前做过数轴上$K$个人碰面的题目，做这道题会相对容易一些。
 

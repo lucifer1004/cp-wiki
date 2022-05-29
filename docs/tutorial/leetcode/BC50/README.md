@@ -1,6 +1,6 @@
 # Leetcode 第50场双周赛题解
 
-## Problem A - [最少操作使数组递增](https://leetcode-cn.com/problems/minimum-operations-to-make-the-array-increasing/)
+## Problem A - [最少操作使数组递增](https://leetcode.cn/problems/minimum-operations-to-make-the-array-increasing/)
 
 因为只能增加数不能减少数，所以从左向右贪心操作即可（如果已经比前一个大，就不操作；否则使其变为前一个数加一）。
 
@@ -26,7 +26,7 @@ public:
 
 :::
 
-## Problem B - [统计一个圆中点的数目](https://leetcode-cn.com/problems/queries-on-number-of-points-inside-a-circle/)
+## Problem B - [统计一个圆中点的数目](https://leetcode.cn/problems/queries-on-number-of-points-inside-a-circle/)
 
 考虑到数据范围，直接暴力计算即可。
 
@@ -57,7 +57,7 @@ public:
 
 :::
 
-## Problem C - [每个查询的最大异或值](https://leetcode-cn.com/problems/maximum-xor-for-each-query/)
+## Problem C - [每个查询的最大异或值](https://leetcode.cn/problems/maximum-xor-for-each-query/)
 
 可以预计算出每一个前缀异或和（或计算出总异或和，然后在每次移除元素时进行更新）。
 
@@ -90,7 +90,7 @@ public:
 
 :::
 
-## Problem D - [使字符串有序的最少操作次数](https://leetcode-cn.com/problems/minimum-number-of-operations-to-make-string-sorted/)
+## Problem D - [使字符串有序的最少操作次数](https://leetcode.cn/problems/minimum-number-of-operations-to-make-string-sorted/)
 
 ### 方法一：枚举更小排列的数目
 

@@ -1,6 +1,6 @@
 # Leetcode 第196场周赛题解
 
-## Problem A - [判断能否形成等差数列](https://leetcode-cn.com/problems/can-make-arithmetic-progression-from-sequence/)
+## Problem A - [判断能否形成等差数列](https://leetcode.cn/problems/can-make-arithmetic-progression-from-sequence/)
 
 排序后检查相邻两项的差是否都相等。
 
@@ -22,7 +22,7 @@ public:
 
 :::
 
-## Problem B - [所有蚂蚁掉下来前的最后一刻](https://leetcode-cn.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)
+## Problem B - [所有蚂蚁掉下来前的最后一刻](https://leetcode.cn/problems/last-moment-before-all-ants-fall-out-of-a-plank/)
 
 这道题有点脑筋急转弯的意思。看起来要处理非常繁琐的碰撞过程，但实际上两只蚂蚁碰撞时，可以视为什么事都没有发生。原因在于：两只蚂蚁相遇时，它们已经走的总时间必然是相等的。假设A蚂蚁本来还需要走$t_A$，B蚂蚁本来还需要走$t_B$，则这两只蚂蚁的总用时分别为$t_0+t_A$和$t_0+t_B$；那么交换方向之后，这两只蚂蚁的总用时变为$t_0+t_B$和$t_0+t_A$。因此，无论中间发生多少次碰撞，$N$只蚂蚁各自总用时的集合是不变的。所以只要按照每只蚂蚁单独走的情形，计算最长用时即可。
 
@@ -36,7 +36,7 @@ class Solution:
 
 :::
 
-## Problem C - [统计全 1 子矩形](https://leetcode-cn.com/problems/count-submatrices-with-all-ones/)
+## Problem C - [统计全 1 子矩形](https://leetcode.cn/problems/count-submatrices-with-all-ones/)
 
 方法一：动态规划
 
@@ -118,7 +118,7 @@ public:
 
 :::
 
-## Problem D - [最多 K 次交换相邻数位后得到的最小整数](https://leetcode-cn.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
+## Problem D - [最多 K 次交换相邻数位后得到的最小整数](https://leetcode.cn/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 
 显然，从贪心的角度考虑，我们应该尽可能把最小的数移到最前面。但是由于有步数限制，我们不一定能取到最小的数。因此，使用$10$个`set`分别维护$0\cdots9$的位置。
 

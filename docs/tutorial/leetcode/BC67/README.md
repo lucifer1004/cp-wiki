@@ -1,6 +1,6 @@
 # Leetcode 第67场双周赛题解
 
-## Problem A - [找到和最大的长度为 K 的子序列](https://leetcode-cn.com/problems/find-subsequence-of-length-k-with-the-largest-sum/)
+## Problem A - [找到和最大的长度为 K 的子序列](https://leetcode.cn/problems/find-subsequence-of-length-k-with-the-largest-sum/)
 
 ### 方法一：排序
 
@@ -20,7 +20,7 @@ class Solution:
 :::
 
 
-## Problem B - [适合打劫银行的日子](https://leetcode-cn.com/problems/find-good-days-to-rob-the-bank/)
+## Problem B - [适合打劫银行的日子](https://leetcode.cn/problems/find-good-days-to-rob-the-bank/)
 
 ### 方法一：动态规划
 
@@ -54,7 +54,7 @@ public:
 
 :::
 
-## Problem C - [引爆最多的炸弹](https://leetcode-cn.com/problems/detonate-the-maximum-bombs/)
+## Problem C - [引爆最多的炸弹](https://leetcode.cn/problems/detonate-the-maximum-bombs/)
 
 ### 方法一：BFS或DFS
 
@@ -165,7 +165,7 @@ public:
 
 :::
 
-## Problem D - [序列顺序查询](https://leetcode-cn.com/problems/sequentially-ordinal-rank-tracker/)
+## Problem D - [序列顺序查询](https://leetcode.cn/problems/sequentially-ordinal-rank-tracker/)
 
 ### 方法一：平衡树
 

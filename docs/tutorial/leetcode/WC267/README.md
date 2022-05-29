@@ -1,6 +1,6 @@
 # Leetcode 第267场周赛题解
 
-## Problem A - [买票需要的时间](https://leetcode-cn.com/problems/time-needed-to-buy-tickets/)
+## Problem A - [买票需要的时间](https://leetcode.cn/problems/time-needed-to-buy-tickets/)
 
 ### 方法一：模拟
 
@@ -52,7 +52,7 @@ class Solution:
 
 :::
 
-## Problem B - [反转偶数长度组的节点](https://leetcode-cn.com/problems/reverse-nodes-in-even-length-groups/)
+## Problem B - [反转偶数长度组的节点](https://leetcode.cn/problems/reverse-nodes-in-even-length-groups/)
 
 ### 方法一：模拟
 
@@ -98,7 +98,7 @@ public:
 
 :::
 
-## Problem C - [解码斜向换位密码](https://leetcode-cn.com/problems/decode-the-slanted-ciphertext/)
+## Problem C - [解码斜向换位密码](https://leetcode.cn/problems/decode-the-slanted-ciphertext/)
 
 ### 方法一：模拟
 
@@ -135,7 +135,7 @@ public:
 
 :::
 
-## Problem D - [处理含限制条件的好友请求](https://leetcode-cn.com/problems/process-restricted-friend-requests/)
+## Problem D - [处理含限制条件的好友请求](https://leetcode.cn/problems/process-restricted-friend-requests/)
 
 ### 方法一：并查集
 

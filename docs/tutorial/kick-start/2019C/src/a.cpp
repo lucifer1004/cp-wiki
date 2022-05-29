@@ -5,7 +5,7 @@
 
 using namespace std;
 
-// Validated by [LC57](https://leetcode-cn.com/problems/insert-interval/).
+// Validated by [LC57](https://leetcode.cn/problems/insert-interval/).
 // Need to change "r + 1" to "r" due to difference in the definition of segment.
 void insert(set<pair<int, int>> &s, pair<int, int> p) {
   s.insert(p);

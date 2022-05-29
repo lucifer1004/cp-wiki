@@ -1,6 +1,6 @@
 # Leetcode 第284场周赛题解
 
-## Problem A - [找出数组中的所有 K 近邻下标](https://leetcode-cn.com/problems/find-all-k-distant-indices-in-an-array/)
+## Problem A - [找出数组中的所有 K 近邻下标](https://leetcode.cn/problems/find-all-k-distant-indices-in-an-array/)
 
 ### 方法一：暴力
 
@@ -60,7 +60,7 @@ class Solution:
 
 :::
 
-## Problem B - [统计可以提取的工件](https://leetcode-cn.com/problems/count-artifacts-that-can-be-extracted/)
+## Problem B - [统计可以提取的工件](https://leetcode.cn/problems/count-artifacts-that-can-be-extracted/)
 
 ### 方法一：模拟
 
@@ -80,7 +80,7 @@ class Solution:
 
 :::
 
-## Problem C - [K 次操作后最大化顶端元素](https://leetcode-cn.com/problems/maximize-the-topmost-element-after-k-moves/)
+## Problem C - [K 次操作后最大化顶端元素](https://leetcode.cn/problems/maximize-the-topmost-element-after-k-moves/)
 
 ### 方法一：分类讨论
 
@@ -126,7 +126,7 @@ class Solution:
 
 :::
 
-## Problem D - [得到要求路径的最小带权子图](https://leetcode-cn.com/problems/minimum-weighted-subgraph-with-the-required-paths/)
+## Problem D - [得到要求路径的最小带权子图](https://leetcode.cn/problems/minimum-weighted-subgraph-with-the-required-paths/)
 
 ### 方法一：在原图和反图上求最短路径
 

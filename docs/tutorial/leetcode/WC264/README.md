@@ -1,6 +1,6 @@
 # Leetcode 第264场周赛题解
 
-## Problem A - [句子中的有效单词数](https://leetcode-cn.com/problems/number-of-valid-words-in-a-sentence/)
+## Problem A - [句子中的有效单词数](https://leetcode.cn/problems/number-of-valid-words-in-a-sentence/)
 
 ### 方法一：正则表达式
 
@@ -18,7 +18,7 @@ class Solution:
 
 :::
 
-## Problem B - [下一个更大的数值平衡数](https://leetcode-cn.com/problems/next-greater-numerically-balanced-number/)
+## Problem B - [下一个更大的数值平衡数](https://leetcode.cn/problems/next-greater-numerically-balanced-number/)
 
 ### 方法一：打表
 
@@ -41,7 +41,7 @@ class Solution:
 
 :::
 
-## Problem C - [统计最高分的节点数目](https://leetcode-cn.com/problems/count-nodes-with-the-highest-score/)
+## Problem C - [统计最高分的节点数目](https://leetcode.cn/problems/count-nodes-with-the-highest-score/)
 
 ### 方法一：DFS
 
@@ -93,7 +93,7 @@ public:
 
 :::
 
-## Problem D - [并行课程 III](https://leetcode-cn.com/problems/parallel-courses-iii/)
+## Problem D - [并行课程 III](https://leetcode.cn/problems/parallel-courses-iii/)
 
 ### 方法一：DAG上的动态规划
 

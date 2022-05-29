@@ -1,6 +1,6 @@
 # Leetcode 第208场周赛题解
 
-## Problem A - [文件夹操作日志搜集器](https://leetcode-cn.com/problems/crawler-log-folder/)
+## Problem A - [文件夹操作日志搜集器](https://leetcode.cn/problems/crawler-log-folder/)
 
 因为说了没有非法操作，所以不需要关心当前路径名，只要保存当前的深度就可以了。
 
@@ -28,7 +28,7 @@ public:
 
 :::
 
-## Problem B - [经营摩天轮的最大利润](https://leetcode-cn.com/problems/maximum-profit-of-operating-a-centennial-wheel/)
+## Problem B - [经营摩天轮的最大利润](https://leetcode.cn/problems/maximum-profit-of-operating-a-centennial-wheel/)
 
 阅读理解题。读懂题目后，一直模拟到所有游客都登上摩天轮，记录每一轮转后的利润的最大值即可。
 
@@ -72,7 +72,7 @@ public:
 
 :::
 
-## Problem C - [皇位继承顺序](https://leetcode-cn.com/problems/throne-inheritance/)
+## Problem C - [皇位继承顺序](https://leetcode.cn/problems/throne-inheritance/)
 
 阅读理解题。因为`getInheritanceOrder`最多调用10次，所以不需要什么复杂数据结构，直接把树建出来，每次DFS即可。
 
@@ -120,7 +120,7 @@ public:
 
 :::
 
-## Problem D - [最多可达成的换楼请求数目](https://leetcode-cn.com/problems/maximum-number-of-achievable-transfer-requests/)
+## Problem D - [最多可达成的换楼请求数目](https://leetcode.cn/problems/maximum-number-of-achievable-transfer-requests/)
 
 考虑到数据范围，直接用二进制枚举所有方案即可。
 

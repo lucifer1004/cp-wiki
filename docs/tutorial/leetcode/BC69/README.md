@@ -1,6 +1,6 @@
 # Leetcode 第69场双周赛题解
 
-## Problem A - [将标题首字母大写](https://leetcode-cn.com/problems/capitalize-the-title/)
+## Problem A - [将标题首字母大写](https://leetcode.cn/problems/capitalize-the-title/)
 
 ### 方法一：模拟
 
@@ -19,7 +19,7 @@ class Solution:
 
 :::
 
-## Problem B - [链表最大孪生和](https://leetcode-cn.com/problems/maximum-twin-sum-of-a-linked-list/)
+## Problem B - [链表最大孪生和](https://leetcode.cn/problems/maximum-twin-sum-of-a-linked-list/)
 
 ### 方法一：暴力
 
@@ -44,7 +44,7 @@ class Solution:
 
 :::
 
-## Problem C - [连接两字母单词得到的最长回文串](https://leetcode-cn.com/problems/longest-palindrome-by-concatenating-two-letter-words/)
+## Problem C - [连接两字母单词得到的最长回文串](https://leetcode.cn/problems/longest-palindrome-by-concatenating-two-letter-words/)
 
 ### 方法一：哈希表
 
@@ -87,7 +87,7 @@ class Solution:
 
 :::
 
-## Problem D - [用邮票贴满网格图](https://leetcode-cn.com/problems/stamping-the-grid/)
+## Problem D - [用邮票贴满网格图](https://leetcode.cn/problems/stamping-the-grid/)
 
 ### 方法一：贪心+二维前缀和
 

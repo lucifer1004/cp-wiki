@@ -1,6 +1,6 @@
 # Leetcode 第59场双周赛题解
 
-## Problem A - [使用特殊打字机键入单词的最少时间](https://leetcode-cn.com/problems/minimum-time-to-type-word-using-special-typewriter/)
+## Problem A - [使用特殊打字机键入单词的最少时间](https://leetcode.cn/problems/minimum-time-to-type-word-using-special-typewriter/)
 
 ### 方法一：贪心
 
@@ -29,7 +29,7 @@ public:
 :::
 
 
-## Problem B - [最大方阵和](https://leetcode-cn.com/problems/maximum-matrix-sum/)
+## Problem B - [最大方阵和](https://leetcode.cn/problems/maximum-matrix-sum/)
 
 ### 方法一：贪心
 
@@ -68,7 +68,7 @@ public:
 :::
 
 
-## Problem C - [到达目的地的方案数](https://leetcode-cn.com/problems/number-of-ways-to-arrive-at-destination/)
+## Problem C - [到达目的地的方案数](https://leetcode.cn/problems/number-of-ways-to-arrive-at-destination/)
 
 ### 方法一：Dijkstra算法
 
@@ -121,7 +121,7 @@ public:
 
 :::
 
-## Problem D - [划分数字的方案数](https://leetcode-cn.com/problems/number-of-ways-to-separate-numbers/)
+## Problem D - [划分数字的方案数](https://leetcode.cn/problems/number-of-ways-to-separate-numbers/)
 
 ### 方法一：动态规划
 

@@ -1,6 +1,6 @@
 # Leetcode 第28场双周赛题解
 
-## Problem A - [商品折扣后的最终价格](https://leetcode-cn.com/problems/final-prices-with-a-special-discount-in-a-shop/)
+## Problem A - [商品折扣后的最终价格](https://leetcode.cn/problems/final-prices-with-a-special-discount-in-a-shop/)
 
 ### 方法一：暴力
 
@@ -63,7 +63,7 @@ public:
 
 :::
 
-## Problem B - [子矩形查询](https://leetcode-cn.com/problems/subrectangle-queries/)
+## Problem B - [子矩形查询](https://leetcode.cn/problems/subrectangle-queries/)
 
 ### 方法一：模拟
 
@@ -126,7 +126,7 @@ public:
 
 :::
 
-## Problem C - [找两个和为目标值且不重叠的子数组](https://leetcode-cn.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+## Problem C - [找两个和为目标值且不重叠的子数组](https://leetcode.cn/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
 利用前缀和+哈希表可以求出以某一位置为结尾的，和为目标值的子数组的最短长度。对原数组正序和倒序分别求解一次，就可以枚举找到最终的答案。
 
@@ -171,7 +171,7 @@ class Solution:
 
 :::
 
-## Problem D - [安排邮筒](https://leetcode-cn.com/problems/allocate-mailboxes/)
+## Problem D - [安排邮筒](https://leetcode.cn/problems/allocate-mailboxes/)
 
 注意到：
 

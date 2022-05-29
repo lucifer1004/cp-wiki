@@ -28,7 +28,7 @@
 
 ## Problem C - [Mandarin Orange](https://atcoder.jp/contests/abc189/tasks/abc189_c)
 
-这是一道经典题，实际上跟[LC84 - 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/)是一样的。我们可以用单调栈解决本题。
+这是一道经典题，实际上跟[LC84 - 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/)是一样的。我们可以用单调栈解决本题。
 
 在栈中，我们存储高度值和它们对应的起始位置。栈是升序的，也即最大的元素在栈顶。
 
@@ -160,7 +160,7 @@ $$
 
 这里，如果我们到达了第$N$个位置，我们就成功了；如果我们被送回了$0$位置，我们就失败了。
 
-求解的方法与 [LC837 - 新21点](https://leetcode-cn.com/problems/new-21-game/)类似。我们利用所有能够到达当前位置的位置的概率之和来计算到达当前位置的概率：
+求解的方法与 [LC837 - 新21点](https://leetcode.cn/problems/new-21-game/)类似。我们利用所有能够到达当前位置的位置的概率之和来计算到达当前位置的概率：
 
 $$
 p_i=\frac{\sum_p}{M}

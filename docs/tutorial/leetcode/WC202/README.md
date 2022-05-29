@@ -1,6 +1,6 @@
 # Leetcode 第202场周赛题解
 
-## Problem A - [存在连续三个奇数的数组](https://leetcode-cn.com/problems/three-consecutive-odds/)
+## Problem A - [存在连续三个奇数的数组](https://leetcode.cn/problems/three-consecutive-odds/)
 
 直接遍历即可。
 
@@ -21,7 +21,7 @@ public:
 
 :::
 
-## Problem B - [使数组中所有元素相等的最小操作数](https://leetcode-cn.com/problems/minimum-operations-to-make-array-equal/)
+## Problem B - [使数组中所有元素相等的最小操作数](https://leetcode.cn/problems/minimum-operations-to-make-array-equal/)
 
 因为$\sum_{i=1}^n(2i-1)=n^2$，所以最后所有元素都应该等于$n$。分奇偶两种情况，可以计算得到
 
@@ -47,7 +47,7 @@ public:
 
 :::
 
-## Problem C - [两球之间的磁力](https://leetcode-cn.com/problems/magnetic-force-between-two-balls/)
+## Problem C - [两球之间的磁力](https://leetcode.cn/problems/magnetic-force-between-two-balls/)
 
 如果存在一种放法，使得最小磁力不小于$x$，则必然存在一种放法，使得最小磁力不小于$x-1$，因此可以对结果二分。
 
@@ -84,7 +84,7 @@ public:
 
 :::
 
-## Problem D - [吃掉 N 个橘子的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-eat-n-oranges/)
+## Problem D - [吃掉 N 个橘子的最少天数](https://leetcode.cn/problems/minimum-number-of-days-to-eat-n-oranges/)
 
 直接BFS即可，注意要自顶向下，而不能自底向上，因为自底向上的过程中，会产生大量无用的$x+1$节点。
 

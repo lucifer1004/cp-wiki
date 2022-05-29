@@ -1,6 +1,6 @@
 # Leetcode 第43场双周赛题解
 
-## Problem A - [计算力扣银行的钱](https://leetcode-cn.com/problems/calculate-money-in-leetcode-bank/)
+## Problem A - [计算力扣银行的钱](https://leetcode.cn/problems/calculate-money-in-leetcode-bank/)
 
 ### 方法一：模拟
 
@@ -49,7 +49,7 @@ class Solution {
 
 :::
 
-## Problem B - [删除子字符串的最大得分](https://leetcode-cn.com/problems/maximum-score-from-removing-substrings/)
+## Problem B - [删除子字符串的最大得分](https://leetcode.cn/problems/maximum-score-from-removing-substrings/)
 
 我们假设$x\geq y$总是成立（如果不成立，我们就把所有`a`变成`b`，所有`b`变成`a`，然后交换$x$和$y$）。
 
@@ -98,7 +98,7 @@ var maximumGain = function(s, x, y) {
 
 :::
 
-## Problem C - [构建字典序最大的可行序列](https://leetcode-cn.com/problems/construct-the-lexicographically-largest-valid-sequence/)
+## Problem C - [构建字典序最大的可行序列](https://leetcode.cn/problems/construct-the-lexicographically-largest-valid-sequence/)
 
 我们每次贪心地选取当前可选的最大的数字，然后回溯求解。这样我们找到的第一个可行解就是题目要求的字典序最大的解。
 
@@ -190,7 +190,7 @@ class Solution:
 
 :::
 
-## Problem D - [重构一棵树的方案数](https://leetcode-cn.com/problems/number-of-ways-to-reconstruct-a-tree/)
+## Problem D - [重构一棵树的方案数](https://leetcode.cn/problems/number-of-ways-to-reconstruct-a-tree/)
 
 ###  方法一：并查集+拓扑排序
 

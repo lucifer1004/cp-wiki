@@ -1,8 +1,8 @@
 # Leetcode 第240场周赛题解
 
-## Problem A - [人口最多的年份](https://leetcode-cn.com/problems/maximum-population-year/)
+## Problem A - [人口最多的年份](https://leetcode.cn/problems/maximum-population-year/)
 
-> 本题是[存活人数](https://leetcode-cn.com/problems/living-people-lcci/)的数据弱化版本。
+> 本题是[存活人数](https://leetcode.cn/problems/living-people-lcci/)的数据弱化版本。
 
 ### 方法一：暴力
 
@@ -58,7 +58,7 @@ public:
 
 :::
 
-## Problem B - [下标对中的最大距离](https://leetcode-cn.com/problems/maximum-distance-between-a-pair-of-values/)
+## Problem B - [下标对中的最大距离](https://leetcode.cn/problems/maximum-distance-between-a-pair-of-values/)
 
 ### 方法一：双指针
 
@@ -88,7 +88,7 @@ public:
 
 :::
 
-## Problem C - [子数组最小乘积的最大值](https://leetcode-cn.com/problems/maximum-subarray-min-product/)
+## Problem C - [子数组最小乘积的最大值](https://leetcode.cn/problems/maximum-subarray-min-product/)
 
 ### 方法一：前缀和+单调栈
 
@@ -142,7 +142,7 @@ public:
 
 :::
 
-## Problem D - [有向图中最大颜色值](https://leetcode-cn.com/problems/largest-color-value-in-a-directed-graph/)
+## Problem D - [有向图中最大颜色值](https://leetcode.cn/problems/largest-color-value-in-a-directed-graph/)
 
 ### 方法一：拓扑排序+DAG上动态规划
 

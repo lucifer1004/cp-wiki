@@ -8,9 +8,9 @@ Ad Hoc指一道题目没有现成的算法可用，需要一个专门的解决�
 
 ## 练习题
 
-### [LC330 - 按要求补齐数组](https://leetcode-cn.com/problems/patching-array/)
+### [LC330 - 按要求补齐数组](https://leetcode.cn/problems/patching-array/)
 
-### [LC1190 - 反转每对括号间的子串](https://leetcode-cn.com/problems/reverse-substrings-between-each-pair-of-parentheses/)
+### [LC1190 - 反转每对括号间的子串](https://leetcode.cn/problems/reverse-substrings-between-each-pair-of-parentheses/)
 
 ::: details 提示一
 

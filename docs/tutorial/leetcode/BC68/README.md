@@ -1,6 +1,6 @@
 # Leetcode 第68场双周赛题解
 
-## Problem A - [句子中的最多单词数](https://leetcode-cn.com/problems/maximum-number-of-words-found-in-sentences/)
+## Problem A - [句子中的最多单词数](https://leetcode.cn/problems/maximum-number-of-words-found-in-sentences/)
 
 ### 方法一：暴力
 
@@ -20,7 +20,7 @@ class Solution:
 :::
 
 
-## Problem B - [从给定原材料中找到所有可以做出的菜](https://leetcode-cn.com/problems/find-all-possible-recipes-from-given-supplies/)
+## Problem B - [从给定原材料中找到所有可以做出的菜](https://leetcode.cn/problems/find-all-possible-recipes-from-given-supplies/)
 
 ### 方法一：暴力
 
@@ -89,7 +89,7 @@ public:
 
 :::
 
-## Problem C - [判断一个括号字符串是否有效](https://leetcode-cn.com/problems/check-if-a-parentheses-string-can-be-valid/)
+## Problem C - [判断一个括号字符串是否有效](https://leetcode.cn/problems/check-if-a-parentheses-string-can-be-valid/)
 
 ### 方法一：记录可能的最大和最小平衡值
 
@@ -148,7 +148,7 @@ public:
 
 :::
 
-## Problem D - [一个区间内所有数乘积的缩写](https://leetcode-cn.com/problems/abbreviating-the-product-of-a-range/)
+## Problem D - [一个区间内所有数乘积的缩写](https://leetcode.cn/problems/abbreviating-the-product-of-a-range/)
 
 ### 方法一：数学
 

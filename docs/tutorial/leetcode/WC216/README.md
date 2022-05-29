@@ -1,6 +1,6 @@
 # Leetcode 第216场周赛题解
 
-## Problem A - [检查两个字符串数组是否相等](https://leetcode-cn.com/problems/check-if-two-string-arrays-are-equivalent/)
+## Problem A - [检查两个字符串数组是否相等](https://leetcode.cn/problems/check-if-two-string-arrays-are-equivalent/)
 
 没啥可说的，Python大法好。
 
@@ -17,7 +17,7 @@ class Solution:
 
 :::
 
-## Problem B - [具有给定数值的最小字符串](https://leetcode-cn.com/problems/smallest-string-with-a-given-numeric-value/)
+## Problem B - [具有给定数值的最小字符串](https://leetcode.cn/problems/smallest-string-with-a-given-numeric-value/)
 
 贪心，如果当前能设为`'a'`就设为`'a'`，如果不能的话（会导致后面全放`'z'`和也不够），就假设后面已经都放了`'z'`，然后给当前位置放剩下的那个字母。
 
@@ -48,7 +48,7 @@ public:
 
 :::
 
-## Problem C - [生成平衡数组的方案数](https://leetcode-cn.com/problems/ways-to-make-a-fair-array/)
+## Problem C - [生成平衡数组的方案数](https://leetcode.cn/problems/ways-to-make-a-fair-array/)
 
 分别计算奇数和偶数位置的前缀和，然后枚举删除的元素即可。
 
@@ -90,7 +90,7 @@ public:
 
 :::
 
-## Problem D - [完成所有任务的最少初始能量](https://leetcode-cn.com/problems/minimum-initial-energy-to-finish-tasks/)
+## Problem D - [完成所有任务的最少初始能量](https://leetcode.cn/problems/minimum-initial-energy-to-finish-tasks/)
 
 贪心。我们希望最后的剩余最小，所以就按照剩余能量（$minimum-actual$）从大到小排序，优先进行剩余能量大的任务，这样最后的剩余就会最小。
 

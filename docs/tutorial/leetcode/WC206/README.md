@@ -1,6 +1,6 @@
 # Leetcode 第206场周赛题解
 
-## Problem A - [二进制矩阵中的特殊位置](https://leetcode-cn.com/problems/special-positions-in-a-binary-matrix/)
+## Problem A - [二进制矩阵中的特殊位置](https://leetcode.cn/problems/special-positions-in-a-binary-matrix/)
 
 枚举，时间复杂度$O(nm(n+m))$。更好的做法是先记录每一行的$1$的位置，如果这一行只有一个$1$，再去检查这个$1$是否也是其所在列唯一的$1$，这样可以把时间复杂度优化到$O(nm)$，但因为比赛时数据范围非常小，直接暴力做法就可以了。
 
@@ -36,7 +36,7 @@ public:
 
 :::
 
-## Problem B - [统计不开心的朋友](https://leetcode-cn.com/problems/count-unhappy-friends/)
+## Problem B - [统计不开心的朋友](https://leetcode.cn/problems/count-unhappy-friends/)
 
 首先把$preferences$转化为邻接矩阵的形式，然后遵循题意暴力枚举所有的朋友对，逐个检查是否不开心即可。
 
@@ -77,7 +77,7 @@ public:
 
 :::
 
-## Problem C - [连接所有点的最小费用](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/)
+## Problem C - [连接所有点的最小费用](https://leetcode.cn/problems/min-cost-to-connect-all-points/)
 
 最小生成树的模板题。因为任意两个点都可以连接，所以属于稠密图，有一种特殊的Prim算法可以达到$O(V^2)=O(n^2)$的时间复杂度，而通常使用的Prim或Kruskal的时间复杂度为$O(E\log V)=O(n^2\log n)$。
 
@@ -128,7 +128,7 @@ public:
 
 :::
 
-## Problem D - [检查字符串是否可以通过排序子字符串得到另一个字符串](https://leetcode-cn.com/problems/check-if-string-is-transformable-with-substring-sort-operations/)
+## Problem D - [检查字符串是否可以通过排序子字符串得到另一个字符串](https://leetcode.cn/problems/check-if-string-is-transformable-with-substring-sort-operations/)
 
 观察到，操作前后，任何一种逆序对（所有满足$i>j$的不同的二元组$(i,j)$）的数目都只能减少而不能增加。反过来，只要逆序对的数目不增加，就一定会存在一种合法的操作将其变换得到。（这一步的严格证明暂时还没有想到。）
 

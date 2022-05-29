@@ -1,6 +1,6 @@
 # Leetcode 第73场双周赛题解
 
-## Problem A - [数组中紧跟 key 之后出现最频繁的数字](https://leetcode-cn.com/problems/most-frequent-number-following-key-in-an-array/)
+## Problem A - [数组中紧跟 key 之后出现最频繁的数字](https://leetcode.cn/problems/most-frequent-number-following-key-in-an-array/)
 
 ### 方法一：暴力+计数
 
@@ -19,7 +19,7 @@ class Solution:
 
 :::
 
-## Problem B - [将杂乱无章的数字排序](https://leetcode-cn.com/problems/sort-the-jumbled-numbers/)
+## Problem B - [将杂乱无章的数字排序](https://leetcode.cn/problems/sort-the-jumbled-numbers/)
 
 ### 方法一：模拟
 
@@ -38,7 +38,7 @@ class Solution:
 
 :::
 
-## Problem C - [有向无环图中一个节点的所有祖先](https://leetcode-cn.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)
+## Problem C - [有向无环图中一个节点的所有祖先](https://leetcode.cn/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)
 
 ### 方法一：拓扑排序
 
@@ -91,7 +91,7 @@ public:
 
 :::
 
-## Problem D - [得到回文串的最少操作次数](https://leetcode-cn.com/problems/minimum-number-of-moves-to-make-palindrome/)
+## Problem D - [得到回文串的最少操作次数](https://leetcode.cn/problems/minimum-number-of-moves-to-make-palindrome/)
 
 ### 方法一：贪心
 

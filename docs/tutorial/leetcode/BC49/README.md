@@ -1,6 +1,6 @@
 # Leetcode 第49场双周赛题解
 
-## Problem A - [判断国际象棋棋盘中一个格子的颜色](https://leetcode-cn.com/problems/determine-color-of-a-chessboard-square/)
+## Problem A - [判断国际象棋棋盘中一个格子的颜色](https://leetcode.cn/problems/determine-color-of-a-chessboard-square/)
 
 ### 方法一：模拟
 
@@ -19,7 +19,7 @@ class Solution:
 
 :::
 
-## Problem B - [句子相似性 III](https://leetcode-cn.com/problems/sentence-similarity-iii/)
+## Problem B - [句子相似性 III](https://leetcode.cn/problems/sentence-similarity-iii/)
 
 ### 方法一：贪心
 
@@ -50,7 +50,7 @@ class Solution:
 
 :::
 
-## Problem C - [统计一个数组中好对子的数目](https://leetcode-cn.com/problems/count-nice-pairs-in-an-array/)
+## Problem C - [统计一个数组中好对子的数目](https://leetcode.cn/problems/count-nice-pairs-in-an-array/)
 
 简单的移项得到`nums[i]-rev(nums[i])=nums[j]-rev(nums[j])`，所以按照`nums[i]-rev(nums[i])`对原数组进行计数后，每一组内元素相互匹配即可。
 
@@ -76,7 +76,7 @@ class Solution:
 
 :::
 
-## Problem D - [得到新鲜甜甜圈的最多组数](https://leetcode-cn.com/problems/maximum-number-of-groups-getting-fresh-donuts/)
+## Problem D - [得到新鲜甜甜圈的最多组数](https://leetcode.cn/problems/maximum-number-of-groups-getting-fresh-donuts/)
 
 ### 方法一：动态规划
 
@@ -92,7 +92,7 @@ class Solution:
 
 ::: details 参考代码（C++）
 
-这里给出[@newhar](https://leetcode-cn.com/problems/maximum-number-of-groups-getting-fresh-donuts/solution/cong-zui-zhi-jie-de-fang-fa-kai-shi-yi-b-x729/)的代码。代码中采用了混合进制的方式表示状态。
+这里给出[@newhar](https://leetcode.cn/problems/maximum-number-of-groups-getting-fresh-donuts/solution/cong-zui-zhi-jie-de-fang-fa-kai-shi-yi-b-x729/)的代码。代码中采用了混合进制的方式表示状态。
 
 ```cpp
 int freq0[9], freq[9], w[9], f[300000];

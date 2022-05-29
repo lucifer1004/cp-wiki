@@ -1,6 +1,6 @@
 # Leetcode 第226场周赛题解
 
-## Problem A - [盒子中小球的最大数量](https://leetcode-cn.com/problems/maximum-number-of-balls-in-a-box/)
+## Problem A - [盒子中小球的最大数量](https://leetcode.cn/problems/maximum-number-of-balls-in-a-box/)
 
 因为数据范围比较小，所以暴力枚举即可。
 
@@ -25,10 +25,10 @@ class Solution:
 如果数据范围达到$10^{18}$呢？
 
 ::: details 提示
-可以采用数位DP的方法，具体可以参考[@Heltion](https://leetcode-cn.com/u/heltion/)的[题解](https://leetcode-cn.com/problems/maximum-number-of-balls-in-a-box/solution/shu-wei-dpzuo-fa-by-heltion-5wvg/)。
+可以采用数位DP的方法，具体可以参考[@Heltion](https://leetcode.cn/u/heltion/)的[题解](https://leetcode.cn/problems/maximum-number-of-balls-in-a-box/solution/shu-wei-dpzuo-fa-by-heltion-5wvg/)。
 :::
 
-## Problem B - [从相邻元素对还原数组](https://leetcode-cn.com/problems/restore-the-array-from-adjacent-pairs/)
+## Problem B - [从相邻元素对还原数组](https://leetcode.cn/problems/restore-the-array-from-adjacent-pairs/)
 
 因为所有数字都不同，所以首尾两个数字只会出现一次，而其他每个数字会出现两次。
 
@@ -85,7 +85,7 @@ public:
 
 如果原数组中存在相同的元素呢？
 
-## Problem C - [你能在你最喜欢的那天吃到你最喜欢的糖果吗？](https://leetcode-cn.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)
+## Problem C - [你能在你最喜欢的那天吃到你最喜欢的糖果吗？](https://leetcode.cn/problems/can-you-eat-your-favorite-candy-on-your-favorite-day/)
 
 这题题意有些绕人，但只要理解清楚，实现起来还是比较简单的（需要注意一些细节）。
 
@@ -139,7 +139,7 @@ public:
 
 如果再增加一条规则：每天只能吃同一种类型的糖果，应该如何解题呢？
 
-## Problem D - [回文串分割 IV](https://leetcode-cn.com/problems/palindrome-partitioning-iv/)
+## Problem D - [回文串分割 IV](https://leetcode.cn/problems/palindrome-partitioning-iv/)
 
 本题的数据范围较小，$\mathcal{O}(N^2)$的复杂度就足够通过。因此，我们只需要：
 

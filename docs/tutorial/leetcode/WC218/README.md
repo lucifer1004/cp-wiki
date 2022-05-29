@@ -1,6 +1,6 @@
 # Leetcode 第218场周赛题解
 
-## Problem A - [设计 Goal 解析器](https://leetcode-cn.com/problems/goal-parser-interpretation/)
+## Problem A - [设计 Goal 解析器](https://leetcode.cn/problems/goal-parser-interpretation/)
 
 因为不需要考虑输入不合法的情形，所以直接模拟即可。
 
@@ -32,7 +32,7 @@ public:
 
 :::
 
-## Problem B - [K 和数对的最大数目](https://leetcode-cn.com/problems/max-number-of-k-sum-pairs/)
+## Problem B - [K 和数对的最大数目](https://leetcode.cn/problems/max-number-of-k-sum-pairs/)
 
 计数之后进行处理即可，需要特别处理一下$num*2=k$的情况。
 
@@ -66,7 +66,7 @@ public:
 ```
 :::
 
-## Problem C - [连接连续二进制数字](https://leetcode-cn.com/problems/concatenation-of-consecutive-binary-numbers/)
+## Problem C - [连接连续二进制数字](https://leetcode.cn/problems/concatenation-of-consecutive-binary-numbers/)
 
 考虑数据范围，可以直接进行模拟。
 
@@ -111,7 +111,7 @@ public:
 ```
 :::
 
-## Problem D - [最小不兼容性](https://leetcode-cn.com/problems/minimum-incompatibility/)
+## Problem D - [最小不兼容性](https://leetcode.cn/problems/minimum-incompatibility/)
 
 看到$N$的范围，立即想到进行状态压缩。
 

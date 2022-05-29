@@ -1,6 +1,6 @@
 # Leetcode 第288场周赛题解
 
-## Problem A - [按奇偶性交换后的最大数字](https://leetcode-cn.com/problems/largest-number-after-digit-swaps-by-parity/)
+## Problem A - [按奇偶性交换后的最大数字](https://leetcode.cn/problems/largest-number-after-digit-swaps-by-parity/)
 
 ### 方法一：模拟
 
@@ -25,7 +25,7 @@ class Solution:
 
 :::
 
-## Problem B - [向表达式添加括号后的最小结果](https://leetcode-cn.com/problems/minimize-result-by-adding-parentheses-to-expression/)
+## Problem B - [向表达式添加括号后的最小结果](https://leetcode.cn/problems/minimize-result-by-adding-parentheses-to-expression/)
 
 ### 方法一：模拟
 
@@ -61,7 +61,7 @@ class Solution:
 :::
 
 
-## Problem C - [K 次增加后的最大乘积](https://leetcode-cn.com/problems/maximum-product-after-k-increments/)
+## Problem C - [K 次增加后的最大乘积](https://leetcode.cn/problems/maximum-product-after-k-increments/)
 
 ### 方法一：贪心
 
@@ -101,7 +101,7 @@ class Solution {
 
 :::
 
-## Problem D - [花园的最大总美丽值](https://leetcode-cn.com/problems/maximum-total-beauty-of-the-gardens/)
+## Problem D - [花园的最大总美丽值](https://leetcode.cn/problems/maximum-total-beauty-of-the-gardens/)
 
 ### 方法一：枚举填满的数目，然后最大化剩余部分的最小值
 

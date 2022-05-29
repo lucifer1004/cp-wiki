@@ -1,6 +1,6 @@
 # Leetcode 第285场周赛题解
 
-## Problem A - [由单个字符重复的最长子字符串](https://leetcode-cn.com/problems/longest-substring-of-one-repeating-character/)
+## Problem A - [由单个字符重复的最长子字符串](https://leetcode.cn/problems/longest-substring-of-one-repeating-character/)
 
 ### 方法一：去重后计数
 
@@ -31,7 +31,7 @@ class Solution:
 
 :::
 
-## Problem B - [统计道路上的碰撞次数](https://leetcode-cn.com/problems/count-collisions-on-a-road/)
+## Problem B - [统计道路上的碰撞次数](https://leetcode.cn/problems/count-collisions-on-a-road/)
 
 ### 方法一：脑筋急转弯
 
@@ -65,7 +65,7 @@ public:
 
 :::
 
-## Problem C - [射箭比赛中的最大得分](https://leetcode-cn.com/problems/maximum-points-in-an-archery-competition/)
+## Problem C - [射箭比赛中的最大得分](https://leetcode.cn/problems/maximum-points-in-an-archery-competition/)
 
 ### 方法一：贪心+枚举
 
@@ -105,7 +105,7 @@ public:
 
 :::
 
-## Problem D - [由单个字符重复的最长子字符串](https://leetcode-cn.com/problems/longest-substring-of-one-repeating-character/)
+## Problem D - [由单个字符重复的最长子字符串](https://leetcode.cn/problems/longest-substring-of-one-repeating-character/)
 
 ### 方法一：维护每个字母的连续段
 

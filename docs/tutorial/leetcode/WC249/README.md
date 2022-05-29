@@ -1,6 +1,6 @@
 # Leetcode 第249场周赛题解
 
-## Problem A - [数组串联](https://leetcode-cn.com/problems/concatenation-of-array/)
+## Problem A - [数组串联](https://leetcode.cn/problems/concatenation-of-array/)
 
 ### 方法一：模拟
 
@@ -19,7 +19,7 @@ class Solution:
 
 :::
 
-## Problem B - [长度为 3 的不同回文子序列](https://leetcode-cn.com/problems/unique-length-3-palindromic-subsequences/)
+## Problem B - [长度为 3 的不同回文子序列](https://leetcode.cn/problems/unique-length-3-palindromic-subsequences/)
 
 ### 方法一：枚举
 
@@ -60,7 +60,7 @@ public:
 
 :::
 
-## Problem C - [用三种不同颜色为网格涂色](https://leetcode-cn.com/problems/painting-a-grid-with-three-different-colors/)
+## Problem C - [用三种不同颜色为网格涂色](https://leetcode.cn/problems/painting-a-grid-with-three-different-colors/)
 
 ### 方法一：动态规划
 
@@ -150,7 +150,7 @@ impl Solution {
 
 :::
 
-## Problem D - [合并多棵二叉搜索树](https://leetcode-cn.com/problems/merge-bsts-to-create-single-bst/)
+## Problem D - [合并多棵二叉搜索树](https://leetcode.cn/problems/merge-bsts-to-create-single-bst/)
 
 ### 方法一：模拟
 

@@ -1,6 +1,6 @@
 # Leetcode 第231场周赛题解
 
-## Problem A - [检查二进制字符串字段](https://leetcode-cn.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
+## Problem A - [检查二进制字符串字段](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
 
 一次遍历即可。
 
@@ -28,7 +28,7 @@ public:
 
 :::
 
-## Problem B - [构成特定和需要添加的最少元素](https://leetcode-cn.com/problems/minimum-elements-to-add-to-form-a-given-sum/)
+## Problem B - [构成特定和需要添加的最少元素](https://leetcode.cn/problems/minimum-elements-to-add-to-form-a-given-sum/)
 
 计算出差值的绝对值$\Delta=|goal-\sum nums|$，则最后的答案为$\left\lceil\frac{\Delta}{limit}\right\rceil$。实际实现时需要注意除法中包含负数时的结果可能与预期不符，最好的办法是单独处理$\Delta=0$的情形。
 
@@ -56,7 +56,7 @@ public:
 
 :::
 
-## Problem C - [从第一个节点出发到最后一个节点的受限路径数](https://leetcode-cn.com/problems/number-of-restricted-paths-from-first-to-last-node/)
+## Problem C - [从第一个节点出发到最后一个节点的受限路径数](https://leetcode.cn/problems/number-of-restricted-paths-from-first-to-last-node/)
 
 从$N$开始跑一次单源Dijkstra，之后按照$dist$升序进行动态规划求解。
 
@@ -116,7 +116,7 @@ public:
 
 :::
 
-## Problem D - [使所有区间的异或结果为零](https://leetcode-cn.com/contest/weekly-contest-231/problems/make-the-xor-of-all-segments-equal-to-zero/)
+## Problem D - [使所有区间的异或结果为零](https://leetcode.cn/contest/weekly-contest-231/problems/make-the-xor-of-all-segments-equal-to-zero/)
 
 容易发现，最后得到的数组一定满足：
 

@@ -1,6 +1,6 @@
 # Leetcode 第234场周赛题解
 
-## Problem A - [字符串中不同整数的数目](https://leetcode-cn.com/problems/number-of-different-integers-in-a-string/)
+## Problem A - [字符串中不同整数的数目](https://leetcode.cn/problems/number-of-different-integers-in-a-string/)
 
 ### 方法一：模拟
 
@@ -56,7 +56,7 @@ class Solution:
 
 :::
 
-## Problem B - [还原排列的最少操作步数](https://leetcode-cn.com/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)
+## Problem B - [还原排列的最少操作步数](https://leetcode.cn/problems/minimum-number-of-operations-to-reinitialize-a-permutation/)
 
 ### 方法一：模拟
 
@@ -122,7 +122,7 @@ class Solution:
 
 可以进一步用数学方法求解吗？
 
-## Problem C - [替换字符串中的括号内容](https://leetcode-cn.com/problems/evaluate-the-bracket-pairs-of-a-string/)
+## Problem C - [替换字符串中的括号内容](https://leetcode.cn/problems/evaluate-the-bracket-pairs-of-a-string/)
 
 ### 方法一：模拟
 
@@ -177,11 +177,11 @@ class Solution:
 
 :::
 
-## Problem D - [好因子的最大数目](https://leetcode-cn.com/problems/maximize-number-of-nice-divisors/)
+## Problem D - [好因子的最大数目](https://leetcode.cn/problems/maximize-number-of-nice-divisors/)
 
 由乘法原理容易看出，质因数的分解确定后，好因子的数目等于每个不同的质因数的个数的乘积。
 
-因此，本题与[LC343 - 整数拆分](https://leetcode-cn.com/problems/integer-break/)几乎等价（$N\leq3$的情况有所区别，因为本题中可以不进行拆分）。
+因此，本题与[LC343 - 整数拆分](https://leetcode.cn/problems/integer-break/)几乎等价（$N\leq3$的情况有所区别，因为本题中可以不进行拆分）。
 
 由于数据范围扩大了，我们需要用快速幂来计算最后的结果。这里利用了Python中`pow()`函数的可选参数`mod`。
 

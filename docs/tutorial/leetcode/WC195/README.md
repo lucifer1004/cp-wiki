@@ -1,6 +1,6 @@
 # Leetcode 第195场周赛题解
 
-## Problem A - [判断路径是否相交](https://leetcode-cn.com/problems/path-crossing/)
+## Problem A - [判断路径是否相交](https://leetcode.cn/problems/path-crossing/)
 
 直接模拟机器人的行走过程，用一个集合维护当前已经经过的位置。
 
@@ -26,7 +26,7 @@ class Solution:
 
 :::
 
-## Problem B - [检查数组对是否可以被 k 整除](https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/)
+## Problem B - [检查数组对是否可以被 k 整除](https://leetcode.cn/problems/check-if-array-pairs-are-divisible-by-k/)
 
 按余数进行统计，然后考虑$k$的奇偶性分别讨论即可。
 
@@ -60,7 +60,7 @@ public:
 
 :::
 
-## Problem C - [满足条件的子序列数目](https://leetcode-cn.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
+## Problem C - [满足条件的子序列数目](https://leetcode.cn/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
 
 排序后使用双指针求解。
 
@@ -103,7 +103,7 @@ public:
 :::
 
 
-## Problem D - [满足不等式的最大值](https://leetcode-cn.com/problems/max-value-of-equation/)
+## Problem D - [满足不等式的最大值](https://leetcode.cn/problems/max-value-of-equation/)
 
 凡是含绝对值$|x|$的式子，都可以考虑用$|x|=\max\{x,-x\}$进行转化。
 

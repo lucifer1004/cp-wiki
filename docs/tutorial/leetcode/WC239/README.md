@@ -1,6 +1,6 @@
 # Leetcode 第239场周赛题解
 
-## Problem A - [到目标元素的最小距离](https://leetcode-cn.com/problems/minimum-distance-to-the-target-element/)
+## Problem A - [到目标元素的最小距离](https://leetcode.cn/problems/minimum-distance-to-the-target-element/)
 
 模拟。
 
@@ -17,7 +17,7 @@ class Solution:
 
 :::
 
-## Problem B - [将字符串拆分为递减的连续值](https://leetcode-cn.com/problems/splitting-a-string-into-descending-consecutive-values/)
+## Problem B - [将字符串拆分为递减的连续值](https://leetcode.cn/problems/splitting-a-string-into-descending-consecutive-values/)
 
 回溯+剪枝。
 
@@ -57,7 +57,7 @@ class Solution:
 
 :::
 
-## Problem C - [邻位交换的最小次数](https://leetcode-cn.com/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
+## Problem C - [邻位交换的最小次数](https://leetcode.cn/problems/minimum-adjacent-swaps-to-reach-the-kth-smallest-number/)
 
 ### 方法一：模拟
 
@@ -99,7 +99,7 @@ public:
 
 在求第$K$个之后的排列和最后的交换次数的过程中，均可以使用平衡树，从而将时间复杂度优化到$\mathcal{O}(|S|\log|S|)$，但过程会比较繁琐。
 
-## Problem D - [包含每个查询的最小区间](https://leetcode-cn.com/problems/minimum-interval-to-include-each-query/)
+## Problem D - [包含每个查询的最小区间](https://leetcode.cn/problems/minimum-interval-to-include-each-query/)
 
 和第51场双周赛的[最后一题](../BC51/)如出一辙，将区间和查询分别排序，然后离线处理。
 

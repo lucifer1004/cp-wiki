@@ -1,6 +1,6 @@
 # Leetcode 第256场周赛题解
 
-## Problem A - [学生分数的最小差值](https://leetcode-cn.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)
+## Problem A - [学生分数的最小差值](https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores/)
 
 ### 方法一：贪心
 
@@ -20,7 +20,7 @@ class Solution:
 
 :::
 
-## Problem B - [找出数组中的第 K 大整数](https://leetcode-cn.com/problems/find-the-kth-largest-integer-in-the-array/)
+## Problem B - [找出数组中的第 K 大整数](https://leetcode.cn/problems/find-the-kth-largest-integer-in-the-array/)
 
 ### 方法一：排序
 
@@ -39,7 +39,7 @@ class Solution:
 
 :::
 
-## Problem C - [完成任务的最少工作时间段](https://leetcode-cn.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)
+## Problem C - [完成任务的最少工作时间段](https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks/)
 
 ### 方法一：状态压缩动态规划
 
@@ -84,11 +84,11 @@ public:
 
 :::
 
-## Problem D - [不同的好子序列数目](https://leetcode-cn.com/problems/number-of-unique-good-subsequences/)
+## Problem D - [不同的好子序列数目](https://leetcode.cn/problems/number-of-unique-good-subsequences/)
 
 ### 方法一：动态规划
 
-在经典的 [940. 不同的子序列 II](https://leetcode-cn.com/problems/distinct-subsequences-ii/)代码基础上稍作改动即可。
+在经典的 [940. 不同的子序列 II](https://leetcode.cn/problems/distinct-subsequences-ii/)代码基础上稍作改动即可。
 
 - 如果当前位置为`0`，不额外加上$1$，也即不考虑所有以`0`开始的子序列。
 - 单独处理单个`0`的这种情况。

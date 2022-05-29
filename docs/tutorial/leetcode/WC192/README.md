@@ -1,6 +1,6 @@
 # Leetcode 第192场周赛题解
 
-## Problem A - [重新排列数组](https://leetcode-cn.com/problems/shuffle-the-array/)
+## Problem A - [重新排列数组](https://leetcode.cn/problems/shuffle-the-array/)
 
 ### 方法一：模拟
 
@@ -25,7 +25,7 @@ public:
 
 :::
 
-## Problem B - [数组中的 k 个最强值](https://leetcode-cn.com/problems/the-k-strongest-values-in-an-array/)
+## Problem B - [数组中的 k 个最强值](https://leetcode.cn/problems/the-k-strongest-values-in-an-array/)
 
 ### 方法一：排序
 
@@ -54,7 +54,7 @@ public:
 
 :::
 
-## Problem C - [设计浏览器历史记录](https://leetcode-cn.com/problems/design-browser-history/)
+## Problem C - [设计浏览器历史记录](https://leetcode.cn/problems/design-browser-history/)
 
 ### 方法一：模拟
 
@@ -85,7 +85,7 @@ class BrowserHistory:
 
 :::
 
-## Problem D - [粉刷房子 III](https://leetcode-cn.com/problems/paint-house-iii/)
+## Problem D - [粉刷房子 III](https://leetcode.cn/problems/paint-house-iii/)
 
 ### 方法一：动态规划
 

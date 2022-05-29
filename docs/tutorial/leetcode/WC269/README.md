@@ -1,6 +1,6 @@
 # Leetcode 第269场周赛题解
 
-## Problem A - [找出数组排序后的目标下标](https://leetcode-cn.com/problems/find-target-indices-after-sorting-array/)
+## Problem A - [找出数组排序后的目标下标](https://leetcode.cn/problems/find-target-indices-after-sorting-array/)
 
 ### 方法一：暴力
 
@@ -19,7 +19,7 @@ class Solution:
 
 :::
 
-## Problem B - [半径为 k 的子数组平均值](https://leetcode-cn.com/problems/k-radius-subarray-averages/)
+## Problem B - [半径为 k 的子数组平均值](https://leetcode.cn/problems/k-radius-subarray-averages/)
 
 ### 方法一：模拟
 
@@ -46,7 +46,7 @@ class Solution:
 
 :::
 
-## Problem C - [从数组中移除最大值和最小值](https://leetcode-cn.com/problems/removing-minimum-and-maximum-from-array/)
+## Problem C - [从数组中移除最大值和最小值](https://leetcode.cn/problems/removing-minimum-and-maximum-from-array/)
 
 ### 方法一：贪心
 
@@ -80,7 +80,7 @@ class Solution:
 
 :::
 
-## Problem D - [找出知晓秘密的所有专家](https://leetcode-cn.com/problems/find-all-people-with-secret/)
+## Problem D - [找出知晓秘密的所有专家](https://leetcode.cn/problems/find-all-people-with-secret/)
 
 ### 方法一：多源BFS
 

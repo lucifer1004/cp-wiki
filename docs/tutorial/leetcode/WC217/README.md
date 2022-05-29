@@ -1,6 +1,6 @@
 # Leetcode 第217场周赛题解
 
-## Problem A - [最富有客户的资产总量](https://leetcode-cn.com/problems/richest-customer-wealth/)
+## Problem A - [最富有客户的资产总量](https://leetcode.cn/problems/richest-customer-wealth/)
 
 没啥可说的，Python大法好。
 
@@ -16,7 +16,7 @@ class Solution:
 
 :::
 
-## Problem B - [找出最具竞争力的子序列](https://leetcode-cn.com/problems/find-the-most-competitive-subsequence/)
+## Problem B - [找出最具竞争力的子序列](https://leetcode.cn/problems/find-the-most-competitive-subsequence/)
 
 贪心。每次找出$[L,N-K+M]$范围内的最小值（右端点的选取是为了保证剩下的数字够用），将其加入子序列，并更新$L$为其下一个位置。初始状态$L=0$。
 
@@ -146,7 +146,7 @@ public:
 
 :::
 
-## Problem C - [使数组互补的最少操作次数](https://leetcode-cn.com/problems/minimum-moves-to-make-array-complementary/)
+## Problem C - [使数组互补的最少操作次数](https://leetcode.cn/problems/minimum-moves-to-make-array-complementary/)
 
 我们考虑任意一个数对$(a,b)$，不妨假设$a\leq b$。假设最终选定的和值为$target$，则我们可以发现，对于$(a,b)$这个数对：
 
@@ -198,7 +198,7 @@ public:
 
 :::
 
-## Problem D - [数组的最小偏移量](https://leetcode-cn.com/problems/minimize-deviation-in-array/)
+## Problem D - [数组的最小偏移量](https://leetcode.cn/problems/minimize-deviation-in-array/)
 
 我们可以首先将所有数字都通过反复除以$2$变为奇数，然后将这些数都放入一个`set`中（同时记录下编号以便查询原始值）。为了减小偏移量，我们每次贪心地对最小的元素进行乘$2$的操作，直到不能再继续进行下去为止（最小的元素已经是偶数，并且等于其原始值）。这个过程中，`set`中最大元素和最小元素的最小差值就是我们要求的答案。
 

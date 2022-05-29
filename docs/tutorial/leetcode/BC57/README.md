@@ -1,6 +1,6 @@
 # Leetcode 第57场双周赛题解
 
-## Problem A - [检查是否所有字符出现次数相同](https://leetcode-cn.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)
+## Problem A - [检查是否所有字符出现次数相同](https://leetcode.cn/problems/check-if-all-characters-have-equal-number-of-occurrences/)
 
 ### 方法一：计数
 
@@ -20,7 +20,7 @@ class Solution:
 :::
 
 
-## Problem B - [最小未被占据椅子的编号](https://leetcode-cn.com/problems/the-number-of-the-smallest-unoccupied-chair/)
+## Problem B - [最小未被占据椅子的编号](https://leetcode.cn/problems/the-number-of-the-smallest-unoccupied-chair/)
 
 ### 方法一：排序+优先队列
 
@@ -66,7 +66,7 @@ public:
 :::
 
 
-## Problem C - [描述绘画结果](https://leetcode-cn.com/problems/describe-the-painting/)
+## Problem C - [描述绘画结果](https://leetcode.cn/problems/describe-the-painting/)
 
 ### 方法一：离散化+差分数组
 
@@ -116,7 +116,7 @@ public:
 
 :::
 
-## Problem D - [队列中可以看到的人数](https://leetcode-cn.com/problems/number-of-visible-people-in-a-queue/)
+## Problem D - [队列中可以看到的人数](https://leetcode.cn/problems/number-of-visible-people-in-a-queue/)
 
 ### 方法一：单调栈
 

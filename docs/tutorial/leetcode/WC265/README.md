@@ -1,6 +1,6 @@
 # Leetcode 第265场周赛题解
 
-## Problem A - [值相等的最小索引](https://leetcode-cn.com/problems/smallest-index-with-equal-value/)
+## Problem A - [值相等的最小索引](https://leetcode.cn/problems/smallest-index-with-equal-value/)
 
 ### 方法一：遍历
 
@@ -17,7 +17,7 @@ class Solution:
 
 :::
 
-## Problem B - [找出临界点之间的最小和最大距离](https://leetcode-cn.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
+## Problem B - [找出临界点之间的最小和最大距离](https://leetcode.cn/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)
 
 ### 方法一：遍历
 
@@ -58,7 +58,7 @@ public:
 
 :::
 
-## Problem C - [转化数字的最小运算数](https://leetcode-cn.com/problems/minimum-operations-to-convert-number/)
+## Problem C - [转化数字的最小运算数](https://leetcode.cn/problems/minimum-operations-to-convert-number/)
 
 ### 方法一：BFS
 
@@ -143,7 +143,7 @@ impl Solution {
 
 :::
 
-## Problem D - [同源字符串检测](https://leetcode-cn.com/contest/problems/check-if-an-original-string-exists-given-two-encoded-strings/)
+## Problem D - [同源字符串检测](https://leetcode.cn/contest/problems/check-if-an-original-string-exists-given-two-encoded-strings/)
 
 ### 方法一：动态规划
 

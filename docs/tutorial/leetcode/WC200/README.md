@@ -1,6 +1,6 @@
 # Leetcode 第200场周赛题解
 
-## Problem A - [统计好三元组](https://leetcode-cn.com/problems/count-good-triplets/)
+## Problem A - [统计好三元组](https://leetcode.cn/problems/count-good-triplets/)
 
 暴力枚举。
 
@@ -24,7 +24,7 @@ public:
 
 :::
 
-## Problem B - [找出数组游戏的赢家](https://leetcode-cn.com/problems/find-the-winner-of-an-array-game/)
+## Problem B - [找出数组游戏的赢家](https://leetcode.cn/problems/find-the-winner-of-an-array-game/)
 
 直接模拟求解。
 
@@ -53,7 +53,7 @@ public:
 
 :::
 
-## Problem C - [排布二进制网格的最少交换次数](https://leetcode-cn.com/problems/minimum-swaps-to-arrange-a-binary-grid/)
+## Problem C - [排布二进制网格的最少交换次数](https://leetcode.cn/problems/minimum-swaps-to-arrange-a-binary-grid/)
 
 首先计算出每行末尾连续的$0$的数量，然后从最上面一行开始，找到最靠近的一个能满足当前行对$0$的个数需求的行，用冒泡的方式把这一行换上来。
 
@@ -93,7 +93,7 @@ public:
 
 :::
 
-## Problem D - [最大得分](https://leetcode-cn.com/problems/get-the-maximum-score/)
+## Problem D - [最大得分](https://leetcode.cn/problems/get-the-maximum-score/)
 
 分别记录当前在第一个数组和第二个数组中能够取得的最大值，每次移动两个数组中较小的那个指针；如果双指针指向的数字相等，则可以将两个最大值进行同步。
 

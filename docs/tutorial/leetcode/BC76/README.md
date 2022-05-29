@@ -1,6 +1,6 @@
 # Leetcode 第76场双周赛题解
 
-## Problem A - [找到最接近 0 的数字](https://leetcode-cn.com/problems/find-closest-number-to-zero/)
+## Problem A - [找到最接近 0 的数字](https://leetcode.cn/problems/find-closest-number-to-zero/)
 
 ### 方法一：枚举
 
@@ -19,7 +19,7 @@ class Solution:
 
 :::
 
-## Problem B - [买钢笔和铅笔的方案数](https://leetcode-cn.com/problems/number-of-ways-to-buy-pens-and-pencils/)
+## Problem B - [买钢笔和铅笔的方案数](https://leetcode.cn/problems/number-of-ways-to-buy-pens-and-pencils/)
 
 ### 方法一：枚举
 
@@ -40,7 +40,7 @@ class Solution:
 
 :::
 
-## Problem C - [设计一个 ATM 机器](https://leetcode-cn.com/problems/design-an-atm-machine/)
+## Problem C - [设计一个 ATM 机器](https://leetcode.cn/problems/design-an-atm-machine/)
 
 ### 方法一：模拟
 
@@ -80,7 +80,7 @@ class ATM:
 
 :::
 
-## Problem D - [节点序列的最大得分](https://leetcode-cn.com/problems/maximum-score-of-a-node-sequence/)
+## Problem D - [节点序列的最大得分](https://leetcode.cn/problems/maximum-score-of-a-node-sequence/)
 
 ### 方法一：枚举
 

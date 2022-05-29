@@ -1,6 +1,6 @@
 # Leetcode 第280场周赛题解
 
-## Problem A - [得到 0 的操作数](https://leetcode-cn.com/problems/count-operations-to-obtain-zero/)
+## Problem A - [得到 0 的操作数](https://leetcode.cn/problems/count-operations-to-obtain-zero/)
 
 ### 方法一：用辗转相除代替辗转相减
 
@@ -24,7 +24,7 @@ class Solution:
 
 :::
 
-## Problem B - [使数组变成交替数组的最少操作数](https://leetcode-cn.com/problems/minimum-operations-to-make-the-array-alternating/)
+## Problem B - [使数组变成交替数组的最少操作数](https://leetcode.cn/problems/minimum-operations-to-make-the-array-alternating/)
 
 ### 方法一：计数+贪心
 
@@ -67,7 +67,7 @@ class Solution:
 
 :::
 
-## Problem C - [拿出最少数目的魔法豆](https://leetcode-cn.com/problems/removing-minimum-number-of-magic-beans/)
+## Problem C - [拿出最少数目的魔法豆](https://leetcode.cn/problems/removing-minimum-number-of-magic-beans/)
 
 ### 方法一：排序
 
@@ -92,7 +92,7 @@ class Solution:
 
 :::
 
-## Problem D - [数组的最大与和](https://leetcode-cn.com/problems/maximum-and-sum-of-array/)
+## Problem D - [数组的最大与和](https://leetcode.cn/problems/maximum-and-sum-of-array/)
 
 从题目的数据范围容易想到状态压缩。本题中需要对篮子和数字进行匹配，自然而然地，我们就有两种选择：枚举数字，或是枚举篮子。
 

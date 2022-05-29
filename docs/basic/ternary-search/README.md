@@ -34,11 +34,11 @@ sidebarDepth: 3
 
 :::
 
-### [LC1515 - 服务中心的最佳位置](https://leetcode-cn.com/problems/best-position-for-a-service-centre/)
+### [LC1515 - 服务中心的最佳位置](https://leetcode.cn/problems/best-position-for-a-service-centre/)
 
 ::: details 提示
 
-可以证明，平面上任意一点到所有给顶点的Euclidean距离之和是一个凸函数（证明过程详见[官方题解](https://leetcode-cn.com/problems/best-position-for-a-service-centre/solution/fu-wu-zhong-xin-de-zui-jia-wei-zhi-by-leetcode-sol/)），因此可以使用三分套三分的方法求解。
+可以证明，平面上任意一点到所有给顶点的Euclidean距离之和是一个凸函数（证明过程详见[官方题解](https://leetcode.cn/problems/best-position-for-a-service-centre/solution/fu-wu-zhong-xin-de-zui-jia-wei-zhi-by-leetcode-sol/)），因此可以使用三分套三分的方法求解。
 
 :::
 

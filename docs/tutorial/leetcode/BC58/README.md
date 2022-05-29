@@ -1,6 +1,6 @@
 # Leetcode 第58场双周赛题解
 
-## Problem A - [删除字符使字符串变好](https://leetcode-cn.com/problems/delete-characters-to-make-fancy-string/)
+## Problem A - [删除字符使字符串变好](https://leetcode.cn/problems/delete-characters-to-make-fancy-string/)
 
 ### 方法一：模拟
 
@@ -36,7 +36,7 @@ public:
 :::
 
 
-## Problem B - [检查操作是否合法](https://leetcode-cn.com/problems/check-if-move-is-legal/)
+## Problem B - [检查操作是否合法](https://leetcode.cn/problems/check-if-move-is-legal/)
 
 ### 方法一：模拟
 
@@ -81,7 +81,7 @@ public:
 :::
 
 
-## Problem C - [K 次调整数组大小浪费的最小总空间](https://leetcode-cn.com/problems/minimum-total-space-wasted-with-k-resizing-operations/)
+## Problem C - [K 次调整数组大小浪费的最小总空间](https://leetcode.cn/problems/minimum-total-space-wasted-with-k-resizing-operations/)
 
 ### 方法一：动态规划
 
@@ -128,7 +128,7 @@ public:
 
 :::
 
-## Problem D - [两个回文子字符串长度的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-the-length-of-two-palindromic-substrings/)
+## Problem D - [两个回文子字符串长度的最大乘积](https://leetcode.cn/problems/maximum-product-of-the-length-of-two-palindromic-substrings/)
 
 ### 方法一：Manacher算法
 

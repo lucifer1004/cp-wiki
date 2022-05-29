@@ -1,6 +1,6 @@
 # Leetcode 第37场双周赛题解
 
-## Problem A - [删除某些元素后的数组均值](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/)
+## Problem A - [删除某些元素后的数组均值](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/)
 
 按照要求，对数组排序，删除最小和最大的5%，然后计算均值即可。
 
@@ -26,7 +26,7 @@ public:
 
 :::
 
-## Problem B - [网络信号最好的坐标](https://leetcode-cn.com/problems/coordinate-with-maximum-network-quality/)
+## Problem B - [网络信号最好的坐标](https://leetcode.cn/problems/coordinate-with-maximum-network-quality/)
 
 信号塔一定建在由$(0,0)$和$(50,50)$所围成的矩形范围内。枚举信号塔位置，求出最大的总信号强度即可。
 
@@ -65,7 +65,7 @@ public:
 
 :::
 
-## Problem C - [大小为 K 的不重叠线段的数目](https://leetcode-cn.com/problems/number-of-sets-of-k-non-overlapping-line-segments/)
+## Problem C - [大小为 K 的不重叠线段的数目](https://leetcode.cn/problems/number-of-sets-of-k-non-overlapping-line-segments/)
 
 线段在端点处重合的情况比较让人讨厌，不妨增加$k-1$个点，然后改为选取端点不能重合的线段，易知这与原题是等价的。进一步地，因为线段端点不能重合，所以我们只需要在$n+k-1$个点中选取$2k$个，然后将相邻两个点依次连成线段即可。
 
@@ -81,7 +81,7 @@ class Solution:
 
 :::
 
-## Problem D - [奇妙序列](https://leetcode-cn.com/problems/fancy-sequence/)
+## Problem D - [奇妙序列](https://leetcode.cn/problems/fancy-sequence/)
 
 本题可以直接套用[Luogu P3373 【模板】线段树2](https://www.luogu.com.cn/problem/P3373)的实现。需要注意的点是，加法和乘法各自需要一个懒标记，在乘法运算或进行乘法懒标记的下推时，需要同时修改加法的懒标记。
 
@@ -206,6 +206,6 @@ public:
 
 :::
 
-除此之外，本题还可以利用前缀数组实现更优的复杂度，具体实现可以参考[zerotrac的题解](https://leetcode-cn.com/problems/fancy-sequence/solution/qi-miao-xu-lie-by-zerotrac2/)。
+除此之外，本题还可以利用前缀数组实现更优的复杂度，具体实现可以参考[zerotrac的题解](https://leetcode.cn/problems/fancy-sequence/solution/qi-miao-xu-lie-by-zerotrac2/)。
 
 <Utterances />

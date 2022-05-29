@@ -1,6 +1,6 @@
 # Leetcode 第34场双周赛题解
 
-## Problem A - [矩阵对角线元素的和](https://leetcode-cn.com/problems/matrix-diagonal-sum/)
+## Problem A - [矩阵对角线元素的和](https://leetcode.cn/problems/matrix-diagonal-sum/)
 
 直接按照题意进行累加，同时注意避免重复即可。
 
@@ -20,7 +20,7 @@ class Solution:
 
 :::
 
-## Problem B - [分割字符串的方案数](https://leetcode-cn.com/problems/number-of-ways-to-split-a-string/)
+## Problem B - [分割字符串的方案数](https://leetcode.cn/problems/number-of-ways-to-split-a-string/)
 
 一遍扫描记录下所有`1`的位置。如果总数不是$3$的倍数，显然无解；如果总数为$0$，那么可以用插板法，答案为$n-1\choose 2$。
 
@@ -54,7 +54,7 @@ public:
 
 :::
 
-## Problem C - [删除最短的子数组使剩余数组有序](https://leetcode-cn.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)
+## Problem C - [删除最短的子数组使剩余数组有序](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/)
 
 ~~一开始看错题目，以为可以删除子序列，当成LIS来做怒吃两发WA。~~
 
@@ -94,7 +94,7 @@ public:
 
 :::
 
-## Problem D - [统计所有可行路径](https://leetcode-cn.com/problems/count-all-possible-routes/)
+## Problem D - [统计所有可行路径](https://leetcode.cn/problems/count-all-possible-routes/)
 
 比较明显的动态规划，用$dp[location][used\_fuel]$表示当前在$location$位置，用了$used\_fuel$的可行路径数，然后枚举下一个位置进行转移。
 

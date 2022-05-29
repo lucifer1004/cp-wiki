@@ -1,6 +1,6 @@
 # Leetcode 第48场双周赛题解
 
-## Problem A - [字符串中第二大的数字](https://leetcode-cn.com/problems/second-largest-digit-in-a-string/)
+## Problem A - [字符串中第二大的数字](https://leetcode.cn/problems/second-largest-digit-in-a-string/)
 
 模拟即可。
 
@@ -41,7 +41,7 @@ class Solution:
 
 :::
 
-## Problem B - [设计一个验证系统](https://leetcode-cn.com/problems/design-authentication-manager/)
+## Problem B - [设计一个验证系统](https://leetcode.cn/problems/design-authentication-manager/)
 
 理解题意后直接模拟即可。
 
@@ -78,9 +78,9 @@ public:
 
 :::
 
-## Problem C - [你能构造出连续值的最大数目](https://leetcode-cn.com/problems/maximum-number-of-consecutive-values-you-can-make/)
+## Problem C - [你能构造出连续值的最大数目](https://leetcode.cn/problems/maximum-number-of-consecutive-values-you-can-make/)
 
-如果做过[LC330 - 按要求补齐数组](https://leetcode-cn.com/problems/patching-array/)，那么本题就非常简单了。
+如果做过[LC330 - 按要求补齐数组](https://leetcode.cn/problems/patching-array/)，那么本题就非常简单了。
 
 - 显然，我们应当从最小的数字开始——所以要对原数组进行排序。
 - 如果当前最大表示到$K$，此时数组中还未使用的最小元素为$a_i$
@@ -111,7 +111,7 @@ public:
 
 :::
 
-## Problem D - [N 次操作后的最大分数和](https://leetcode-cn.com/problems/maximize-score-after-n-operations/)
+## Problem D - [N 次操作后的最大分数和](https://leetcode.cn/problems/maximize-score-after-n-operations/)
 
 看到$N$的取值范围就知道是Bitmask DP。预处理出所有的GCD，之后从0状态开始动态规划即可。当前的轮次可以从状态二进制中$1$的个数求出。
 

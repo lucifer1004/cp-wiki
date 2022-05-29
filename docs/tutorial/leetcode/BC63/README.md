@@ -1,6 +1,6 @@
 # Leetcode 第63场双周赛题解
 
-## Problem A - [使每位学生都有座位的最少移动次数](https://leetcode-cn.com/problems/minimum-number-of-moves-to-seat-everyone/)
+## Problem A - [使每位学生都有座位的最少移动次数](https://leetcode.cn/problems/minimum-number-of-moves-to-seat-everyone/)
 
 ### 方法一：排序+贪心
 
@@ -20,7 +20,7 @@ class Solution:
 :::
 
 
-## Problem B - [如果相邻两个颜色均相同则删除当前颜色](https://leetcode-cn.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)
+## Problem B - [如果相邻两个颜色均相同则删除当前颜色](https://leetcode.cn/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color/)
 
 ### 方法一：模拟
 
@@ -54,7 +54,7 @@ class Solution:
 
 :::
 
-## Problem C - [网络空闲的时刻](https://leetcode-cn.com/problems/the-time-when-the-network-becomes-idle/)
+## Problem C - [网络空闲的时刻](https://leetcode.cn/problems/the-time-when-the-network-becomes-idle/)
 
 ### 方法一：BFS
 
@@ -105,7 +105,7 @@ public:
 
 :::
 
-## Problem D - [两个有序数组的第 K 小乘积](https://leetcode-cn.com/problems/kth-smallest-product-of-two-sorted-arrays/)
+## Problem D - [两个有序数组的第 K 小乘积](https://leetcode.cn/problems/kth-smallest-product-of-two-sorted-arrays/)
 
 ### 方法一：二分答案+双指针
 

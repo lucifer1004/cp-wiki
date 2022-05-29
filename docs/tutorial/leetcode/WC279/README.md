@@ -1,6 +1,6 @@
 # Leetcode 第279场周赛题解
 
-## Problem A - [对奇偶下标分别排序](https://leetcode-cn.com/problems/sort-even-and-odd-indices-independently/)
+## Problem A - [对奇偶下标分别排序](https://leetcode.cn/problems/sort-even-and-odd-indices-independently/)
 
 ### 方法一：模拟
 
@@ -22,7 +22,7 @@ class Solution:
 
 :::
 
-## Problem B - [重排数字的最小值](https://leetcode-cn.com/problems/smallest-value-of-the-rearranged-number/)
+## Problem B - [重排数字的最小值](https://leetcode.cn/problems/smallest-value-of-the-rearranged-number/)
 
 ### 方法一：贪心
 
@@ -57,7 +57,7 @@ class Solution:
 
 :::
 
-## Problem C - [设计位集](https://leetcode-cn.com/problems/design-bitset/)
+## Problem C - [设计位集](https://leetcode.cn/problems/design-bitset/)
 
 ### 方法一：记录翻转状态而非实际进行翻转
 
@@ -126,7 +126,7 @@ public:
 
 :::
 
-## Problem D - [移除所有载有违禁货物车厢所需的最少时间](https://leetcode-cn.com/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)
+## Problem D - [移除所有载有违禁货物车厢所需的最少时间](https://leetcode.cn/problems/minimum-time-to-remove-all-cars-containing-illegal-goods/)
 
 ### 方法一：动态规划
 

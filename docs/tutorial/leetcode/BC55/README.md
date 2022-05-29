@@ -1,6 +1,6 @@
 # Leetcode 第55场双周赛题解
 
-## Problem A - [删除一个元素使数组严格递增](https://leetcode-cn.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)
+## Problem A - [删除一个元素使数组严格递增](https://leetcode.cn/problems/remove-one-element-to-make-the-array-strictly-increasing/)
 
 ### 方法一：暴力
 
@@ -79,7 +79,7 @@ public:
 :::
 
 
-## Problem B - [删除一个字符串中所有出现的给定子字符串](https://leetcode-cn.com/problems/remove-all-occurrences-of-a-substring/)
+## Problem B - [删除一个字符串中所有出现的给定子字符串](https://leetcode.cn/problems/remove-all-occurrences-of-a-substring/)
 
 ### 方法一：模拟
 
@@ -148,7 +148,7 @@ class Solution:
 
 :::
 
-## Problem C - [最大子序列交替和](https://leetcode-cn.com/problems/maximum-alternating-subsequence-sum/)
+## Problem C - [最大子序列交替和](https://leetcode.cn/problems/maximum-alternating-subsequence-sum/)
 
 ### 方法一：动态规划
 
@@ -175,7 +175,7 @@ class Solution:
 
 :::
 
-## Problem D - [设计电影租借系统](https://leetcode-cn.com/problems/design-movie-rental-system/)
+## Problem D - [设计电影租借系统](https://leetcode.cn/problems/design-movie-rental-system/)
 
 ### 方法一：数据结构+模拟
 

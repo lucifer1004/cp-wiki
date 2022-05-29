@@ -1,6 +1,6 @@
 # 2021年力扣杯秋季赛个人赛题解
 
-## Problem A - [无人机方阵](https://leetcode-cn.com/contest/season/2021-fall/problems/0jQkd0/)
+## Problem A - [无人机方阵](https://leetcode.cn/contest/season/2021-fall/problems/0jQkd0/)
 
 ### 方法一：计数
 
@@ -33,7 +33,7 @@ class Solution:
 :::
 
 
-## Problem B - [心算挑战](https://leetcode-cn.com/contest/season/2021-fall/problems/uOAnQW/)
+## Problem B - [心算挑战](https://leetcode.cn/contest/season/2021-fall/problems/uOAnQW/)
 
 ### 方法一：贪心
 
@@ -80,7 +80,7 @@ class Solution:
 :::
 
 
-## Problem C - [黑白翻转棋](https://leetcode-cn.com/contest/season/2021-fall/problems/fHi6rV/)
+## Problem C - [黑白翻转棋](https://leetcode.cn/contest/season/2021-fall/problems/fHi6rV/)
 
 ### 方法一：模拟
 
@@ -149,7 +149,7 @@ public:
 
 :::
 
-## Problem D - [玩具套圈](https://leetcode-cn.com/contest/season/2021-fall/problems/vFjcfV/)
+## Problem D - [玩具套圈](https://leetcode.cn/contest/season/2021-fall/problems/vFjcfV/)
 
 ### 方法一：数据结构
 
@@ -216,7 +216,7 @@ public:
 
 :::
 
-## Problem E - [十字路口的交通](https://leetcode-cn.com/contest/season/2021-fall/problems/vFjcfV/)
+## Problem E - [十字路口的交通](https://leetcode.cn/contest/season/2021-fall/problems/vFjcfV/)
 
 ### 方法一：动态规划
 

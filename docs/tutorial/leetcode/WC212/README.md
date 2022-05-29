@@ -1,6 +1,6 @@
 # Leetcode 第212场周赛题解
 
-## Problem A - [按键持续时间最长的键](https://leetcode-cn.com/problems/slowest-key/)
+## Problem A - [按键持续时间最长的键](https://leetcode.cn/problems/slowest-key/)
 
 模拟。
 
@@ -30,7 +30,7 @@ public:
 
 :::
 
-## Problem B - [等差子数组](https://leetcode-cn.com/problems/arithmetic-subarrays/)
+## Problem B - [等差子数组](https://leetcode.cn/problems/arithmetic-subarrays/)
 
 模拟。对于每一个询问，将对应的子数组排序后检查是否为等差数组。
 
@@ -56,7 +56,7 @@ class Solution:
 
 :::
 
-## Problem C - [最小体力消耗路径](https://leetcode-cn.com/problems/path-with-minimum-effort/)
+## Problem C - [最小体力消耗路径](https://leetcode.cn/problems/path-with-minimum-effort/)
 
 BFS+二分答案。
 
@@ -109,7 +109,7 @@ public:
 
 :::
 
-## Problem D - [矩阵转换后的秩](https://leetcode-cn.com/problems/rank-transform-of-a-matrix/)
+## Problem D - [矩阵转换后的秩](https://leetcode.cn/problems/rank-transform-of-a-matrix/)
 
 并查集+拓扑排序。
 

@@ -1,6 +1,6 @@
 # Leetcode 第252场周赛题解
 
-## Problem A - [三除数](https://leetcode-cn.com/problems/three-divisors/)
+## Problem A - [三除数](https://leetcode.cn/problems/three-divisors/)
 
 ### 方法一：穷举
 
@@ -32,7 +32,7 @@ public:
 
 :::
 
-## Problem B - [你可以工作的最大周数](https://leetcode-cn.com/problems/maximum-number-of-weeks-for-which-you-can-work/)
+## Problem B - [你可以工作的最大周数](https://leetcode.cn/problems/maximum-number-of-weeks-for-which-you-can-work/)
 
 ### 方法一：贪心
 
@@ -60,7 +60,7 @@ class Solution:
 
 如果做了一个项目之后，需要再做$k$个其他项目才能再做这个项目，应该如何做？如果每个项目的$k_i$不同呢？
 
-## Problem C - [收集足够苹果的最小花园周长](https://leetcode-cn.com/problems/minimum-garden-perimeter-to-collect-enough-apples/)
+## Problem C - [收集足够苹果的最小花园周长](https://leetcode.cn/problems/minimum-garden-perimeter-to-collect-enough-apples/)
 
 ### 方法一：二分+数学
 
@@ -97,7 +97,7 @@ class Solution:
 
 如果只要求包含原点，并且不限定为正方形，应该如何做？
 
-## Problem D - [统计特殊子序列的数目](https://leetcode-cn.com/problems/count-number-of-special-subsequences/)
+## Problem D - [统计特殊子序列的数目](https://leetcode.cn/problems/count-number-of-special-subsequences/)
 
 ### 方法一：动态规划
 

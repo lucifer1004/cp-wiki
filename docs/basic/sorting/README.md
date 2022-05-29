@@ -8,7 +8,7 @@ sidebarDepth: 3
 
 常见的排序算法有冒泡排序、插入排序、选择排序、快速排序、希尔排序、堆排序、计数排序、基数排序等。一般来说，在编程竞赛中，会直接使用库函数进行排序，并不需要自己进行实现。大多数语言的库函数排序算法为快速排序（也有一些语言为了排序的稳定性，使用了Tim排序等其他算法）。
 
-但也有一些题目，可以结合特定的排序算法来达到排序同时求解的目的。比较经典的是利用归并排序来求逆序对数目（如[Leetcode - 数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)）。基数排序则可以应用在一些字符串处理的问题中。
+但也有一些题目，可以结合特定的排序算法来达到排序同时求解的目的。比较经典的是利用归并排序来求逆序对数目（如[Leetcode - 数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/)）。基数排序则可以应用在一些字符串处理的问题中。
 
 此外，还有一些题目会以某种排序算法的实现为背景。
 
@@ -18,7 +18,7 @@ sidebarDepth: 3
 
 ## 练习题
 
-### [LC493 - 翻转对](https://leetcode-cn.com/problems/reverse-pairs/)
+### [LC493 - 翻转对](https://leetcode.cn/problems/reverse-pairs/)
 
 ::: details 提示
 在归并排序的过程中求解。
@@ -34,7 +34,7 @@ sidebarDepth: 3
 枚举分割点。前半部分的区间对应第一个解答区间；后半部分的区间对应第二个解答区间。需要预处理求出只有一个解答区间情形下的前缀最优值和后缀最优值。
 :::
 
-### [LC1665 - 完成所有任务的最少初始能量](https://leetcode-cn.com/problems/minimum-initial-energy-to-finish-tasks/)
+### [LC1665 - 完成所有任务的最少初始能量](https://leetcode.cn/problems/minimum-initial-energy-to-finish-tasks/)
 
 ::: details 提示
 按照剩余能量（要求减去实际消耗）降序排列，剩余能量多的先处理，剩余能量少的后处理。

@@ -1,6 +1,6 @@
 # Leetcode 第287场周赛题解
 
-## Problem A - [转化时间需要的最少操作数](https://leetcode-cn.com/problems/minimum-number-of-operations-to-convert-time/)
+## Problem A - [转化时间需要的最少操作数](https://leetcode.cn/problems/minimum-number-of-operations-to-convert-time/)
 
 ### 方法一：模拟
 
@@ -53,7 +53,7 @@ public:
 
 :::
 
-## Problem B - [找出输掉零场或一场比赛的玩家](https://leetcode-cn.com/problems/find-players-with-zero-or-one-losses/)
+## Problem B - [找出输掉零场或一场比赛的玩家](https://leetcode.cn/problems/find-players-with-zero-or-one-losses/)
 
 ### 方法一：模拟
 
@@ -97,7 +97,7 @@ public:
 :::
 
 
-## Problem C - [每个小孩最多能分到多少糖果](https://leetcode-cn.com/problems/maximum-candies-allocated-to-k-children/)
+## Problem C - [每个小孩最多能分到多少糖果](https://leetcode.cn/problems/maximum-candies-allocated-to-k-children/)
 
 ### 方法一：二分答案
 
@@ -130,7 +130,7 @@ public:
 
 :::
 
-## Problem D - [加密解密字符串](https://leetcode-cn.com/problems/encrypt-and-decrypt-strings/)
+## Problem D - [加密解密字符串](https://leetcode.cn/problems/encrypt-and-decrypt-strings/)
 
 ### 方法一：预先加密字典中的所有字符串
 

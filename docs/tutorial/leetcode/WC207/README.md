@@ -1,6 +1,6 @@
 # Leetcode 第207场周赛题解
 
-## Problem A - [重新排列单词间的空格](https://leetcode-cn.com/problems/rearrange-spaces-between-words/)
+## Problem A - [重新排列单词间的空格](https://leetcode.cn/problems/rearrange-spaces-between-words/)
 
 模拟题，关键是细心。
 
@@ -50,7 +50,7 @@ public:
 
 :::
 
-## Problem B - [拆分字符串使唯一子字符串的数目最大](https://leetcode-cn.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)
+## Problem B - [拆分字符串使唯一子字符串的数目最大](https://leetcode.cn/problems/split-a-string-into-the-max-number-of-unique-substrings/)
 
 枚举所有的拆分方式，然后加上一点点剪枝。
 
@@ -139,7 +139,7 @@ public:
 
 :::
 
-## Problem C - [矩阵的最大非负积](https://leetcode-cn.com/problems/maximum-non-negative-product-in-a-matrix/)
+## Problem C - [矩阵的最大非负积](https://leetcode.cn/problems/maximum-non-negative-product-in-a-matrix/)
 
 动态规划，记录每个位置上可以得到的最大非负乘积和最大非正乘积即可。
 
@@ -217,7 +217,7 @@ public:
 
 :::
 
-## Problem D - [连通两组点的最小成本](https://leetcode-cn.com/problems/minimum-cost-to-connect-two-groups-of-points/)
+## Problem D - [连通两组点的最小成本](https://leetcode.cn/problems/minimum-cost-to-connect-two-groups-of-points/)
 
 因为已知第二组点的数量较少，所以对第二组点的连通状态进行状态压缩，然后依次处理第一组中的点即可。
 

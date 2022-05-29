@@ -1,6 +1,6 @@
 # Leetcode 第197场周赛题解
 
-## Problem A - [好数对的数目](https://leetcode-cn.com/problems/number-of-good-pairs/)
+## Problem A - [好数对的数目](https://leetcode.cn/problems/number-of-good-pairs/)
 
 方法一：暴力枚举
 
@@ -43,7 +43,7 @@ public:
 
 :::
 
-## Problem B - [仅含 1 的子串数](https://leetcode-cn.com/problems/number-of-substrings-with-only-1s/)
+## Problem B - [仅含 1 的子串数](https://leetcode.cn/problems/number-of-substrings-with-only-1s/)
 
 找出每一个全为1的最长连续段，假设有$m$个这样的段，每段长度为$l_i$，则最终的结果为$\sum\frac{l_i(l_i-1)}{2}$。
 
@@ -74,7 +74,7 @@ public:
 
 :::
 
-## Problem C - [概率最大的路径](https://leetcode-cn.com/problems/path-with-maximum-probability/)
+## Problem C - [概率最大的路径](https://leetcode.cn/problems/path-with-maximum-probability/)
 
 因为概率不会超过$1$，所以概率相乘是不会增加的。所以，求概率最大的路径，等价于权值相加情况下求最短路径，直接用Dijkstra算法求解即可。
 
@@ -125,7 +125,7 @@ public:
 
 :::
 
-## Problem D - [服务中心的最佳位置](https://leetcode-cn.com/problems/best-position-for-a-service-centre/)
+## Problem D - [服务中心的最佳位置](https://leetcode.cn/problems/best-position-for-a-service-centre/)
 
 所求的最佳位置即为几何中位数（[Geometric Median](https://en.wikipedia.org/wiki/Geometric_median)）。目前这一问题的最新研究进展为[Cohen et al., 2016](http://www.cs.cmu.edu/~./glmiller/Publications/Papers/CLMPS16.pdf)。
 

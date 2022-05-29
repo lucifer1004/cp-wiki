@@ -1,6 +1,6 @@
 # Leetcode 第39场双周赛题解
 
-## Problem A - [拆炸弹](https://leetcode-cn.com/problems/defuse-the-bomb/)
+## Problem A - [拆炸弹](https://leetcode.cn/problems/defuse-the-bomb/)
 
 数据范围有限，可以直接暴力模拟。如果数据范围扩大，可以预先计算前缀和。
 
@@ -25,7 +25,7 @@ class Solution:
 
 :::
 
-## Problem B - [使字符串平衡的最少删除次数](https://leetcode-cn.com/problems/minimum-deletions-to-make-string-balanced/)
+## Problem B - [使字符串平衡的最少删除次数](https://leetcode.cn/problems/minimum-deletions-to-make-string-balanced/)
 
 枚举`a`和`b`的分割点。
 
@@ -50,7 +50,7 @@ class Solution:
 
 :::
 
-## Problem C - [到家的最少跳跃次数](https://leetcode-cn.com/problems/minimum-jumps-to-reach-home/)
+## Problem C - [到家的最少跳跃次数](https://leetcode.cn/problems/minimum-jumps-to-reach-home/)
 
 BFS即可，注意除了要记录当前的位置，还需要记录上一步是从左边过来的，还是从右边过来的。
 
@@ -98,7 +98,7 @@ public:
 
 :::
 
-## Problem D - [分配重复整数](https://leetcode-cn.com/problems/distribute-repeating-integers/)
+## Problem D - [分配重复整数](https://leetcode.cn/problems/distribute-repeating-integers/)
 
 看到$M\leq10$，立即应该想到状态压缩。
 

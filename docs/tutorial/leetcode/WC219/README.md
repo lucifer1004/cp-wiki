@@ -1,6 +1,6 @@
 # Leetcode 第219场周赛题解
 
-## Problem A - [比赛中的配对次数](https://leetcode-cn.com/problems/count-of-matches-in-tournament/)
+## Problem A - [比赛中的配对次数](https://leetcode.cn/problems/count-of-matches-in-tournament/)
 
 显然一场比赛淘汰一个队伍，所以淘汰$N-1$个队伍需要$N-1$场比赛。
 
@@ -20,7 +20,7 @@ public:
 
 :::
 
-## Problem B - [十-二进制数的最少数目](https://leetcode-cn.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)
+## Problem B - [十-二进制数的最少数目](https://leetcode.cn/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)
 
 因为并没有限制单个“十=二进制数”中1的个数，所以我们找出原数字中最大的一位即为答案。
 
@@ -38,7 +38,7 @@ public:
 ```
 :::
 
-## Problem C - [石子游戏 VII](https://leetcode-cn.com/problems/stone-game-vii/)
+## Problem C - [石子游戏 VII](https://leetcode.cn/problems/stone-game-vii/)
 
 区间DP。首先预处理出石子数的前缀和，然后按照区间长度从小到大进行动态规划。我们发现，移掉一个石子之后，可以看成是新区间上的一场新游戏，只是先后手互换，因此最后的得分应当取为相反数。
 
@@ -75,7 +75,7 @@ public:
 ```
 :::
 
-## Problem D - [堆叠长方体的最大高度](https://leetcode-cn.com/problems/maximum-height-by-stacking-cuboids/)
+## Problem D - [堆叠长方体的最大高度](https://leetcode.cn/problems/maximum-height-by-stacking-cuboids/)
 
 考虑两个长方体，假设其三边分别为$(a_1,b_1,c_1)$和$(a_2,b_2,c_2)$。这里不妨假设$a_1\leq b_1\leq c_1$，$a_2\leq b_2\leq c_2$。
 

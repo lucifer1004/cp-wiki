@@ -1,6 +1,6 @@
 # Leetcode 第238场周赛题解
 
-## Problem A - [K 进制表示下的各位数字总和](https://leetcode-cn.com/contest/weekly-contest-238/problems/sum-of-digits-in-base-k/)
+## Problem A - [K 进制表示下的各位数字总和](https://leetcode.cn/contest/weekly-contest-238/problems/sum-of-digits-in-base-k/)
 
 模拟。
 
@@ -25,7 +25,7 @@ public:
 
 :::
 
-## Problem B - [最高频元素的频数](https://leetcode-cn.com/contest/weekly-contest-238/problems/frequency-of-the-most-frequent-element/)
+## Problem B - [最高频元素的频数](https://leetcode.cn/contest/weekly-contest-238/problems/frequency-of-the-most-frequent-element/)
 
 排序+双指针。
 
@@ -63,7 +63,7 @@ public:
 
 :::
 
-## Problem C - [所有元音按顺序排布的最长子字符串](https://leetcode-cn.com/contest/weekly-contest-238/problems/longest-substring-of-all-vowels-in-order/)
+## Problem C - [所有元音按顺序排布的最长子字符串](https://leetcode.cn/contest/weekly-contest-238/problems/longest-substring-of-all-vowels-in-order/)
 
 模拟。如果当前有串，并且当前字母可以接到当前的串后，就接上。如果不能接上，但当前字母为`a`，则可以利用其作为新串的起点。
 
@@ -110,7 +110,7 @@ public:
 
 :::
 
-## Problem D - [最高建筑高度](https://leetcode-cn.com/contest/weekly-contest-238/problems/maximum-building-height/)
+## Problem D - [最高建筑高度](https://leetcode.cn/contest/weekly-contest-238/problems/maximum-building-height/)
 
 首先，我们将所有限制条件按照坐标升序排列。
 

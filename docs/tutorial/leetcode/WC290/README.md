@@ -1,6 +1,6 @@
 # Leetcode 第290场周赛题解
 
-## Problem A - [多个数组求交集](https://leetcode-cn.com/problems/intersection-of-multiple-arrays/)
+## Problem A - [多个数组求交集](https://leetcode.cn/problems/intersection-of-multiple-arrays/)
 
 ### 方法一：模拟
 
@@ -16,7 +16,7 @@ class Solution:
 
 :::
 
-## Problem B - [统计圆内格点数目](https://leetcode-cn.com/problems/count-lattice-points-inside-a-circle/)
+## Problem B - [统计圆内格点数目](https://leetcode.cn/problems/count-lattice-points-inside-a-circle/)
 
 ### 方法一：暴力
 
@@ -133,7 +133,7 @@ public:
 
 :::
 
-## Problem D - [花期内花的数目](https://leetcode-cn.com/problems/number-of-flowers-in-full-bloom/)
+## Problem D - [花期内花的数目](https://leetcode.cn/problems/number-of-flowers-in-full-bloom/)
 
 ### 方法一：双指针 + 小根堆
 

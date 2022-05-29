@@ -1,6 +1,6 @@
 # Leetcode 第60场双周赛题解
 
-## Problem A - [找到数组的中间位置](https://leetcode-cn.com/problems/find-the-middle-index-in-array/)
+## Problem A - [找到数组的中间位置](https://leetcode.cn/problems/find-the-middle-index-in-array/)
 
 ### 方法一：模拟
 
@@ -27,7 +27,7 @@ class Solution:
 :::
 
 
-## Problem B - [找到所有的农场组](https://leetcode-cn.com/problems/find-all-groups-of-farmland/)
+## Problem B - [找到所有的农场组](https://leetcode.cn/problems/find-all-groups-of-farmland/)
 
 ### 方法一：贪心
 
@@ -73,7 +73,7 @@ public:
 :::
 
 
-## Problem C - [树上的操作](https://leetcode-cn.com/problems/operations-on-tree/)
+## Problem C - [树上的操作](https://leetcode.cn/problems/operations-on-tree/)
 
 ### 方法一：模拟
 
@@ -159,7 +159,7 @@ public:
 
 :::
 
-## Problem D - [好子集的数目](https://leetcode-cn.com/problems/the-number-of-good-subsets/)
+## Problem D - [好子集的数目](https://leetcode.cn/problems/the-number-of-good-subsets/)
 
 ### 方法一：动态规划预处理+枚举
 

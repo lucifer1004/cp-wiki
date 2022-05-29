@@ -1,6 +1,6 @@
 # Leetcode 第35场双周赛题解
 
-## Problem A - [所有奇数长度子数组的和](https://leetcode-cn.com/problems/sum-of-all-odd-length-subarrays/)
+## Problem A - [所有奇数长度子数组的和](https://leetcode.cn/problems/sum-of-all-odd-length-subarrays/)
 
 预先计算前缀和，然后枚举所有奇数长度的子数组即可（先枚举长度，再枚举起点；或者先枚举起点，再枚举长度都可以）。
 
@@ -26,7 +26,7 @@ class Solution:
 
 :::
 
-## Problem B - [所有排列中的最大和](https://leetcode-cn.com/problems/maximum-sum-obtained-of-any-permutation/)
+## Problem B - [所有排列中的最大和](https://leetcode.cn/problems/maximum-sum-obtained-of-any-permutation/)
 
 显然应当把较大的数放在计数次数较多的位置上。所以我们首先要统计每个位置的计数次数。
 
@@ -68,7 +68,7 @@ public:
 
 :::
 
-## Problem C - [使数组和能被 P 整除](https://leetcode-cn.com/problems/make-sum-divisible-by-p/)
+## Problem C - [使数组和能被 P 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/)
 
 经典的前缀哈希套路题。要使数组和能被$P$整除，就需要去掉一个子数组，这个子数组模$P$的余数和原始数组模$P$的余数相等。
 
@@ -115,7 +115,7 @@ public:
 
 :::
 
-## Problem D - [奇怪的打印机 II](https://leetcode-cn.com/problems/strange-printer-ii/)
+## Problem D - [奇怪的打印机 II](https://leetcode.cn/problems/strange-printer-ii/)
 
 首先，我们可以找出每种颜色对应的最左、最右、最上和最下位置，从而确定其所覆盖的矩形范围。
 

@@ -1,6 +1,6 @@
 # Leetcode 第213场周赛题解
 
-## Problem A - [能否连接形成数组](https://leetcode-cn.com/problems/check-array-formation-through-concatenation/)
+## Problem A - [能否连接形成数组](https://leetcode.cn/problems/check-array-formation-through-concatenation/)
 
 因为题目说明了$arr$和$pieces$中所有数字都是互异的，所以这题实际是一个模拟题。我们首先用一个哈希表记录下$pieces$中每一个数组的第一个数字对应的$pieces$中的下标，接下来，我们对$arr$进行遍历。如果当前位置不在哈希表中，则说明没有合法的起点，直接返回`false`。如果当前位置在哈希表中，表明应该使用$pieces$中对应的那一个数组，检查其是否符合要求即可。
 
@@ -34,7 +34,7 @@ public:
 
 :::
 
-## Problem B - [统计字典序元音字符串的数目](https://leetcode-cn.com/problems/count-sorted-vowel-strings/)
+## Problem B - [统计字典序元音字符串的数目](https://leetcode.cn/problems/count-sorted-vowel-strings/)
 
 ### 方法一 动态规划
 
@@ -112,7 +112,7 @@ class Solution:
 
 :::
 
-## Problem C - [可以到达的最远建筑](https://leetcode-cn.com/problems/furthest-building-you-can-reach/)
+## Problem C - [可以到达的最远建筑](https://leetcode.cn/problems/furthest-building-you-can-reach/)
 
 贪心。我们应当首先使用梯子，如果梯子已经用完，我们需要找出之前最小的一个高度差，改为使用砖块。这提示我们使用优先队列来存储每一个大于$0$的高度差。
 
@@ -150,7 +150,7 @@ public:
 
 :::
 
-## Problem D - [第 K 条最小指令](https://leetcode-cn.com/problems/kth-smallest-instructions/)
+## Problem D - [第 K 条最小指令](https://leetcode.cn/problems/kth-smallest-instructions/)
 
 不管我们如何行走，最后的指令中总是包含$row$个`V`和$col$个`H`，所以，我们实际上就是要求，含有$row$个`V`和$col$个`H`的字符串中，字典序第$k$小的那一个。
 

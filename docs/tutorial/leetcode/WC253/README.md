@@ -1,6 +1,6 @@
 # Leetcode 第253场周赛题解
 
-## Problem A - [检查字符串是否为数组前缀](https://leetcode-cn.com/problems/check-if-string-is-a-prefix-of-array/)
+## Problem A - [检查字符串是否为数组前缀](https://leetcode.cn/problems/check-if-string-is-a-prefix-of-array/)
 
 ### 方法一：模拟
 
@@ -34,7 +34,7 @@ public:
 
 :::
 
-## Problem B - [移除石子使总数最小](https://leetcode-cn.com/problems/remove-stones-to-minimize-the-total/)
+## Problem B - [移除石子使总数最小](https://leetcode.cn/problems/remove-stones-to-minimize-the-total/)
 
 ### 方法一：贪心+优先队列
 
@@ -68,7 +68,7 @@ public:
 
 :::
 
-## Problem C - [使字符串平衡的最小交换次数](https://leetcode-cn.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)
+## Problem C - [使字符串平衡的最小交换次数](https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-string-balanced/)
 
 ### 方法一：贪心
 
@@ -134,7 +134,7 @@ public:
 
 这样做会导致最终的$bal$不为$0$，但并不影响结果的正确性，因为我们总是用最靠后的`[`来进行交换，所以最后得到的字符串末尾是一串连续的`]`，且所有用于交换的的`[`都来自于这个串中，而由于左右括号数量相等，只要这个串前面的正确性得到了保证，假设这个串的长度为$m$，那么这个串前面的嵌套深度就必定为$m$，从而结果保证是一个合法的字符串。
 
-## Problem D - [找出到每个位置为止最长的有效障碍赛跑路线](https://leetcode-cn.com/problems/find-the-longest-valid-obstacle-course-at-each-position/)
+## Problem D - [找出到每个位置为止最长的有效障碍赛跑路线](https://leetcode.cn/problems/find-the-longest-valid-obstacle-course-at-each-position/)
 
 ### 方法一：动态规划（最长不下降子序列）
 

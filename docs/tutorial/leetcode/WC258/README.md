@@ -1,6 +1,6 @@
 # Leetcode 第258场周赛题解
 
-## Problem A - [反转单词前缀](https://leetcode-cn.com/problems/reverse-prefix-of-word/)
+## Problem A - [反转单词前缀](https://leetcode.cn/problems/reverse-prefix-of-word/)
 
 ### 方法一：模拟
 
@@ -20,7 +20,7 @@ class Solution:
 
 :::
 
-## Problem B - [可互换矩形的组数](https://leetcode-cn.com/problems/number-of-pairs-of-interchangeable-rectangles/)
+## Problem B - [可互换矩形的组数](https://leetcode.cn/problems/number-of-pairs-of-interchangeable-rectangles/)
 
 ### 方法一：哈希表
 
@@ -48,7 +48,7 @@ class Solution:
 
 :::
 
-## Problem C - [两个回文子序列长度的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/)
+## Problem C - [两个回文子序列长度的最大乘积](https://leetcode.cn/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/)
 
 ### 方法一：状态压缩动态规划
 
@@ -101,7 +101,7 @@ public:
 
 :::
 
-## Problem D - [每棵子树内缺失的最小基因值](https://leetcode-cn.com/problems/smallest-missing-genetic-value-in-each-subtree/)
+## Problem D - [每棵子树内缺失的最小基因值](https://leetcode.cn/problems/smallest-missing-genetic-value-in-each-subtree/)
 
 ### 方法一：DFS+小大合并
 

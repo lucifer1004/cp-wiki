@@ -1,6 +1,6 @@
 # Leetcode 第203场周赛题解
 
-## Problem A - [圆形赛道上经过次数最多的扇区](https://leetcode-cn.com/problems/most-visited-sector-in-a-circular-track/)
+## Problem A - [圆形赛道上经过次数最多的扇区](https://leetcode.cn/problems/most-visited-sector-in-a-circular-track/)
 
 可以直接模拟，但其实只需要考虑起点和终点。如果起点小于等于终点，那么多走的就是起点到终点这一段；否则，多走的就是起点到$n$，然后$1$到终点。注意要求升序返回，所以对于第二种情况，把两段的位置颠倒一下即可。
 
@@ -14,7 +14,7 @@ class Solution:
 
 :::
 
-## Problem B - [你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)
+## Problem B - [你可以获得的最大硬币数目](https://leetcode.cn/problems/maximum-number-of-coins-you-can-get/)
 
 贪心。每次把当前最大的给Alice，最小的给Bob，次大的给自己。降序排列后，取第$2,4,6,\cdots,2n$项即可。
 
@@ -36,7 +36,7 @@ public:
 
 :::
 
-## Problem C - [查找大小为 M 的最新分组](https://leetcode-cn.com/problems/find-latest-group-of-size-m/)
+## Problem C - [查找大小为 M 的最新分组](https://leetcode.cn/problems/find-latest-group-of-size-m/)
 
 用一个数组记录当前每种长度的1串的个数，用并查集维护串的长度。
 
@@ -95,7 +95,7 @@ public:
 
 :::
 
-## Problem D - [石子游戏 V](https://leetcode-cn.com/problems/stone-game-v/)
+## Problem D - [石子游戏 V](https://leetcode.cn/problems/stone-game-v/)
 
 本题是典型的区间DP问题。很容易想到用$dp[l][r]$为$[l,r]$区间内进行游戏能够取得的最大值，然后枚举分割点，更新结果即可。这样的时间复杂度是$O(n^3)$。
 

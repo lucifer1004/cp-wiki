@@ -1,6 +1,6 @@
 # Leetcode 第245场周赛题解
 
-## Problem A - [重新分配字符使所有字符串都相等](https://leetcode-cn.com/problems/redistribute-characters-to-make-all-strings-equal/)
+## Problem A - [重新分配字符使所有字符串都相等](https://leetcode.cn/problems/redistribute-characters-to-make-all-strings-equal/)
 
 ### 方法一：计数
 
@@ -27,7 +27,7 @@ class Solution:
 
 :::
 
-## Problem B - [可移除字符的最大数目](https://leetcode-cn.com/problems/maximum-number-of-removable-characters/)
+## Problem B - [可移除字符的最大数目](https://leetcode.cn/problems/maximum-number-of-removable-characters/)
 
 ### 方法一：二分+双指针
 
@@ -69,7 +69,7 @@ class Solution:
 
 :::
 
-## Problem C - [合并若干三元组以形成目标三元组](https://leetcode-cn.com/problems/merge-triplets-to-form-target-triplet/)
+## Problem C - [合并若干三元组以形成目标三元组](https://leetcode.cn/problems/merge-triplets-to-form-target-triplet/)
 
 ### 方法一：贪心
 
@@ -103,7 +103,7 @@ public:
 
 :::
 
-## Problem D - [最佳运动员的比拼回合](https://leetcode-cn.com/problems/the-earliest-and-latest-rounds-where-players-compete/)
+## Problem D - [最佳运动员的比拼回合](https://leetcode.cn/problems/the-earliest-and-latest-rounds-where-players-compete/)
 
 ### 方法一：状态压缩+穷举
 

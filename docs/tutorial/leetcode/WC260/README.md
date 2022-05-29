@@ -1,6 +1,6 @@
 # Leetcode 第260场周赛题解
 
-## Problem A - [增量元素之间的最大差值](https://leetcode-cn.com/problems/maximum-difference-between-increasing-elements/)
+## Problem A - [增量元素之间的最大差值](https://leetcode.cn/problems/maximum-difference-between-increasing-elements/)
 
 ### 方法一：前缀和
 
@@ -28,7 +28,7 @@ public:
 
 :::
 
-## Problem B - [网格游戏](https://leetcode-cn.com/problems/grid-game/)
+## Problem B - [网格游戏](https://leetcode.cn/problems/grid-game/)
 
 ### 方法一：前缀和
 
@@ -61,7 +61,7 @@ public:
 
 :::
 
-## Problem C - [判断单词是否能放入填字游戏内](https://leetcode-cn.com/problems/check-if-word-can-be-placed-in-crossword/)
+## Problem C - [判断单词是否能放入填字游戏内](https://leetcode.cn/problems/check-if-word-can-be-placed-in-crossword/)
 
 ### 方法一：动态规划预处理+枚举+旋转
 
@@ -146,7 +146,7 @@ public:
 
 :::
 
-## Problem D - [解出数学表达式的学生分数](https://leetcode-cn.com/problems/the-score-of-students-solving-math-expression/)
+## Problem D - [解出数学表达式的学生分数](https://leetcode.cn/problems/the-score-of-students-solving-math-expression/)
 
 ### 方法一：表达式求值+动态规划
 
@@ -156,7 +156,7 @@ public:
 2. 求出表达式所有可能的值
 3. 计算学生的得分
 
-对于第一步，本题只包含个位数和加法、乘法，并且不含括号，我们可以简单地进行实现；但对于比赛来说，为了追求速度，我们可以借助一些已有的工具，比如说 [224. 基本计算器](https://leetcode-cn.com/problems/basic-calculator/)，或者干脆使用Python等语言中自带的`eval()`函数。
+对于第一步，本题只包含个位数和加法、乘法，并且不含括号，我们可以简单地进行实现；但对于比赛来说，为了追求速度，我们可以借助一些已有的工具，比如说 [224. 基本计算器](https://leetcode.cn/problems/basic-calculator/)，或者干脆使用Python等语言中自带的`eval()`函数。
 
 对于第二步，我们使用区间动态规划求解。对于每个区间，我们保存该区间可能得到的结果。对于一个较大的区间，我们枚举它最后一次运算的位置，然后将两侧子区间的结果进行合并。注意这里要结合题目给出的信息，$answers[i]\le1000$，又由于只有加法和乘法，所以我们不需要保存大于$1000$的中间结果。
 

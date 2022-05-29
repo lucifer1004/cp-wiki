@@ -1,6 +1,6 @@
 # Leetcode 第229场周赛题解
 
-## Problem A - [交替合并字符串](https://leetcode-cn.com/problems/merge-strings-alternately/)
+## Problem A - [交替合并字符串](https://leetcode.cn/problems/merge-strings-alternately/)
 
 按要求模拟即可。
 
@@ -29,7 +29,7 @@ public:
 
 :::
 
-## Problem B - [移动所有球到每个盒子所需的最小操作数](https://leetcode-cn.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)
+## Problem B - [移动所有球到每个盒子所需的最小操作数](https://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/)
 
 分别考虑把所有左边的球移到当前盒子的操作数，以及把所有右边的球移到当前盒子的操作数。
 
@@ -73,7 +73,7 @@ public:
 
 :::
 
-## Problem C - [执行乘法运算的最大分数](https://leetcode-cn.com/problems/maximum-score-from-performing-multiplication-operations/)
+## Problem C - [执行乘法运算的最大分数](https://leetcode.cn/problems/maximum-score-from-performing-multiplication-operations/)
 
 考虑当前已经从$nums$左边取了$L$个数，从右边取了$R$个数，则对于第$L+R+1$个数，$multipliers[L+R+1]$（这里下标从$1$开始）的取值是确定的，而在$nums$中，我们可以选择$nums[L+1]$或$nums[N-R-1]$。由于这里无论我们选择左边还是右边，都与前面的$L+R$次选择无关，满足无后效性的要求，所以我们可以考虑进行动态规划，用$dp[L][R]$表示左边取$L$个，右边取$R$个数时的最大分数。
 
@@ -108,7 +108,7 @@ public:
 
 :::
 
-## Problem D - [由子序列构造的最长回文串的长度](https://leetcode-cn.com/problems/maximize-palindrome-length-from-subsequences/)
+## Problem D - [由子序列构造的最长回文串的长度](https://leetcode.cn/problems/maximize-palindrome-length-from-subsequences/)
 
 实际上就是一个有条件限制的最长回文子序列问题。考虑串$S=word1+word2$，这里的限制条件就是前$|word1|$个字符中至少取一个，且后$|word2|$个字符中至少取一个。
 

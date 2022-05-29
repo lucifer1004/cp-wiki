@@ -1,6 +1,6 @@
 # Leetcode 第227场周赛题解
 
-## Problem A - [检查数组是否经排序和轮转得到](https://leetcode-cn.com/problems/check-if-array-is-sorted-and-rotated/)
+## Problem A - [检查数组是否经排序和轮转得到](https://leetcode.cn/problems/check-if-array-is-sorted-and-rotated/)
 
 ### 方法一：暴力
 
@@ -52,7 +52,7 @@ impl Solution {
 
 :::
 
-## Problem B - [移除石子的最大得分](https://leetcode-cn.com/problems/maximum-score-from-removing-stones/)
+## Problem B - [移除石子的最大得分](https://leetcode.cn/problems/maximum-score-from-removing-stones/)
 
 贪心地用最大的那堆跟另外两堆先匹配，另外两堆优先选择剩下数量较多的那堆。
 
@@ -78,7 +78,7 @@ class Solution:
 
 :::
 
-## Problem C - [构造字典序最大的合并字符串](https://leetcode-cn.com/problems/largest-merge-of-two-strings/)
+## Problem C - [构造字典序最大的合并字符串](https://leetcode.cn/problems/largest-merge-of-two-strings/)
 
 ### 方法一：贪心
 
@@ -133,7 +133,7 @@ public:
 
 本题利用后缀数组可以优化到线性复杂度，但这已经远远超出了面试的要求。
 
-## Problem D - [最接近目标值的子序列和](https://leetcode-cn.com/problems/closest-subsequence-sum/)
+## Problem D - [最接近目标值的子序列和](https://leetcode.cn/problems/closest-subsequence-sum/)
 
 本题和[ABC184F - Programming Contest](https://atcoder.jp/contests/abc184/tasks/abc184_f)是一样的。其核心思想是[折半搜索（Meet in the middle）](/basic/enumerate/#%E6%8A%98%E5%8D%8A%E6%90%9C%E7%B4%A2)。
 

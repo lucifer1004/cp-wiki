@@ -1,6 +1,6 @@
 # Leetcode 第257场周赛题解
 
-## Problem A - [统计特殊四元组](https://leetcode-cn.com/problems/count-special-quadruplets/)
+## Problem A - [统计特殊四元组](https://leetcode.cn/problems/count-special-quadruplets/)
 
 ### 方法一：穷举
 
@@ -66,7 +66,7 @@ class Solution:
 
 :::
 
-## Problem B - [游戏中弱角色的数量](https://leetcode-cn.com/problems/the-number-of-weak-characters-in-the-game/)
+## Problem B - [游戏中弱角色的数量](https://leetcode.cn/problems/the-number-of-weak-characters-in-the-game/)
 
 ### 方法一：排序
 
@@ -103,7 +103,7 @@ public:
 
 :::
 
-## Problem C - [访问完所有房间的第一天](https://leetcode-cn.com/problems/first-day-where-you-have-been-in-all-the-rooms/)
+## Problem C - [访问完所有房间的第一天](https://leetcode.cn/problems/first-day-where-you-have-been-in-all-the-rooms/)
 
 ### 方法一：脑筋急转弯+动态规划
 
@@ -144,7 +144,7 @@ public:
 
 :::
 
-## Problem D - [数组的最大公因数排序](https://leetcode-cn.com/problems/gcd-sort-of-an-array/)
+## Problem D - [数组的最大公因数排序](https://leetcode.cn/problems/gcd-sort-of-an-array/)
 
 ### 方法一：并查集
 

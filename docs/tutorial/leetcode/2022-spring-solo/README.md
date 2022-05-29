@@ -1,6 +1,6 @@
 # 2022年力扣杯春季赛个人赛题解
 
-## Problem A - [宝石补给](https://leetcode-cn.com/contest/season/2022-spring/problems/WHnhjV/)
+## Problem A - [宝石补给](https://leetcode.cn/contest/season/2022-spring/problems/WHnhjV/)
 
 ### 方法一：模拟
 
@@ -24,7 +24,7 @@ class Solution:
 :::
 
 
-## Problem B - [烹饪料理](https://leetcode-cn.com/contest/season/2022-spring/problems/UEcfPD/)
+## Problem B - [烹饪料理](https://leetcode.cn/contest/season/2022-spring/problems/UEcfPD/)
 
 ### 方法一：枚举
 
@@ -57,7 +57,7 @@ class Solution:
 :::
 
 
-## Problem C - [黑白翻转棋](https://leetcode-cn.com/contest/season/2021-fall/problems/fHi6rV/)
+## Problem C - [黑白翻转棋](https://leetcode.cn/contest/season/2021-fall/problems/fHi6rV/)
 
 ### 方法一：中序遍历 + 线段树
 
@@ -193,7 +193,7 @@ public:
 
 :::
 
-## Problem D - [守护太空城](https://leetcode-cn.com/contest/season/2022-spring/problems/EJvmW4/)
+## Problem D - [守护太空城](https://leetcode.cn/contest/season/2022-spring/problems/EJvmW4/)
 
 ### 方法一：状态压缩动态规划
 
@@ -278,7 +278,7 @@ public:
 
 :::
 
-## Problem E - [夺回据点](https://leetcode-cn.com/contest/season/2022-spring/problems/s5kipK/)
+## Problem E - [夺回据点](https://leetcode.cn/contest/season/2022-spring/problems/s5kipK/)
 
 ### 方法一：找出割点，然后分别处理每个连通块
 
