@@ -162,4 +162,31 @@ public:
 
 :::
 
+### 方法二：双指针
+
+- 时间复杂度 $\mathcal{O}(N)$。
+- 空间复杂度 $\mathcal{O}(1)$。
+
+::: details 参考代码（C++）
+
+```cpp
+class Solution {
+public:
+    long long countSubarrays(vector<int>& nums, long long k) {
+        long long ans = 0, sum = 0;
+        int n = nums.size();
+        int l = 0;
+        for (int r = 0; r < n; ++r) {
+            sum += nums[r];
+            while (sum * (r - l + 1) >= k)
+                sum -= nums[l++];
+            ans += r - l + 1;
+        }
+        return ans;
+    }
+};
+```
+
+:::
+
 <Utterances />
