@@ -123,7 +123,7 @@ public:
 ```cpp
 class Solution {
 public:
-    long long coutPairs(vector<int>& nums, int k) {
+    long long countPairs(vector<int>& nums, int k) {
         long long ans = 0;
         int n = nums.size();
         unordered_map<int, int> gc;
@@ -149,7 +149,7 @@ public:
 
 ```python
 class Solution:
-    def coutPairs(self, nums: List[int], k: int) -> int:
+    def countPairs(self, nums: List[int], k: int) -> int:
         c = collections.Counter(math.gcd(num, k) for num in nums)
         return sum(c[k1] * c[k2] if k1 < k2 else c[k1] * (c[k1] - 1) // 2 if k1 == k2 else 0 for k1 in c for k2 in c if k1 * k2  % k == 0)
 ```
