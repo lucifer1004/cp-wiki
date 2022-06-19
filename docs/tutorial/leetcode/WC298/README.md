@@ -78,6 +78,36 @@ class Solution:
 
 :::
 
+### 方法二：贪心
+
+- 时间复杂度 $\mathcal{O}(|S|)$ 。
+- 空间复杂度 $\mathcal{O}(1)$ 。
+
+::: details 参考代码（C++)
+
+```cpp
+class Solution {
+public:
+    int longestSubsequence(string s, int k) {
+        int ans = 0, now = 0;
+        for (char si : s) {
+            int num = si - '0';
+            if (now * 2 + num <= k) {
+                ans++;
+                now = now * 2 + num;
+            } else {
+                int hibit = 1 << (31 - __builtin_clz(now));
+                now ^= hibit;
+                now = now * 2 + num;
+            }
+        }
+        return ans;
+    }
+};
+```
+
+:::
+
 ## Problem D - [卖木头块](https://leetcode.cn/problems/selling-pieces-of-wood/)
 
 ### 方法一：动态规划
