@@ -121,39 +121,24 @@ module.exports = {
       children: range(301, 302, 'WC', true),
     },
     {
-      title: '周赛（281~300）',
+      title: '周赛（251~300）',
       collapsable: true,
-      children: range(281, 300, 'WC', true),
+      children: range(251, 300, 'WC', true),
     },
     {
-      title: '周赛（261~280）',
+      title: '周赛（201~250）',
       collapsable: true,
-      children: range(261, 280, 'WC', true),
+      children: range(201, 250, 'WC', true),
     },
     {
-      title: '周赛（241~260）',
-      collapsable: true,
-      children: range(241, 260, 'WC', true),
-    },
-    {
-      title: '周赛（221~240）',
-      collapsable: true,
-      children: range(221, 240, 'WC', true),
-    },
-    {
-      title: '周赛（201~220）',
-      collapsable: true,
-      children: range(201, 220, 'WC', true),
-    },
-    {
-      title: '周赛（181~200）',
+      title: '周赛（~200）',
       collapsable: true,
       children: range(192, 200, 'WC', true),
     },
     {
       title: '双周赛',
       collapsable: true,
-      children: range(28, 82, 'BC', true),
+      children: range(28, 83, 'BC', true),
     },
     {
       title: '其他比赛',
