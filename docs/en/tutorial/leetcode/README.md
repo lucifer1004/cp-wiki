@@ -2,6 +2,7 @@
 
 ## Weekly Contest
 
+- [Weekly Contest 303](/tutorial/leetcode/WC303/)
 - [Weekly Contest 302](/tutorial/leetcode/WC302/)
 - [Weekly Contest 301](/tutorial/leetcode/WC301/)
 - [Weekly Contest 300](/tutorial/leetcode/WC300/)
@@ -116,6 +117,7 @@
 
 ## Bi-weekly Contest
 
+- [Bi-weekly Contest 84](/tutorial/leetcode/BC84/)
 - [Bi-weekly Contest 83](/tutorial/leetcode/BC83/)
 - [Bi-weekly Contest 82](/tutorial/leetcode/BC82/)
 - [Bi-weekly Contest 81](/tutorial/leetcode/BC81/)
