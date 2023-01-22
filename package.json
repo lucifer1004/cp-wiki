@@ -18,5 +18,6 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "blog": "./scripts/create-blog.js"
-  }
+  },
+  "packageManager": "yarn@3.3.1"
 }
