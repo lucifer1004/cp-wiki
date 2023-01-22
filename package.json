@@ -15,8 +15,8 @@
     "vuepress-plugin-sitemap": "2.3.1"
   },
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build docs",
     "blog": "./scripts/create-blog.js"
   },
   "packageManager": "yarn@3.3.1"
