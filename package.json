@@ -20,5 +20,5 @@
     "build": "vuepress build docs",
     "blog": "./scripts/create-blog.js"
   },
-  "packageManager": "yarn@3.3.1"
+  "packageManager": "yarn@3.8.6"
 }
