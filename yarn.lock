@@ -3665,6 +3665,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"color-loggers@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "color-loggers@npm:0.3.2"
+  checksum: cfeadb4eb4888610e34f34f9c86e1b5c13b01617e74765d32a4dc1cc74e4b99a216d19676b3d23efe2c5330e101250a5710d9e70b2ea76e2e6be272eec86c477
+  languageName: node
+  linkType: hard
+
 "color-name@npm:1.1.3":
   version: 1.1.3
   resolution: "color-name@npm:1.1.3"
@@ -12843,11 +12850,13 @@ __metadata:
   linkType: hard
 
 "yarn-upgrade-all@npm:^0.7.2":
-  version: 0.7.2
-  resolution: "yarn-upgrade-all@npm:0.7.2"
+  version: 0.7.5
+  resolution: "yarn-upgrade-all@npm:0.7.5"
+  dependencies:
+    color-loggers: ^0.3.2
   bin:
     yarn-upgrade-all: build/index.js
-  checksum: accf406dda39ea10045237e2072c33d788836998bff68d8a2ebdf7c7e84fd8e7dfd78c0070f9ee2923f09336ed8f9523ac72371e4d7318f7870ea3223b4885cb
+  checksum: 8f5cbff888a7b89a1e61c50126af582948ca5b2e9aa703d95ae937da1eeae7b6d85d14a883a94baf684ec969f3244c12c989b78e3fcbf65cf67e7d0c3a0772ec
   languageName: node
   linkType: hard
 
